@@ -9,7 +9,7 @@ For more information or to contribute, join us in the [A Series of Dice-Based Ev
 ### To manually install this Add-On Module:
 
 1. Click Install Module
-2. Paste the the following into the Manifest URL: `https://github.com/JamzTheMan/pf2e-conversion-rotrl/releases/latest/download/module.json`
+2. Paste the the following into the Manifest URL: `https://github.com/digitalshadowhawk/pf2e-conversion-rotrl/releases/latest/download/module.json`
 3. Click Install
 
 ![](docs/install-module.webp)
