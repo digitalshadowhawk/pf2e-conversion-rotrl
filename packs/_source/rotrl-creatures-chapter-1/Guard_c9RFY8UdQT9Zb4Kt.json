@@ -1,19 +1,21 @@
 {
-  "name": "Guard",
-  "type": "npc",
+  "folder": null,
   "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
   "items": [
     {
       "_id": "lP5zMAGrvkhhfig2",
-      "effects": [],
-      "flags": {
-        "core": {}
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
       },
-      "img": "systems/pf2e/icons/equipment/weapons/crossbow.webp",
+      "img": "icons/weapons/crossbows/crossbow-simple-brown.webp",
       "name": "Crossbow",
       "sort": 100000,
-      "type": "weapon",
-      "folder": null,
       "system": {
         "description": {
           "gm": "",
@@ -24,11 +26,7 @@
         "_migration": {
           "version": 0.955,
           "lastMigration": null,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "traits": {
           "otherTags": [],
@@ -36,10 +34,10 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "Pathfinder Core Rulebook",
+          "title": "Pathfinder Player Core",
           "authors": "",
-          "license": "OGL",
-          "remaster": false
+          "license": "ORC",
+          "remaster": true
         },
         "level": {
           "value": 0
@@ -60,9 +58,9 @@
           }
         },
         "equipped": {
-          "carryType": "held",
+          "carryType": "worn",
           "invested": null,
-          "handsHeld": 2
+          "handsHeld": 0
         },
         "containerId": null,
         "size": "med",
@@ -80,8 +78,7 @@
                 "value": ""
               }
             }
-          },
-          "misidentified": {}
+          }
         },
         "usage": {
           "value": "held-in-two-hands"
@@ -95,8 +92,7 @@
           "dice": 1,
           "die": "d8",
           "damageType": "piercing",
-          "persistent": null,
-          "value": ""
+          "persistent": null
         },
         "splashDamage": {
           "value": 0
@@ -104,9 +100,9 @@
         "range": 120,
         "expend": 1,
         "ammo": {
-          "capacity": 1,
           "baseType": "bolts",
-          "builtIn": false
+          "builtIn": false,
+          "capacity": 1
         },
         "reload": {
           "value": "1"
@@ -121,191 +117,31 @@
         "subitems": [],
         "bonusDamage": {
           "value": 0
-        },
-        "property1": {
-          "value": "",
-          "dice": null,
-          "die": "",
-          "damageType": "",
-          "critDice": null,
-          "critDie": "",
-          "critDamage": "",
-          "critDamageType": "",
-          "criticalConditionType": "",
-          "criticalConditionValue": null,
-          "strikeConditionType": "",
-          "strikeConditionValue": null
         }
       },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.62nnVQvGhoVLLl2K",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.lP5zMAGrvkhhfig2"
-    },
-    {
-      "_id": "LQzprXf7vMvaVP2O",
-      "effects": [],
-      "flags": {
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/equipment/weapons/club.webp",
-      "name": "Club",
-      "sort": 200000,
       "type": "weapon",
+      "effects": [],
       "folder": null,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This is a piece of stout wood shaped or repurposed to bludgeon an enemy. Clubs can be intricately carved pieces of martial art or as simple as a tree branch or piece of wood.</p>"
-        },
-        "rules": [],
-        "slug": "club",
-        "_migration": {
-          "version": 0.955,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "thrown-10"
-          ],
-          "rarity": "common"
-        },
-        "publication": {
-          "title": "Pathfinder Core Rulebook",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 0
-        },
-        "quantity": 1,
-        "baseItem": "club",
-        "bulk": {
-          "value": 1
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {}
-        },
-        "equipped": {
-          "carryType": "held",
-          "invested": null,
-          "handsHeld": 1
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "held-in-one-hand"
-        },
-        "category": "simple",
-        "group": "club",
-        "bonus": {
-          "value": 0
-        },
-        "damage": {
-          "dice": 1,
-          "die": "d6",
-          "damageType": "bludgeoning",
-          "persistent": null,
-          "value": ""
-        },
-        "splashDamage": {
-          "value": 0
-        },
-        "range": null,
-        "expend": null,
-        "ammo": null,
-        "reload": {
-          "value": "-"
-        },
-        "grade": null,
-        "runes": {
-          "potency": 0,
-          "striking": 0,
-          "property": []
-        },
-        "specific": null,
-        "subitems": [],
-        "bonusDamage": {
-          "value": 0
-        },
-        "property1": {
-          "value": "",
-          "dice": "",
-          "die": "",
-          "damageType": "",
-          "critDice": "",
-          "critDie": "",
-          "critDamage": "",
-          "critDamageType": "",
-          "criticalConditionType": "",
-          "criticalConditionValue": "",
-          "strikeConditionType": "",
-          "strikeConditionValue": ""
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.c58wczIzH2gzeXQL",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.LQzprXf7vMvaVP2O"
+      "flags": {},
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.lP5zMAGrvkhhfig2"
     },
     {
       "_id": "hhHz8e6TMo9bnJpk",
-      "effects": [],
-      "flags": {
-        "core": {}
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
       },
-      "img": "systems/pf2e/icons/equipment/weapons/dagger.webp",
+      "img": "icons/weapons/daggers/dagger-straight-blue.webp",
       "name": "Dagger",
-      "sort": 300000,
-      "type": "weapon",
-      "folder": null,
+      "sort": 200000,
       "system": {
         "description": {
           "gm": "",
@@ -316,11 +152,7 @@
         "_migration": {
           "version": 0.955,
           "lastMigration": null,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "traits": {
           "otherTags": [],
@@ -333,10 +165,10 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "Pathfinder Core Rulebook",
+          "title": "Pathfinder Player Core",
           "authors": "",
-          "license": "OGL",
-          "remaster": false
+          "license": "ORC",
+          "remaster": true
         },
         "level": {
           "value": 0
@@ -357,9 +189,9 @@
           }
         },
         "equipped": {
-          "carryType": "held",
+          "carryType": "worn",
           "invested": null,
-          "handsHeld": 1
+          "handsHeld": 0
         },
         "containerId": null,
         "size": "med",
@@ -377,11 +209,11 @@
                 "value": ""
               }
             }
-          },
-          "misidentified": {}
+          }
         },
         "usage": {
-          "value": "held-in-one-hand"
+          "value": "held-in-one-hand",
+          "canBeAmmo": false
         },
         "category": "simple",
         "group": "knife",
@@ -392,8 +224,7 @@
           "dice": 1,
           "die": "d4",
           "damageType": "piercing",
-          "persistent": null,
-          "value": ""
+          "persistent": null
         },
         "splashDamage": {
           "value": 0
@@ -414,47 +245,31 @@
         "subitems": [],
         "bonusDamage": {
           "value": 0
-        },
-        "property1": {
-          "value": "",
-          "dice": null,
-          "die": "",
-          "damageType": "",
-          "critDice": null,
-          "critDie": "",
-          "critDamage": "",
-          "critDamageType": "",
-          "criticalConditionType": "",
-          "criticalConditionValue": null,
-          "strikeConditionType": "",
-          "strikeConditionValue": null
         }
       },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.rQWaJhI5Bko5x14Z",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.hhHz8e6TMo9bnJpk"
+      "flags": {},
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.hhHz8e6TMo9bnJpk"
     },
     {
       "_id": "tWgRQucN54SKcyMB",
-      "effects": [],
-      "flags": {
-        "core": {}
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
       },
       "img": "systems/pf2e/icons/equipment/weapons/sap.webp",
       "name": "Sap",
-      "sort": 400000,
-      "type": "weapon",
-      "folder": null,
+      "sort": 300000,
       "system": {
         "description": {
           "gm": "",
@@ -465,11 +280,7 @@
         "_migration": {
           "version": 0.955,
           "lastMigration": null,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "traits": {
           "otherTags": [],
@@ -480,10 +291,10 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "Pathfinder Core Rulebook",
+          "title": "Pathfinder Player Core",
           "authors": "",
-          "license": "OGL",
-          "remaster": false
+          "license": "ORC",
+          "remaster": true
         },
         "level": {
           "value": 0
@@ -504,9 +315,9 @@
           }
         },
         "equipped": {
-          "carryType": "held",
+          "carryType": "worn",
           "invested": null,
-          "handsHeld": 1
+          "handsHeld": 0
         },
         "containerId": null,
         "size": "med",
@@ -524,8 +335,7 @@
                 "value": ""
               }
             }
-          },
-          "misidentified": {}
+          }
         },
         "usage": {
           "value": "held-in-one-hand"
@@ -539,8 +349,7 @@
           "dice": 1,
           "die": "d6",
           "damageType": "bludgeoning",
-          "persistent": null,
-          "value": ""
+          "persistent": null
         },
         "splashDamage": {
           "value": 0
@@ -561,47 +370,31 @@
         "subitems": [],
         "bonusDamage": {
           "value": 0
-        },
-        "property1": {
-          "value": "",
-          "dice": "",
-          "die": "",
-          "damageType": "",
-          "critDice": "",
-          "critDie": "",
-          "critDamage": "",
-          "critDamageType": "",
-          "criticalConditionType": "",
-          "criticalConditionValue": "",
-          "strikeConditionType": "",
-          "strikeConditionValue": ""
         }
       },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.TLQErnOpM9Luy7rL",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.tWgRQucN54SKcyMB"
+      "flags": {},
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.tWgRQucN54SKcyMB"
     },
     {
       "_id": "aipXS8PeOEpODGak",
-      "effects": [],
-      "flags": {
-        "core": {}
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
       },
-      "img": "systems/pf2e/icons/equipment/armor/scale-mail.webp",
+      "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
       "name": "Scale Mail",
-      "sort": 500000,
-      "type": "armor",
-      "folder": null,
+      "sort": 400000,
       "system": {
         "description": {
           "gm": "",
@@ -612,11 +405,7 @@
         "_migration": {
           "version": 0.955,
           "lastMigration": null,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "traits": {
           "otherTags": [],
@@ -624,10 +413,10 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "Pathfinder Core Rulebook",
+          "title": "Pathfinder Player Core",
           "authors": "",
-          "license": "OGL",
-          "remaster": false
+          "license": "ORC",
+          "remaster": true
         },
         "level": {
           "value": 0
@@ -650,6 +439,7 @@
         "equipped": {
           "carryType": "worn",
           "invested": null,
+          "handsHeld": 0,
           "inSlot": true
         },
         "containerId": null,
@@ -668,14 +458,13 @@
                 "value": ""
               }
             }
-          },
-          "misidentified": {}
+          }
         },
         "category": "medium",
         "group": "composite",
         "acBonus": 3,
         "strength": 2,
-        "dexCap": 5,
+        "dexCap": 2,
         "checkPenalty": -2,
         "speedPenalty": -5,
         "grade": null,
@@ -684,36 +473,31 @@
           "resilient": 0,
           "property": []
         },
-        "subitems": [],
-        "dex": {
-          "value": 2
-        }
+        "subitems": []
       },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.YMQr577asquZIP65",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
+      "type": "armor",
+      "effects": [],
+      "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.aipXS8PeOEpODGak"
+      "flags": {},
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.aipXS8PeOEpODGak"
     },
     {
       "_id": "iUFcnZK0pV8uKCS7",
-      "effects": [],
-      "flags": {
-        "core": {}
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
       },
       "img": "systems/pf2e/icons/equipment/adventuring-gear/whistle.webp",
       "name": "Signal Whistle",
-      "sort": 600000,
-      "type": "equipment",
-      "folder": null,
+      "sort": 500000,
       "system": {
         "description": {
           "gm": "",
@@ -724,11 +508,7 @@
         "_migration": {
           "version": 0.955,
           "lastMigration": null,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "traits": {
           "otherTags": [],
@@ -736,10 +516,10 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "Pathfinder Core Rulebook",
+          "title": "Pathfinder Player Core",
           "authors": "",
-          "license": "OGL",
-          "remaster": false
+          "license": "ORC",
+          "remaster": true
         },
         "level": {
           "value": 0
@@ -760,9 +540,9 @@
           }
         },
         "equipped": {
-          "carryType": "held",
+          "carryType": "worn",
           "invested": null,
-          "handsHeld": 1
+          "handsHeld": 0
         },
         "containerId": null,
         "size": "med",
@@ -780,39 +560,36 @@
                 "value": ""
               }
             }
-          },
-          "misidentified": {}
+          }
         },
         "usage": {
           "value": "held-in-one-hand"
         },
         "subitems": []
       },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.USHK6XQRwmq17xKh",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
+      "type": "equipment",
+      "effects": [],
+      "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.iUFcnZK0pV8uKCS7"
+      "flags": {},
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.iUFcnZK0pV8uKCS7"
     },
     {
       "_id": "IHyqTYfxD95yGZQe",
-      "effects": [],
-      "flags": {
-        "core": {}
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
       },
       "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
       "name": "Bolts",
-      "sort": 700000,
-      "type": "ammo",
-      "folder": null,
+      "sort": 600000,
       "system": {
         "description": {
           "gm": "",
@@ -823,11 +600,7 @@
         "_migration": {
           "version": 0.955,
           "lastMigration": null,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "traits": {
           "otherTags": [],
@@ -837,10 +610,10 @@
           "rarity": "common"
         },
         "publication": {
-          "title": "Pathfinder Core Rulebook",
+          "title": "Pathfinder Player Core",
           "authors": "",
-          "license": "OGL",
-          "remaster": false
+          "license": "ORC",
+          "remaster": true
         },
         "level": {
           "value": 0
@@ -880,8 +653,7 @@
                 "value": ""
               }
             }
-          },
-          "misidentified": {}
+          }
         },
         "craftableAs": null,
         "uses": {
@@ -890,100 +662,119 @@
           "autoDestroy": true
         }
       },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.AITVZmakiu3RgfKo",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
+      "type": "ammo",
+      "effects": [],
+      "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.IHyqTYfxD95yGZQe"
+      "flags": {},
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.IHyqTYfxD95yGZQe"
     },
     {
       "_id": "i6RGiBt0UOTBg3go",
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Club",
-      "sort": 800000,
-      "type": "melee",
-      "folder": null,
+      "name": "Fist",
+      "sort": 700000,
       "system": {
-        "description": {
-          "value": "",
-          "gm": ""
+        "attackEffects": {
+          "value": []
         },
-        "traits": {
-          "value": [],
-          "otherTags": [],
-          "config": {}
+        "bonus": {
+          "value": 7
         },
-        "rules": [],
-        "slug": null,
         "damageRolls": {
           "oiodqohoofafi7fqe4of": {
-            "damage": "1d6+4",
+            "damage": "1d4+3",
             "damageType": "bludgeoning",
             "category": null
           }
         },
-        "bonus": {
-          "value": 9
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "action": "strike",
-        "area": null,
-        "range": null
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.i6RGiBt0UOTBg3go"
-    },
-    {
-      "_id": "UWagoDkGXzULZ0i4",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Sap",
-      "sort": 900000,
-      "type": "melee",
-      "folder": null,
-      "system": {
         "description": {
           "value": "",
           "gm": ""
         },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "nonlethal",
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "subjectToMAP": true
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.i6RGiBt0UOTBg3go"
+    },
+    {
+      "_id": "UWagoDkGXzULZ0i4",
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "tWgRQucN54SKcyMB"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Sap",
+      "sort": 800000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 7
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d6+3",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
         "traits": {
           "value": [
             "agile",
@@ -992,76 +783,48 @@
           "otherTags": [],
           "config": {}
         },
-        "rules": [],
-        "slug": null,
-        "damageRolls": {
-          "0": {
-            "damage": "1d6+4",
-            "damageType": "bludgeoning",
-            "category": null
-          }
-        },
-        "bonus": {
-          "value": 9
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
         "_migration": {
           "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "action": "strike",
         "area": null,
-        "range": null
+        "subjectToMAP": true
       },
+      "type": "melee",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
+      "effects": [],
+      "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.UWagoDkGXzULZ0i4"
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.UWagoDkGXzULZ0i4"
     },
     {
       "_id": "G5iBcxxzOecJApLi",
-      "effects": [],
-      "flags": {},
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "lP5zMAGrvkhhfig2"
+        }
+      },
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Crossbow",
-      "sort": 1000000,
-      "type": "melee",
-      "folder": null,
+      "sort": 900000,
       "system": {
-        "description": {
-          "value": "",
-          "gm": ""
+        "attackEffects": {
+          "value": []
         },
-        "traits": {
-          "value": [
-            "reload-1"
-          ],
-          "otherTags": [],
-          "config": {}
+        "bonus": {
+          "value": 6
         },
-        "rules": [],
-        "slug": null,
         "damageRolls": {
           "0": {
             "damage": "1d8",
@@ -1069,183 +832,177 @@
             "category": null
           }
         },
-        "bonus": {
-          "value": 7
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "action": "strike",
-        "area": null,
-        "range": {
-          "increment": 120,
-          "max": null
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.G5iBcxxzOecJApLi"
-    },
-    {
-      "_id": "G4RkhwmVzzHUmIqk",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Club",
-      "sort": 1100000,
-      "type": "melee",
-      "folder": null,
-      "system": {
         "description": {
           "value": "",
           "gm": ""
         },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "range": {
+          "increment": 120,
+          "max": null
+        },
+        "rules": [],
+        "slug": null,
         "traits": {
           "value": [
-            "thrown-10"
+            "reload-1"
           ],
           "otherTags": [],
           "config": {}
         },
-        "rules": [],
-        "slug": null,
-        "damageRolls": {
-          "0": {
-            "damage": "1d6+4",
-            "damageType": "bludgeoning",
-            "category": null
-          }
-        },
-        "bonus": {
-          "value": 7
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
         "_migration": {
           "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "action": "strike",
         "area": null,
-        "range": null
+        "subjectToMAP": true
       },
+      "type": "melee",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
+      "effects": [],
+      "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.G4RkhwmVzzHUmIqk"
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.G5iBcxxzOecJApLi"
     },
     {
-      "_id": "dYLk3rxvErYoaP9G",
-      "effects": [],
-      "flags": {
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "name": "Attack of Opportunity",
-      "sort": 1200000,
-      "type": "action",
-      "folder": null,
+      "_id": "hHccWzh003xSa6dA",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "+1 Bonus on Perception to Find concealed objects",
+      "sort": 1000000,
       "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
         "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>",
+          "value": "",
           "gm": ""
         },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "target:condition:concealed",
+                  "item:tag:object"
+                ]
+              }
+            ],
+            "selector": "perception",
+            "value": 1
+          }
+        ],
+        "slug": null,
         "traits": {
           "value": [],
           "otherTags": []
         },
-        "rules": [],
-        "slug": "attack-of-opportunity",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.hHccWzh003xSa6dA"
+    },
+    {
+      "_id": "B5Ugi5jmtwo9cynf",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Reactive Strike",
+      "sort": 1100000,
+      "system": {
         "actionType": {
           "value": "reaction"
         },
         "actions": {
           "value": null
         },
-        "deathNote": false,
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>",
+          "gm": ""
+        },
         "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "reactive-strike",
+        "traits": {
+          "value": [],
+          "otherTags": []
         },
         "_migration": {
           "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "category": null
+          "previous": null
+        }
       },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.dYLk3rxvErYoaP9G"
+      "flags": {},
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.B5Ugi5jmtwo9cynf"
     },
     {
       "_id": "yYnHoV3tJvO6D3bB",
-      "effects": [],
-      "flags": {},
       "img": "systems/pf2e/icons/default-icons/lore.svg",
       "name": "Legal Lore",
-      "sort": 1500000,
-      "type": "lore",
-      "folder": null,
+      "sort": 1200000,
       "system": {
         "description": {
           "gm": "",
@@ -1256,56 +1013,44 @@
         "_migration": {
           "version": 0.955,
           "lastMigration": null,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "traits": {
-          "otherTags": [],
-          "value": [],
-          "rarity": "common"
+          "otherTags": []
         },
         "publication": {
           "title": "",
           "authors": "",
-          "license": "OGL",
-          "remaster": false
+          "license": "ORC",
+          "remaster": true
         },
         "mod": {
           "value": 3
         },
         "proficient": {
           "value": 0
-        },
-        "item": {
-          "value": 0
         }
       },
+      "type": "lore",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
+      "effects": [],
+      "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!b8JfjuwpuesAC2vM.yYnHoV3tJvO6D3bB"
+      "flags": {},
+      "_key": "!actors.items!c9RFY8UdQT9Zb4Kt.yYnHoV3tJvO6D3bB"
     }
   ],
-  "effects": [],
-  "folder": null,
-  "flags": {
-    "core": {},
-    "pf2e": {
-      "lootable": false
-    }
-  },
+  "name": "Guard",
   "system": {
     "attributes": {
       "hp": {
@@ -1315,7 +1060,7 @@
         "details": ""
       },
       "ac": {
-        "value": 18,
+        "value": 16,
         "details": ""
       },
       "allSaves": {
@@ -1341,28 +1086,23 @@
         "value": 1
       },
       "blurb": "",
-      "publicNotes": "<p>Guards are rank-and-file members of a town watch or city guard, trained to look for trouble, take down criminals, and follow orders. They are a match for only the most fledgling of adventurers and criminals, but, given time, the settlement can usually muster them in numbers sufficient to neutralize most threats.</p>\n<hr />\n<p>Larger societies rely on those with the authority and the ability to interpret and enforce laws. In good-aligned societies, these officials carry out their duties fairly. In neutral and evil ones, these officials can be harsh and cruel (with an altered alignment to reflect this), imposing severe punishments on those who can't pay for mercy.</p>",
+      "publicNotes": "<p>Guards are rank-and-file members of a town watch or city guard, trained to look for trouble, take down criminals, and follow orders.</p><hr /><p>Larger societies rely on those with the authority and the ability to interpret and enforce laws. Some carry out these duties fairly, but others are harsh and cruel, imposing severe punishments on anyone unable to pay for clemency.</p>",
       "privateNotes": "",
       "publication": {
-        "title": "Pathfinder Gamemastery Guide",
+        "title": "Pathfinder NPC Core",
         "authors": "",
-        "license": "OGL",
-        "remaster": false
-      },
-      "creatureType": ""
+        "license": "ORC",
+        "remaster": true
+      }
     },
     "resources": {},
     "_migration": {
       "version": 0.955,
-      "previous": {
-        "schema": 0.947,
-        "foundry": "13.351",
-        "system": "7.10.1"
-      }
+      "previous": null
     },
     "abilities": {
       "str": {
-        "mod": 4
+        "mod": 3
       },
       "dex": {
         "mod": 2
@@ -1411,91 +1151,90 @@
     "traits": {
       "value": [
         "human",
-        "humanoid",
-        "lawful"
+        "humanoid"
       ],
       "rarity": "common",
       "size": {
         "value": "med"
       }
-    },
-    "customModifiers": {}
+    }
   },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "createdTime": 1786129207049,
+    "modifiedTime": 1786129612899,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
   "prototypeToken": {
-    "disposition": -1,
-    "height": 1,
     "name": "Guard",
-    "width": 1,
-    "displayName": 20,
+    "displayName": 0,
     "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "light": {
-      "alpha": 0.5,
-      "angle": 360,
-      "bright": 0,
-      "coloration": 1,
-      "dim": 0,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false,
-        "type": null
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      },
-      "color": null,
-      "attenuation": 0.5,
-      "negative": false,
-      "priority": 0
-    },
-    "displayBars": 20,
+    "disposition": -1,
+    "displayBars": 0,
     "bar1": {
       "attribute": "attributes.hp"
     },
     "bar2": {
       "attribute": null
     },
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true,
-        "autoscale": true
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
       },
-      "perfect-vision": {
-        "visionRules": "default",
-        "monoVisionColor": "",
-        "sightLimit": null
+      "darkness": {
+        "min": 0,
+        "max": 1
       }
     },
-    "randomImg": false,
-    "texture": {
-      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
-      "tint": "#ffffff",
-      "scaleX": 1,
-      "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "alphaThreshold": 0.75
-    },
     "sight": {
-      "angle": 360,
-      "enabled": true,
+      "enabled": false,
       "range": 0,
-      "brightness": 1,
+      "angle": 360,
       "visionMode": "basic",
       "color": null,
       "attenuation": 0.1,
+      "brightness": 0,
       "saturation": 0,
       "contrast": 0
     },
@@ -1522,25 +1261,22 @@
       "disposition": false
     },
     "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
     "appendNumber": false,
     "prependAdjective": false
   },
-  "_stats": {
-    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.Actor.M1o9zvKGPs6BHvT0",
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "pf2e",
-    "systemVersion": "7.10.1",
-    "createdTime": 1761248973947,
-    "modifiedTime": 1770949031275,
-    "lastModifiedBy": "FmfifLIOr4CQQOc0"
-  },
   "ownership": {
     "default": 0,
-    "BfmhhMPJAA20BCjB": 3
+    "FmfifLIOr4CQQOc0": 3
   },
-  "_id": "b8JfjuwpuesAC2vM",
-  "sort": 2200000,
-  "_key": "!actors!b8JfjuwpuesAC2vM"
+  "flags": {},
+  "_id": "c9RFY8UdQT9Zb4Kt",
+  "sort": 1000000,
+  "_key": "!actors!c9RFY8UdQT9Zb4Kt"
 }

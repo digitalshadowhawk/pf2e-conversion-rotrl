@@ -1,5 +1,5 @@
 {
-  "name": "Aeren",
+  "name": "Aldern's Servant",
   "type": "npc",
   "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
   "items": [
@@ -148,7 +148,7 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!zyYUeKRtRyBCU105.zjDw8ZydUFsB7sEl"
+      "_key": "!actors.items!xwaJH94ntEB8k7dA.zjDw8ZydUFsB7sEl"
     },
     {
       "_id": "MO84pY6jx8r53gTb",
@@ -252,7 +252,7 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!zyYUeKRtRyBCU105.MO84pY6jx8r53gTb"
+      "_key": "!actors.items!xwaJH94ntEB8k7dA.MO84pY6jx8r53gTb"
     },
     {
       "_id": "S6XXdREi3Cb7Xh3V",
@@ -351,7 +351,7 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!zyYUeKRtRyBCU105.S6XXdREi3Cb7Xh3V"
+      "_key": "!actors.items!xwaJH94ntEB8k7dA.S6XXdREi3Cb7Xh3V"
     },
     {
       "_id": "pCZpELfahQYNki30",
@@ -420,7 +420,7 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!zyYUeKRtRyBCU105.pCZpELfahQYNki30"
+      "_key": "!actors.items!xwaJH94ntEB8k7dA.pCZpELfahQYNki30"
     },
     {
       "_id": "FuOqFNDYZSFUVtPi",
@@ -490,64 +490,7 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!zyYUeKRtRyBCU105.FuOqFNDYZSFUVtPi"
-    },
-    {
-      "_id": "wxpvY7YmCPTSk3p9",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Raise a Shield",
-      "sort": 600000,
-      "type": "action",
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>The serving platter has the same statistics as a @Compendium[pf2e.equipment-srd.1k3AsSW7lpU0kEpY]{Buckler}, but requires a hand to hold.</p>\n<hr />\n<p><strong>Requirements</strong> You are wielding a shield</p>\n<hr />\n<p>You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</p>\n<p>@Compendium[pf2e.action-macros.4hfQEMiEOBbqelAh]{Raise a Shield}</p>",
-          "gm": ""
-        },
-        "traits": {
-          "value": [],
-          "otherTags": []
-        },
-        "rules": [],
-        "slug": null,
-        "actionType": {
-          "value": "action"
-        },
-        "actions": {
-          "value": null
-        },
-        "deathNote": false,
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "category": null
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!zyYUeKRtRyBCU105.wxpvY7YmCPTSk3p9"
+      "_key": "!actors.items!xwaJH94ntEB8k7dA.FuOqFNDYZSFUVtPi"
     },
     {
       "_id": "twFQitk8O2yJII8R",
@@ -607,7 +550,121 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!zyYUeKRtRyBCU105.twFQitk8O2yJII8R"
+      "_key": "!actors.items!xwaJH94ntEB8k7dA.twFQitk8O2yJII8R"
+    },
+    {
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786082517398,
+        "modifiedTime": 1786082517398,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "folder": "dfRpdU8Efsenms12",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Raise a Shield",
+      "sort": 900000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p><strong>Requirements</strong> You are wielding a shield.</p>\n<hr />\n<p>You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "selfEffect": {
+          "name": "Effect: Raise a Shield",
+          "uuid": "Compendium.pf2e.equipment-effects.Item.2YgXoHvJfrDHucMr"
+        },
+        "slug": "raise-a-shield",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "hQXXS7z0VUUWy0Lg",
+      "_key": "!actors.items!xwaJH94ntEB8k7dA.hQXXS7z0VUUWy0Lg"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Quick Catch",
+      "sort": 800000,
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p><strong>Trigger</strong> An object the servant could hold in one hand is dropped within the servant's reach</p>\n<p><strong>Requirements</strong> The servant has at least one hand free</p><hr /><p><strong>Effect</strong> The servant catches the dropped object before it hits the floor or leaves their reach.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Actor.sjpR6JK82xcTro7m.Item.P78JgcniEWTPCVeP",
+        "duplicateSource": "Actor.sjpR6JK82xcTro7m.Item.P78JgcniEWTPCVeP",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786082523109,
+        "modifiedTime": 1786082523109,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "uyZVOVVKmDOxv3Uc",
+      "_key": "!actors.items!xwaJH94ntEB8k7dA.uyZVOVVKmDOxv3Uc"
     }
   ],
   "effects": [],
@@ -621,14 +678,14 @@
   "system": {
     "attributes": {
       "hp": {
-        "value": 9,
+        "value": 7,
         "temp": 0,
-        "max": 9,
+        "max": 7,
         "details": ""
       },
       "ac": {
-        "value": 15,
-        "details": "(16 with platter raised)"
+        "value": 14,
+        "details": "(15 with platter raised)"
       },
       "allSaves": {
         "value": ""
@@ -694,7 +751,7 @@
     },
     "perception": {
       "details": "",
-      "mod": 9,
+      "mod": 7,
       "senses": [],
       "vision": true
     },
@@ -727,7 +784,7 @@
   "prototypeToken": {
     "disposition": -1,
     "height": 1,
-    "name": "Aeren",
+    "name": "Drummer",
     "width": 1,
     "displayName": 20,
     "actorLink": false,
@@ -829,21 +886,21 @@
     "prependAdjective": false
   },
   "_stats": {
-    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.Actor.H5o3vsDWppTS7wEx",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.Actor.g5BSgSY8s3NPj48W",
     "duplicateSource": null,
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
+    "systemVersion": "7.12.2",
     "createdTime": 1761248973947,
-    "modifiedTime": 1770949031275,
+    "modifiedTime": 1786129612899,
     "lastModifiedBy": "FmfifLIOr4CQQOc0"
   },
   "ownership": {
     "default": 0,
     "BfmhhMPJAA20BCjB": 3
   },
-  "_id": "zyYUeKRtRyBCU105",
-  "sort": 100000,
-  "_key": "!actors!zyYUeKRtRyBCU105"
+  "_id": "xwaJH94ntEB8k7dA",
+  "sort": 1400000,
+  "_key": "!actors!xwaJH94ntEB8k7dA"
 }

@@ -435,7 +435,7 @@
         "slug": null,
         "damageRolls": {
           "p65zy57xyov99iptpyyo": {
-            "damage": "1d4+3",
+            "damage": "2d4+3",
             "damageType": "bludgeoning",
             "category": null
           }
@@ -468,10 +468,11 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "modifiedTime": 1786082156831
       },
       "ownership": {
         "default": 0
@@ -479,122 +480,131 @@
       "_key": "!actors.items!9W3gJfyzPLphy3aL.8jwjSmQRQW8Nk5NY"
     },
     {
-      "_id": "slCMgd2stlwxBKdg",
-      "effects": [],
-      "flags": {
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Darkvision",
-      "sort": 700000,
-      "type": "action",
-      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Power Attack",
       "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
         "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>",
+          "value": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> Ven makes a melee Strike. This counts as two attacks when calculating his multiple attack penalty. If this Strike hits, Ven deals an extra die of weapon damage.</p>",
           "gm": ""
         },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "domain": "damage",
+            "key": "RollOption",
+            "option": "power-attack",
+            "toggleable": true
+          },
+          {
+            "diceNumber": 1,
+            "key": "DamageDice",
+            "predicate": [
+              "power-attack"
+            ],
+            "selector": "melee-strike-damage"
+          }
+        ],
         "traits": {
           "value": [],
           "otherTags": []
         },
-        "rules": [],
-        "slug": "darkvision",
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "deathNote": false,
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
+        "slug": "power-attack",
         "_migration": {
           "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
-        "category": null
+        "deathNote": false
       },
+      "type": "action",
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.0B39GdScyZMPWalX",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
+        "systemVersion": "7.12.2",
+        "createdTime": 1786082135821,
+        "modifiedTime": 1786082226261,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
       },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
       "ownership": {
-        "default": 0
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
       },
-      "_key": "!actors.items!9W3gJfyzPLphy3aL.slCMgd2stlwxBKdg"
+      "flags": {},
+      "_id": "akoubKMjQToo51k8",
+      "_key": "!actors.items!9W3gJfyzPLphy3aL.akoubKMjQToo51k8"
     },
     {
-      "_id": "CellesdPVQW5Dk8g",
-      "effects": [],
-      "flags": {
-        "core": {}
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786082277010,
+        "modifiedTime": 1786082277010,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
       },
       "img": "systems/pf2e/icons/actions/Reaction.webp",
       "name": "Ferocity",
-      "sort": 800000,
-      "type": "action",
-      "folder": null,
+      "sort": 700000,
       "system": {
-        "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>",
-          "gm": ""
-        },
-        "traits": {
-          "value": [],
-          "otherTags": []
-        },
-        "rules": [],
-        "slug": "ferocity",
         "actionType": {
           "value": "reaction"
         },
         "actions": {
           "value": null
         },
-        "deathNote": false,
+        "category": "defensive",
+        "deathNote": true,
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>",
+          "gm": ""
+        },
         "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "ferocity",
+        "traits": {
+          "value": [],
+          "otherTags": []
         },
         "_migration": {
           "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "category": null
+          "previous": null
+        }
       },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
-      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
       "ownership": {
-        "default": 0
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
       },
-      "_key": "!actors.items!9W3gJfyzPLphy3aL.CellesdPVQW5Dk8g"
+      "_id": "i02FRrBhbOnwJ5YP",
+      "_key": "!actors.items!9W3gJfyzPLphy3aL.i02FRrBhbOnwJ5YP"
     }
   ],
   "effects": [],
@@ -632,7 +642,8 @@
     "details": {
       "languages": {
         "value": [
-          "orcish"
+          "orcish",
+          "common"
         ],
         "details": ""
       },
@@ -667,10 +678,10 @@
         "mod": 2
       },
       "con": {
-        "mod": 3
+        "mod": 2
       },
       "int": {
-        "mod": -1
+        "mod": 0
       },
       "wis": {
         "mod": 1
@@ -691,7 +702,7 @@
     },
     "saves": {
       "fortitude": {
-        "value": 6,
+        "value": 5,
         "saveDetail": ""
       },
       "reflex": {
@@ -834,9 +845,9 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
+    "systemVersion": "7.12.2",
     "createdTime": 1761248973947,
-    "modifiedTime": 1770949031275,
+    "modifiedTime": 1786129612899,
     "lastModifiedBy": "FmfifLIOr4CQQOc0"
   },
   "ownership": {
@@ -844,6 +855,6 @@
     "BfmhhMPJAA20BCjB": 3
   },
   "_id": "9W3gJfyzPLphy3aL",
-  "sort": 4800000,
+  "sort": 4400000,
   "_key": "!actors!9W3gJfyzPLphy3aL"
 }

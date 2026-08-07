@@ -3,41 +3,35 @@
   "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
   "items": [
     {
-      "_id": "UZlHtMydIq06OfJW",
+      "_id": "mKFp9wl5UZg1QAXE",
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ynnBwzkzsR6B73iO",
+        "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
-      "img": "icons/tools/hand/sickle-steel-grey.webp",
-      "name": "Sickle",
+      "img": "icons/weapons/staves/staff-simple.webp",
+      "name": "Staff",
       "sort": 100000,
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>Originally a farming tool used for reaping grain, this one-handed weapon has a short wooden handle ending in a curved blade, sometimes sharpened on both sides.</p>"
+          "value": "<p>This long piece of wood can aid in walking and deliver a mighty blow.</p>"
         },
         "rules": [],
-        "slug": "sickle",
+        "slug": "staff",
         "_migration": {
           "version": 0.955,
           "lastMigration": null,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "traits": {
           "otherTags": [],
           "value": [
-            "agile",
-            "finesse",
-            "trip"
+            "two-hand-d8"
           ],
           "rarity": "common"
         },
@@ -51,9 +45,9 @@
           "value": 0
         },
         "quantity": 1,
-        "baseItem": "sickle",
+        "baseItem": "staff",
         "bulk": {
-          "value": 0.1
+          "value": 1
         },
         "hp": {
           "value": 0,
@@ -61,9 +55,7 @@
         },
         "hardness": 0,
         "price": {
-          "value": {
-            "sp": 2
-          }
+          "value": {}
         },
         "equipped": {
           "carryType": "worn",
@@ -86,21 +78,20 @@
                 "value": ""
               }
             }
-          },
-          "misidentified": {}
+          }
         },
         "usage": {
           "value": "held-in-one-hand"
         },
         "category": "simple",
-        "group": "knife",
+        "group": "club",
         "bonus": {
           "value": 0
         },
         "damage": {
           "dice": 1,
           "die": "d4",
-          "damageType": "slashing",
+          "damageType": "bludgeoning",
           "persistent": null
         },
         "splashDamage": {
@@ -114,7 +105,7 @@
         },
         "grade": null,
         "runes": {
-          "potency": 0,
+          "potency": 1,
           "striking": 0,
           "property": []
         },
@@ -127,100 +118,131 @@
       "type": "weapon",
       "effects": [],
       "folder": null,
-      "flags": {},
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.UZlHtMydIq06OfJW"
+      "flags": {},
+      "_key": "!actors.items!gnrxfgh7RiucNtX5.mKFp9wl5UZg1QAXE"
     },
     {
-      "_id": "o8GJ3AVTDFtS1dFG",
-      "flags": {
-        "pf2e": {
-          "linkedWeapon": "UZlHtMydIq06OfJW"
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Sickle",
-      "sort": 200000,
-      "system": {
-        "attackEffects": {
-          "value": []
-        },
-        "bonus": {
-          "value": 5
-        },
-        "damageRolls": {
-          "uc1s1t4wur5bbofg09gjg": {
-            "damage": "1d4+2",
-            "damageType": "slashing",
-            "category": null
-          }
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "",
-          "authors": ""
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "value": [
-            "agile",
-            "trip"
-          ],
-          "otherTags": [],
-          "config": {}
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "action": "strike",
-        "area": null,
-        "range": null
-      },
-      "type": "melee",
+      "_id": "LbstDLNdYGShLO4N",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
+      "img": "icons/commodities/treasure/brooch-jeweled-green.webp",
+      "name": "Religious Symbol (Wooden)",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity to use certain abilities and cast some spells. A religious symbol can be worn on the body on a chain or pin, or can be held.</p>"
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "has-religious-symbol",
+            "requiresEquipped": false
+          }
+        ],
+        "slug": "religious-symbol-wooden",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": true
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
       "effects": [],
       "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.o8GJ3AVTDFtS1dFG"
+      "flags": {},
+      "_key": "!actors.items!gnrxfgh7RiucNtX5.LbstDLNdYGShLO4N"
     },
     {
-      "_id": "Q9h6X4WFBsWo4KlV",
+      "_id": "MLCrUvDlugE5BKqe",
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "mKFp9wl5UZg1QAXE"
+        }
+      },
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Rock",
+      "name": "Staff",
       "sort": 300000,
       "system": {
         "attackEffects": {
           "value": []
         },
         "bonus": {
-          "value": 3
+          "value": 13
         },
         "damageRolls": {
-          "c16oqbic9ep578zkoag35t": {
-            "damage": "1d4+2",
+          "0": {
+            "damage": "1d4+6",
             "damageType": "bludgeoning",
             "category": null
           }
@@ -235,47 +257,63 @@
           "title": "",
           "authors": ""
         },
-        "rules": [],
+        "range": null,
+        "rules": [
+          {
+            "domain": "damage",
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.TwoHanded.Staff",
+            "option": "two-handed",
+            "toggleable": true
+          },
+          {
+            "key": "DamageDice",
+            "label": "PF2E.TraitTwoHandD8",
+            "override": {
+              "dieSize": "d8"
+            },
+            "predicate": [
+              "two-handed"
+            ],
+            "selector": "{item|_id}-damage"
+          }
+        ],
         "slug": null,
         "traits": {
           "value": [
-            "thrown-10"
+            "magical",
+            "two-hand-d8"
           ],
           "otherTags": [],
           "config": {}
         },
         "_migration": {
           "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
         "action": "strike",
         "area": null,
-        "range": null
+        "subjectToMAP": true
       },
       "type": "melee",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
       "effects": [],
       "folder": null,
-      "flags": {},
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.Q9h6X4WFBsWo4KlV"
+      "_key": "!actors.items!gnrxfgh7RiucNtX5.MLCrUvDlugE5BKqe"
     },
     {
-      "_id": "n3jCGW9WDHnhi4Ky",
+      "_id": "Hcuoxxe2F5IxOXGv",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "name": "Fist",
       "sort": 400000,
@@ -284,17 +322,79 @@
           "value": []
         },
         "bonus": {
-          "value": 5
+          "value": 12
         },
         "damageRolls": {
-          "upHGZeI52vum8yU1": {
-            "damage": "1d4+2",
+          "iswR188zNNz1VJHP": {
+            "damage": "1d4+6",
             "damageType": "bludgeoning",
             "category": null
           }
         },
         "description": {
           "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder NPC Core",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "nonlethal",
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "subjectToMAP": true
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!gnrxfgh7RiucNtX5.Hcuoxxe2F5IxOXGv"
+    },
+    {
+      "_id": "mOaqXByjpJOQroyH",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Timely Advice",
+      "sort": 500000,
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p><strong>Trigger</strong> An ally is about to attempt an attack roll or skill check and has not yet rolled</p>\n<hr />\n<p><strong>Effect</strong> The sage gives the ally a savvy piece of advice, providing valuable insight. The ally gains a +2 circumstance bonus to the triggering roll.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.FISKjI7bal26AnyL]{Effect: Timely Advice}</p>",
           "gm": ""
         },
         "publication": {
@@ -307,58 +407,51 @@
         "slug": null,
         "traits": {
           "value": [
-            "agile",
-            "nonlethal",
-            "unarmed"
+            "auditory",
+            "concentrate",
+            "linguistic",
+            "mental"
           ],
-          "otherTags": [],
-          "config": {}
+          "otherTags": []
         },
         "_migration": {
           "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "action": "strike",
-        "area": null,
-        "range": null
+          "previous": null
+        }
       },
-      "type": "melee",
+      "type": "action",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
       "effects": [],
       "folder": null,
-      "flags": {},
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.n3jCGW9WDHnhi4Ky"
+      "flags": {},
+      "_key": "!actors.items!gnrxfgh7RiucNtX5.mOaqXByjpJOQroyH"
     },
     {
-      "_id": "T3ZpHsIT64RGyhT0",
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Power of the Mob",
-      "sort": 500000,
+      "_id": "pCgvFzMbb4y6tLfW",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Sage's Analysis",
+      "sort": 600000,
       "system": {
         "actionType": {
-          "value": "passive"
+          "value": "action"
         },
         "actions": {
-          "value": null
+          "value": 1
         },
         "category": "offensive",
         "description": {
-          "value": "<p>When three or more commoners are adjacent to each other, each commoner gets a +1 circumstance bonus to Athletics checks to [[/act shove]], attack rolls, and damage rolls.</p>",
+          "value": "<p>The sage studies a creature, attempting an @Check[arcana], @Check[nature], @Check[occultism], @Check[religion], or @Check[society] check against the creature's @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} DC. On a success, the sage gains a +2 circumstance bonus to attack rolls and AC against that creature and deals an additional 2d6 damage to the creature with weapon attacks.</p>\n<p>These benefits last for 1 minute or until the sage uses this ability again.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.pdEXnJrIHIEX9NM4]{Effect: Sage's Analysis}</p>",
           "gm": ""
         },
         "publication": {
@@ -367,47 +460,17 @@
           "title": "",
           "authors": ""
         },
-        "rules": [
-          {
-            "key": "RollOption",
-            "option": "power-of-the-mob",
-            "toggleable": true
-          },
-          {
-            "key": "FlatModifier",
-            "predicate": [
-              "action:shove",
-              "power-of-the-mob"
-            ],
-            "selector": "athletics",
-            "type": "circumstance",
-            "value": 1
-          },
-          {
-            "key": "FlatModifier",
-            "predicate": [
-              "power-of-the-mob"
-            ],
-            "selector": [
-              "attack",
-              "damage"
-            ],
-            "type": "circumstance",
-            "value": 1
-          }
-        ],
+        "rules": [],
         "slug": null,
         "traits": {
-          "value": [],
+          "value": [
+            "concentrate"
+          ],
           "otherTags": []
         },
         "_migration": {
           "version": 0.955,
-          "previous": {
-            "schema": 0.947,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         }
       },
       "type": "action",
@@ -415,24 +478,22 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
       "effects": [],
       "folder": null,
-      "flags": {},
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.T3ZpHsIT64RGyhT0"
+      "flags": {},
+      "_key": "!actors.items!gnrxfgh7RiucNtX5.pCgvFzMbb4y6tLfW"
     },
     {
-      "_id": "lqVfEZu6MeCHDuky",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Lore (any one related to their trade)",
-      "sort": 600000,
+      "name": "Thassilon Lore",
+      "type": "lore",
       "system": {
         "description": {
           "gm": "",
@@ -444,9 +505,9 @@
           "version": 0.955,
           "lastMigration": null,
           "previous": {
-            "schema": 0.947,
+            "schema": null,
             "foundry": "13.351",
-            "system": "7.10.1"
+            "system": "7.12.2"
           }
         },
         "traits": {
@@ -455,46 +516,51 @@
         "publication": {
           "title": "",
           "authors": "",
-          "license": "ORC",
-          "remaster": true
+          "license": "OGL",
+          "remaster": false
         },
         "mod": {
-          "value": 6
+          "value": 14
         },
         "proficient": {
           "value": 0
         }
       },
-      "type": "lore",
+      "effects": [],
+      "_id": "OqfA1NlVPKDAPj4n",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.3",
-        "lastModifiedBy": null
+        "systemVersion": "7.12.2",
+        "createdTime": 1786129757497,
+        "modifiedTime": 1786129791607,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
       },
-      "effects": [],
-      "folder": null,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.lqVfEZu6MeCHDuky"
+      "_key": "!actors.items!gnrxfgh7RiucNtX5.OqfA1NlVPKDAPj4n"
     }
   ],
-  "name": "Commoner",
+  "name": "Brodert Quink",
   "system": {
     "attributes": {
       "hp": {
-        "value": 10,
+        "value": 86,
         "temp": 0,
-        "max": 10,
+        "max": 86,
         "details": ""
       },
       "ac": {
-        "value": 13,
+        "value": 22,
         "details": ""
       },
       "allSaves": {
@@ -512,15 +578,16 @@
     "details": {
       "languages": {
         "value": [
-          "common"
+          "common",
+          "thassilonian"
         ],
-        "details": ""
+        "details": "up to 4 additional languages"
       },
       "level": {
-        "value": -1
+        "value": 6
       },
       "blurb": "",
-      "publicNotes": "<p>Many commoners live hard lives of toil as they work to keep their families fed and housed in relative comfort.</p><hr /><p>Society is built upon the backs of laborers.</p>",
+      "publicNotes": "<p>The greatest knowledge comes from experience. Village elders, ancient seers, and advisors to royalty are examples of those valued for such wisdom. Sages educate and guide their people from straying from their cultures' norms and traditions.</p><hr /><p>True power comes from knowledge—the power to shape the growth of kingdoms by mere whispers, stay three steps ahead of adversaries, or even know which flora is best for creating untraceable poisons.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Pathfinder NPC Core",
@@ -532,27 +599,23 @@
     "resources": {},
     "_migration": {
       "version": 0.955,
-      "previous": {
-        "schema": 0.947,
-        "foundry": "13.351",
-        "system": "7.10.1"
-      }
+      "previous": null
     },
     "abilities": {
       "str": {
-        "mod": 3
-      },
-      "dex": {
-        "mod": 1
-      },
-      "con": {
         "mod": 2
       },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 1
+      },
       "int": {
-        "mod": 0
+        "mod": 4
       },
       "wis": {
-        "mod": 1
+        "mod": 3
       },
       "cha": {
         "mod": 0
@@ -560,30 +623,45 @@
     },
     "perception": {
       "details": "",
-      "mod": 3,
+      "mod": 14,
       "senses": [],
       "vision": true
     },
     "saves": {
       "fortitude": {
-        "value": 6,
+        "value": 10,
         "saveDetail": ""
       },
       "reflex": {
-        "value": 3,
+        "value": 12,
         "saveDetail": ""
       },
       "will": {
-        "value": 3,
+        "value": 16,
         "saveDetail": ""
       }
     },
     "skills": {
-      "athletics": {
-        "base": 5
+      "arcana": {
+        "base": 12
+      },
+      "diplomacy": {
+        "base": 13
+      },
+      "medicine": {
+        "base": 12
+      },
+      "nature": {
+        "base": 14
+      },
+      "occultism": {
+        "base": 12
+      },
+      "religion": {
+        "base": 12
       },
       "society": {
-        "base": 2
+        "base": 14
       }
     },
     "traits": {
@@ -599,19 +677,19 @@
   },
   "type": "npc",
   "_stats": {
-    "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.APn9B54hhRtr0oCQ",
+    "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
-    "createdTime": 1761248973947,
-    "modifiedTime": 1770949031275,
+    "systemVersion": "7.12.2",
+    "createdTime": 1786129721659,
+    "modifiedTime": 1786129825437,
     "lastModifiedBy": "FmfifLIOr4CQQOc0"
   },
   "effects": [],
   "prototypeToken": {
-    "name": "Commoner",
+    "name": "Sage",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -709,12 +787,12 @@
     "appendNumber": false,
     "prependAdjective": false
   },
-  "flags": {},
   "ownership": {
     "default": 0,
-    "BfmhhMPJAA20BCjB": 3
+    "FmfifLIOr4CQQOc0": 3
   },
-  "_id": "Kyn85Kkp1rRGDBmD",
-  "sort": 4850000,
-  "_key": "!actors!Kyn85Kkp1rRGDBmD"
+  "flags": {},
+  "_id": "gnrxfgh7RiucNtX5",
+  "sort": 0,
+  "_key": "!actors!gnrxfgh7RiucNtX5"
 }

@@ -1,27 +1,28 @@
 {
+  "folder": null,
   "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
   "items": [
     {
-      "_id": "YONpgCEyeQigkEB4",
+      "_id": "7y1oE9OK3tVtd5g1",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
-      "img": "systems/pf2e/icons/equipment/weapons/horsechopper.webp",
-      "name": "Horsechopper",
+      "img": "icons/weapons/bows/longbow-recurve-brown.webp",
+      "name": "Composite Longbow",
       "sort": 100000,
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>Created by goblins to battle horses, this weapon is essentially a long shaft ending in a blade with a large hook.</p>"
+          "value": "<p>This projectile weapon is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Like all longbows, its great size also increases the bow's range and power. You must use two hands to fire it, and it cannot be used while mounted. Any time an ability is specifically restricted to a longbow, such as Erastil's favored weapon, it also applies to composite longbows unless otherwise stated.</p>"
         },
         "rules": [],
-        "slug": "horsechopper",
+        "slug": "composite-longbow",
         "_migration": {
           "version": 0.955,
           "lastMigration": null,
@@ -30,134 +31,9 @@
         "traits": {
           "otherTags": [],
           "value": [
-            "goblin",
-            "reach",
-            "trip",
-            "versatile-p"
-          ],
-          "rarity": "uncommon"
-        },
-        "publication": {
-          "title": "Pathfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "level": {
-          "value": 0
-        },
-        "quantity": 1,
-        "baseItem": "horsechopper",
-        "bulk": {
-          "value": 2
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "sp": 9
-          }
-        },
-        "equipped": {
-          "carryType": "held",
-          "invested": null,
-          "handsHeld": 2
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          }
-        },
-        "usage": {
-          "value": "held-in-two-hands"
-        },
-        "category": "martial",
-        "group": "polearm",
-        "bonus": {
-          "value": 0
-        },
-        "damage": {
-          "dice": 1,
-          "die": "d8",
-          "damageType": "slashing",
-          "persistent": null
-        },
-        "splashDamage": {
-          "value": 0
-        },
-        "range": null,
-        "expend": null,
-        "ammo": null,
-        "reload": {
-          "value": null
-        },
-        "grade": null,
-        "runes": {
-          "potency": 0,
-          "striking": 0,
-          "property": []
-        },
-        "specific": null,
-        "subitems": [],
-        "bonusDamage": {
-          "value": 0
-        }
-      },
-      "type": "weapon",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!exdDxfTxwVNL898D.YONpgCEyeQigkEB4"
-    },
-    {
-      "_id": "Li2u43wJLsPY8pTJ",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "pf2e",
-        "systemVersion": "7.10.1",
-        "lastModifiedBy": null
-      },
-      "img": "icons/weapons/bows/shortbow-leather.webp",
-      "name": "Shortbow",
-      "sort": 200000,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p>This smaller bow is made of a single piece of wood and favored by skirmishers and cavalry.</p>"
-        },
-        "rules": [],
-        "slug": "shortbow",
-        "_migration": {
-          "version": 0.955,
-          "lastMigration": null,
-          "previous": null
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "deadly-d10"
+            "deadly-d10",
+            "propulsive",
+            "volley-30"
           ],
           "rarity": "common"
         },
@@ -168,12 +44,12 @@
           "remaster": true
         },
         "level": {
-          "value": 0
+          "value": 1
         },
         "quantity": 1,
-        "baseItem": "shortbow",
+        "baseItem": "composite-longbow",
         "bulk": {
-          "value": 1
+          "value": 2
         },
         "hp": {
           "value": 0,
@@ -182,7 +58,7 @@
         "hardness": 0,
         "price": {
           "value": {
-            "gp": 3
+            "gp": 20
           }
         },
         "equipped": {
@@ -218,14 +94,14 @@
         },
         "damage": {
           "dice": 1,
-          "die": "d6",
+          "die": "d8",
           "damageType": "piercing",
           "persistent": null
         },
         "splashDamage": {
           "value": 0
         },
-        "range": 60,
+        "range": 100,
         "expend": 1,
         "ammo": {
           "baseType": "arrows",
@@ -254,17 +130,145 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!exdDxfTxwVNL898D.Li2u43wJLsPY8pTJ"
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.7y1oE9OK3tVtd5g1"
     },
     {
-      "_id": "X2lTMUagQP79HjpC",
+      "_id": "LRhtPUXj2lVfyweU",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "img": "icons/weapons/daggers/dagger-straight-blue.webp",
+      "name": "Dagger",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown.</p>"
+        },
+        "rules": [],
+        "slug": "dagger",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "thrown-10",
+            "versatile-s"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "dagger",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand",
+          "canBeAmmo": false
+        },
+        "category": "simple",
+        "group": "knife",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d4",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "ammo": null,
+        "reload": {
+          "value": "-"
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        }
+      },
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.LRhtPUXj2lVfyweU"
+    },
+    {
+      "_id": "2ENV7Bisa9MkaLEV",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
       "img": "icons/equipment/chest/breastplate-banded-simple-leather-brown.webp",
@@ -357,17 +361,17 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!exdDxfTxwVNL898D.X2lTMUagQP79HjpC"
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.2ENV7Bisa9MkaLEV"
     },
     {
-      "_id": "o7rQkth8GqXGk4zZ",
+      "_id": "FjgX6TRZC6VZOEli",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
       "img": "icons/weapons/ammunition/arrows-broadhead-white.webp",
@@ -401,7 +405,7 @@
         "level": {
           "value": 0
         },
-        "quantity": 20,
+        "quantity": 60,
         "baseItem": "arrows",
         "bulk": {
           "value": 0.1
@@ -452,29 +456,175 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!exdDxfTxwVNL898D.o7rQkth8GqXGk4zZ"
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.FjgX6TRZC6VZOEli"
     },
     {
-      "_id": "7swXlOjSl2oHLuDv",
+      "_id": "XSZ78fE3Z7yKpqi5",
       "flags": {
         "pf2e": {
-          "linkedWeapon": "YONpgCEyeQigkEB4"
+          "linkedWeapon": "LRhtPUXj2lVfyweU"
         }
       },
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Horsechopper",
+      "name": "Dagger",
       "sort": 500000,
       "system": {
         "attackEffects": {
           "value": []
         },
         "bonus": {
-          "value": 8
+          "value": 11
         },
         "damageRolls": {
-          "n5hypvup6fd9aaedz61m": {
-            "damage": "1d8+3",
-            "damageType": "slashing",
+          "39O2XJi48KkTnbBF": {
+            "damage": "1d4+6",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": "dagger",
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "versatile-s"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "subjectToMAP": true
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.XSZ78fE3Z7yKpqi5"
+    },
+    {
+      "_id": "BlvtRAWKdSgprAlh",
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "LRhtPUXj2lVfyweU"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Dagger",
+      "sort": 600000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 11
+        },
+        "damageRolls": {
+          "daE0obyncH04DZR0": {
+            "damage": "1d4+6",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": "dagger",
+        "traits": {
+          "value": [
+            "agile",
+            "thrown-10",
+            "versatile-s"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "subjectToMAP": true
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.BlvtRAWKdSgprAlh"
+    },
+    {
+      "_id": "VvvklV8AZNh0WBJb",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "sort": 700000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 11
+        },
+        "damageRolls": {
+          "eEvwd3QZagynekeT": {
+            "damage": "1d4+6",
+            "damageType": "bludgeoning",
             "category": null
           }
         },
@@ -493,9 +643,10 @@
         "slug": null,
         "traits": {
           "value": [
-            "reach-10",
-            "trip",
-            "versatile-p"
+            "agile",
+            "finesse",
+            "nonlethal",
+            "unarmed"
           ],
           "otherTags": [],
           "config": {}
@@ -505,45 +656,38 @@
           "previous": null
         },
         "action": "strike",
-        "area": null
+        "area": null,
+        "subjectToMAP": true
       },
       "type": "melee",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "pf2e",
-        "systemVersion": "7.10.1",
-        "lastModifiedBy": null
-      },
       "effects": [],
       "folder": null,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!exdDxfTxwVNL898D.7swXlOjSl2oHLuDv"
+      "flags": {},
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.VvvklV8AZNh0WBJb"
     },
     {
-      "_id": "wBppFKxjdSadJQj2",
+      "_id": "PqeleLSAo4wtVlzd",
       "flags": {
         "pf2e": {
-          "linkedWeapon": "Li2u43wJLsPY8pTJ"
+          "linkedWeapon": "7y1oE9OK3tVtd5g1"
         }
       },
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Shortbow",
-      "sort": 600000,
+      "name": "Composite Longbow",
+      "sort": 800000,
       "system": {
         "attackEffects": {
           "value": []
         },
         "bonus": {
-          "value": 8
+          "value": 11
         },
         "damageRolls": {
-          "3n23qyyo7ltn6seeu6p6": {
-            "damage": "1d6",
+          "0": {
+            "damage": "1d8+5",
             "damageType": "piercing",
             "category": null
           }
@@ -559,7 +703,7 @@
           "authors": ""
         },
         "range": {
-          "increment": 60,
+          "increment": 100,
           "max": null
         },
         "rules": [],
@@ -567,7 +711,9 @@
         "traits": {
           "value": [
             "deadly-d10",
-            "reload-0"
+            "propulsive",
+            "reload-0",
+            "volley-30"
           ],
           "otherTags": [],
           "config": {}
@@ -577,7 +723,8 @@
           "previous": null
         },
         "action": "strike",
-        "area": null
+        "area": null,
+        "subjectToMAP": true
       },
       "type": "melee",
       "_stats": {
@@ -586,7 +733,7 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
       "effects": [],
@@ -594,23 +741,101 @@
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!exdDxfTxwVNL898D.wBppFKxjdSadJQj2"
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.PqeleLSAo4wtVlzd"
     },
     {
-      "_id": "YdD2kpKW2TNfcupL",
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "name": "Goblin Scuttle",
-      "sort": 700000,
+      "_id": "cm9trrNHFwRyFicr",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Expert Subsistence",
+      "sort": 900000,
       "system": {
         "actionType": {
-          "value": "reaction"
+          "value": "passive"
         },
         "actions": {
           "value": null
         },
-        "category": "defensive",
+        "category": "interaction",
         "description": {
-          "value": "<p><strong>Trigger</strong> A goblin ally ends a move action adjacent to the goblin.</p>\n<hr />\n<p><strong>Effect</strong> The goblin commando @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Steps}.</p>",
+          "value": "<p>While using Survival to [[/act subsist statistic=survival]], if the tracker rolls any result worse than a success, they get a success. On a success, they can provide subsistence living for themselves and 8 additional creatures, and on a critical success, they can take care of twice as many creatures as on a success.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "adjustment": {
+              "criticalFailure": "to-success",
+              "failure": "to-success"
+            },
+            "key": "AdjustDegreeOfSuccess",
+            "predicate": [
+              "action:subsist"
+            ],
+            "selector": "survival"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "criticalSuccess",
+              "success"
+            ],
+            "predicate": [
+              "action:subsist"
+            ],
+            "selector": "survival",
+            "text": "{item|system.description.value}",
+            "title": "{item|name}",
+            "visibility": "owner"
+          }
+        ],
+        "slug": "expert-subsistence",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.cm9trrNHFwRyFicr"
+    },
+    {
+      "_id": "tWDvrIy7tMRedOAa",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Master Tracker",
+      "sort": 1000000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>The tracker can @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} while moving at full speed.</p>",
           "gm": ""
         },
         "publication": {
@@ -637,7 +862,7 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
       "effects": [],
@@ -646,20 +871,179 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!exdDxfTxwVNL898D.YdD2kpKW2TNfcupL"
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.tWDvrIy7tMRedOAa"
+    },
+    {
+      "_id": "y8eExcPkGMuRGljn",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "On the Hunt",
+      "sort": 1100000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>The tracker designates one creature they're observing or tracking as their prey.</p>\n<p>The tracker gains a +2 circumstance bonus to Perception checks to [[/act seek]] the prey and to Survival checks to [[/act track]] the prey.</p>\n<p>The first time the tracker hits the designated prey in a round, they deal an additional 1d4 precision damage. These effects last until the tracker uses On the Hunt again.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.HuntPrey.TargetHuntedPrey",
+            "option": "hunted-prey",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SpecificRule.HuntPrey.SeekHuntedPrey",
+            "predicate": [
+              "action:seek",
+              "hunted-prey"
+            ],
+            "selector": "perception",
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SpecificRule.HuntPrey.TrackHuntedPrey",
+            "predicate": [
+              "action:track",
+              "hunted-prey"
+            ],
+            "selector": "survival",
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "domain": "ranged-attack-roll",
+            "key": "RollOption",
+            "option": "ignore-range-penalty:2",
+            "predicate": [
+              "hunted-prey"
+            ]
+          },
+          {
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.Ranger.HuntersEdge.FirstAttack",
+            "option": "first-attack",
+            "toggleable": true
+          },
+          {
+            "category": "precision",
+            "diceNumber": 1,
+            "dieSize": "d4",
+            "key": "DamageDice",
+            "predicate": [
+              "first-attack"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "value": [
+            "concentrate"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.y8eExcPkGMuRGljn"
+    },
+    {
+      "_id": "sJmK79CMVyreBL50",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Horse Lore",
+      "sort": 1200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "mod": {
+          "value": 5
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "type": "lore",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "modifiedTime": 1786129637411
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!eRlUJEvnTl1871Fk.sJmK79CMVyreBL50"
     }
   ],
-  "name": "Goblin Commando",
+  "name": "Daviren Hosk",
   "system": {
     "attributes": {
       "hp": {
-        "value": 18,
+        "value": 40,
         "temp": 0,
-        "max": 18,
+        "max": 40,
         "details": ""
       },
       "ac": {
-        "value": 17,
+        "value": 19,
         "details": ""
       },
       "allSaves": {
@@ -677,19 +1061,18 @@
     "details": {
       "languages": {
         "value": [
-          "common",
-          "goblin"
+          "common"
         ],
         "details": ""
       },
       "level": {
-        "value": 1
+        "value": 3
       },
       "blurb": "",
-      "publicNotes": "<p>The theoretical leaders of goblin raids are called goblin commandos. In practice, goblin commandos rarely continue to lead their comrades once a battle has begun. Most shirk their responsibilities in favor of wading into the fray and claiming more glory from their tribe-mates.</p>\n<hr />\n<p>These small humanoids typically have green or gray skin and large heads with wide ears. While some goblins are civilized and have worked hard to be considered upstanding members of humanoid communities, many are impetuous and vicious creatures who delight in wreaking havoc. These goblins think nothing of slaughtering livestock, stealing, or burning down a building purely for momentary delight. They revel in playing malicious tricks on taller humanoids, whom they call \"longshanks.\"</p>\n<p>Goblins are superstitious, with an intense awe of magic and a fascination with fire; goblins who master magic or fire earn great respect from their kin. Most other humanoids find it difficult to understand goblins' outlook: they hate canines but eagerly share their lairs with so-called \"goblin dogs,\" they fearlessly attack larger creatures but are terrified of horses, and they despise vegetables yet consider pickles a delicacy. To a goblin, of course, these are all perfectly sensible life choices.</p>",
+      "publicNotes": "<p>An untrained eye might spot a sign or two of a wild creature's passing, but only a skilled tracker can identify several such signs and discern their relationship to each other, connecting one to the next until they form a trail of prints, scat, fur, feathers, and blood that leads to the quarry's lair.</p><hr /><p>Explorers are often well-equipped and well-trained for any type of hazard and are eager to lead others into the wild.</p>",
       "privateNotes": "",
       "publication": {
-        "title": "Pathfinder Monster Core",
+        "title": "Pathfinder NPC Core",
         "authors": "",
         "license": "ORC",
         "remaster": true
@@ -702,32 +1085,28 @@
     },
     "abilities": {
       "str": {
-        "mod": 3
+        "mod": 2
       },
       "dex": {
-        "mod": 3
+        "mod": 4
       },
       "con": {
         "mod": 2
       },
       "int": {
-        "mod": -1
-      },
-      "wis": {
         "mod": 0
       },
+      "wis": {
+        "mod": 4
+      },
       "cha": {
-        "mod": 2
+        "mod": 0
       }
     },
     "perception": {
       "details": "",
-      "mod": 5,
-      "senses": [
-        {
-          "type": "darkvision"
-        }
-      ],
+      "mod": 12,
+      "senses": [],
       "vision": true
     },
     "saves": {
@@ -736,39 +1115,33 @@
         "saveDetail": ""
       },
       "reflex": {
-        "value": 8,
+        "value": 11,
         "saveDetail": ""
       },
       "will": {
-        "value": 5,
+        "value": 9,
         "saveDetail": ""
       }
     },
     "skills": {
-      "acrobatics": {
-        "base": 6
-      },
-      "athletics": {
-        "base": 6
-      },
-      "intimidation": {
-        "base": 5
-      },
       "nature": {
-        "base": 5
+        "base": 11
       },
       "stealth": {
-        "base": 6
+        "base": 9
+      },
+      "survival": {
+        "base": 13
       }
     },
     "traits": {
       "value": [
-        "goblin",
+        "human",
         "humanoid"
       ],
       "rarity": "common",
       "size": {
-        "value": "sm"
+        "value": "med"
       }
     }
   },
@@ -779,14 +1152,14 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
-    "createdTime": 1770940523183,
-    "modifiedTime": 1786129612899,
+    "systemVersion": "7.12.2",
+    "createdTime": 1786129612532,
+    "modifiedTime": 1786129674651,
     "lastModifiedBy": "FmfifLIOr4CQQOc0"
   },
   "effects": [],
   "prototypeToken": {
-    "name": "Goblin Commando",
+    "name": "Tracker",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -884,13 +1257,12 @@
     "appendNumber": false,
     "prependAdjective": false
   },
-  "folder": null,
   "ownership": {
     "default": 0,
-    "BfmhhMPJAA20BCjB": 3
+    "FmfifLIOr4CQQOc0": 3
   },
   "flags": {},
-  "_id": "exdDxfTxwVNL898D",
-  "sort": 200000,
-  "_key": "!actors!exdDxfTxwVNL898D"
+  "_id": "eRlUJEvnTl1871Fk",
+  "sort": 500000,
+  "_key": "!actors!eRlUJEvnTl1871Fk"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "SLASHING CAGE TRAP",
+  "name": "Slashing Cage Trap",
   "type": "hazard",
   "img": "systems/pf2e/icons/default-icons/hazard.svg",
   "items": [
@@ -71,7 +71,8 @@
     "pf2e": {
       "editHazard": {
         "value": false
-      }
+      },
+      "editMode": false
     },
     "pf2e_updatednpcsheet": {
       "npcNotes": {
@@ -104,8 +105,8 @@
       },
       "hardness": 11,
       "stealth": {
-        "value": 0,
-        "details": "<p>&nbsp;+13 [trained]</p>"
+        "value": 13,
+        "details": "<p>(trained)</p>"
       },
       "emitsSound": "encounter",
       "immunities": [
@@ -130,9 +131,9 @@
       "level": {
         "value": 4
       },
-      "disable": "<p>DC 17 Crafting [expert) or DC 19 Thievery [trained] to pry open the portcullises. A lever that raises and lowers the portcullises and switches the trap on and off can be found in area E4.</p>",
+      "disable": "<p>@Check[type:crafting|dc:17] (expert) or @Check[type:thievery|dc:19] (trained) to pry open the portcullises. A lever that raises and lowers the portcullises and switches the trap on and off can be found in area E4.</p>",
       "description": "<p>Two hidden iron portcullises are recessed into the ceiling around the polished section of ﬂoor, as indicated on the map- When a creature steps between them, a pressure plate causes them to both drop with a clang; 1 round later, the two statues began slashing at the space between them, cutting the trapped intruder to ribbons.</p>",
-      "reset": "<p>Two rounds after the trap activates, a10-foot&mdash;deep pit opens in the square, dumping what remains of the victim into the area below before the whole thing resets itself. A still living victim can attempt a DC 17 Reﬂex save to avoid falling into the pit by either clinging to the portcullises or the statue alcoves, but when the pit closes automatically 1 round later, the victim's weight on the lid could start the cycle all over again-</p>",
+      "reset": "<p>Two rounds after the trap activates, a10-foot—deep pit opens in the square, dumping what remains of the victim into the area below before the whole thing resets itself. A still living victim can attempt a @Check[type|reflex|dc:17] save to avoid falling into the pit by either clinging to the portcullises or the statue alcoves, but when the pit closes automatically 1 round later, the victim's weight on the lid could start the cycle all over again.</p>",
       "routine": "<p>Each round, the Slashing Cage Trap makes a Glaive Flurry attack against the creature trapped between the portcullises-</p>",
       "publication": {
         "title": "",
@@ -262,9 +263,9 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
+    "systemVersion": "7.12.2",
     "createdTime": 1761248973947,
-    "modifiedTime": 1770949031275,
+    "modifiedTime": 1786129612899,
     "lastModifiedBy": "FmfifLIOr4CQQOc0"
   },
   "ownership": {
@@ -272,6 +273,6 @@
     "BfmhhMPJAA20BCjB": 3
   },
   "_id": "OBqLidP3CO5QquUn",
-  "sort": 3400000,
+  "sort": 3300000,
   "_key": "!actors!OBqLidP3CO5QquUn"
 }
