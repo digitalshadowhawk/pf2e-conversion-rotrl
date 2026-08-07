@@ -1,0 +1,228 @@
+{
+  "_id": "7QIhswxFambKHJOq",
+  "name": "+1 Striking Runechill Hatchet",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/equipment/weapons/hatchet.webp",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pdfoundry-pf2e": {
+      "source": ""
+    },
+    "cf": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This small axe can be used in close combat or thrown.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Sweep",
+        "predicate": [
+          "second-attack"
+        ],
+        "selector": "attack",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "damageType": "negative",
+        "label": "Runechill"
+      }
+    ],
+    "slug": "hatchet",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "sweep",
+        "thrown-10"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 11
+    },
+    "quantity": 1,
+    "baseItem": "hatchet",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "brokenThreshold": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 4
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "lg",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Hatchet",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "axe",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing",
+      "persistent": null,
+      "value": ""
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": "-"
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": {
+      "value": true,
+      "material": null,
+      "runes": {
+        "potency": 1,
+        "striking": "striking"
+      }
+    },
+    "subitems": [],
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:59.844-06:00",
+        "version": {
+          "schema": 0.815,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "weight": {
+      "value": "L"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "preciousMaterial": {
+      "value": null
+    },
+    "preciousMaterialGrade": {
+      "value": null
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "MAP": {
+      "value": ""
+    },
+    "potencyRune": {
+      "value": 1
+    },
+    "strikingRune": {
+      "value": "striking"
+    },
+    "propertyRune1": {
+      "value": null
+    },
+    "propertyRune2": {
+      "value": null
+    },
+    "propertyRune3": {
+      "value": null
+    },
+    "propertyRune4": {
+      "value": null
+    },
+    "property1": {
+      "value": "",
+      "dice": null,
+      "die": "",
+      "damageType": "",
+      "critDice": null,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "criticalConditionType": "",
+      "criticalConditionValue": null,
+      "strikeConditionType": "",
+      "strikeConditionValue": null
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673457085752,
+    "modifiedTime": 1677352139889,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.equipment-srd.LGgvev6AV0So8tP9",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "TSE3mPgQ70Ut1k1b",
+  "sort": 0
+}

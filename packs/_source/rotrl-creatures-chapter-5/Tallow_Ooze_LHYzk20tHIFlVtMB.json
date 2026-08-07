@@ -1,0 +1,717 @@
+{
+  "_id": "LHYzk20tHIFlVtMB",
+  "name": "Tallow Ooze",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "4hQQHFYYXkIr2wtS",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Pseudopod",
+      "sort": 100000,
+      "type": "melee",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.101-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "i1i64k2z4hj0gwcdba5d": {
+            "damage": "2d10+10",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 23
+        },
+        "attackEffects": {
+          "value": [
+            "residual-grease"
+          ]
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!LHYzk20tHIFlVtMB.4hQQHFYYXkIr2wtS"
+    },
+    {
+      "_id": "6T41uBvYSdsd3etb",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Congealed",
+      "sort": 200000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Whenever the tallow ooze takes fire damage, it becomes quickened for 1 round (it can only Stride or Strike with the extra action). Whenever the tallow ooze is dealt cold damage (even if that damage is prevented by its resistance), it becomes slowed 1 for 1 round and can't use its Engulf ability (but creatures already engulfed are still engulfed).</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.101-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!LHYzk20tHIFlVtMB.6T41uBvYSdsd3etb"
+    },
+    {
+      "_id": "dCh3xhDcX6ef0gtU",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Greasy Seepage",
+      "sort": 300000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>10 feet. Any creature that starts its turn in or enters a square in the area must attempt a <span data-pf2-action=\"balance\" data-pf2-dc=\"30\" data-pf2-traits=\"aura\" data-pf2-glyph=\"A\" data-pf2-label=\"Greasy Seepage DC\" data-pf2-show-dc=\"gm\">Acrobatics</span> check to Balance. A creature that takes a Step doesn't need to roll this check.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "aura"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.101-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!LHYzk20tHIFlVtMB.dCh3xhDcX6ef0gtU"
+    },
+    {
+      "_id": "8kNg53i0CquI08Bo",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Engulf",
+      "sort": 400000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>DC 30, 4d10 bludgeoning, Escape DC 26, Rupture 25</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.101-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 2
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!LHYzk20tHIFlVtMB.8kNg53i0CquI08Bo"
+    },
+    {
+      "_id": "JW7pj6pjhMG4D95l",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Residual Grease",
+      "sort": 500000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>When the tallow ooze critically succeeds at an attack against a creature or a creature escapes from being engulfed by the ooze, that creature's hands and gear become slick with grease. For [[/br 1d4 #rounds]]{1d4 rounds}, the affected creature must attempt a @Check[type:reflex|dc:30] save whenever it uses any item (including weapons) that must be wielded or held. On a failure, the creature takes a -2 circumstance penalty to any attack roll or check to use the item; on a critical failure, the creature drops the item, which lands in a random adjacent square. The creature (or an adjacent ally) can use 1 Interact action to wipe off the grease from an item or from its hands.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.101-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!LHYzk20tHIFlVtMB.JW7pj6pjhMG4D95l"
+    },
+    {
+      "_id": "CIaWl6lT5hduxe9Q",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 600000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 23
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.101-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!LHYzk20tHIFlVtMB.CIaWl6lT5hduxe9Q"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 270,
+        "temp": 0,
+        "max": 270,
+        "details": ""
+      },
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "swim",
+            "value": 20
+          }
+        ],
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "perception": {
+        "value": 14
+      },
+      "immunities": [
+        {
+          "type": "acid"
+        },
+        {
+          "type": "critical-hits"
+        },
+        {
+          "type": "mental"
+        },
+        {
+          "type": "piercing"
+        },
+        {
+          "type": "precision"
+        },
+        {
+          "type": "slashing"
+        },
+        {
+          "type": "unconscious"
+        },
+        {
+          "type": "visual"
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 11
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "Pathfinder #154: Siege of the Dinosaurs",
+        "author": ""
+      },
+      "creatureType": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": -5
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -5
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 22,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 13,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "mindless",
+        "ooze"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": "motion sense 60 feet, no vision"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      }
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:05:15.101-06:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 1,
+    "name": "Tallow Ooze",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.350",
+    "createdTime": 1673456715934,
+    "modifiedTime": 1673457034083,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.extinction-curse-bestiary.BORxkpaFBSCyB1f1",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!LHYzk20tHIFlVtMB"
+}

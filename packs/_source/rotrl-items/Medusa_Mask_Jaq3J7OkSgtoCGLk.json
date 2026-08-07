@@ -1,0 +1,193 @@
+{
+  "_id": "Jaq3J7OkSgtoCGLk",
+  "name": "Medusa Mask",
+  "type": "equipment",
+  "img": "links/RotRL/Artwork/Medusa%20Mask.webp",
+  "effects": [],
+  "flags": {
+    "pdfoundry-pf2e": {
+      "source": ""
+    },
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This intricate mask is made of gold-plated iron. Writhing snake tails radiate from a gemstone upon the brow, almost as if they were medusa-like hair. Wearing the mask grants a +1 item bonus to Will saves and Perception checks against spells with the Visual trait.</p>\n<p><strong>Activate </strong><span class=\"pf2-icon\">D</span><strong> </strong>envision; <strong>Frequency </strong>Once per day; <strong>Effect </strong>The mask casts a @Compendium[pf2e.spells-srd.znv4ECL7ZtuiagtA]{Flesh to Stone} spell with a DC of 24, but the resulting petrification effect only lasts for 1 minute instead of permanently.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "will",
+        "label": "Medusa Mask (vs Visual)",
+        "value": 1,
+        "type": "item",
+        "predicate": [
+          "visual"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "perception",
+        "label": "Medusa Mask (vs Visual)",
+        "value": 1,
+        "type": "item",
+        "predicate": [
+          "visual"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested",
+        "magical",
+        "transmutation"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "brokenThreshold": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": false
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "wornmask"
+    },
+    "subitems": [],
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:11:25.348-06:00",
+        "version": {
+          "schema": null,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "weight": {
+      "value": "L"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "preciousMaterial": {
+      "value": ""
+    },
+    "preciousMaterialGrade": {
+      "value": ""
+    },
+    "identified": {
+      "value": true
+    },
+    "rarity": {
+      "value": "common"
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    },
+    "property2": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    },
+    "property3": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.351",
+    "createdTime": 1673457085775,
+    "modifiedTime": 1770944360279,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-items.Jaq3J7OkSgtoCGLk",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_key": "!items!Jaq3J7OkSgtoCGLk"
+}

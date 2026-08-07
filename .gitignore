@@ -1,2 +1,12 @@
 /.idea/
 /pf2e-conversion-rotrl.lock
+
+# Node
+node_modules/
+
+# Compiled compendium packs (LevelDB) - these are a build artifact.
+# Source of truth lives in packs/_source/**/*.json (see scripts/packs.mjs,
+# `npm run pack` / `npm run unpack`). Run `npm run pack` locally to
+# regenerate these before loading the module in Foundry or cutting a release.
+/packs/*/
+!/packs/_source/

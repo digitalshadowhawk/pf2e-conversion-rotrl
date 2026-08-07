@@ -1,0 +1,271 @@
+{
+  "name": "Ghostly Revels",
+  "type": "hazard",
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Ghostly Revels",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    },
+    "attributes": {
+      "hp": {
+        "value": 64,
+        "max": 64,
+        "temp": 0,
+        "details": ""
+      },
+      "ac": {
+        "value": 27
+      },
+      "hardness": 16,
+      "stealth": {
+        "value": 21,
+        "details": "<p>(expert) to notice the source as the pool.</p>"
+      },
+      "immunities": [
+        {
+          "type": "critical-hits",
+          "exceptions": []
+        },
+        {
+          "type": "precision",
+          "exceptions": []
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "force",
+          "value": 16,
+          "exceptions": []
+        }
+      ],
+      "resistances": [],
+      "emitsSound": "encounter"
+    },
+    "details": {
+      "description": "",
+      "level": {
+        "value": 8
+      },
+      "isComplex": false,
+      "disable": "",
+      "routine": "<p>The ghostly revelers move up to 80 feet; any creature whose space they move through must make a @Check[type:will|dc:26|basic] save against @Damage[(2d10+11)[void]]{2d10+11 void} damage. A single creature can only be subject to this damage once during the hazard's routine.</p>",
+      "reset": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 15
+      },
+      "reflex": {
+        "value": 17
+      },
+      "will": {
+        "value": null
+      }
+    }
+  },
+  "_id": "u4sZuJki8eUlBfpJ",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "type": "action",
+      "name": "Unnatural Chill",
+      "system": {
+        "actionType": {
+          "value": "free"
+        },
+        "description": {
+          "value": "<p><strong>Trigger</strong> A creature passes through the Ghostly Revel's space.</p><hr /><p>The creature takes @Damage[(2d10+11)[void]]{2d10 void} damage @Check[type:will|dc:26|basic]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "death",
+            "void"
+          ]
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "IxfcXMzzKISB4Bvh",
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771032271494,
+        "modifiedTime": 1771032391214,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "_key": "!actors.items!u4sZuJki8eUlBfpJ.IxfcXMzzKISB4Bvh"
+    }
+  ],
+  "folder": null,
+  "sort": 500000,
+  "flags": {
+    "pf2e": {
+      "editMode": false
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1771032049600,
+    "modifiedTime": 1771041993011,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "_key": "!actors!u4sZuJki8eUlBfpJ"
+}

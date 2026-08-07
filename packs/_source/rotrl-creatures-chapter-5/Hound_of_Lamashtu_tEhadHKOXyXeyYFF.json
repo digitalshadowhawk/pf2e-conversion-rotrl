@@ -1,0 +1,729 @@
+{
+  "_id": "tEhadHKOXyXeyYFF",
+  "name": "Hound of Lamashtu",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "YKU9jNCU7sdhl9sE",
+      "name": "Attack of Opportunity",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p>You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "attack-of-opportunity",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.381-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.actionspf2e.KAVf7AmRnbCAHrkT",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tEhadHKOXyXeyYFF.YKU9jNCU7sdhl9sE"
+    },
+    {
+      "_id": "S409BTO76hJlJJuv",
+      "name": "Bay",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>All non-fiend creatures within 300 feet must attempt a @Check[type:will|dc:28] save or become @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p>A creature that critically fails and is within 60 feet of the Hound is instead @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3} and @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Fleeing} for [[/r 1d4]] rounds or until it recovers from its frightened condition. Whether a creature succeeds or fails, the creature is temporarily immune to Bay for 24 hours.&nbsp;</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "auditory",
+            "concentrate",
+            "divine",
+            "enchantment",
+            "fear",
+            "mental"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "domain": "all",
+            "option": "has-advanced-maneuver",
+            "priority": 1
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.381-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 3
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "vD7HMkL8eJh8gXaP": 3,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.EvuMVR9ut9wIHOtq",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tEhadHKOXyXeyYFF.S409BTO76hJlJJuv"
+    },
+    {
+      "_id": "F4Pbc2n1I3Nusd3O",
+      "name": "Lamashtu Venom",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:28|name:Lamashtu Venom]</p>\n<p><strong>Max Duration</strong> 6 Rounds</p>\n<p><strong>Stage 1</strong> [[/r 2d6[poison]]] damage and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}</p>\n<p><strong>Stage 2</strong>&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">[[/r 2d6[poison]]] damage and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}</span></p>\n<p><strong>Stage 3</strong>&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">[[/r 2d6[poison]]] damage and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2} and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}</span></p>\n<p><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;</span></p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "poison"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.381-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Item.IiO8ytUL6tJgUAXR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tEhadHKOXyXeyYFF.F4Pbc2n1I3Nusd3O"
+    },
+    {
+      "_id": "oVS2I5ucAiw8MMCX",
+      "name": "Jaw",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "evil"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.381-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "urbre3z0j17x892of6k0": {
+            "damage": "2d8+11",
+            "damageType": "evil"
+          }
+        },
+        "bonus": {
+          "value": 21
+        },
+        "attackEffects": {
+          "value": [
+            "knockdown",
+            "sinister-bite"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tEhadHKOXyXeyYFF.oVS2I5ucAiw8MMCX"
+    },
+    {
+      "_id": "K8Whg3w0nFvnUJNj",
+      "name": "Stinger",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "evil"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.381-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "385x2f4ovqf2fzrrwzor": {
+            "damage": "2d6+9",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 21
+        },
+        "attackEffects": {
+          "value": [
+            "lamashtu-venom"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tEhadHKOXyXeyYFF.K8Whg3w0nFvnUJNj"
+    },
+    {
+      "_id": "ZvFyU8nEsgwX7qYq",
+      "name": "Sinister Bite",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>A good creature bitten by a yeth hound must attempt a @Check[type:will|dc:28] save. On a critical success, the creature is temporarily immune to sinister bite for 1 minute. A creature that fails becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}, or increases the value of its frightened condition by 1 if already frightened.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:15.381-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Item.MgWi09fDy6GgzHJM",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tEhadHKOXyXeyYFF.ZvFyU8nEsgwX7qYq"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "pf2e": {
+      "lootable": false
+    },
+    "core": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "temp": 0,
+        "max": 160,
+        "details": ""
+      },
+      "ac": {
+        "value": 28,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "perception": {
+        "value": 18
+      },
+      "weaknesses": [
+        {
+          "type": "silver",
+          "value": 10
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 9
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "NE"
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": -2
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 19,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 20,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "beast",
+        "fiend"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "abyssal"
+        ],
+        "selected": [],
+        "custom": "(cannot speak)"
+      }
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:05:15.381-06:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "disposition": -1,
+    "name": "Hound of Lamashtu",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.350",
+    "createdTime": 1673456715992,
+    "modifiedTime": 1673457034122,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Actor.h1sOMU06Eyt4Xvpy",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!tEhadHKOXyXeyYFF"
+}

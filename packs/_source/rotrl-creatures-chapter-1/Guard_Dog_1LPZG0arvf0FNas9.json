@@ -1,0 +1,379 @@
+{
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "iUAQwRninJ973LoN",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 100000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 6
+        },
+        "damageRolls": {
+          "mlo52lt8umjg4587bh4e": {
+            "damage": "1d4+1",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!1LPZG0arvf0FNas9.iUAQwRninJ973LoN"
+    },
+    {
+      "_id": "GWK22q1k4VFPbsKf",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Pack Attack",
+      "sort": 200000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>The dog's Strikes deal 1d4 extra damage to creatures within the reach of at least two of the dog's allies.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "domain": "damage",
+            "key": "RollOption",
+            "option": "pack-attack",
+            "toggleable": true
+          },
+          {
+            "diceNumber": 1,
+            "dieSize": "d4",
+            "key": "DamageDice",
+            "predicate": [
+              "pack-attack"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!1LPZG0arvf0FNas9.GWK22q1k4VFPbsKf"
+    }
+  ],
+  "name": "Guard Dog",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 8,
+        "temp": 0,
+        "max": 8,
+        "details": ""
+      },
+      "ac": {
+        "value": 15,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": -1
+      },
+      "blurb": "",
+      "publicNotes": "<p>The typical guard dog is loyal and beloved by many communities. Often adored as pets, they excel as protectors and trackers, and can be fearless when defending a beloved master or family member. The statistics presented below work well for numerous breeds of dog ranging from 20 to 50 pounds in weight. Wild dogs can also use these statistics, but their untamed nature makes them far more unpredictable. Feral canines are perhaps even more dangerous, for unlike their wild cousins, feral dogs often lack the instinctual fear of humanity that stops wild creatures from interacting with people.</p>\n<hr />\n<p>Dogs are trusted and loyal companions that serve as guardians, tracking animals, and pets. Their ability to detect prey or predators via scent and their predilection to accompany humanoids makes them ideal pets for most adventurers. There are hundreds of breeds of dogs in the world—from tiny lapdogs who shower their masters in affection to brawny hounds that stand nearly 4 feet high at the shoulder—and they can be found in nearly any place where people reside. Larger breeds might even be used as mounts for smaller adventurers, and some cultures use dogs as beasts of burden capable of pulling sleds loaded with supplies across the icy tundra. Regardless, many adventurers find value in having a dog.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Monster Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 6,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 4,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 5
+      },
+      "athletics": {
+        "base": 4
+      },
+      "stealth": {
+        "base": 5
+      },
+      "survival": {
+        "base": 4
+      }
+    },
+    "traits": {
+      "value": [
+        "animal"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "sm"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1770940729975,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Guard Dog",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "flags": {},
+  "_id": "1LPZG0arvf0FNas9",
+  "sort": 0,
+  "_key": "!actors!1LPZG0arvf0FNas9"
+}

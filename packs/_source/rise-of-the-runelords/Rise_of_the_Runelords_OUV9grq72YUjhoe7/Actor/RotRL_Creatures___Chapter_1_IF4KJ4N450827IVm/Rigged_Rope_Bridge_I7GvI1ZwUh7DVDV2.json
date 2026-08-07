@@ -1,0 +1,215 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "disposition": 0,
+    "name": "Rigged Rope Bridge",
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_id": "I7GvI1ZwUh7DVDV2",
+  "name": "Rigged Rope Bridge",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "core": {}
+  },
+  "system": {
+    "source": {
+      "value": ""
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 1,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 1,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 16,
+        "max": 16,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 4,
+      "stealth": {
+        "value": 0,
+        "details": "<p>DC 18</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": true,
+      "immunities": [
+        {
+          "type": "critical-hits"
+        },
+        {
+          "type": "object-immunities"
+        },
+        {
+          "type": "precision"
+        }
+      ]
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 0
+      },
+      "disable": "<p>DC 14 Crafting (trained) DC 12 Thievery to reinforce the bridge.</p>",
+      "description": "<p>The goblins have rigged it so if more than three Medium creatures (with a Small creature counting as a third of a Medium Creature and a Large creature as three Medium ones) attempt to cross, the western supports tear free, dropping the planks down to hang vertically from th eastern rope and dumping anyone on the bridge into the waters below.</p>",
+      "reset": "",
+      "routine": "<p>Bridge Collapse&nbsp; Trigger More than 3 Medium creatures are standing on the rope bridge at the same time' Effect The bridge collapses. Each creature on the bridge when it does so falls 80 feet to the water below. Those who fall into the water below take 5d6 damage.<br /><br />The DC to Grab an Edge is 15.&nbsp; The DC to choose to deliberately die into the water below is DC 15 Acrobatics.&nbsp; To successfully dive into the water below and take no damage, is a DC 15 Athletics (Swim) check. Failure indicates normal falling into water damage of 5d6.&nbsp;</p>"
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:10:45.228-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456676240,
+    "modifiedTime": 1677352246355,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.I7GvI1ZwUh7DVDV2",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "IF4KJ4N450827IVm",
+  "sort": 0
+}

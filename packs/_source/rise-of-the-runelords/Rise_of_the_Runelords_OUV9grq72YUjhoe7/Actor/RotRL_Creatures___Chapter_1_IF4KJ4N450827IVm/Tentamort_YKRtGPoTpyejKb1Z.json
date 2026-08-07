@@ -1,0 +1,832 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "disposition": -1,
+    "name": "Tentamort",
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_id": "YKRtGPoTpyejKb1Z",
+  "name": "Tentamort",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "FLmWUjl6VaVjBbrR",
+      "name": "Acrobatics",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:45.390-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "cXn5wCsgCY5cCkpo",
+      "name": "Athletics",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 15
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:45.390-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "gHlxpSjmtrWCyFZK",
+      "name": "Stealth",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:45.390-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "VWq7zo9NQL01Qbp8",
+      "name": "Blood Drain",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> The Tentamort has a creature grabbed with the restrained or immobilized condition that has taken damage from Tentamort Venom <strong>Effect</strong> The Tentamort drinks the blood and liquiﬁed organs of the grabbed creature. The creture takes 1d8+5 damage and is drained 1, and the Tentamort gains temporary Hit Points equal to the damage dealt. The drained condition persists until the creature receives healing of any kind or amount.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:45.390-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "fFf3x20fD0eIXpQV",
+      "name": "Implant Eggs",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> The Tentamort has a creature grabbed with the immobilized condition<strong> Effect</strong> The Tentamort implants eggs under the skin of the grabbed creature, exposing it to Tentamort Disease.</p>\n<p><strong>Tentamort Disease</strong> [disease]</p>\n<p><strong>Saving Throw</strong> Fortitude DC 18</p>\n<p><strong>Stage 1 </strong>drained 1 [1 week];</p>\n<p><strong>Stage 2</strong> drained 2 [1 week];</p>\n<p><strong>Stage 3 </strong>6d6 piercing damage as 3d6 hand size Tentamorts emerge from within the victims body. The disease then ends.</p>\n<p>The drained condition cannot be removed until the disease is cured or runs its course.</p>\n<p>&nbsp;</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:45.390-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "cjfyTBEvHcOoeXZi",
+      "name": "Strike",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Tentamort Venom </strong>[poison]</p>\n<p><strong>Saving Throw</strong> DC 18 Fortitude;</p>\n<p><strong>Maximum Duration</strong> 6 rounds;</p>\n<p><strong>Stage 1</strong> 1d6 poison [1 round];</p>\n<p><strong>Stage 2 </strong>1d6 poison and drained 1. The venom liquiﬁes the victim's internal organs into a rancid slurry.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:45.391-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "hff9mot1yjj11ztshsns": {
+            "damage": "2d6+5",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 14
+        },
+        "attackEffects": {
+          "value": [],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "I4SyZOfh8kYp1YTK",
+      "name": "Strike",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:45.391-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "reach-10"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0gi2f53ofp77glfga2tv": {
+            "damage": "2d6+5",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 14
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "OXdZm9iRppc3yr26",
+      "name": "Constrict",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>DC 21</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:45.391-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "t4les53ba56byu3khmy7": {
+            "damage": "1d6+5",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 0
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "lootable": false
+    },
+    "core": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 72,
+        "temp": 0,
+        "max": 72,
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 15,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 15
+          }
+        ],
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "perception": {
+        "value": 14
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 4
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 11,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "aberration"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": "darkvision; all around vision"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:10:45.390-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456676271,
+    "modifiedTime": 1677352246398,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.YKRtGPoTpyejKb1Z",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "IF4KJ4N450827IVm",
+  "sort": 0
+}

@@ -1,0 +1,357 @@
+{
+  "_id": "A4oujfmLwmMEmFwa",
+  "name": "The Hungry Dead",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "0FpzSygcs7G688GT",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "You are already dead",
+      "sort": 100000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> A creature touches the bones .</p>\n<p><strong>Effect&nbsp;</strong>To observers, the haunted character suddenly begins thrashing wildly, as if dozens of invisible hands were tugging and pushing him about the room. At the same time, bloody wounds from invisible teeth appear across the victim's body. The haunted character perceives that he has suddenly been surrounded by half a dozen emaciated but fantastically strong dwarves, all of whom are attempting to eat him alive. The 6 ghosts each make an attack roll against the PC.</p>\n<p>A character killed by these bites is torn apart so that nothing remains but a red, well-gnawed skeleton draped in his gear.&nbsp;</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "necromancy",
+            "occult"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:25.515-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A4oujfmLwmMEmFwa.0FpzSygcs7G688GT"
+    },
+    {
+      "_id": "xwlu2n7SWFPLtHS3",
+      "name": "Ghost Dwarf (6x)",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "necromancy",
+            "occult"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:25.515-06:00",
+            "version": {
+              "schema": null,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "upifamb3waq7vs6m0k1r": {
+            "damage": "1d10+6",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 32
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A4oujfmLwmMEmFwa.xwlu2n7SWFPLtHS3"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "system": {
+    "source": {
+      "value": "Pathfinder Core Rulebook"
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": "",
+        "tempmax": 0
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 31,
+        "details": "<p>(Expert) to hear the rising whispers and slobbering grunts of the hungry dead.</p>\n<p>&nbsp;</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": false
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 14
+      },
+      "disable": "<ul>\n<li>@Check[type:religion|dc:38|traits:haunt] (trained) to temporarily sanctify the bones</li>\n</ul>",
+      "description": "<p>The first person to examine the bones is in for a rough surprise - on one of the bones, he recognizes his own jewelry: a ring on a skeletal finger, a necklace draped over a ribcage, or a belt dangling over ivory hips. With this discovery comes the conviction that the gnawed bones are, in fact, that character's own. An instant later, that character becomes surrounded by a whirling storm of shadowy forms as the ghosts of the cannibalized dead attempt to add that PC to their number. </p>",
+      "reset": "<p>1 minute</p>",
+      "routine": ""
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:05:25.515-06:00",
+        "version": {
+          "schema": 0.719,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "disposition": 0,
+    "height": 1,
+    "name": "Bloodthirsty Urge",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "tokenizer/npc-images/gold_eating_dwarf.Token.webp?1645370702833",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.350",
+    "createdTime": 1673456726612,
+    "modifiedTime": 1673457051923,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.hazards.su4TRBOoso4vjkoK",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!A4oujfmLwmMEmFwa"
+}

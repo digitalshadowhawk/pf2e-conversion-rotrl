@@ -1,0 +1,289 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "disposition": 0,
+    "height": 1,
+    "name": "Misogynistic Rage",
+    "width": 1,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      },
+      "autorotate": {
+        "enabled": null
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "light": {}
+      },
+      "core": {}
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "name": "Misogynistic Rage",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "7ydzSDVzWIwddpd0",
+      "name": "Vengeful Possession",
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Vengeful Possession:</strong> <span class=\"pf2-icon\">R</span> {incapacitaﬂon} Trigger Haunted character enters the room. Chaacter must make a @Check[type:will|dc:27|name:Suggestion|traits:mental,incapacitating,linguistic,necromancy,occult]save or lose control of their character to the haunt.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:34.574-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "_id": "50Lk25gmUaJ0iJmc",
+  "system": {
+    "source": {
+      "value": ""
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 11,
+        "details": "<p>(trained)</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": true
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 3
+      },
+      "disable": "<p style=\"text-align: justify;\">@Check[type:diplomacy|dc:20|name:To Calm the Haunt|traits:complex,haunt] (expert) Twice to Calm the Haunt,</p>\n<p style=\"text-align: justify;\">@Check[type:occultism|dc:25|name:To Banish Haunt|traits:complex,haunt] (expert) To Banish Haunt,</p>\n<p style=\"text-align: justify;\">@Check[type:religion|dc:25|name: To Banish Haunt|traits:complex,haunt] (expert) To Banish Haunt,</p>\n<p style=\"text-align: justify;\">@Check[type:perception|dc:21|name:To Hear Faint Piano Music|traits:complex,haunt] (trained) To Hear \"What Did You Get Up To Down in The Damp Below?\"</p>",
+      "description": "<p style=\"text-align:justify\">You suddenly becomes dizzy and stagger. An instant later, the dizzy spell passes but you becomes filled with an overwhelming hatred of women, and are driven by an urge to attack the closest woman.</p>",
+      "reset": "<p>The haunt automatically resets after 1 day until the supernatural fungus in B37 is dealt with, even if the haunt was previously disabled.</p>",
+      "routine": "<p style=\"text-align: justify;\">The haunt uses stealth for initiative. On the turn of the possessed character, the haunt uses ail of the possessed character&rsquo;s actions to attack a female target until the target is slain. the possessed target is unconscious. or the haunt is disabled. At the end of each round the possessed target receives another will save.&nbsp;</p>\n<p style=\"text-align: justify;\"><strong>Vengeful Haunt:&nbsp;</strong>This Haunt only affects those haunted by Iesha Foxgmne, Aidan's murdered wife who desires vengeance for her murdmer. If no creatures in a goup are haunted by lesha Foxglove, this haunt may target any creature.</p>\n<p style=\"text-align: justify;\"><strong>Actions:</strong>&nbsp;1</p>"
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:10:34.574-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456686300,
+    "modifiedTime": 1677352235375,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pfs-introductions-bestiary.O6KTpMxRnrft3j1g",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "5tmJBPGoHxPAsIPj",
+  "sort": 0
+}

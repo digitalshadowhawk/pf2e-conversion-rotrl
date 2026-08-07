@@ -1,0 +1,277 @@
+{
+  "name": "Dance of Ruin",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "pakthfbtn902lfkq",
+      "name": "Enfeebled",
+      "type": "condition",
+      "img": "systems/pf2e/icons/conditions/enfeebled.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "condition": true
+        },
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>You're physically weakened. Enfeebled always includes a value. When you are enfeebled, you take a status penalty equal to the condition value to Strength-based rolls and DCs, including Strength-based melee attack rolls, Strength-based damage rolls, and Athletics checks.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": "enfeebled",
+        "references": {
+          "children": [],
+          "overrides": [],
+          "overriddenBy": [],
+          "parent": null
+        },
+        "group": "abilities",
+        "value": {
+          "isValued": true,
+          "value": 1
+        },
+        "overrides": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "fromSpell": false,
+        "persistent": null
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!qTpmzVHfNWhOxnGF.pakthfbtn902lfkq"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 3800000,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "_id": "qTpmzVHfNWhOxnGF",
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 10,
+        "details": "<ul>\n<li><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">@Check[type:perception|dc:20|name:To Hear Faint Piano Music|traits:complex,haunt,hazard] (expert)</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">To Hear Faint Piano Music</span></li>\n</ul>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 3
+      },
+      "disable": "<ul>\n<li>@Check[type:religion|dc:20|name:Once to quiet the Spirit|traits:complex,haunt,hazard] (expert)&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">Once to quiet the Spirit.</span></li>\n<li>@Check[type:occultism|dc:20|name:Once to quiet the Spirit|traits:auditory,complex,haunt,sonic,hazard] (expert) to&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">Once to quiet the Spirit.</span></li>\n</ul>",
+      "description": "<p><span class=\"fontstyle0\">As ghostly music emanates from the piano, a ghostly woman in a ballroom gown shimmers in the air and takes your hand, leading you in a dance... </span></p>\n<p><strong>Vengful Haunt</strong>: This Haunt only affects those haunted by Jescha Foxglove, Alderns murdered wife who desires vengance for their murder. If no creatures in a group are haunted by Jescha Foxglove this haunt may target any creature.</p>",
+      "reset": "<p>This Haunt automatially resets after one day until the supernatural Fungus in B37 is dealt with, even if the haunt was previously disabled.</p>",
+      "routine": "<p><strong style=\"text-align: justify;\">Dance&nbsp;<strong><span class=\"pf2-icon\">R</span></strong></strong><span style=\"text-align: justify;\">&nbsp;</span><strong style=\"text-align: justify;\">Trigger&nbsp;</strong><span style=\"text-align: justify;\">A Creature touches any of the piano keys - Haunted character must make a&nbsp;</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;@Check[type:will|dc:23|name:Suggestion|traits:mental,incapacitating,linguistic,necromancy,occult] save to avoid&nbsp;</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">or be drawn into the Haunt's routine.</span></p>\n<p><strong style=\"text-align: justify;\">Routine</strong><span style=\"text-align: justify;\">: For <span style=\"text-align: start;\">[[/r {1d6}]]</span>&nbsp;rounds, the Haunt and any creature caught by &ldquo;Dance\" continue to dance. The dancing creature must make a&nbsp;<span style=\"text-align: start;\">@Check[type:performance|dc:17]</span> check each round, or have their @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} value increase by 1, to a maximum of @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} 4. This enfeebled condition is reduced by 1 after a full night's rest. Any creature whose enfeebled value would increase beyond 4, or any creature who is enfeebled when the routine ends, becomes @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued}.</span></p>\n<p><strong style=\"text-align: justify;\">Wrathful Shriek:<span class=\"pf2-icon\">&nbsp;R</span>&nbsp;&nbsp;</strong><span style=\"text-align: justify;\">&nbsp;</span><strong style=\"text-align: justify;\">Trigger</strong><span style=\"text-align: justify;\"> A creature caught in the haunt&rsquo;s routine is successfully grappled or restrained. All creatures in B7 must make a&nbsp;<span style=\"text-align: start;\">@Check[type:will|dc:23|name:Suggestion|traits:mental,incapacitating,linguistic,necromancy,occult] save</span>.</span></p>\n<ul>\n<li><span style=\"text-align: justify;\"><strong>Failure</strong>: </span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">[[/r 4d6[mental]]] damage and </span><span style=\"text-align: justify;\">@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}</span></li>\n<li><span style=\"text-align: justify;\"><strong>Critical Failure</strong>:&nbsp;</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">[[/r 4d6[mental]]] damage and </span><span style=\"text-align: justify;\">@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2}</span></li>\n</ul>\n<p><span style=\"text-align: justify;\">This stupeﬁed condition reduces by 1 after a full night&rsquo;s rest.</span></p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "disposition": 0,
+    "height": 1,
+    "name": "Phantom Bells",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "coreVersion": "13.351",
+    "createdTime": 1673456686408,
+    "modifiedTime": 1770946408423,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e.age-of-ashes-bestiary.IdpkEJycZgrkvdSn",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!qTpmzVHfNWhOxnGF"
+}

@@ -1,0 +1,10 @@
+# Compiled compendium packs (LevelDB) are a generated build artifact and are
+# gitignored - but if one is ever force-added, keep it binary so git doesn't
+# corrupt it with line-ending conversion. Excludes packs/_source, which is
+# plaintext JSON (see rule below).
+packs/[!_]*/** binary
+
+# The plaintext JSON pack source (edited directly, compiled to packs/<name>
+# via `npm run pack`) should always be treated as text with LF endings so
+# diffs stay clean regardless of the contributor's OS.
+packs/_source/**/*.json text eol=lf

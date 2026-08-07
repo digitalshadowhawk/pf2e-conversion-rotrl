@@ -1,0 +1,910 @@
+{
+  "_id": "Th0xJ5hwgIZQtSaA",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "RUu1pYtMti8zEZKt",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.UfurZQK6H6SgOjqe",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "icons/weapons/polearms/trident-curved-steel.webp",
+      "name": "Ranseur",
+      "sort": 100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This polearm is a long trident with a central prong that's longer than the other two.</p>"
+        },
+        "rules": [],
+        "slug": "ranseur",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "disarm",
+            "reach"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "ranseur",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 2
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "polearm",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d10",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "ammo": null,
+        "reload": {
+          "value": null
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        }
+      },
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Th0xJ5hwgIZQtSaA.RUu1pYtMti8zEZKt"
+    },
+    {
+      "_id": "lOGhyEufGuD2T8aX",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 200000,
+      "system": {
+        "attackEffects": {
+          "value": [
+            "sinful-bite"
+          ]
+        },
+        "bonus": {
+          "value": 10
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d8+4",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Th0xJ5hwgIZQtSaA.lOGhyEufGuD2T8aX"
+    },
+    {
+      "_id": "El6yEwdcVoYxSpbv",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "sort": 300000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 10
+        },
+        "damageRolls": {
+          "c77v540v257tzo9b0k3s": {
+            "damage": "1d6+4",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Th0xJ5hwgIZQtSaA.El6yEwdcVoYxSpbv"
+    },
+    {
+      "_id": "b4VPzag6lVAYu0Qk",
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "RUu1pYtMti8zEZKt"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Ranseur",
+      "sort": 400000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 10
+        },
+        "damageRolls": {
+          "MLeEbcg4hTDso6PX": {
+            "damage": "1d10+4",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "ranseur",
+        "traits": {
+          "value": [
+            "disarm",
+            "reach-10"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Th0xJ5hwgIZQtSaA.b4VPzag6lVAYu0Qk"
+    },
+    {
+      "_id": "hk7qH9BpvzM7rFGe",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Sin Scent (Imprecise) 30 feet",
+      "sort": 500000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>A sinspawn can smell creatures that reflect its sin as the scent ability. The GM determines which creatures are appropriately sinful.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Th0xJ5hwgIZQtSaA.hk7qH9BpvzM7rFGe"
+    },
+    {
+      "_id": "d8HKHc0xY8ipNaHu",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "+1 Status to All Saves vs. Magic",
+      "sort": 600000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "item:magical"
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 1
+          }
+        ],
+        "slug": "1-status-to-all-saves-vs-magic",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Th0xJ5hwgIZQtSaA.d8HKHc0xY8ipNaHu"
+    },
+    {
+      "_id": "nMOq1aUvaAjrygsK",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "+4 Status to All Saves vs. Mental",
+      "sort": 700000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "item:trait:mental"
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 4
+          }
+        ],
+        "slug": "1-status-to-all-saves-vs-magic",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Th0xJ5hwgIZQtSaA.nMOq1aUvaAjrygsK"
+    },
+    {
+      "_id": "KC0EDtBsU8uqFaKL",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Reactive Strike",
+      "sort": 800000,
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "reactive-strike",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Th0xJ5hwgIZQtSaA.KC0EDtBsU8uqFaKL"
+    },
+    {
+      "_id": "MpNlJrdPvv9bECNE",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Sinful Bite",
+      "sort": 900000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>A creature hit by the jaws of a sinspawn must attempt a @Check[will|dc:18] save as it is assailed by sinful thoughts.</p>\n<hr />\n<p><strong>Critical Success</strong> Unaffected</p>\n<p><strong>Success</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}</p>\n<p><strong>Failure</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}</p>\n<p><strong>Critical Failure</strong> sickened 2 plus @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 minute</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "sinful-bite",
+        "traits": {
+          "value": [
+            "arcane",
+            "emotion",
+            "mental"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Th0xJ5hwgIZQtSaA.MpNlJrdPvv9bECNE"
+    }
+  ],
+  "name": "Wrathspawn",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 30,
+        "temp": 0,
+        "max": 30,
+        "details": ""
+      },
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "allSaves": {
+        "value": "+1 status to all saves vs. magic, +4 status to all saves vs. mental"
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [
+        {
+          "type": "controlled"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "mental",
+          "value": 5
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "aklo"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 2
+      },
+      "blurb": "",
+      "publicNotes": "<p>Sinspawn were created by one of seven ancient wizards known collectively as runelords—each of whom embraced and embodied one of seven sins. The first sinspawn was created by the Runelord of Wrath, utilizing techniques that have since gone on to influence fleshwarping practices. It wasn't long before the technique used to create sinspawn fell into the hands of the other runelords, and while each tried their own hand at crafting variants of their own design, today, sinspawn of wrath remain the most numerous and notorious of their kind.</p>\n<p>Bearing only a vague resemblance to the humanoids from whose flesh they were formed, sinspawn generally appear horrifically emaciated and have unnaturally long arms and digitigrade legs, each with a trio of stubby, taloned digits. Veins bulge across sinspawn's bodies in sanguine patterns that suspiciously resemble twisted runes, and their flesh is pale and hairless. Their heads are elongated, with slits for a nose, red eyes, and disturbing lower jaws that split in half at the chin, revealing pedipalps that end in tiny, three-fingered hands and framing a long, lolling tongue.</p>\n<p>Sinspawn stand 6-1/2 feet tall and typically weigh as much as an emaciated human of their size. They behave in a manner consistent with their associated sin and have physical characteristics that hint at these qualities. For example, greedspawn's veins appear to run with gold, while envyspawn appear even more gaunt than the rest of their kin.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Monster Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.947,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 10,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 6,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 9
+      },
+      "athletics": {
+        "base": 12
+      },
+      "stealth": {
+        "base": 9
+      },
+      "survival": {
+        "base": 6
+      }
+    },
+    "traits": {
+      "value": [
+        "aberration"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.pathfinder-monster-core.Actor.yv7hdQ3MO3pLgCF5",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1761248973947,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Wrathspawn",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "folder": null,
+  "sort": 5400000,
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "flags": {},
+  "_key": "!actors!Th0xJ5hwgIZQtSaA"
+}

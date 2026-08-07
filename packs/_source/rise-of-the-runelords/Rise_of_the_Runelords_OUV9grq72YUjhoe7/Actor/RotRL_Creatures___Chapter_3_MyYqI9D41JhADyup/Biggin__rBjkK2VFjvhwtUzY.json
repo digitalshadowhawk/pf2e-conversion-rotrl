@@ -1,0 +1,1850 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "_version": 1
+      },
+      "conditional-visibility": {
+        "blindsight": false,
+        "truesight": false,
+        "devilssight": false,
+        "tremorsense": false,
+        "seeinvisible": false
+      },
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "name": "Elite Biggin'",
+    "width": 3,
+    "height": 3,
+    "lockRotation": true,
+    "rotation": 0,
+    "actorLink": true,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 300,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_id": "rBjkK2VFjvhwtUzY",
+  "name": "Biggin'",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "fxuqMIJcFuZQworq",
+      "name": "Bite",
+      "type": "melee",
+      "sort": 100000,
+      "flags": {
+        "pf2e_updatednpcsheet": {},
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "GU4DWt1xvXkdhBVG"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.330-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d8+10+2",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 17,
+          "total": 17
+        },
+        "attackEffects": {
+          "value": [
+            "ogre-spider-venom"
+          ]
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": null,
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": 0
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": 0
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "invested": {
+          "value": false
+        },
+        "identified": {
+          "value": false
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "property2": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "property3": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "damage": {
+          "damageType": "piercing",
+          "die": "2d8+8"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "CQ9x9wMLcGSsM5wK",
+      "name": "Web",
+      "type": "melee",
+      "sort": 200000,
+      "flags": {
+        "pf2e_updatednpcsheet": {},
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "GU4DWt1xvXkdhBVG"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.330-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "range increment 30 feet"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {},
+        "bonus": {
+          "value": 15,
+          "total": 15
+        },
+        "attackEffects": {
+          "value": [
+            "web-trap"
+          ]
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": null,
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": 0
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": 0
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "invested": {
+          "value": false
+        },
+        "identified": {
+          "value": false
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "property2": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "property3": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "damage": {}
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "5lCoU2D6djePIJZT",
+      "name": "Web Sense",
+      "type": "action",
+      "sort": 300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "GU4DWt1xvXkdhBVG"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "The ogre spider has imprecise @Compendium[pf2e.bestiary-ability-glossary-srd.j2wsK6IsW5yMW1jW]{Tremorsense} to detect the vibrations of creatures touching its web.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.330-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "v65HAbd7O3gZv2VP",
+      "name": "Eerie Flexibility",
+      "type": "action",
+      "sort": 400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "GU4DWt1xvXkdhBVG"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "An ogre spider can fit through tight spaces as if it were a Large creature. While @Compendium[pf2e.actionspf2e.kMcV8e5EZUxa6evt]{Squeezing}, it can move at its full speed.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.330-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "6qaFJjq9JjlhZbaw",
+      "name": "Ogre Spider Venom",
+      "type": "action",
+      "sort": 500000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "GU4DWt1xvXkdhBVG"
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Saving Throw</strong> Fortitude DC 26; <strong>Maximum Duration</strong> 6 rounds; <strong>Stage 1</strong> [[/r 1d6+4 # poison damage]] poison damage (1 round); <strong>Stage 2</strong> [[/r 1d6+4 # poison damage]] poison damage, @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy} 1, and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} 1 (1 round); <strong>Stage 3</strong> [[/r 2d6+4 # poison damage]] poison damage, clumsy 1, and enfeebled 1 (1 round); <strong>Stage 4</strong> [[/r 2d6+4 # poison damage]] poison damage, clumsy 2, and enfeebled 2 (1 round)</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.330-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "poison"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Pxxc4fNbFR6zlG0y",
+      "name": "Web Trap",
+      "type": "action",
+      "sort": 600000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "GU4DWt1xvXkdhBVG"
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A creature hit by the ogre spider's web attack is @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} and stuck to the nearest surface until it @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes} (DC 26).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.330-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Zlp080daUckORMZd",
+      "name": "Acrobatics",
+      "type": "lore",
+      "sort": 700000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "GU4DWt1xvXkdhBVG"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 15
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.330-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "BQmLlekhOx0gF2aD",
+      "name": "Athletics",
+      "type": "lore",
+      "sort": 800000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "GU4DWt1xvXkdhBVG"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 15
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.330-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "UaEKXYLiaD7hpAIK",
+      "name": "Clumsy",
+      "type": "condition",
+      "sort": 900000,
+      "flags": {
+        "pf2e": {
+          "condition": true
+        },
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/conditions/clumsy.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": "clumsy",
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.330-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "group": "abilities",
+        "duration": {
+          "value": 0
+        },
+        "value": {
+          "isValued": true,
+          "value": 1
+        },
+        "references": {
+          "children": [],
+          "overrides": [],
+          "overriddenBy": [],
+          "immunityFrom": []
+        },
+        "overrides": [],
+        "rarity": {
+          "value": "common"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Z4bfJIrn6n0sglOZ",
+      "name": "Enfeebled",
+      "type": "condition",
+      "sort": 1000000,
+      "flags": {
+        "pf2e": {
+          "condition": true
+        },
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/conditions/enfeebled.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You're physically weakened. Enfeebled always includes a value. When you are enfeebled, you take a status penalty equal to the condition value to Strength-based rolls and DCs, including Strength-based melee attack rolls, Strength-based damage rolls, and Athletics checks.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": "enfeebled",
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.330-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "group": "abilities",
+        "duration": {
+          "value": 0
+        },
+        "value": {
+          "isValued": true,
+          "value": 2
+        },
+        "references": {
+          "children": [],
+          "overrides": [],
+          "overriddenBy": [],
+          "immunityFrom": []
+        },
+        "overrides": [],
+        "rarity": {
+          "value": "common"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [
+    {
+      "_id": "bFoHrHPsAQiZivKS",
+      "flags": {
+        "core": {
+          "statusId": "combat-utility-belt.defeated",
+          "overlay": true
+        },
+        "combat-utility-belt": {
+          "conditionId": "defeated",
+          "overlay": true
+        }
+      },
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "transfer": false,
+      "origin": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Defeated",
+      "img": "links/Assets/!%20Resources%20!/Token%20States/health/splat3.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "flags": {
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "pf2e": {
+      "editNPC": {
+        "value": false
+      },
+      "lootable": false
+    },
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 0,
+        "temp": 0,
+        "max": 110,
+        "details": "",
+        "min": 0,
+        "tempmax": 0
+      },
+      "ac": {
+        "value": 25,
+        "details": "",
+        "dex": 0,
+        "check": 0,
+        "min": 0,
+        "item": 0,
+        "name": "ac",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 11,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 15,
+        "base": 25,
+        "breakdown": "Base Armor Class 10, Base Modifier +11, Dexterity +4"
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [
+          {
+            "type": "Climb",
+            "value": 30
+          }
+        ],
+        "details": "",
+        "special": ""
+      },
+      "initiative": {
+        "ability": "perception",
+        "circumstance": 0,
+        "status": 0
+      },
+      "perception": {
+        "value": 13,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +11, Wisdom +2",
+        "name": "perception",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 11,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityWis",
+            "modifier": 2,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 13,
+        "base": 13
+      },
+      "sp": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "details": ""
+      },
+      "flatbonushp": 0,
+      "levelbonushp": 0,
+      "flatbonussp": 0,
+      "levelbonussp": 0,
+      "bonusLimitBulk": 0,
+      "bonusEncumbranceBulk": 0,
+      "resolve": {
+        "value": 0
+      },
+      "init": {
+        "bonus": 0,
+        "value": 0
+      },
+      "ancestryhp": 0,
+      "classhp": 0,
+      "classDC": {
+        "rank": 0,
+        "ability": "str",
+        "item": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "adjustment": "elite"
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 6,
+        "min": 1
+      },
+      "blurb": "",
+      "publicNotes": "These terrifying creatures grow as large as elephants. The placement of their eyes above their wide mandibles evokes the grimacing visage of an ogre's leer. Ogres themselves find the appearance of ogre spider faces simultaneously amusing and adorable, but in most cases, ogres' attempts to keep these spiders as pets result in dead ogres and well-fed spiders.<br /><br />",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "Bestiary 2 pg. 249",
+        "author": ""
+      },
+      "creatureType": "Animal",
+      "recallKnowledgeText": "Recall Knowledge - Animal : DC 20",
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "class": {
+        "value": ""
+      },
+      "ancestry": {
+        "value": "Spider"
+      },
+      "heritage": {
+        "value": ""
+      },
+      "deity": {
+        "value": "",
+        "image": "systems/pf2e/assets/sheet/deity.webp"
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "flavourText": "",
+      "sidebarText": "",
+      "nethysUrl": "https://2e.aonprd.com/Monsters.aspx?ID=814"
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 6,
+        "value": 22,
+        "min": 3
+      },
+      "dex": {
+        "mod": 4,
+        "value": 18,
+        "min": 3
+      },
+      "con": {
+        "mod": 4,
+        "value": 18,
+        "min": 3
+      },
+      "int": {
+        "mod": -5,
+        "value": 0,
+        "min": 3
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14,
+        "min": 3
+      },
+      "cha": {
+        "mod": -4,
+        "value": 2,
+        "min": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 17,
+        "saveDetail": "",
+        "ability": "con",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +13, Constitution +4",
+        "name": "fortitude",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 13,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityCon",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 17,
+        "base": 17
+      },
+      "reflex": {
+        "value": 15,
+        "saveDetail": "",
+        "ability": "dex",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +11, Dexterity +4",
+        "name": "reflex",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 11,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 15,
+        "base": 15
+      },
+      "will": {
+        "value": 11,
+        "saveDetail": "",
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +9, Wisdom +2",
+        "name": "will",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 9,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityWis",
+            "modifier": 2,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 11,
+        "base": 11
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 15,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +11, Dexterity +4",
+        "name": "Acrobatics",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 11,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 15,
+        "base": 15,
+        "expanded": "acrobatics",
+        "label": "Acrobatics",
+        "visible": true
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "ath": {
+        "value": 15,
+        "ability": "str",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +9, Strength +6",
+        "name": "Athletics",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 9,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityStr",
+            "modifier": 6,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 15,
+        "base": 15,
+        "expanded": "athletics",
+        "label": "Athletics",
+        "visible": true
+      },
+      "cra": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "dip": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "nat": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "occ": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "rel": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "soc": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "thi": {
+        "value": 0,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "animal"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "huge"
+      },
+      "senses": {
+        "value": "darkvision, web sense"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      },
+      "attitude": {
+        "value": "hostile"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:11:59.330-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "martial": {
+      "unarmored": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "light": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "medium": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "heavy": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "simple": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "martial": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "advanced": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "unarmed": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      }
+    },
+    "spells": {
+      "spell0": {
+        "max": 0
+      },
+      "spell1": {
+        "max": 0
+      },
+      "spell2": {
+        "max": 0
+      },
+      "spell3": {
+        "max": 0
+      },
+      "spell4": {
+        "max": 0
+      },
+      "spell5": {
+        "max": 0
+      },
+      "spell6": {
+        "max": 0
+      },
+      "spell7": {
+        "max": 0
+      },
+      "spell8": {
+        "max": 0
+      },
+      "spell9": {
+        "max": 0
+      },
+      "spell10": {
+        "max": 0
+      },
+      "spell11": {
+        "max": 0
+      }
+    },
+    "currency": {
+      "pp": {
+        "value": 0
+      },
+      "gp": {
+        "value": 0
+      },
+      "sp": {
+        "value": 0
+      },
+      "cp": {
+        "value": 0
+      }
+    },
+    "customModifiers": {
+      "all": [
+        {
+          "name": "Elite",
+          "modifier": 2,
+          "type": "untyped",
+          "enabled": true,
+          "ignored": false,
+          "custom": false
+        }
+      ]
+    },
+    "damageDice": {}
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456694846,
+    "modifiedTime": 1677352320537,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.wDV1fMSg6Z7DXtKf",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "MyYqI9D41JhADyup",
+  "sort": 0
+}

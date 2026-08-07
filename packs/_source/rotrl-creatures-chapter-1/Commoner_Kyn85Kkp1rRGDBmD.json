@@ -1,0 +1,720 @@
+{
+  "folder": null,
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "UZlHtMydIq06OfJW",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ynnBwzkzsR6B73iO",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "icons/tools/hand/sickle-steel-grey.webp",
+      "name": "Sickle",
+      "sort": 100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Originally a farming tool used for reaping grain, this one-handed weapon has a short wooden handle ending in a curved blade, sometimes sharpened on both sides.</p>"
+        },
+        "rules": [],
+        "slug": "sickle",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "trip"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "sickle",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "knife",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d4",
+          "damageType": "slashing",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "ammo": null,
+        "reload": {
+          "value": null
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        }
+      },
+      "type": "weapon",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.UZlHtMydIq06OfJW"
+    },
+    {
+      "_id": "o8GJ3AVTDFtS1dFG",
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "UZlHtMydIq06OfJW"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Sickle",
+      "sort": 200000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 5
+        },
+        "damageRolls": {
+          "uc1s1t4wur5bbofg09gjg": {
+            "damage": "1d4+2",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "trip"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.o8GJ3AVTDFtS1dFG"
+    },
+    {
+      "_id": "Q9h6X4WFBsWo4KlV",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Rock",
+      "sort": 300000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 3
+        },
+        "damageRolls": {
+          "c16oqbic9ep578zkoag35t": {
+            "damage": "1d4+2",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "thrown-10"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.Q9h6X4WFBsWo4KlV"
+    },
+    {
+      "_id": "n3jCGW9WDHnhi4Ky",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "sort": 400000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 5
+        },
+        "damageRolls": {
+          "upHGZeI52vum8yU1": {
+            "damage": "1d4+2",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "nonlethal",
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.n3jCGW9WDHnhi4Ky"
+    },
+    {
+      "_id": "T3ZpHsIT64RGyhT0",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Power of the Mob",
+      "sort": 500000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>When three or more commoners are adjacent to each other, each commoner gets a +1 circumstance bonus to Athletics checks to [[/act shove]], attack rolls, and damage rolls.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "power-of-the-mob",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:shove",
+              "power-of-the-mob"
+            ],
+            "selector": "athletics",
+            "type": "circumstance",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "power-of-the-mob"
+            ],
+            "selector": [
+              "attack",
+              "damage"
+            ],
+            "type": "circumstance",
+            "value": 1
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.T3ZpHsIT64RGyhT0"
+    },
+    {
+      "_id": "lqVfEZu6MeCHDuky",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Lore (any one related to their trade)",
+      "sort": 600000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "type": "lore",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Kyn85Kkp1rRGDBmD.lqVfEZu6MeCHDuky"
+    }
+  ],
+  "name": "Commoner",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "temp": 0,
+        "max": 10,
+        "details": ""
+      },
+      "ac": {
+        "value": 13,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": -1
+      },
+      "blurb": "",
+      "publicNotes": "<p>Many commoners live hard lives of toil as they work to keep their families fed and housed in relative comfort.</p><hr /><p>Society is built upon the backs of laborers.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder NPC Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.947,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 3,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 3,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 3,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 5
+      },
+      "society": {
+        "base": 2
+      }
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.APn9B54hhRtr0oCQ",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1761248973947,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Commoner",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "_id": "Kyn85Kkp1rRGDBmD",
+  "sort": 4850000,
+  "_key": "!actors!Kyn85Kkp1rRGDBmD"
+}

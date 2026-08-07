@@ -1,0 +1,653 @@
+{
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "x47iDfIE9albveGl",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Shadow Hand",
+      "sort": 100000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 15
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d6+3",
+            "damageType": "void",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "finesse",
+            "magical"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bxZZf4iXrkgt9Tnr.x47iDfIE9albveGl"
+    },
+    {
+      "_id": "ACHlnYzXVxizzqPw",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Light Vulnerability",
+      "sort": 200000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>Attacks against the shadow are treated as magical if made by a creature who is in magical light or with an object that is in magical light (such as from the @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light} spell).</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bxZZf4iXrkgt9Tnr.ACHlnYzXVxizzqPw"
+    },
+    {
+      "_id": "YzglqmBZyUccF3kd",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Void Healing",
+      "sort": 300000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "void-healing",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bxZZf4iXrkgt9Tnr.YzglqmBZyUccF3kd"
+    },
+    {
+      "_id": "0Qt9ULbGzJV8ZG3W",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Shadow Spawn",
+      "sort": 400000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>When a creature's shadow is pulled free by Steal Shadow, it becomes a shadow spawn under the command of the shadow that created it. This @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.clzHAfegb9Rn6DOe]{Shadow Spawn} doesn't have Steal Shadow and is perpetually and incurably @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}.</p>\n<p>If the creature the shadow spawn was pulled from dies, the shadow spawn becomes a full-fledged, autonomous shadow. If the creature recovers from its enfeeblement, its shadow returns to it and the shadow spawn is extinguished.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bxZZf4iXrkgt9Tnr.0Qt9ULbGzJV8ZG3W"
+    },
+    {
+      "_id": "0QWVJ7Of8cQNKp0N",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Slink in Shadows",
+      "sort": 500000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>The shadow can @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or end its @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} in a creature's or object's shadow.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bxZZf4iXrkgt9Tnr.0QWVJ7Of8cQNKp0N"
+    },
+    {
+      "_id": "Kjifw1jgDvfmrEGU",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Steal Shadow",
+      "sort": 600000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p><strong>Requirements</strong> The shadow hit a living creature with a shadow hand Strike on its previous action</p>\n<hr />\n<p><strong>Effect</strong> The shadow pulls at the target's shadow, making the creature @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}. This is cumulative with other enfeebled conditions from shadows, to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 4}. If this increases a creature's enfeebled value to 3 or more, the target's shadow is separated from its body (see shadow spawn). The enfeebled value from Steal Shadow decreases by 1 every hour.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "divine"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!bxZZf4iXrkgt9Tnr.Kjifw1jgDvfmrEGU"
+    }
+  ],
+  "name": "Shadow",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 25,
+        "temp": 0,
+        "max": 40,
+        "details": "void healing"
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 0,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 30
+          }
+        ],
+        "details": ""
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        },
+        {
+          "exceptions": [],
+          "type": "disease"
+        },
+        {
+          "exceptions": [],
+          "type": "paralyzed"
+        },
+        {
+          "exceptions": [],
+          "type": "poison"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        },
+        {
+          "exceptions": [],
+          "type": "unconscious"
+        },
+        {
+          "exceptions": [],
+          "type": "bleed"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [
+            "non-magical"
+          ],
+          "exceptions": [
+            "force",
+            "ghost-touch",
+            "vitality",
+            "spirit"
+          ],
+          "type": "all-damage",
+          "value": 5
+        }
+      ],
+      "adjustment": "weak"
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "necril"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 4
+      },
+      "blurb": "",
+      "publicNotes": "<p>The mysterious undead known as shadows lurk in dark places and feed on those who stray too far from the light.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Monster Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.947,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": -5
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 0
+      },
+      "int": {
+        "mod": -2
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 10,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 12,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 10
+      },
+      "stealth": {
+        "base": 14
+      }
+    },
+    "traits": {
+      "value": [
+        "incorporeal",
+        "undead",
+        "unholy"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.pathfinder-monster-core.Actor.VotlWUsFKdOrHWF6",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1761248973947,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Shadow",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "_id": "bxZZf4iXrkgt9Tnr",
+  "sort": 5050000,
+  "_key": "!actors!bxZZf4iXrkgt9Tnr"
+}

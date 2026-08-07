@@ -1,0 +1,1858 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "#3370ff",
+        "_version": 1
+      },
+      "conditional-visibility": {
+        "blindsight": false,
+        "truesight": false,
+        "devilssight": false,
+        "tremorsense": false,
+        "seeinvisible": false
+      },
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "name": "Overgrown Shocker Lizard",
+    "width": 1,
+    "height": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 120,
+      "brightness": 0,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_id": "epdBMsFeMWKWgLmd",
+  "name": "Overgrown Shocker Lizard",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "ki1JmOjsmc5eRI42",
+      "name": "Jaws",
+      "type": "melee",
+      "sort": 100000,
+      "flags": {
+        "pf2e_updatednpcsheet": {},
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "JLzbVpe4TlV1sgKb"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.064-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d6+5",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 14,
+          "total": 10
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": null,
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": 0
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": 0
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "invested": {
+          "value": false
+        },
+        "identified": {
+          "value": false
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "property2": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "property3": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "damage": {
+          "damageType": "piercing",
+          "die": "1d8+3"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Q7nRRCF8dXONTqKt",
+      "name": "Shock",
+      "type": "melee",
+      "sort": 200000,
+      "flags": {
+        "pf2e_updatednpcsheet": {},
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "JLzbVpe4TlV1sgKb"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.064-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "nonlethal",
+            "range increment 5 feet"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d12+8",
+            "damageType": "electricity"
+          }
+        },
+        "bonus": {
+          "value": 13,
+          "total": 10
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": null,
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": 0
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": 0
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "invested": {
+          "value": false
+        },
+        "identified": {
+          "value": false
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "property2": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "property3": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "damage": {
+          "damageType": "electricity",
+          "die": "2d6"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "6qDqRA2Nq93rsvx9",
+      "name": "Greater Electrolocation",
+      "type": "action",
+      "sort": 300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "JLzbVpe4TlV1sgKb"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "A shocker lizard can sense minute electrical charges in living creatures, which it can use as a precise sense at a range of 20 feet. This distance increases to 100 feet against any creature that has used an electricity effect within the last minute.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.064-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "electricity"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "le0p8FsNfX4jkVzn",
+      "name": "Amplify Voltage",
+      "type": "action",
+      "sort": 400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "JLzbVpe4TlV1sgKb"
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A shocker lizard within 20 feet makes a shock Strike or uses Discharge; <strong>Effect</strong> The shocker lizard lends some of its electrical power to the nearby lizard. This either causes the other lizard's shock Strike to lose the nonlethal trait or increases the DC of its Discharge to 23.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.064-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "nonlethal"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "IPLCR3K5wWzQiSHK",
+      "name": "Discharge",
+      "type": "action",
+      "sort": 500000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "JLzbVpe4TlV1sgKb"
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The shocker lizard releases a blast of lightning from its body. Creatures within a 10-foot emanation take [[/r 3d12 # electricity damage]] electricity damage (DC 21 basic Reflex save). The shocker lizard can't use Discharge for [[/gmroll 1d4#Discharge Cooldown ]] rounds.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.064-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "electricity"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 2
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "JakacQ9SCpgoCpCp",
+      "name": "Shocking Burst",
+      "type": "action",
+      "sort": 600000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "JLzbVpe4TlV1sgKb"
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The shocker lizard hunkers down and begins to spark with electricity, which it releases in a 10-foot emanation that deals [[/r 3d12# electricity damage]] electricity damage (DC 21 basic Reflex save). The shocker lizard can't use Shocking Burst again for 1 minute.</p>\n<p><br />Up to four shocker lizards can combine their Shocking Bursts. In this case, the lizards can delay the release of their electricity until any other shocker lizard within 30 feet completes its Shocking Burst. The combined Shocking Bursts create an emanation with the combined area from all participating shocker lizards. For each additional shocker lizard that joins the burst, the damage increases by 3d8 and the save DC increases by 1 (to a maximum of four lizards dealing [[/r 12d12#Electricity ]] damage with a DC 24 save).</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.064-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "electricity",
+            "evocation",
+            "primal"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 3
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "QP1QSIQFqeeiv02L",
+      "name": "Acrobatics",
+      "type": "lore",
+      "sort": 700000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "JLzbVpe4TlV1sgKb"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 12
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.064-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "4DQbZTNCC5wU8xLa",
+      "name": "Athletics",
+      "type": "lore",
+      "sort": 800000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "JLzbVpe4TlV1sgKb"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 9
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.064-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "vD5OcT4I55VLg00L",
+      "name": "Stealth",
+      "type": "lore",
+      "sort": 900000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "JLzbVpe4TlV1sgKb"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 12
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:59.064-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "pf2e": {
+      "editNPC": {
+        "value": false
+      },
+      "lootable": false
+    },
+    "core": {},
+    "cf": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 62,
+        "temp": 0,
+        "max": 62,
+        "details": "",
+        "min": 0,
+        "tempmax": 0
+      },
+      "ac": {
+        "value": 22,
+        "details": "",
+        "dex": 0,
+        "check": 0,
+        "min": 0,
+        "item": 0,
+        "name": "ac",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 8,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 14,
+        "base": 22,
+        "breakdown": "Base Armor Class 10, Base Modifier +8, Dexterity +4, Elite +2"
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [
+          {
+            "type": "Climb",
+            "value": 15
+          },
+          {
+            "type": "Swim",
+            "value": 15
+          }
+        ],
+        "details": "",
+        "special": ""
+      },
+      "initiative": {
+        "ability": "perception",
+        "circumstance": 0,
+        "status": 0
+      },
+      "perception": {
+        "value": 11,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +8, Wisdom +3, Elite +2",
+        "name": "perception",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 8,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityWis",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 13,
+        "base": 11
+      },
+      "sp": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "details": ""
+      },
+      "flatbonushp": 0,
+      "levelbonushp": 0,
+      "flatbonussp": 0,
+      "levelbonussp": 0,
+      "bonusLimitBulk": 0,
+      "bonusEncumbranceBulk": 0,
+      "resolve": {
+        "value": 0
+      },
+      "init": {
+        "bonus": 0,
+        "value": 0
+      },
+      "ancestryhp": 0,
+      "classhp": 0,
+      "classDC": {
+        "rank": 0,
+        "ability": "str",
+        "item": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "immunities": [
+        {
+          "type": "electricity"
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 4,
+        "min": 1
+      },
+      "blurb": "",
+      "publicNotes": "These brightly colored reptiles share the rough size and pack mentality of guard dogs, roaming in small groups. Shocker lizards have specialized glands under their scales that accumulate static electricity, and they can unleash blasts of lightning strong enough to harm significantly larger foes. Though they're meek and docile when encountered alone, shocker lizards are significantly more aggressive in packs, when they can amplify each other's electrical attacks.<br /><br /> Shocker lizards are notoriously difficult to domesticate because they're dangerously hostile as part of a pack, but will also swiftly wither and die if kept alone in captivity without constant attention. A shocker lizard is 3 feet long and weighs 25 pounds.<br /><br />",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "Bestiary 2 pg. 240",
+        "author": ""
+      },
+      "creatureType": "Animal",
+      "recallKnowledgeText": "Recall Knowledge - Animal : DC 16",
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "class": {
+        "value": ""
+      },
+      "ancestry": {
+        "value": ""
+      },
+      "heritage": {
+        "value": ""
+      },
+      "deity": {
+        "value": "",
+        "image": "systems/pf2e/assets/sheet/deity.webp"
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "flavourText": "",
+      "sidebarText": "<h3 class=\"title\"><img alt=\"Sidebar - Related Creatures\" title=\"Sidebar - Related Creatures\" style=\"height:20px; padding:2px 10px 0px 2px\" src=\"Images\\Icons\\Sidebar_4_RelatedCreatures.png\"> Shocker Lizard Traps</h3>Kobolds are particularly fond of using shocker lizards in their trap designs, although such traps rarely keep the shocker lizards&apos; safety and comfort in mind, forcing these cruel but creative kobolds to constantly replace the permanently restrained lizards they&apos;ve set up to defend their lairs.",
+      "nethysUrl": "https://2e.aonprd.com/Monsters.aspx?ID=802"
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 1,
+        "value": 12,
+        "min": 3
+      },
+      "dex": {
+        "mod": 4,
+        "value": 18,
+        "min": 3
+      },
+      "con": {
+        "mod": 3,
+        "value": 16,
+        "min": 3
+      },
+      "int": {
+        "mod": -4,
+        "value": 2,
+        "min": 3
+      },
+      "wis": {
+        "mod": 3,
+        "value": 16,
+        "min": 3
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10,
+        "min": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": "",
+        "ability": "con",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +8, Constitution +3, Elite +2",
+        "name": "fortitude",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 8,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityCon",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 13,
+        "base": 11
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": "",
+        "ability": "dex",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +10, Dexterity +4, Elite +2",
+        "name": "reflex",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 10,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 16,
+        "base": 14
+      },
+      "will": {
+        "value": 11,
+        "saveDetail": "",
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +8, Wisdom +3, Elite +2",
+        "name": "will",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 8,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityWis",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 13,
+        "base": 11
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 14,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +8, Dexterity +4, Elite +2",
+        "name": "Acrobatics",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 8,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 14,
+        "base": 12,
+        "expanded": "acrobatics",
+        "label": "Acrobatics",
+        "visible": true
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "ath": {
+        "value": 11,
+        "ability": "str",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +8, Strength +1, Elite +2",
+        "name": "Athletics",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 8,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityStr",
+            "modifier": 1,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 11,
+        "base": 9,
+        "expanded": "athletics",
+        "label": "Athletics",
+        "visible": true
+      },
+      "cra": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "dip": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "nat": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "occ": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "rel": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "soc": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "ste": {
+        "value": 14,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +8, Dexterity +4, Elite +2",
+        "name": "Stealth",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 8,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 14,
+        "base": 12,
+        "expanded": "stealth",
+        "label": "Stealth",
+        "visible": true
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "thi": {
+        "value": 0,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "animal"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": "low-light vision, greater electrolocation 20 feet"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      },
+      "attitude": {
+        "value": "hostile"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:11:59.064-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "martial": {
+      "unarmored": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "light": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "medium": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "heavy": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "simple": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "martial": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "advanced": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "unarmed": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      }
+    },
+    "spells": {
+      "spell0": {
+        "max": 0
+      },
+      "spell1": {
+        "max": 0
+      },
+      "spell2": {
+        "max": 0
+      },
+      "spell3": {
+        "max": 0
+      },
+      "spell4": {
+        "max": 0
+      },
+      "spell5": {
+        "max": 0
+      },
+      "spell6": {
+        "max": 0
+      },
+      "spell7": {
+        "max": 0
+      },
+      "spell8": {
+        "max": 0
+      },
+      "spell9": {
+        "max": 0
+      },
+      "spell10": {
+        "max": 0
+      },
+      "spell11": {
+        "max": 0
+      }
+    },
+    "currency": {
+      "pp": {
+        "value": 0
+      },
+      "gp": {
+        "value": 0
+      },
+      "sp": {
+        "value": 0
+      },
+      "cp": {
+        "value": 0
+      }
+    },
+    "customModifiers": {
+      "all": []
+    },
+    "damageDice": {}
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456694789,
+    "modifiedTime": 1677352320488,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary-2.HI7SecILsRTmOtky",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "MyYqI9D41JhADyup",
+  "sort": 0
+}

@@ -1,0 +1,549 @@
+{
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "f4rcDncEwu2OdC1a",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 100000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 14
+        },
+        "damageRolls": {
+          "2aqz1foetaojgodwjsl3": {
+            "damage": "2d10+5",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": "jaws",
+        "traits": {
+          "value": [
+            "reach-10",
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!vqtuhZbA78t8NoeC.f4rcDncEwu2OdC1a"
+    },
+    {
+      "_id": "bA2QzO0CkyheAgub",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "sort": 200000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 14
+        },
+        "damageRolls": {
+          "hlbcijz8hmrnhikrzv6m": {
+            "damage": "2d8+5",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "reach-10",
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!vqtuhZbA78t8NoeC.bA2QzO0CkyheAgub"
+    },
+    {
+      "_id": "50Meu5uWTOPYtMu6",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Regeneration 20 (Deactivated by Acid or Fire)",
+      "sort": 300000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": true,
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "deactivatedBy": [
+              "acid",
+              "fire"
+            ],
+            "key": "FastHealing",
+            "type": "regeneration",
+            "value": 20
+          }
+        ],
+        "slug": "regeneration",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!vqtuhZbA78t8NoeC.50Meu5uWTOPYtMu6"
+    },
+    {
+      "_id": "scw9HnbCVwAyFzok",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Rend",
+      "sort": 500000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>claw</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "rend",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!vqtuhZbA78t8NoeC.scw9HnbCVwAyFzok"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Reactive Strike",
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "reactive-strike",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771028695998,
+        "modifiedTime": 1771028695998,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "Qdns0U0N2SZ4YVJ5",
+      "_key": "!actors.items!vqtuhZbA78t8NoeC.Qdns0U0N2SZ4YVJ5"
+    }
+  ],
+  "name": "Troll",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 135,
+        "temp": 0,
+        "max": 115,
+        "details": "regeneration 20 (deactivated by acid or fire)"
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": 10
+        }
+      ],
+      "adjustment": "elite"
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "jotun"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 5
+      },
+      "blurb": "",
+      "publicNotes": "<p>Common trolls are dim-witted, gangly giants who stalk the fringes of civilization. They rely on their incredible strength to overpower foes with their vicious claws and toothy maws. A troll's endless hunger drives it to consume all variety of living creatures, and it is their ravenous eating habits that fuel trolls' legendary regenerative abilities. Trolls stand anywhere from 12 to 16 feet tall, though they prefer to hunch for comfort and to lull foes into a false sense of security.</p>\n<hr />\n<p>Slavering, cruel, practically invincible brutes: this is the villager's stock description for the dread monsters known as trolls. But words hardly do justice to trolls' capacity for destruction. They are as bloodthirsty as orcs but lacking the discipline, as massive as giants but capable of regenerating wounded flesh in an instant, and as reprobate as ogres but with twice the strength. The only way to really understand the wanton violence of a troll is to experience it firsthand-a fate few would wish even upon their worst enemies.</p>\n<p>The first thing that comes to mind when most think of trolls is the creatures' power of bodily regeneration. So potent is this regeneration that the only way to overcome it is to exploit the troll's vulnerability to acid and fire. It is not enough to slay the troll with caustic or flaming weapons, though-even the smallest scrap of a troll's flesh can regenerate into a full-size troll given enough time. The only sure way to eradicate a troll menace is to burn the monster's entire body until nothing remains.</p>\n<p>Trolls are solitary hunters, for their wickedness is anathema even to other giants. They occasionally roam in small gangs of two to four, but only when prey is plentiful or a particularly strong counterforce has broached their hunting grounds. In rare instances, an old and powerful troll comes to lead small tribes of trolls. Such \"troll kings\" possess enough cunning to lead their hordes in devastating raids and massacres, and their presence permanently alters the surrounding ecosystem. A wide variety of trolls exist, from the terrible monster traditionally associated with the name to the water-dwelling scrag and hybrid flood troll. Regional variations exist as well-mountain trolls among stony peaks, for instance, or moss trolls in swampy bayous-but all share the same trademark regenerative powers and insatiable thirst for blood.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Bestiary",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 6
+      },
+      "int": {
+        "mod": -2
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 11,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 7,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 12
+      },
+      "intimidation": {
+        "base": 12
+      }
+    },
+    "traits": {
+      "value": [
+        "chaotic",
+        "evil",
+        "giant",
+        "troll"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1771028667677,
+    "modifiedTime": 1771041993011,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Troll",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "flags": {},
+  "_id": "vqtuhZbA78t8NoeC",
+  "sort": 2300000,
+  "_key": "!actors!vqtuhZbA78t8NoeC"
+}

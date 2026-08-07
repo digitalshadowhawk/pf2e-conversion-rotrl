@@ -1,0 +1,300 @@
+{
+  "_id": "mbwpkVl39CFsFX27",
+  "name": "Hunted Prey: Teraktinus",
+  "type": "effect",
+  "img": "tokens/teraktinus.Avatar.webp",
+  "effects": [],
+  "flags": {
+    "pick-up-stix": {
+      "pick-up-stix": {
+        "owner": {
+          "actorId": "bz64LGwlU6gv5VWS"
+        },
+        "initialState": {
+          "id": "mMAAjARhBV0hn41K",
+          "count": 1,
+          "itemData": {
+            "_id": "mMAAjARhBV0hn41K",
+            "name": "Treat Wounds Immunity",
+            "permission": {
+              "default": 1,
+              "kz2MTX0UeHY7DZys": 3
+            },
+            "type": "effect",
+            "data": {
+              "description": {
+                "value": "<p>You are immune to Treat Wounds</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "value": []
+              },
+              "rarity": {
+                "value": "common"
+              },
+              "usage": {
+                "value": "held-in-one-hand"
+              },
+              "rules": [
+                {
+                  "key": "PF2E.RuleElement.FlatModifier",
+                  "label": "Treat Wounds Immunity",
+                  "selector": "hp",
+                  "value": 0,
+                  "predicate": {
+                    "all": [
+                      "treat-wounds"
+                    ]
+                  }
+                }
+              ],
+              "level": {
+                "value": 1
+              }
+            },
+            "sort": 100001,
+            "flags": {},
+            "img": "icons/svg/clockwork.svg",
+            "effects": []
+          }
+        },
+        "itemType": "Item",
+        "isLocked": false
+      }
+    },
+    "pdfoundry-pf2e": {
+      "source": ""
+    },
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p style=\"max-width:min(90%,var(--max-width));width:328.328px\">Teraktinus designates as his prey a single creature that he can see and hear or that he is Tracking. He gains a +2 circumstance bonus to Perception checks when he Seeks his prey and a +2 circumstance bonus to Survival checks when he Tracks his prey. Teraktinus also ignores the penalty for making ranged attacks within his second range increment against his prey.</p>\n<p style=\"margin-top:var(--p-space);max-width:min(90%,var(--max-width));width:328.328px\">Lastly, Teraktinus gains a +2 circumstance bonus to Deception checks, Intimidation checks, and Stealth checks against his prey and to any check to Recall Knowledge about his prey, as well as a +1 circumstance bonus to AC against his prey’s attacks. Teraktinus can have only one prey designated at a time.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "value": ""
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:11:25.543-06:00",
+        "version": {
+          "schema": 0.708,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "rarity": {
+      "value": "common"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "quantity": {
+      "value": "1"
+    },
+    "hp": {
+      "value": 0
+    },
+    "maxHp": {
+      "value": 0
+    },
+    "hardness": {
+      "value": 0
+    },
+    "brokenThreshold": {
+      "value": 0
+    },
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": "0"
+    },
+    "invested": {
+      "value": false
+    },
+    "equipped": {
+      "value": false
+    },
+    "identified": {
+      "value": true
+    },
+    "stackGroup": {
+      "value": ""
+    },
+    "bulkCapacity": {
+      "value": ""
+    },
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": {
+      "value": ""
+    },
+    "preciousMaterial": {
+      "value": ""
+    },
+    "preciousMaterialGrade": {
+      "value": ""
+    },
+    "collapsed": {
+      "value": false
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    },
+    "property2": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    },
+    "property3": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    },
+    "weaponType": {
+      "value": ""
+    },
+    "group": {
+      "value": ""
+    },
+    "hands": {
+      "value": ""
+    },
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "value": "",
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing"
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": {
+      "value": ""
+    },
+    "reload": {
+      "value": ""
+    },
+    "ability": {
+      "value": "str"
+    },
+    "MAP": {
+      "value": ""
+    },
+    "potencyRune": {
+      "value": ""
+    },
+    "strikingRune": {
+      "value": ""
+    },
+    "propertyRune1": {
+      "value": ""
+    },
+    "propertyRune2": {
+      "value": ""
+    },
+    "propertyRune3": {
+      "value": ""
+    },
+    "propertyRune4": {
+      "value": ""
+    },
+    "size": {
+      "value": "med"
+    },
+    "identification": {
+      "status": "identified"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.351",
+    "createdTime": 1673457085799,
+    "modifiedTime": 1770944360279,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-items.mbwpkVl39CFsFX27",
+    "exportSource": {
+      "worldId": "age-of-ashes",
+      "uuid": null,
+      "coreVersion": "0.7.9",
+      "systemId": "pf2e",
+      "systemVersion": "1.10.23.2638"
+    },
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_key": "!items!mbwpkVl39CFsFX27"
+}

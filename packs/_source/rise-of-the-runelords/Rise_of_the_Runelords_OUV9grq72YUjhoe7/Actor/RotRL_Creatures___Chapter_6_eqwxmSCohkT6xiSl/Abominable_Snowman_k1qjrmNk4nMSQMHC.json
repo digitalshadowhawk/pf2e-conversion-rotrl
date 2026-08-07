@@ -1,0 +1,1551 @@
+{
+  "_id": "k1qjrmNk4nMSQMHC",
+  "name": "Abominable Snowman",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "ui6XZl3S0T45fJFu",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "sort": 100000,
+      "type": "melee",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "reach-10"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "id9amtipbu9a537ku8ua": {
+            "damage": "3d12+19",
+            "damageType": "slashing"
+          }
+        },
+        "bonus": {
+          "value": 24
+        },
+        "attackEffects": {
+          "value": [
+            "rend"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "qaf6YFqcLoAJ5CM4",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Snowblind",
+      "sort": 200000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hiding}, the yeti is @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} by any snowfall, even if it's not thick enough to make other creatures concealed.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "eoHwXTgs9Au82i4J",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Nightmare Guardian",
+      "sort": 300000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Yetis gain a +4 status bonus to saves against fear and against spells and abilities that affect dreams. A yeti that falls prey to a supernatural nightmare loses this ability and becomes permanently enraged, gaining a +1 status bonus to attack and damage rolls and a -1 status penalty to AC.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "label": "PF2E.NPCAbility.YetiNightmareGuardianRage",
+            "domain": "all",
+            "option": "nightmareGuardianRage",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "nightmareGuardianRage"
+            ],
+            "selector": "attack",
+            "type": "status",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "nightmareGuardianRage"
+            ],
+            "selector": "strike-damage",
+            "type": "status",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "nightmareGuardianRage"
+            ],
+            "selector": "ac",
+            "type": "status",
+            "value": -1
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "dream",
+                  "fear"
+                ]
+              },
+              {
+                "not": "nightmareGuardianRage"
+              }
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 4
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "wfIAFcaANDUUhMSm",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Vanish",
+      "sort": 400000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> The yeti is @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} or @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} while not in combat, and a creature would observe it.</p>\n<p><strong>Effect</strong> The yeti Strides or Climbs up to half its Speed to a location where it can @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide}, then Hides. If its new Stealth check result meets or exceeds the triggering creature's Perception DC, the yeti remains hidden.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "hsU755t5zFbchRub",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Grizzly Arrival",
+      "sort": 500000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> The yeti hits a creature in the first round of combat and the yeti was @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from that creature at the start of combat.</p>\n<p><strong>Effect</strong> Each enemy within @Template[type:emanation|distance:30]{30 feet} that witnesses the attack (including the target of the attack) must attempt a @Check[type:will|dc:23] save. On a failure, the creature is @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}; on a critical failure, it's @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 4}.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "emotion",
+            "fear",
+            "mental"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "mxb42HlUBxVyw38F",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Rend",
+      "sort": 600000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>claw</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": "rend",
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.3JOi2cMcGhT3eze1",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "9QnDlqf1MMBYjuxH",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 700000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 26
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "5kSNwp8DyNYR62vW",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 800000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SkillVariant.Snow",
+            "predicate": [
+              "terrain:snow"
+            ],
+            "selector": "stealth",
+            "value": 3
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 22
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "variants": {
+          "0": {
+            "label": "+15 in snow",
+            "options": "terrain:snow"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "JNTXwDxOCtYIvlNb",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Survival",
+      "sort": 900000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 20
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "ETKiuTyiRlxOvslV",
+      "name": "Second Wind",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>&nbsp;</p>\n<p>@Compendium[pf2e.feat-effects.z3uyCMBddrPK5umr]{Effect: Rage}</p>\n<p>You can enter a second @Compendium[pf2e.actionspf2e.Ah5g9pDwWF9b9VW9]{Rage}, but afterward you need to catch your breath. You can Rage without waiting for 1 minute after the previous Rage (or 1 round, with quick rage), but when you end this second Rage, you're @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} until you rest for 10 minutes.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "barbarian"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "blz2xxeG1IwVQZDI",
+      "name": "Rage",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> You aren't @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} or raging</p>\n<hr />\n<p><strong>Effect</strong>: <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">@Compendium[pf2e.feat-effects.z3uyCMBddrPK5umr]{Effect: Rage}</span></p>\n<p>You tap into your inner fury and begin raging. You gain a number of temporary Hit Points equal to your level plus your Constitution modifier. This frenzy lasts for 1 minute, until there are no enemies you can perceive, or until you fall @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}, whichever comes first. You can't voluntarily stop raging. While you are raging:</p>\n<ul>\n<li>You deal 2 additional damage with melee weapons and unarmed attacks. This additional damage is halved if your weapon or unarmed attack is agile.</li>\n<li>You take a -1 penalty to AC.</li>\n<li>You can't use actions with the concentrate trait unless they also have the rage trait. You can @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} while raging.</li>\n</ul>\n<p>After you stop raging, you lose any remaining temporary Hit Points from Rage, and you can't Rage again for 1 minute.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "rules": [],
+        "slug": "rage",
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "concentrate",
+            "barbarian",
+            "emotion",
+            "mental"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Ah5g9pDwWF9b9VW9",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "fwb3zJLDBOIehvLg",
+      "name": "Attack of Opportunity",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p>You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "rules": [],
+        "slug": "attack-of-opportunity",
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.actionspf2e.KAVf7AmRnbCAHrkT",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Ha5foSv1agjiuqsG",
+      "name": "Mighty Rage",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> You use the @Compendium[pf2e.actionspf2e.Ah5g9pDwWF9b9VW9]{Rage} action on your turn</p>\n<hr />\n<p>Use an action that has the rage trait. Alternatively, you can increase the actions of the triggering Rage to 2 to instead use a 2-action activity with the rage trait.</p>"
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "rules": [],
+        "slug": "mighty-rage",
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "barbarian"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.actionspf2e.74iat04PtfG8gn2Q",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "qpkFZnzoRiCSDSTI",
+      "name": "Predator's Pounce",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> You are unarmored or wearing light armor</p>\n<hr />\n<p>You close the distance to your prey in a blur, pouncing on the creature before it can react. You Stride up to your Speed and make a Strike at the end of your movement.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "barbarian",
+            "flourish",
+            "open",
+            "rage"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "EWs4X66aoepMJBGo",
+      "name": "Shake it off",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><span style=\"color: #191813; font-family: Roboto, sans-serif; font-size: 13px;\">You concentrate on your rage, overcoming fear and fighting back sickness. Reduce your frightened condition value by 1, and attempt a Fortitude save to recover from the sickened condition as if you had spent an action retching; you reduce your sickened condition value by 1 on a failure (but not on a critical failure), by 2 on a success, or by 3 on a critical success.</span></p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "barbarian",
+            "concentrate",
+            "rage"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "tpDbVdMkCtOxhzQn",
+      "name": "Jaws",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "reach-10"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "029p9svhx463yax6imde": {
+            "damage": "3d12+19",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 24
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "jeZNDi8Nm4RfXXnc",
+      "name": "Rock",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:59.036-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "brutal",
+            "range-increment-120"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "ecsumv3lkrzm9lps4ycq": {
+            "damage": "2d10+14",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 24
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 270,
+        "temp": 0,
+        "max": 270,
+        "details": ""
+      },
+      "ac": {
+        "value": 33,
+        "details": ""
+      },
+      "allSaves": {
+        "value": "+4 status to all saves vs. fear and dreams"
+      },
+      "speed": {
+        "value": 45,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 20
+          }
+        ],
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "perception": {
+        "value": 22
+      },
+      "immunities": [
+        {
+          "type": "cold"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": 10
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 12
+      },
+      "blurb": "",
+      "publicNotes": "<p>Nearly a myth, the yeti is rarely seen-and even when it is, it is often too late. Yetis dwell amid the highest, most remote peaks of the world, coming down from their snowy mountain holds to raid, steal livestock, and sometimes feed their insatiable urges for slaughter and destruction. Those folks who live at the foot of a yeti-ruled mountain warn of the \"abominable snowmen\": monstrous, fur-covered humanoids who leave strange and bloody tracks in the snow.</p>\n<p>Normally yetis seek to protect the world rather than hunt its other civilized denizens. They do so by lairing near eldritch portals that form links between the Material Plane and other, much stranger dimensions of reality. From within these snow-covered arches and ancient stone doorways, aliens, living nightmares, fiends, and worse can emerge through dimensional networks into the world. Yetis who guard these portals sometimes succumb to these horrors and are corrupted, taking on the bloodthirsty urges and horrific behaviors of the very monsters they strive to protect the world against. Yetis who manifest such violent tendencies are driven out of their clan and forced to wander the mountaintops alone, thus giving rise to the myth of the legendary abominable snowman. Forced to fend for themselves, these exiled yetis often fully embrace the corrupting elements that caused their exile in the first place, growing more powerful and more deadly as a result. The most vile of these yetis turn to cannibalism, not out of need, but out of a sheer joy at the terror they inflict upon their kin. Invariably such cannibalistic yetis attract the attention of wendigos, which makes a bad situation all the worse.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Humanoid"
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 7
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": -1
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": -1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 25,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 21,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 22,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "humanoid"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "lg"
+      },
+      "senses": {
+        "value": "darkvision, scent (imprecise) 30 feet"
+      },
+      "languages": {
+        "value": [
+          "aklo"
+        ],
+        "selected": [],
+        "custom": ""
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:59.036-06:00",
+        "version": {
+          "schema": 0.815,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 2,
+    "name": "Yeti",
+    "width": 2,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456726702,
+    "modifiedTime": 1677352139314,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.7ZgQuis8r8YQyUnI",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "eqwxmSCohkT6xiSl",
+  "sort": 0
+}

@@ -1,0 +1,568 @@
+{
+  "name": "Vargouille",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "bfsuL0uIFF1F4Guy",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fangs",
+      "sort": 100000,
+      "type": "melee",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "finesse",
+            "unholy"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "slug": null,
+        "damageRolls": {
+          "0": {
+            "damage": "1d8+3",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 10
+        },
+        "attackEffects": {
+          "value": [
+            "vargouille-venom"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0NMUkIYFHSw8wp4X.bfsuL0uIFF1F4Guy"
+    },
+    {
+      "_id": "AQMbWGVUpkE6QLbs",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Kiss",
+      "sort": 300000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>The vargouille kisses an adjacent creature that's asleep, @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}, or @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}, exposing it to the vargouille transformation disease.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0NMUkIYFHSw8wp4X.AQMbWGVUpkE6QLbs"
+    },
+    {
+      "_id": "XKe1YQHD2E6lSSDn",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Shriek",
+      "sort": 400000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>The vargouille shrieks, its scream so terrible that all non-vargouilles within 60 feet must succeed at a @Check[type:fortitude|dc:16] save or be @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed} for 3 rounds.</p>\n<div data-visibility=\"gm\"><p>The effect ends early for a creature if the vargouille moves out of sight, moves farther than 60 feet from the creature, or attacks the creature with its fangs.</p>\n<p>After attempting its save, a creature is immune to that particular vargouille's Shriek for 24 hours.</p></div>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "auditory",
+            "concentrate",
+            "visual"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0NMUkIYFHSw8wp4X.XKe1YQHD2E6lSSDn"
+    },
+    {
+      "_id": "tMhjT7tf9r9vZX4C",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Vargouille Transformation",
+      "sort": 500000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p data-visibility=\"gm\">Exposing the victim to sunlight or any light spell of 3rd level or higher pauses the progression of the disease until the victim is no longer in light.</p>\n<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:18]</p>\n<p data-visibility=\"gm\"><strong>Stage 1</strong> carrier with no effect ([[/br 1d6 #hours]] hours);</p>\n<p data-visibility=\"gm\"><strong>Stage 2</strong> victim's hair falls out ([[/br 1d6 #hours]] hours);</p>\n<p data-visibility=\"gm\"><strong>Stage 3</strong> victim's ears grow into leathery wings, tentacles sprout on the chin and scalp, and the teeth become long, pointed fangs (1 day);</p>\n<p data-visibility=\"gm\"><strong>Stage 4</strong> victim's mind regresses to a vicious and unintelligent shell of its former self ([[/br 1d6 #hours]] hours);</p>\n<p data-visibility=\"gm\"><strong>Stage 5</strong> victim's head breaks free of the body (which dies) and becomes a new vargouille</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "disease"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0NMUkIYFHSw8wp4X.tMhjT7tf9r9vZX4C"
+    },
+    {
+      "_id": "IiO8ytUL6tJgUAXR",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Vargouille Venom",
+      "sort": 600000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:18|name:Vargouile Venom]</p>\n<p data-visibility=\"gm\"><strong>Stage 1</strong> Damage the victim has taken from vargouille fangs can't be healed magically.</p>\n<p data-visibility=\"gm\">Once all vargouille fang damage has been healed nonmagically, the poison ends.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "poison"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0NMUkIYFHSw8wp4X.IiO8ytUL6tJgUAXR"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 30,
+        "temp": 0,
+        "max": 30,
+        "details": ""
+      },
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 0,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 25
+          }
+        ],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "diabolic"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 2
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder #157: Devil at the Dreaming Palace",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "creatureType": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.947,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": -2
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": -1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 11,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 7,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 8
+      },
+      "stealth": {
+        "base": 8
+      }
+    },
+    "traits": {
+      "value": [
+        "beast",
+        "evil",
+        "fiend",
+        "unholy"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "sm"
+      }
+    }
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 1,
+    "name": "Vargouille",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.Actor.epRnsUeqztk2j2Ff",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1761248973947,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "_id": "0NMUkIYFHSw8wp4X",
+  "sort": 4700000,
+  "_key": "!actors!0NMUkIYFHSw8wp4X"
+}

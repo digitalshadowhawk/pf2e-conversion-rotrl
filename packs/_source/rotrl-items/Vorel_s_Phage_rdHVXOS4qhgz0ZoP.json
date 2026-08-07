@@ -1,0 +1,183 @@
+{
+  "name": "Vorel's Phage",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.953,
+      "previous": null
+    },
+    "description": {
+      "value": "",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg",
+        "inMemoryOnly": true,
+        "predicate": [
+          "parent:badge:value:1"
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              2
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7",
+        "inMemoryOnly": true,
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "parent:badge:value:2"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18",
+        "inMemoryOnly": true,
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "parent:badge:value:3"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18",
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 2
+          }
+        ],
+        "inMemoryOnly": true,
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "parent:badge:value:3"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR",
+        "inMemoryOnly": true,
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "title": "Stage 1",
+            "text": "@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied} (1 day)"
+          }
+        ],
+        "predicate": [
+          "parent:badge:value:1"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "title": "Stage 2",
+            "text": "@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 day)"
+          }
+        ],
+        "predicate": [
+          "parent:badge:value:2"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "title": "Stage 3",
+            "text": "@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}, and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (1 day)"
+          }
+        ],
+        "predicate": [
+          "parent:badge:value:3"
+        ]
+      }
+    ],
+    "slug": "vorels-phage",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": {
+      "type": "counter",
+      "value": 1,
+      "labels": null,
+      "loop": false,
+      "min": 1,
+      "max": 3
+    },
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "systems/pf2e/icons/default-icons/affliction.svg",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.7.4",
+    "createdTime": 1770944360164,
+    "modifiedTime": 1770944360279,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "_id": "rdHVXOS4qhgz0ZoP",
+  "sort": 2000000,
+  "_key": "!items!rdHVXOS4qhgz0ZoP"
+}

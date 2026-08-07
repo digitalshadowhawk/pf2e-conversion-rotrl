@@ -1,0 +1,881 @@
+{
+  "_id": "4lZ4a2dpqicczUlm",
+  "name": "Fiendish Mustad Jelly",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "ZrxAcxdGyfkm2kZf",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Pseudopod",
+      "sort": 100000,
+      "type": "melee",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "reach-30"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.874-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "lde52fl5xq95jsxliaa6": {
+            "damage": "2d12+12",
+            "damageType": "bludgeoning"
+          },
+          "ffa7g2lvf7jv6gjy1fer": {
+            "damage": "2d6",
+            "damageType": "acid"
+          }
+        },
+        "bonus": {
+          "value": 36
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4lZ4a2dpqicczUlm.ZrxAcxdGyfkm2kZf"
+    },
+    {
+      "_id": "MwXQ4IgNkQaCxTcf",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Motion Sense 240 feet",
+      "sort": 200000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>A mustard jelly can sense nearby motion through vibration and air movement.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.874-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4lZ4a2dpqicczUlm.MwXQ4IgNkQaCxTcf"
+    },
+    {
+      "_id": "IWkgxOKsoYOGSw3E",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Split",
+      "sort": 300000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Whenever an mustard jelly is hit by an attack or effect that would deal slashing, piercing, or electricity damage and the ochre jelly has at least 10 HP, the jelly splits into two identical jellies with half the original's HP.</p>\n<p>One jelly is in the same space as the original, and the other appears in an adjacent unoccupied space. If no adjacent space is unoccupied, it automatically pushes creatures and objects out of the way to fill a space (the GM decides if an object or creature is too big or sturdy to push).</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.874-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4lZ4a2dpqicczUlm.IWkgxOKsoYOGSw3E"
+    },
+    {
+      "_id": "8CYcAwzfjTavahvb",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Constrict",
+      "sort": 400000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>[[/r {2d12[bludgeoning],2d6[acid]}]]{2d12 bludgeoning damage plus 2d6 acid damage}, @Check[type:fortitude|dc:33|basic:true] save</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "constrict",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.874-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.g26YiEIfSHCpLocV",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4lZ4a2dpqicczUlm.8CYcAwzfjTavahvb"
+    },
+    {
+      "_id": "NC141aBluvAWkdH5",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "sort": 600000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "grab",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.874-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4lZ4a2dpqicczUlm.NC141aBluvAWkdH5"
+    },
+    {
+      "_id": "0HPScIbk1ENFfjSb",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 700000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 27
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.874-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4lZ4a2dpqicczUlm.0HPScIbk1ENFfjSb"
+    },
+    {
+      "_id": "ndsTucOKctPodd1M",
+      "name": "Energy Absorption",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>The Mustard Jelly is immune to electricity and magic missiles. If targeted by such an effect, it instea gains temporary hit points equal to the damage that the effect would deal. These temporary hit points last for 1 hour.&nbsp;</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.874-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4lZ4a2dpqicczUlm.ndsTucOKctPodd1M"
+    },
+    {
+      "_id": "niELCuErOj7MqOE6",
+      "name": "Toxic Gas",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "<p>@Template[type:emanation|distance:10]{10 feet}&nbsp;&nbsp;</p>\n<p>A mustard jelly exudes an aura of toxic gas in a 10 foot radius spread. A creature in this area at the start of their turn must succeed at a @Check[type:fortitude|dc:33] save or be @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/r 1d4]] rounds. Critical failure is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/r 1d4]] rounds after that..&nbsp;&nbsp;</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.874-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4lZ4a2dpqicczUlm.niELCuErOj7MqOE6"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 310,
+        "temp": 0,
+        "max": 310,
+        "details": ""
+      },
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 20
+          },
+          {
+            "type": "swim",
+            "value": 20
+          }
+        ],
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "perception": {
+        "value": 23
+      },
+      "immunities": [
+        {
+          "type": "critical-hits"
+        },
+        {
+          "type": "electricity"
+        },
+        {
+          "type": "mental"
+        },
+        {
+          "type": "piercing"
+        },
+        {
+          "type": "precision"
+        },
+        {
+          "type": "slashing"
+        },
+        {
+          "type": "unconscious"
+        },
+        {
+          "type": "visual"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "cold",
+          "value": 15
+        },
+        {
+          "type": "fire",
+          "value": 15
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 14
+      },
+      "blurb": "",
+      "publicNotes": "<p>Ochre jellies are animate masses of protoplasm with a sickly combination of yellow, orange, and brown hues. Their acidic bodies dissolve flesh but leave other materials, including a victim's gear and bones, intact. Some ancient cultures would entomb bodies in stone sarcophaguses with ochre jellies to allow the ooze to break down the flesh and clean and polish the bones.</p>\n<hr />\n<p>Slimes, molds, and other oozes can be found in dank dungeons and shadowed forests. While not necessarily evil, some grow to enormous sizes and have insatiable appetites.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Ooze"
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 8
+      },
+      "dex": {
+        "mod": -3
+      },
+      "con": {
+        "mod": 6
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -5
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 26,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 20,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "fiend",
+        "mindless",
+        "ooze"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "senses": {
+        "value": "motion sense 240 feet, no vision"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      },
+      "attitude": {
+        "value": "hostile"
+      }
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:05:14.874-06:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 2,
+    "name": "Ochre Jelly",
+    "width": 2,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.350",
+    "createdTime": 1673456715886,
+    "modifiedTime": 1673457034058,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.uQBOJfjtzEXvpLQz",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!4lZ4a2dpqicczUlm"
+}

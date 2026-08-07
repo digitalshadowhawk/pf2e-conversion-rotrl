@@ -1,0 +1,1224 @@
+{
+  "name": "Razmus",
+  "type": "npc",
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 2,
+    "width": 2,
+    "name": "Razmus",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 195,
+        "temp": 0,
+        "max": 195,
+        "details": ""
+      },
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 10
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 8
+      },
+      "dex": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 7
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 19,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 22,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 19,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 18,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 25,
+        "special": []
+      },
+      "intimidation": {
+        "base": 17,
+        "special": []
+      },
+      "stealth": {
+        "base": 17,
+        "special": []
+      },
+      "survival": {
+        "base": 19,
+        "special": []
+      }
+    },
+    "traits": {
+      "value": [
+        "earth",
+        "giant",
+        "humanoid"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "_id": "iUIOGzWSTyZYJ5Af",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "img": "systems/pf2e/icons/equipment/weapons/greatclub.webp",
+      "name": "Greatclub",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>While many greatclubs are intricately carved, others are little more than a sturdy tree branch. These massive clubs are too heavy to wield with only one hand.</p>"
+        },
+        "rules": [],
+        "slug": "greatclub",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "backswing",
+            "shove"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "greatclub",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "club",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d10",
+          "damageType": "bludgeoning",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "ammo": null,
+        "reload": {
+          "value": null
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        }
+      },
+      "type": "weapon",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.kdGqnqbrwPzQfTsm",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771036522862,
+        "modifiedTime": 1771036522862,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "teTcPY9SsBiGjAks",
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.teTcPY9SsBiGjAks"
+    },
+    {
+      "img": "icons/equipment/chest/vest-leather-tattered-white.webp",
+      "name": "Hide Armor",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility.</p>"
+        },
+        "rules": [],
+        "slug": "hide-armor",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "hide-armor",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": true
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "medium",
+        "group": "leather",
+        "acBonus": 3,
+        "strength": 2,
+        "dexCap": 2,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": []
+      },
+      "type": "armor",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.AnwzlOs0njF9Jqnr",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771036559902,
+        "modifiedTime": 1771036562576,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "VAOS7RYRgwfgbM1k",
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.VAOS7RYRgwfgbM1k"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Catch Rock",
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.CatchRock]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "catch-rock",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "catch-rock"
+            ],
+            "selector": [
+              "ac",
+              "saving-throw"
+            ],
+            "type": "circumstance",
+            "value": 4
+          }
+        ],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "catch-rock",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.uG0Z8PsyZtsYuvGR",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771036659800,
+        "modifiedTime": 1771036659800,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "kw3tZWf1ls4pIiCj",
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.kw3tZWf1ls4pIiCj"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Throw Rock",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ThrowRock]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "throw-rock",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.a0tx6exmB9v9CUsj",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771036767181,
+        "modifiedTime": 1771036767181,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "YRQ0di454SMUVdvG",
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.YRQ0di454SMUVdvG"
+    },
+    {
+      "type": "melee",
+      "name": "Rock",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "brutal"
+          ],
+          "config": {}
+        },
+        "action": "strike",
+        "area": null,
+        "damageRolls": {
+          "IOVX4gIBMaihak3A": {
+            "damage": "2d6+10",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 25
+        },
+        "attackEffects": {
+          "value": [
+            "flurry"
+          ]
+        },
+        "range": {
+          "increment": 120,
+          "max": null
+        }
+      },
+      "_id": "fD6tmF4dDybBvTqS",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771036777764,
+        "modifiedTime": 1771037680753,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.fD6tmF4dDybBvTqS"
+    },
+    {
+      "folder": "uHxlgOK7MByeLIda",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Hunt Prey",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>You designate a single creature as your prey and focus your attacks against that creature. You must be able to see or hear the prey, or you must be tracking the prey during exploration.</p>\n<p>You gain a +2 circumstance bonus to Perception checks when you @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} your prey and a +2 circumstance bonus to Survival checks when you @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} your prey. You also ignore the penalty for making ranged attacks within your second range increment against the prey you're hunting.</p>\n<p>You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SpecificRule.HuntPrey.SeekHuntedPrey",
+            "predicate": [
+              "action:seek",
+              "target:mark:hunted-prey"
+            ],
+            "selector": "perception",
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SpecificRule.HuntPrey.TrackHuntedPrey",
+            "predicate": [
+              "action:track",
+              "target:mark:hunted-prey"
+            ],
+            "selector": "survival",
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "domain": "ranged-attack-roll",
+            "key": "RollOption",
+            "option": "ignore-range-penalty:2",
+            "predicate": [
+              "target:mark:hunted-prey"
+            ]
+          },
+          {
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.HuntPrey.TargetHuntedPrey",
+            "option": "hunted-prey",
+            "toggleable": true,
+            "value": false
+          }
+        ],
+        "selfEffect": {
+          "name": "Effect: Hunt Prey",
+          "uuid": "Compendium.pf2e.feat-effects.Item.MeXyXqWY9qN42bSQ"
+        },
+        "traits": {
+          "value": [
+            "concentrate",
+            "ranger"
+          ],
+          "otherTags": []
+        },
+        "slug": "hunt-prey",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.JYi4MnsdFu618hPm",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771036839074,
+        "modifiedTime": 1771037536683,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "rbh31uswMwVrYJqv",
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.rbh31uswMwVrYJqv"
+    },
+    {
+      "type": "action",
+      "name": "Flurry",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>Razmus has trained to unleash a devastating flurry of attacks upon his prey. His multiple attack penalty for attacks against his hunted prey is -3 (-2 with an agile weapon/fist) on his second aatack of the turn instead of -5, and -6 (-4 with an agile weapon/fist) on his third or subsequent attack of the turn instead of -10.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [
+          {
+            "key": "MultipleAttackPenalty",
+            "predicate": [
+              "agile",
+              "hunted-prey"
+            ],
+            "selector": "attack",
+            "value": -2
+          },
+          {
+            "key": "MultipleAttackPenalty",
+            "predicate": [
+              "hunted-prey",
+              {
+                "not": "agile"
+              }
+            ],
+            "selector": "attack",
+            "value": -3
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "crV9PJFwEbBSexV9",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771037137832,
+        "modifiedTime": 1771037514199,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.crV9PJFwEbBSexV9"
+    },
+    {
+      "_id": "TnYwVouCEZeUOqDj",
+      "name": "Greatclub",
+      "type": "melee",
+      "system": {
+        "slug": "greatclub",
+        "bonus": {
+          "value": 25
+        },
+        "damageRolls": {
+          "qtUazy2HWxvaLg9A": {
+            "damage": "3d10+11",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "backswing",
+            "shove"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "range": null,
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": [
+            "flurry"
+          ]
+        }
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "teTcPY9SsBiGjAks"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771037588213,
+        "modifiedTime": 1771037786814,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.TnYwVouCEZeUOqDj"
+    },
+    {
+      "type": "melee",
+      "name": "Fist",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "reach-10"
+          ],
+          "config": {}
+        },
+        "action": "strike",
+        "area": null,
+        "damageRolls": {
+          "QK7hLj03TL6S2Ipa": {
+            "damage": "1d6+10",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 25
+        },
+        "attackEffects": {
+          "value": [
+            "flurry"
+          ]
+        },
+        "range": null
+      },
+      "_id": "7fQuOOeSikw5B3CG",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771037708580,
+        "modifiedTime": 1771037768535,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.7fQuOOeSikw5B3CG"
+    },
+    {
+      "type": "action",
+      "name": "Wide Swing",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "description": {
+          "value": "<p>Razmus makes a single greatclub Strike and compares the attack roll result to the ACs of up to two foes within its reach. This counts as two attacks for Razmus' multiple attack penalty.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "csdYoE7xthn9y38A",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771037817012,
+        "modifiedTime": 1771037918082,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.csdYoE7xthn9y38A"
+    },
+    {
+      "type": "action",
+      "name": "Hunted Shot",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "description": {
+          "value": "<p><strong>Requirements</strong> You are wielding a ranged weapon with reload 0.</p><hr /><p>You take two quick shots against the one you hunt. Make two Strikes against your hunted prey with the required weapon. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to each Strike normally.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "flourish",
+            "ranger"
+          ]
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "tbzCGOwADZaiiMrX",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771037978750,
+        "modifiedTime": 1771038027751,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.tbzCGOwADZaiiMrX"
+    },
+    {
+      "name": "Rock",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 5,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "_id": "lo9S59l8IZxFxZfB",
+      "img": "icons/commodities/stone/boulder-grey.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771038107196,
+        "modifiedTime": 1771038179215,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "_key": "!actors.items!iUIOGzWSTyZYJ5Af.lo9S59l8IZxFxZfB"
+    }
+  ],
+  "folder": null,
+  "sort": 900000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1771036402727,
+    "modifiedTime": 1771041993011,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "_key": "!actors!iUIOGzWSTyZYJ5Af"
+}

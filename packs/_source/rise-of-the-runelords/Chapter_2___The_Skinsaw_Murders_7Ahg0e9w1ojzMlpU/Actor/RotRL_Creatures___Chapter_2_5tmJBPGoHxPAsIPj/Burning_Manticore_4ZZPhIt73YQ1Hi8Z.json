@@ -1,0 +1,277 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "disposition": 0,
+    "height": 1,
+    "name": "Blood Hunger",
+    "width": 1,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "name": "Burning Manticore",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "sXDv7rXthMVRhzWW",
+      "name": "Burning Tail Strike",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:34.571-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "1eb8higf28keny0xobco": {
+            "damage": "2b8+5",
+            "damageType": "fire"
+          }
+        },
+        "bonus": {
+          "value": 14
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "_id": "4ZZPhIt73YQ1Hi8Z",
+  "system": {
+    "source": {
+      "value": ""
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 12,
+        "details": "<p>(trained)</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": true
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 3
+      },
+      "disable": "<p>@Check[type:intimidate|dc:22|name:Cow Spirit|traits:complex,haunt] (trained) Twice to Cow the Spirit, @Check[type:religion|dc:20|name: Quiet Spirit|traits:complex,haunt] (trained) Twice to Quiet the Spirit,&nbsp;</p>\n<p>@Check[type:occultism|dc:20|name: Quiet Spirit|traits:complex,haunt] (trained) Twice to Quiet the Spirit,&nbsp;</p>\n<p>@Check[type:stealth|dc:22|name:Smell Spirit|traits:complex,haunt] (trained) Once To Smell Burnt Fur,</p>",
+      "description": "<p>A manticore lurches to life, its face shifting to that of a weeping woman as its fur erupts into flames.</p>",
+      "reset": "<p><strong>Burnlnq Stinger Reaction</strong>. (Attack, Fire]<strong> Trigger</strong> Valid creature that has entered B2 previously enters B2 again; The haunt rolls its stealth against a valid target&rsquo;s Perception DC. On a success the batting marrticore makes a burning tail strike. After the attack or after a failure the Burning Marticore rolls initiative.</p>",
+      "routine": "<p><strong>Routine</strong>&nbsp;The haunt moves toward its target at a speed of 40 feet. If it has any actions left after its movement it makes a strike against its target. If the target is struck successfully, it must make a&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">@Check[type:reflex|dc:25|name:Lured to Ashes Fire|traits:damaging-effect,fire,necromancy,occult]&nbsp;</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">save or catch fire.</span></p>\n<p><strong>Burning</strong> [Fire] A creature that fails its&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">@Check[type:reflex|dc:25|name:Lured to Ashes Fire|traits:damaging-effect,fire,necromancy,occult] </span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">save, when struck by the Stinger take</span>s [[/r 1d8[persistent,fire]]] damage. <strong>Source</strong> Stinger</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:10:34.571-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456686298,
+    "modifiedTime": 1677352235374,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pfs-introductions-bestiary.O6KTpMxRnrft3j1g",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "5tmJBPGoHxPAsIPj",
+  "sort": 0
+}

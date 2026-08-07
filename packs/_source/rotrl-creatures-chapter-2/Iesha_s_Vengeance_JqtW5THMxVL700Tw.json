@@ -1,0 +1,234 @@
+{
+  "name": "Iesha's Vengeance",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 2400000,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "_id": "JqtW5THMxVL700Tw",
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 9
+      },
+      "reflex": {
+        "value": 15
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 25
+      },
+      "hp": {
+        "value": 54,
+        "max": 54,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 12,
+      "stealth": {
+        "value": 13,
+        "details": "<ul>\n<li>@Check[type:perception|dc:22|name: See Scarf|traits:complex,haunt] (trained) Once To See Scarf moving on its own.</li>\n</ul>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [
+        {
+          "type": "disease",
+          "exceptions": []
+        },
+        {
+          "type": "drained",
+          "exceptions": []
+        },
+        {
+          "type": "fear-effects",
+          "exceptions": []
+        },
+        {
+          "type": "mental",
+          "exceptions": []
+        },
+        {
+          "type": "object-immunities",
+          "exceptions": []
+        },
+        {
+          "type": "poison",
+          "exceptions": []
+        },
+        {
+          "type": "stunned",
+          "exceptions": []
+        }
+      ],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 3
+      },
+      "disable": "<ul>\n<li>@Check[type:diplomacy|dc:23|name: To Soothe Spirit|traits:complex,haunt] (trained) Twice To Soothe Spirit</li>\n<li>@Check[type:religion|dc:20|name: To Quiet Spirit|traits:complex,haunt] (expert) <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">Twice </span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">To Quiet Spirit</span></li>\n<li>@Check[type:occultism|dc:20|name: To Quiet Spirit|traits:complex,haunt] (expert)&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">Twice </span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">To Quiet Spirit</span></li>\n</ul>",
+      "description": "<p>A horrific shriek fills the room as the scarf flies into the air.</p>\n<p><strong>Vengful Haunt</strong>: This Haunt only affects those haunted by Jescha Foxglove, Alderns murdered wife who desires vengance for their murder. If no creatures in a group are haunted by Jescha Foxglove this haunt may target any creature.</p>",
+      "reset": "<p>This Haunt automatically resets enter 1 day until the supernatural fungus in B37 is dealt with, even if the haunt was previously disabled.</p>",
+      "routine": "<p><strong>Routine</strong> The haunt moves toward its target and wrap around his Neck useing its choke Action, continuing to strangle the victim until dead.&nbsp;</p>\n<p><strong>Choke&nbsp;</strong><strong style=\"text-align: justify;\"><strong><span class=\"pf2-icon\">R</span></strong></strong><span style=\"text-align: justify;\">&nbsp;</span><strong style=\"text-align: justify;\">Trigger</strong><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">: Haunted Creature gets within 5 feet of&nbsp; the carf while it reamins on manord ground. Scarf rolls a stealth against targets perseption DC. On a success the scarf wraps itself around targets neck.</span></p>\n<p><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">Strangle: The Scaf's next action is to strangle the target, who must make a </span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;@Check[type:will|dc:26|name:Suggestion|traits:mental,incapacitating,linguistic,necromancy,occult]save with the following results:&nbsp;</span></p>\n<ul>\n<li><strong>Critical Success:</strong>&nbsp;no effect&nbsp;</li>\n<li><strong>Success:</strong> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened}&nbsp;</li>\n<li><strong>Failure:</strong> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}</li>\n<li><strong>Critical Failure:</strong> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2} and @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}.&nbsp;</li>\n</ul>\n<p><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">The scarfs next action ist to strangle the target who must make a @Check[type:fort|dc:22|traits:mental,incapacitating,linguistic,necromancy,occult] save or recieve [[/r (2d8+7)[nonlethal]]]{2d8+7 nonlethal damage}. This repeats until the target is dead or the scarf is disabled or broken.</span></p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "disposition": 0,
+    "height": 1,
+    "name": "Blood Hunger",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "coreVersion": "13.351",
+    "createdTime": 1673456686344,
+    "modifiedTime": 1770946408423,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e.pfs-introductions-bestiary.O6KTpMxRnrft3j1g",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!JqtW5THMxVL700Tw"
+}

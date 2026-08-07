@@ -1,0 +1,1534 @@
+{
+  "_id": "gjY3vjkfnthLUC1U",
+  "name": "Hill Giant",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "skMpFCiiKeWuWvR4",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/equipment/armor/hide.webp",
+      "name": "Hide",
+      "sort": 200000,
+      "type": "armor",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": "hide-armor",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "hide-armor",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "inSlot": true
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "medium",
+        "group": "leather",
+        "acBonus": 0,
+        "strength": {
+          "value": 14
+        },
+        "dexCap": 5,
+        "checkPenalty": 0,
+        "speedPenalty": 0,
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": [],
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weight": {
+          "value": "3"
+        },
+        "equippedBulk": {
+          "value": "2"
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "usage": {
+          "value": "wornarmor"
+        },
+        "armor": {
+          "value": 3
+        },
+        "dex": {
+          "value": 2
+        },
+        "check": {
+          "value": -2
+        },
+        "speed": {
+          "value": -5
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "resiliencyRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "potency": {}
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.equipment-srd.AnwzlOs0njF9Jqnr",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.skMpFCiiKeWuWvR4"
+    },
+    {
+      "_id": "kBr3AKRl4vlCwVK2",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "name": "Greatclub",
+      "sort": 500000,
+      "type": "melee",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "backswing",
+            "reach-10",
+            "shove"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Backswing",
+            "predicate": [
+              "back-swing"
+            ],
+            "selector": "attack",
+            "type": "circumstance",
+            "value": 1
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "cauyldp7ucogum3lgy0i": {
+            "damage": "1d10+14",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 19
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.kBr3AKRl4vlCwVK2"
+    },
+    {
+      "_id": "3tyBaMgyINlZCj76",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "name": "Fist",
+      "sort": 600000,
+      "type": "melee",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "reach-10"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "fmlpw1mmhbg13dw7joaw": {
+            "damage": "1d6+4",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 19
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.3tyBaMgyINlZCj76"
+    },
+    {
+      "_id": "6SHvRrPDTa74t0cD",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "name": "Thrown Rock",
+      "sort": 700000,
+      "type": "melee",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "brutal",
+            "range-increment-120"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "label": "Range Penalty - 120ft",
+            "domain": "all",
+            "option": "thrown-rock-120",
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "thrown-rock-120"
+            ],
+            "roll-options": [
+              "all"
+            ],
+            "selector": "attack",
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "cvz39c34iy8sx920aleg": {
+            "damage": "1d8+14",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 19
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.6SHvRrPDTa74t0cD"
+    },
+    {
+      "_id": "pBWpER5ykEcnJ7lQ",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Catch Rock",
+      "sort": 800000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Requirements</strong> The monster must have a free hand but can @Compendium[pf2e.actionspf2e.wQYmDStjdjn0I26t]{Release} anything it's holding as part of this reaction.</p>\n<p><strong>Trigger</strong> The monster is targeted with a thrown rock Strike or a rock would fall on the monster.</p>\n<p><strong>Effect</strong> The monster gains a +4 circumstance bonus to its AC against the triggering attack or to any defense against the falling rock. If the attack misses or the monster successfully defends against the falling rock, the monster catches the rock, takes no damage, and is now holding the rock</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "catch-rock",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.uG0Z8PsyZtsYuvGR",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.pBWpER5ykEcnJ7lQ"
+    },
+    {
+      "_id": "2jQ0v9vXjAxjWqyc",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Throw Rock",
+      "sort": 900000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>The monster picks up a rock within reach or retrieves a stowed rock and throws it, making a ranged Strike.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "throw-rock",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.a0tx6exmB9v9CUsj",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.2jQ0v9vXjAxjWqyc"
+    },
+    {
+      "_id": "xEHY10Oxi5BJJCmQ",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Wide Swing",
+      "sort": 1000000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>The hill giant makes a single greatclub Strike and compares the attack roll result to the ACs of up to two foes within its reach.</p>\n<p>This counts as two attacks for the hill giant's multiple attack penalty.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.xEHY10Oxi5BJJCmQ"
+    },
+    {
+      "_id": "JCIT1A7JjlTVTE77",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 1100000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 19
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.JCIT1A7JjlTVTE77"
+    },
+    {
+      "_id": "cErOQRFr9TYEuwmw",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Intimidation",
+      "sort": 1200000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 11
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.cErOQRFr9TYEuwmw"
+    },
+    {
+      "_id": "t3iYFiavJgUK8pWG",
+      "name": "Greatclub",
+      "type": "weapon",
+      "img": "systems/pf2e/icons/equipment/weapons/greatclub.webp",
+      "effects": [],
+      "folder": "X9qiwSftTsPsYTgF",
+      "sort": 137500,
+      "flags": {
+        "core": {},
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>While many greatclubs are intricately carved, others are little more than a sturdy tree branch. These massive clubs are too heavy to wield with only one hand.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Backswing",
+            "predicate": [
+              "back-swing"
+            ],
+            "selector": "attack",
+            "type": "circumstance",
+            "value": 1
+          }
+        ],
+        "slug": "greatclub",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "backswing",
+            "shove"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "greatclub",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Greatclub",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "club",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d10",
+          "damageType": "bludgeoning",
+          "persistent": null,
+          "value": ""
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "reload": {
+          "value": ""
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": {
+          "value": false
+        },
+        "subitems": [],
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weight": {
+          "value": "2"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.equipment-srd.kdGqnqbrwPzQfTsm",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.t3iYFiavJgUK8pWG"
+    },
+    {
+      "_id": "jjL7sQ1KBXdcvWQ9",
+      "name": "Sack of Rocks",
+      "type": "consumable",
+      "img": "icons/containers/bags/sack-cloth-stitched-brown.webp",
+      "effects": [],
+      "folder": "X9qiwSftTsPsYTgF",
+      "sort": 100000,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        },
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0
+        },
+        "containerId": "null",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Liquid",
+            "img": "systems/pf2e/icons/unidentified_item_icons/potions.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": null,
+        "spell": null,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.759-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weight": {
+          "value": "5"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "consumableType": {
+          "value": "potion"
+        },
+        "charges": {
+          "value": 0,
+          "max": 0,
+          "_deprecated": true
+        },
+        "consume": {
+          "value": "",
+          "_deprecated": true
+        },
+        "autoDestroy": {
+          "value": true,
+          "_deprecated": true
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Item.aChYrIPM6YnsykwK",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!gjY3vjkfnthLUC1U.jjL7sQ1KBXdcvWQ9"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    },
+    "cf": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 140,
+        "temp": 0,
+        "max": 140,
+        "details": "",
+        "min": 0
+      },
+      "ac": {
+        "value": 24,
+        "details": "",
+        "dex": 0,
+        "check": 0,
+        "item": 0,
+        "min": 0,
+        "base": 24
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception",
+        "circumstance": 0,
+        "status": 0
+      },
+      "perception": {
+        "value": 13,
+        "ability": "wis",
+        "breakdown": "",
+        "item": 0,
+        "rank": 0
+      },
+      "ancestryhp": 0,
+      "bonusEncumbranceBulk": 0,
+      "bonusLimitBulk": 0,
+      "classDC": {
+        "ability": "str",
+        "breakdown": "",
+        "item": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "classhp": 0,
+      "flatbonushp": 0,
+      "flatbonussp": 0,
+      "init": {
+        "bonus": 0,
+        "value": 0
+      },
+      "levelbonushp": 0,
+      "levelbonussp": 0,
+      "resolve": {
+        "value": 0
+      },
+      "sp": {
+        "details": "",
+        "max": 0,
+        "min": 0,
+        "value": 0
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 7,
+        "min": 1
+      },
+      "blurb": "",
+      "publicNotes": "Selfish and crude, these rough-skinned raiders are bullies and ultimately cowards. Quick-tempered and fond of violence, a hill giant gladly raids and pillages the defenseless but is quick to flee from those who are bigger, stronger, or better organized than they are. A hill giant is never above shoving or tricking one of their own kind to slow down their opponent or get the best loot.",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "CE"
+      },
+      "source": {
+        "value": "Bestiary",
+        "author": ""
+      },
+      "creatureType": "Giant",
+      "recallKnowledgeText": "",
+      "ancestry": {
+        "value": "Giant"
+      },
+      "biography": {
+        "public": "",
+        "value": ""
+      },
+      "class": {
+        "value": ""
+      },
+      "deity": {
+        "image": "systems/pf2e/assets/sheet/deity.webp",
+        "value": ""
+      },
+      "flavourText": "",
+      "heritage": {
+        "value": ""
+      },
+      "keyability": {
+        "value": "str"
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 6,
+        "value": 22,
+        "min": 3
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10,
+        "min": 3
+      },
+      "con": {
+        "mod": 4,
+        "value": 18,
+        "min": 3
+      },
+      "int": {
+        "mod": -2,
+        "value": 6,
+        "min": 3
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14,
+        "min": 3
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10,
+        "min": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 17,
+        "saveDetail": "",
+        "ability": "con",
+        "breakdown": "",
+        "item": 0,
+        "rank": 0
+      },
+      "reflex": {
+        "value": 12,
+        "saveDetail": "",
+        "ability": "dex",
+        "breakdown": "",
+        "item": 0,
+        "rank": 0
+      },
+      "will": {
+        "value": 13,
+        "saveDetail": "",
+        "ability": "wis",
+        "breakdown": "",
+        "item": 0,
+        "rank": 0
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "earth",
+        "giant",
+        "humanoid"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "senses": {
+        "value": "low-light vision"
+      },
+      "languages": {
+        "value": [
+          "common",
+          "jotun"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "attitude": {
+        "value": "hostile"
+      }
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:05:07.759-06:00",
+        "version": {
+          "schema": 0.649,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "oiPWLVPNH7xQBULr": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 2,
+    "lockRotation": true,
+    "name": "Hill Giant",
+    "randomImg": false,
+    "rotation": 0,
+    "width": 2,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "intensity": 5,
+        "speed": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.350",
+    "createdTime": 1673456708628,
+    "modifiedTime": 1673457025191,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.aqW5sp9HPgZgpXxs",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!gjY3vjkfnthLUC1U"
+}

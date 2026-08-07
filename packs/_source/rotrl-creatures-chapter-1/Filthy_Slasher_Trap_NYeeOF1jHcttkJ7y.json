@@ -1,0 +1,346 @@
+{
+  "name": "Filthy Slasher Trap",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "0fjRyLkdj1a2kfGM",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Falling Scythes",
+      "sort": 100000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> The trip wire is pulled or severed.</p>\n<p><strong>Effect</strong> Both blades swing down, each one attacking all creatures under the ceiling grooves.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "attack"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!NYeeOF1jHcttkJ7y.0fjRyLkdj1a2kfGM"
+    },
+    {
+      "_id": "oaNkRH35bkjdSm6P",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Scythe",
+      "sort": 200000,
+      "type": "melee",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>No multiple attack penalty.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "deadly-d12"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "slug": null,
+        "damageRolls": {
+          "guj26mkvvr90w00st8m3": {
+            "damage": "2d12+4",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 17
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!NYeeOF1jHcttkJ7y.oaNkRH35bkjdSm6P"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 12
+      },
+      "reflex": {
+        "value": 8
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 21
+      },
+      "hp": {
+        "value": 44,
+        "max": 44,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 11,
+      "stealth": {
+        "value": 13,
+        "details": "<p>(trained)</p>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [
+        {
+          "type": "critical-hits",
+          "exceptions": []
+        },
+        {
+          "type": "object-immunities",
+          "exceptions": []
+        },
+        {
+          "type": "precision",
+          "exceptions": []
+        }
+      ],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 4
+      },
+      "disable": "<p>@Check[type:thievery|dc:21|name:Disable a Blade] (trained) to disable each blade</p>",
+      "description": "<p>A spring blade hidden along the groove of the chest is connected to a trip wire.</p>",
+      "reset": "<p>The trap resets after 15 minutes.</p>",
+      "routine": "<p>If struck, target may become afflicted by tetanus. Saving Throw DC 14 Fortitude; Onset 10 days; Stage 1 clumsy 1 (1 week); Stage 2 clumsy 2 and can&rsquo;t speak (1 day); Stage 3 paralyzed with spasms (1 day); Stage 4 death</p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [
+        "mechanical",
+        "trap"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.947,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "prototypeToken": {
+    "disposition": 0,
+    "height": 1,
+    "name": "Scythe Blades",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.Actor.ijQD0WPLIoet5sK2",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1761248973947,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "_id": "NYeeOF1jHcttkJ7y",
+  "sort": 900000,
+  "_key": "!actors!NYeeOF1jHcttkJ7y"
+}

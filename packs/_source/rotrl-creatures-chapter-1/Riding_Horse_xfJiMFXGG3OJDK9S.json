@@ -1,0 +1,422 @@
+{
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "3GFUGIkhpZDZer4p",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Hoof",
+      "sort": 100000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 7
+        },
+        "damageRolls": {
+          "cf17tjppwsvn8x543qls": {
+            "damage": "1d6+4",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!xfJiMFXGG3OJDK9S.3GFUGIkhpZDZer4p"
+    },
+    {
+      "_id": "Mf7Y2TxYr2e5o2Ht",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Buck",
+      "sort": 200000,
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Check[reflex|dc:16]</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "buck",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!xfJiMFXGG3OJDK9S.Mf7Y2TxYr2e5o2Ht"
+    },
+    {
+      "_id": "I1o6uYgy06gzdYSk",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Gallop",
+      "sort": 300000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>The riding horse Strides twice. It has a +10-foot circumstance bonus to its Speed during these Strides.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "gallop",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "gallop"
+            ],
+            "selector": "land-speed",
+            "type": "circumstance",
+            "value": 10
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!xfJiMFXGG3OJDK9S.I1o6uYgy06gzdYSk"
+    }
+  ],
+  "name": "Riding Horse",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 22,
+        "temp": 0,
+        "max": 22,
+        "details": ""
+      },
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 40,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "<p>Horses serve as mounts and beasts of burden in many societies. They are loyal and typically gentle creatures, and they are invaluable to those looking to travel long distances. Smaller folk, like gnomes and halflings, often utilize ponies as mounts, while horses are the favored steeds for humans and other Medium humanoids. Most horses that the average humanoid encounters are domesticated, though large herds can be found in the wild.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Monster Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": -1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 5,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 6
+      },
+      "athletics": {
+        "base": 7
+      }
+    },
+    "traits": {
+      "value": [
+        "animal"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1770941014432,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Riding Horse",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "flags": {},
+  "_id": "xfJiMFXGG3OJDK9S",
+  "sort": 0,
+  "_key": "!actors!xfJiMFXGG3OJDK9S"
+}

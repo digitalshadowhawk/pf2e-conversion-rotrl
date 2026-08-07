@@ -1,0 +1,364 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "disposition": 0,
+    "height": 1,
+    "name": "Brown Mold",
+    "width": 1,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "name": "Brown Mold",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "NcyiM0WihYrncbSF",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Emit Cold",
+      "sort": 100000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Template[type:emanation|distance:5]{5 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<p>Brown mold deals [[/r 2d6[cold]]] damage to nearby creatures.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:34.581-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "aura",
+            "cold"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "MQ3CKYIdF6zrMg0x",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Leech Warmth",
+      "sort": 200000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> Fire comes within 5 feet of the brown mold.</p>\n<p><strong>Effect</strong> The brown mold expands into every square adjacent to its space. As it grows, it pulls more heat from its surroundings, dealing [[/r (2d6+6)[cold]]] damage (@Check[type:fortitude|dc:18|basic:true] save) to creatures within 10 feet after it expands.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:34.581-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "_id": "672RtXWE8AaY5BpR",
+  "system": {
+    "source": {
+      "value": "Pathfinder Gamemastery Guide"
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 18
+      },
+      "hp": {
+        "value": 30,
+        "max": 30,
+        "temp": 0,
+        "details": "",
+        "tempmax": 0
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 11,
+        "details": "<p>(trained)</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": true,
+      "immunities": [
+        {
+          "type": "critical-hits"
+        },
+        {
+          "type": "fire"
+        },
+        {
+          "type": "object-immunities"
+        },
+        {
+          "type": "precision"
+        }
+      ]
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 2
+      },
+      "disable": "<p>@Check[type:survival|dc:18|name:Remove Brown Mold|traits:environmental,fungus] (trained) to safely remove the mold</p>",
+      "description": "<p>This unassuming fungus leeches heat out of the air.</p>",
+      "reset": "<p>After expanding, the brown mold can't grow again for 1 day.</p>",
+      "routine": ""
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "environmental",
+        "fungus"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:10:34.581-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456686304,
+    "modifiedTime": 1677352235377,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.hazards.Q8bXKgDm8eguqThB",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "5tmJBPGoHxPAsIPj",
+  "sort": 0
+}

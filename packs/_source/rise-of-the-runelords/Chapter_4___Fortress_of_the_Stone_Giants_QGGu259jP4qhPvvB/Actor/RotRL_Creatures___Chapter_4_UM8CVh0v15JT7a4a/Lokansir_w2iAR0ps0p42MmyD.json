@@ -1,0 +1,1538 @@
+{
+  "name": "Lokansir",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "hfmC23uylTOfV6qP",
+      "name": "Athletics",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 19
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "IwhIQfJUZPg1XQA6",
+      "name": "Catch Rock",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> The monster must have a free hand but can @Compendium[pf2e.actionspf2e.wQYmDStjdjn0I26t]{Release} anything it's holding as part of this reaction.</p>\n<p><strong>Trigger</strong> The monster is targeted with a thrown rock Strike or a rock would fall on the monster.</p>\n<p><strong>Effect</strong> The monster gains a +4 circumstance bonus to its AC against the triggering attack or to any defense against the falling rock. If the attack misses or the monster successfully defends against the falling rock, the monster catches the rock, takes no damage, and is now holding the rock</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": "catch-rock",
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.uG0Z8PsyZtsYuvGR",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "A3lAx0XlWSJVDjmH",
+      "name": "Throw Rock",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The monster picks up a rock within reach or retrieves a stowed rock and throws it, making a ranged Strike.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": "throw-rock",
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.a0tx6exmB9v9CUsj",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "oHZYGwA32H8sG2tQ",
+      "name": "Wide Swing",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": "ZoXAkxcD9o2arZC0",
+      "sort": 100000,
+      "flags": {
+        "core": {},
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The hill giant makes a single greatclub Strike and compares the attack roll result to the ACs of up to two foes within its reach.</p>\n<p>This counts as two attacks for the hill giant's multiple attack penalty.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Item.xEHY10Oxi5BJJCmQ",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Araknyw5XARMphPQ",
+      "name": "Innate Arcane Spells",
+      "type": "spellcastingEntry",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 17,
+          "dc": 27,
+          "mod": 0
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 1,
+            "max": 1
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 1,
+            "max": 1
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        },
+        "displayLevels": {},
+        "focus": {
+          "points": 1,
+          "pool": 1
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "DKyERUmdUujU65p9",
+      "name": "Earthquake",
+      "type": "spell",
+      "img": "systems/pf2e/icons/spells/earthquake.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You shake the ground, topple creatures into fissures, and collapse structures. The GM might add additional effects in certain areas. Cliffs might collapse, causing creatures to fall, or a lake might drain as fissures open up below its surface, leaving a morass of quicksand.</p>\n<ul>\n<li><strong>Shaking Ground</strong> The ground is difficult terrain, and creatures on it take a -2 circumstance penalty to attack rolls, AC, and skill checks.</li>\n<li><strong>Fissures</strong> Each creature on the ground must attempt a Reflex save at the start of its turn to keep its footing and avoid falling into 40-foot-deep fissures that open beneath it. The fissures are permanent, and their sides require successful DC 15 Athletics to Climb.</li>\n<li><strong>Collapse</strong> Structures and ceilings might collapse. The GM rolls a flat check for each (DC 16 for a sturdy structure, DC 14 for an average structure and most natural formations, DC 9 for a shoddy structure, all adjusted higher or lower as the GM sees fit). A collapse deals 11d6 bludgeoning damage; each creature caught in a collapse must attempt a Reflex save to avoid it.</li>\n</ul>\n<hr />\n<p><strong>Critical Success</strong> The creature takes half the collapse damage.</p>\n<p><strong>Success</strong> The creature takes half the collapse damage and falls @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>Failure</strong> The creature takes the full collapse damage and falls Prone.</p>\n<p><strong>Critical Failure</strong> The creature takes the full collapse damage and falls into a fissure.</p>\n<hr />\n<p><strong>Heightened (10th)</strong> You create a massive earthquake that can devastate a settlement. The range increases to half a mile and the area to a quarter-mile burst.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": "earthquake",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "earth"
+          ],
+          "rarity": "common",
+          "traditions": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 8
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "500 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 round",
+          "sustained": false
+        },
+        "damage": {
+          "value": {
+            "0": {
+              "value": "11d6",
+              "type": {
+                "value": "bludgeoning",
+                "categories": [],
+                "subtype": ""
+              },
+              "applyMod": false
+            }
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "Araknyw5XARMphPQ"
+        },
+        "counteraction": false,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "school": {
+          "value": "evocation"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "save": {
+          "value": "reflex",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "ability": {
+          "value": ""
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        },
+        "heightening": {
+          "levels": {
+            "10": {
+              "area": {
+                "areaType": "burst",
+                "value": "1320"
+              },
+              "range": {
+                "value": "half a mile"
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.spells-srd.x7SPrsRxGb2Vy2nu",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "akE1n73Sne5XC24C",
+      "name": "Meld into Stone",
+      "type": "spell",
+      "img": "systems/pf2e/icons/spells/meld-into-stone.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You merge with an adjacent block of stone with enough volume to fit you and your worn and held possessions. You must touch the stone when you Cast the Spell. You can hear, but not see, what's going on outside the stone, and you can cast spells while in the stone as long as they don't require line of effect beyond the stone.</p>\n<p>Significant physical damage to the stone while you are inside it expels you and deals 10d6 damage to you. Passwall expels you without dealing damage and ends meld into stone. You can Dismiss this spell.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": "meld-into-stone",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "earth"
+          ],
+          "rarity": "common",
+          "traditions": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "10 minutes",
+          "sustained": false
+        },
+        "damage": {
+          "value": {}
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "Araknyw5XARMphPQ"
+        },
+        "counteraction": false,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "school": {
+          "value": "transmutation"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "ability": {
+          "value": ""
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.spells-srd.vh1RpbWfqdNC4L3P",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "y33IyYr1lHZxgkyX",
+      "name": "Greatclub",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Backswing",
+            "predicate": [
+              "back-swing"
+            ],
+            "selector": "attack",
+            "type": "circumstance",
+            "value": 1
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "backswing",
+            "reach-10"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "eqgn5qo8mwpjqwv7krxn": {
+            "damage": "1d10+14",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 19
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "kgFaTpYuRn1kB2lj",
+      "name": "Greatclub",
+      "type": "weapon",
+      "img": "systems/pf2e/icons/equipment/weapons/greatclub.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        },
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Backswing",
+            "predicate": [
+              "back-swing"
+            ],
+            "selector": "attack",
+            "type": "circumstance",
+            "value": 1
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": "null",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": null,
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "slashing",
+          "persistent": null,
+          "value": ""
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "reload": {
+          "value": ""
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": {
+          "value": false
+        },
+        "subitems": [],
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "weight": {
+          "value": "-"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "strikingRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Item.N7Lz2HURjtwpCxWc",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "pExQtV4Sn1c22r0S",
+      "name": "Fist",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "reach-10"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "ovvpd9biens51pu37wqt": {
+            "damage": "1d6+14",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 19
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "ipDNZzjyUQwAQ93I",
+      "name": "Rock",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:57.171-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "brutal",
+            "range-increment-120"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "ranged"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "z6et9a6tbywr30x8x64j": {
+            "damage": "1d8+14",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 19
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "pf2e_updatednpcsheet": {},
+    "pf2e": {
+      "lootable": false
+    },
+    "cf": {},
+    "core": {}
+  },
+  "_id": "w2iAR0ps0p42MmyD",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 199,
+        "temp": 0,
+        "max": 199,
+        "details": ""
+      },
+      "ac": {
+        "value": 30,
+        "details": "",
+        "dex": 0,
+        "check": 0,
+        "base": 30
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "perception": {
+        "value": 13,
+        "ability": "wis"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 11
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "CE"
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": "",
+      "recallKnowledgeText": ""
+    },
+    "resources": {
+      "focus": {
+        "value": 1,
+        "max": 1
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 8,
+        "value": 10
+      },
+      "dex": {
+        "mod": 3,
+        "value": 10
+      },
+      "con": {
+        "mod": 7,
+        "value": 10
+      },
+      "int": {
+        "mod": -1,
+        "value": 10
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 21,
+        "saveDetail": "",
+        "ability": "con"
+      },
+      "reflex": {
+        "value": 16,
+        "saveDetail": "",
+        "ability": "dex"
+      },
+      "will": {
+        "value": 18,
+        "saveDetail": "",
+        "ability": "wis"
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "earth",
+        "giant",
+        "humanoid"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "lg"
+      },
+      "senses": {
+        "value": "low-light vision"
+      },
+      "languages": {
+        "value": [
+          "common",
+          "jotun"
+        ],
+        "selected": [],
+        "custom": ""
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:57.171-06:00",
+        "version": {
+          "schema": 0.815,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "martial": {
+      "simple": {
+        "value": 0
+      }
+    },
+    "items": {
+      "0": {
+        "data": {
+          "slots": {
+            "slot1": {
+              "value": 0,
+              "max": 0
+            },
+            "slot2": {
+              "value": 0,
+              "max": 0
+            },
+            "slot3": {
+              "value": 1,
+              "max": 1
+            },
+            "slot4": {
+              "value": 0,
+              "max": 0
+            },
+            "slot5": {
+              "value": 0,
+              "max": 0
+            },
+            "slot6": {
+              "value": 0,
+              "max": 0
+            },
+            "slot7": {
+              "value": 0,
+              "max": 0
+            },
+            "slot8": {
+              "value": 1,
+              "max": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "prototypeToken": {
+    "width": 2,
+    "height": 2,
+    "name": "Lokansir",
+    "displayName": 20,
+    "actorLink": true,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      },
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "alpha": 0.25,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456708677,
+    "modifiedTime": 1677352137930,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-4.DZP9L3tg74SrZyRe",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "UM8CVh0v15JT7a4a",
+  "sort": 0
+}

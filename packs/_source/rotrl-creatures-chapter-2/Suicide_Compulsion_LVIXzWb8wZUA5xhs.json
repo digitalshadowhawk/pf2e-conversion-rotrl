@@ -1,0 +1,205 @@
+{
+  "name": "Suicide Compulsion",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 2500000,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "_id": "LVIXzWb8wZUA5xhs",
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 13,
+        "details": "<ul>\n<li>@Check[type:perception|dc:23|name:To Notice Dagger That&nbsp; Was Not There Before|traits:complex,haunt] (trained) To Notice Dagger That&nbsp; Was Not There Before.</li>\n</ul>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 3
+      },
+      "disable": "<ul>\n<li>@Check[type:occultism|dc:20|name:To Banish Haunt|traits:complex,haunt] (expert) To Banish Haunt</li>\n<li>@Check[type:religion|dc:20|name: To Banish Haunt|traits:complex,haunt] (expert) To Banish Haunt</li>\n</ul>",
+      "description": "<p style=\"text-align:justify\">Overwhelmed with despair, you move to the desk, retrieve what appears to be a silver-handled dagger from it, and use it to cut your own throat. </p>\n<p style=\"text-align:justify\"><strong>Insane Haunt</strong>: This haunt affects only those haunted by Traver Foxglove after slowly driven to madness. This haunt affects impulive or untrustworthy characters. Is no creature in a group fits its description it may affect any creture in a group.</p>",
+      "reset": "<p>The haunt automatically resets after 1 day until the supernatural fungus in B37 is dealt with, even if the haunt was previously disabled.</p>",
+      "routine": "<p><strong style=\"text-align: justify;\">I Must End This&nbsp;</strong><span class=\"pf2-icon\" style=\"text-align: justify;\">R</span><span style=\"text-align: justify;\">&nbsp;</span><strong style=\"text-align: justify;\">Trigger</strong><span style=\"text-align: justify;\">&nbsp;Haunted character moves within 5 feet of desk Character must make a @Check[type:will|dc:26|name:Suggestion|traits:mental,incapacitating,linguistic,necromancy,occult] save or pick up the dagger and be unable to leave the room as per the haunt's routine.</span></p>\n<p><span style=\"text-align: justify;\"><strong>Routine:</strong>&nbsp;</span><span style=\"text-align: justify;\">Using two actions, the possessed creature must make a (@Check[type:will|dc:22|basic:true] save) against [[/r (2d8+7)[piercing]]] damage. </span></p>\n<p><span style=\"text-align: justify;\"><strong>Failure:</strong> additional @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}</span></p>\n<p><span style=\"text-align: justify;\"><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\"><strong style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">Critical Failure</strong>:&nbsp;</span></span><span style=\"text-align: justify; font-family: var(--font-primary); font-size: var(--font-size-14);\">additional </span><span style=\"text-align: justify; font-family: var(--font-primary); font-size: var(--font-size-14);\">@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage 2}</span></p>\n<p><strong>Do Not Interfere!&nbsp;</strong><span class=\"pf2-icon\">F</span>&nbsp;&nbsp;<strong>Trlgger</strong>&nbsp;Creature within possessed target's reach attempts to intervene. Make a strike against the interveneing creature. Unlike attack of opportunity, this carries its own mulipie ﬂack penalty separate from its normal strike.</p>\n<p>&nbsp;</p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "disposition": 0,
+    "height": 1,
+    "name": "Blood Hunger",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "coreVersion": "13.351",
+    "createdTime": 1673456686350,
+    "modifiedTime": 1770946408423,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e.pfs-introductions-bestiary.O6KTpMxRnrft3j1g",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!LVIXzWb8wZUA5xhs"
+}

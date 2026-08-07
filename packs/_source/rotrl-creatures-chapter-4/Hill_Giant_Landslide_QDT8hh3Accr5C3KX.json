@@ -1,0 +1,363 @@
+{
+  "_id": "QDT8hh3Accr5C3KX",
+  "name": "Hill Giant Landslide",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "v5JDDS5HftErPvPh",
+      "effects": [],
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+      "name": "Rocks falls, everyone dies",
+      "sort": 100000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Any characters climbing the stairs must succeed at a <span data-pf2-check=\"reflex\" data-pf2-dc=\"19\" data-pf2-traits=\"bludgeoning,damaging-effect\" data-pf2-label=\"Landslide DC\" data-pf2-show-dc=\"gm\">basic Reflex</span> save each round<em data-visibility=\"gm\"> or take [[/r 3d6 # bludgeoning]] bludgeoning damage from the tumbling stones.</em></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": "",
+          "selected": {}
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.611-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 3
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!QDT8hh3Accr5C3KX.v5JDDS5HftErPvPh"
+    },
+    {
+      "_id": "rxEi6NMt2wvB0aaF",
+      "name": "Rocks!",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:07.611-06:00",
+            "version": {
+              "schema": 0.649,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "14oss12s8jfnyg7wu7uz": {
+            "damage": "3d6",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 0
+        },
+        "attackEffects": {
+          "value": [
+            "rocks-falls-everyone-dies"
+          ],
+          "custom": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!QDT8hh3Accr5C3KX.rxEi6NMt2wvB0aaF"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "cf": {}
+  },
+  "system": {
+    "source": {
+      "value": ""
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": null,
+        "saveDetail": "",
+        "rank": 0
+      },
+      "reflex": {
+        "value": null,
+        "saveDetail": "",
+        "rank": 0
+      },
+      "will": {
+        "value": null,
+        "saveDetail": "",
+        "rank": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "hp": {
+        "value": 38,
+        "max": 38,
+        "temp": 0,
+        "details": "",
+        "tempmax": 0
+      },
+      "hardness": 17,
+      "stealth": {
+        "value": 17,
+        "details": "(expert) or Perception DC 27 (expert) to notice the six cleverly hidden sluice gates while they are closed"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": true
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 9
+      },
+      "disable": "<p>Engage the Hill Giants</p>",
+      "description": "<p><span style=\"font-family:Vollkorn, Eczar, Georgia, serif;font-size:15.6px\">All eight giants then arrange themselves at the top of the stairs, where large piles of throwing boulders have been stacked. If the PCs attempt to climb the stairs, the giants abandon rock throwing in favor of a controlled landslide—they can kick and push and drop boulders down the stairs at an alarming rate. Any characters climbing the stairs must succeed at a </span><code style=\"box-sizing:border-box;user-select:text;color:var(--secondary);font-family:sans-serif;font-size:0.95em;font-weight:bold\">DC 19 Reflex save</code><span style=\"font-family:Vollkorn, Eczar, Georgia, serif;font-size:15.6px\"> each round or take </span><a class=\"inline-roll roll\" style=\"box-sizing:border-box;user-select:text;cursor:url('ui/cursors/pointer.webp'), pointer;margin-top:var(--p-space,1em);box-shadow:rgba(255, 255, 255, 0.3) 0px 0px 0px 2px inset, rgba(0, 0, 0, 0.5) 0px 0px 0px 1px inset;font-family:var(--sans-serif);font-size:0.9em;border:initial none initial\" title=\"bludgeoning\" data-mode=\"roll\" data-flavor=\"bludgeoning\" data-formula=\"3d6\"> 3d6</a><span style=\"font-family:Vollkorn, Eczar, Georgia, serif;font-size:15.6px\"> damage from the tumbling stones.</span></p>",
+      "reset": null,
+      "routine": null
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "mechanical"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:05:07.611-06:00",
+        "version": {
+          "schema": 0.649,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "oiPWLVPNH7xQBULr": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": 0,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "lockRotation": true,
+    "name": "Quarry Sluiceway",
+    "randomImg": false,
+    "rotation": 0,
+    "width": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "intensity": 5,
+        "speed": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "links/RotRL/Artwork/4.%20Fortress%20of%20the%20Stone%20Giants/2%20-%20The%20Storval%20Stairs.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.350",
+    "createdTime": 1673456708593,
+    "modifiedTime": 1673457025137,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.age-of-ashes-bestiary.We1Nq7CrqDQHEZxY",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!QDT8hh3Accr5C3KX"
+}

@@ -1,0 +1,392 @@
+{
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "JUlSpx5USh1nfM12",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 100000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 8
+        },
+        "damageRolls": {
+          "djvpdiilfbx471eqkabk": {
+            "damage": "1d8+2",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": "jaws",
+        "traits": {
+          "value": [
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!DoRKWTlmvzz6XTvb.JUlSpx5USh1nfM12"
+    },
+    {
+      "_id": "VMzhTqEkTw0QRQvq",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Uncanny Climber",
+      "sort": 200000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>A giant gecko's feet allow it to climb virtually any surface, no matter how slick or sheer. If a giant gecko attempts an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb} and critically fails, it gets a failure instead.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "adjustment": {
+              "criticalFailure": "one-degree-better"
+            },
+            "key": "AdjustDegreeOfSuccess",
+            "predicate": [
+              "action:climb"
+            ],
+            "selector": "athletics"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "criticalFailure"
+            ],
+            "predicate": [
+              "action:climb"
+            ],
+            "selector": "athletics",
+            "text": "{item|description}",
+            "title": "{item|name}"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!DoRKWTlmvzz6XTvb.VMzhTqEkTw0QRQvq"
+    }
+  ],
+  "name": "Stickfoot",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 20,
+        "temp": 0,
+        "max": 20,
+        "details": ""
+      },
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 30
+          }
+        ],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "<p>These roughly human-sized reptiles have amazing feet capable of clinging tenaciously to any surface. Giant geckos are typically docile and shy but can be aggressive when cornered or defending their territory. These large-eyed lizards are found in a wide variety of habitats, from rain forests and deserts to mountain slopes or even underground caverns. They spend most of their time climbing around in large trees or on rocky cliffs, whether hunting for small animals or hiding from predators. A giant gecko's scales are often quite brightly colored or decorated in intricate patterns. Giant geckos span nearly 8 feet in length from head to tail, and they weigh about 120 pounds.</p>\n<p>Giant geckos are sometimes used by smaller humanoids as guardians or mounts, as their docile nature makes them relatively easy to tame and train. Their superior climbing skills make giant geckos particularly popular within societies that dwell underground or near cliffs, such as goblins and kobolds. Their bright coloration also makes them favorite pets in high society.</p>\n<hr />\n<p>Lizards have a wide range of appearances and abilities, but most share a basic reptilian shape—long tails, wide toothy mouths, and four legs. While a few species are capable of movement on two legs for short periods of time, most are strictly quadrupedal. The three species presented here represent the most common and well-known of the larger species.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Monster Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 7,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 8
+      },
+      "athletics": {
+        "base": 5,
+        "special": [
+          {
+            "base": 9,
+            "label": "to Climb",
+            "predicate": [
+              "action:climb"
+            ]
+          }
+        ]
+      },
+      "stealth": {
+        "base": 6
+      }
+    },
+    "traits": {
+      "value": [
+        "animal"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1770941103546,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Giant Gecko",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "flags": {},
+  "_id": "DoRKWTlmvzz6XTvb",
+  "sort": 0,
+  "_key": "!actors!DoRKWTlmvzz6XTvb"
+}

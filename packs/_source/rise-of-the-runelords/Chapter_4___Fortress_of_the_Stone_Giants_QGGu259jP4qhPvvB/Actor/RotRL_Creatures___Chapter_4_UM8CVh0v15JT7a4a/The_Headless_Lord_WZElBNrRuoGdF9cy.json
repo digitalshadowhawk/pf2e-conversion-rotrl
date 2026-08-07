@@ -1,0 +1,2156 @@
+{
+  "_id": "WZElBNrRuoGdF9cy",
+  "name": "The Headless Lord",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "ySph7EK4WF8X70wV",
+      "name": "Athletics",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 23
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Fg0CWvbjQC1PQSD3",
+      "name": "Intimidation",
+      "type": "lore",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 23
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "MEJwPCexQzkFXmeL",
+      "name": "Runechill Hatchet",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Sweep",
+            "predicate": [
+              "second-attack"
+            ],
+            "selector": "attack",
+            "type": "circumstance",
+            "value": 1
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "sweep"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "yw7lc2r904jy6xj9r6cj": {
+            "damage": "2d10+12",
+            "damageType": "slashing"
+          },
+          "wxax8ci934n2gzjtk8pd": {
+            "damage": "1d6",
+            "damageType": "negative"
+          }
+        },
+        "bonus": {
+          "value": 24
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "4RiVvcvcJCqZ1OP4",
+      "name": "+1 Striking Runechill Hatchet",
+      "type": "weapon",
+      "img": "systems/pf2e/icons/equipment/weapons/hatchet.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {
+        "core": {},
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This small axe can be used in close combat or thrown.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Sweep",
+            "predicate": [
+              "second-attack"
+            ],
+            "selector": "attack",
+            "type": "circumstance",
+            "value": 1
+          },
+          {
+            "key": "DamageDice",
+            "selector": "strike-damage",
+            "diceNumber": 1,
+            "dieSize": "d6",
+            "damageType": "negative",
+            "label": "Runechill"
+          }
+        ],
+        "slug": "hatchet",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "sweep",
+            "thrown-10"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 1,
+        "baseItem": "hatchet",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1435
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "unidentified",
+          "unidentified": {
+            "name": "Unusual Hatchet",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": "The nature of this hatchet is unclear."
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "martial",
+        "group": "axe",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "slashing",
+          "persistent": null,
+          "value": ""
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "reload": {
+          "value": "-"
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": {
+          "value": true,
+          "material": null,
+          "runes": {
+            "potency": 1,
+            "striking": "striking"
+          }
+        },
+        "subitems": [],
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "strikingRune": {
+          "value": "striking"
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
+        },
+        "weaponType": {
+          "value": "martial"
+        },
+        "ability": {
+          "value": "str"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.equipment-srd.LGgvev6AV0So8tP9",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "qROEXoWttlRFjsJC",
+      "name": "+1 Striking Runechill Hatchet",
+      "type": "weapon",
+      "img": "systems/pf2e/icons/equipment/weapons/hatchet.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "flags": {
+        "core": {},
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This small axe can be used in close combat or thrown.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Sweep",
+            "predicate": [
+              "second-attack"
+            ],
+            "selector": "attack",
+            "type": "circumstance",
+            "value": 1
+          },
+          {
+            "key": "DamageDice",
+            "selector": "strike-damage",
+            "diceNumber": 1,
+            "dieSize": "d6",
+            "damageType": "negative",
+            "label": "Runechill"
+          }
+        ],
+        "slug": "hatchet",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "sweep",
+            "thrown-10"
+          ],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 11
+        },
+        "quantity": 1,
+        "baseItem": "hatchet",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1435
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "unidentified",
+          "unidentified": {
+            "name": "Unusual Hatchet",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": "The nature of this hatchet is unclear."
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "martial",
+        "group": "axe",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "slashing",
+          "persistent": null,
+          "value": ""
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "reload": {
+          "value": "-"
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": {
+          "value": true,
+          "material": null,
+          "runes": {
+            "potency": 1,
+            "striking": "striking"
+          }
+        },
+        "subitems": [],
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "strikingRune": {
+          "value": "striking"
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
+        },
+        "weaponType": {
+          "value": "martial"
+        },
+        "ability": {
+          "value": "str"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.equipment-srd.LGgvev6AV0So8tP9",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "tpuxtyhZICvjYxc9",
+      "name": "Innate Arcane Spells",
+      "type": "spellcastingEntry",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 17,
+          "dc": 27,
+          "mod": 0
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 1,
+            "max": 1
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 1,
+            "max": 1
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        },
+        "displayLevels": {},
+        "focus": {
+          "points": 1,
+          "pool": 1
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "wK4EJ0zSCVylIt5j",
+      "name": "Fear",
+      "type": "spell",
+      "img": "systems/pf2e/icons/spells/fear.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You plant fear in the target; it must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target is @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3} and @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Fleeing} for 1 round.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to five creatures.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": "fear",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "emotion",
+            "fear",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "varies",
+          "sustained": false
+        },
+        "damage": {
+          "value": {},
+          "applyMod": false
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "tpuxtyhZICvjYxc9",
+          "heightenedLevel": 3
+        },
+        "counteraction": false,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "spellType": {
+          "value": "save"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "school": {
+          "value": "enchantment"
+        },
+        "components": {
+          "focus": false,
+          "material": false,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "save": {
+          "value": "will",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "ability": {
+          "value": ""
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "damageType": {
+          "value": ""
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        },
+        "heightening": {
+          "levels": {
+            "3": {
+              "target": {
+                "value": "5 creatures"
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.spells-srd.4koZzrnMXhhosn0D",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Mbr2weemAEvDymxP",
+      "name": "Darkness",
+      "type": "spell",
+      "img": "systems/pf2e/icons/spells/darkness.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You create a shroud of darkness that prevents light from penetrating or emanating within the area. Light does not enter the area and any non-magical light sources, such as a torch or lantern, do not emanate any light while inside the area, even if their light radius would extend beyond the darkness. This also suppresses magical light of your darkness spell's level or lower. Light can't pass through, so creatures in the area can't see outside. From outside, it appears as a globe of pure darkness.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> Even creatures with darkvision (but not greater darkvision) can barely see through the darkness. They treat targets seen through the darkness as @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": "darkness",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "darkness"
+          ],
+          "rarity": "common",
+          "traditions": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": {
+          "value": 20,
+          "type": "burst"
+        },
+        "time": {
+          "value": "3"
+        },
+        "duration": {
+          "value": "1 minute",
+          "sustained": false
+        },
+        "damage": {
+          "value": {},
+          "applyMod": false
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "tpuxtyhZICvjYxc9"
+        },
+        "counteraction": false,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "school": {
+          "value": "evocation"
+        },
+        "components": {
+          "focus": false,
+          "material": true,
+          "somatic": true,
+          "verbal": true
+        },
+        "materials": {
+          "value": ""
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "ability": {
+          "value": ""
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "damageType": {
+          "value": ""
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        },
+        "heightening": {
+          "type": "interval"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "mrc4p5XEIouNFhNL",
+      "name": "Double Swing",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": "ZoXAkxcD9o2arZC0",
+      "sort": 100000,
+      "flags": {
+        "core": {},
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The creature makes a single Strike and compares the attack roll result to the ACs of up to two foes within its reach.</p>\n<p>This counts as two attacks for the creature's multiple attack penalty.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Item.xEHY10Oxi5BJJCmQ",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "8vcRfzczhkPZ0oPq",
+      "name": "Fearsome Brute",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Fear makes your foes weak and more vulnerable to your attacks. You gain a cirumstance bonus to damage rolls for Strikes against @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened}creatures. The bonus is euqal to double the target's frightened value.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "fighter"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "2RsvtR8K4qnxQ7r3",
+      "name": "Desecration Aura",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura} 30 feet. Undead within the aura gain a +1 status bonus to attack rolls, skill checks, saving throws, and Perception checks.</p>\n<p>Creatures anathema to negative energy take a -1 status penalty to those checks.</p>\n<p>Attacks made by undead within the aura deal 1 additional negative damage.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "aura",
+            "divine",
+            "necromancy"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "oE1TYz3I7c9K7a4a",
+      "name": "Headless",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Although The Headless Lord lacks a head, it can still hear, see, and speak as if it had one.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Co9oOvlr14vOJKPm",
+      "name": "Create Spawn",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A creature slain by The Headless Lord rises in [[/gmr 1d4 # minutes]]&nbsp; minutes as a zombie under The Headless Lord's control.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "B6BHkWZ3Jbj1xVva",
+      "name": "+1 Full Plate",
+      "type": "armor",
+      "img": "systems/pf2e/icons/equipment//armor/fullplate.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {},
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": "full-plate",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bulwark"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": "full-plate",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 160
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": false,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "unidentified",
+          "unidentified": {
+            "name": "Unusual Full Plate",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": "The nature of this full plate is unclear."
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "heavy",
+        "group": "plate",
+        "acBonus": 0,
+        "strength": {
+          "value": 18
+        },
+        "dexCap": 5,
+        "checkPenalty": 0,
+        "speedPenalty": 0,
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": [],
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "weight": {
+          "value": "5"
+        },
+        "equippedBulk": {
+          "value": "4"
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "usage": {
+          "value": "wornarmor"
+        },
+        "armor": {
+          "value": 6
+        },
+        "dex": {
+          "value": 0
+        },
+        "check": {
+          "value": -3
+        },
+        "speed": {
+          "value": -10
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "resiliencyRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "armorType": {
+          "value": "heavy"
+        },
+        "potency": {},
+        "resilient": {}
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Gq1cZWSKOtJhKd2p",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "DkwuhEpWsswW0SnO",
+      "name": "Skill Checks",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize}&nbsp;</p>\n<p>@Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove}</p>\n<p>@Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip}</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:55.309-06:00",
+            "version": {
+              "schema": 0.827,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "lootable": false
+    },
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 0,
+        "temp": 0,
+        "max": 240,
+        "details": ""
+      },
+      "ac": {
+        "value": 30,
+        "details": "",
+        "dex": 0,
+        "check": 0,
+        "base": 30
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "perception": {
+        "value": 21,
+        "ability": "wis"
+      },
+      "immunities": [
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "mental"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "positive"
+        },
+        {
+          "type": "unconscious"
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 11
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "NE"
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": "",
+      "recallKnowledgeText": ""
+    },
+    "resources": {
+      "focus": {
+        "value": 1,
+        "max": 1
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 8,
+        "value": 10
+      },
+      "dex": {
+        "mod": 5,
+        "value": 10
+      },
+      "con": {
+        "mod": 5,
+        "value": 10
+      },
+      "int": {
+        "mod": 3,
+        "value": 10
+      },
+      "wis": {
+        "mod": 5,
+        "value": 10
+      },
+      "cha": {
+        "mod": 5,
+        "value": 10
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 24,
+        "saveDetail": "",
+        "ability": "con"
+      },
+      "reflex": {
+        "value": 21,
+        "saveDetail": "",
+        "ability": "dex"
+      },
+      "will": {
+        "value": 24,
+        "saveDetail": "",
+        "ability": "wis"
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "undead",
+        "custom"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "senses": {
+        "value": ""
+      },
+      "languages": {
+        "value": [
+          "jotun",
+          "custom"
+        ],
+        "selected": [],
+        "custom": "undead telepathy 100ft"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:55.309-06:00",
+        "version": {
+          "schema": 0.827,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "customModifiers": {},
+    "items": {
+      "0": {
+        "data": {
+          "slots": {
+            "slot1": {
+              "value": 0,
+              "max": 0
+            },
+            "slot2": {
+              "value": 1,
+              "max": 1
+            },
+            "slot3": {
+              "value": 1,
+              "max": 1
+            },
+            "slot4": {
+              "value": 0,
+              "max": 0
+            },
+            "slot5": {
+              "value": 0,
+              "max": 0
+            },
+            "slot6": {
+              "value": 0,
+              "max": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "displayName": 20,
+    "displayBars": 20,
+    "height": 1,
+    "width": 1,
+    "disposition": -1,
+    "name": "The Headless Lord",
+    "actorLink": true,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      },
+      "splatter": {
+        "bloodColor": ""
+      },
+      "monks-little-details": {
+        "bloodsplat-colour": ""
+      },
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "alpha": 0.25,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 1000,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456708601,
+    "modifiedTime": 1677352136385,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-4.WZElBNrRuoGdF9cy",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "UM8CVh0v15JT7a4a",
+  "sort": 0
+}

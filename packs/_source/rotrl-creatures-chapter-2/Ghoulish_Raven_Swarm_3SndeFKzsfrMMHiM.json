@@ -1,0 +1,654 @@
+{
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "5nZwyVsgPr94lNpa",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Swarm Mind",
+      "sort": 100000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "swarm-mind",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!3SndeFKzsfrMMHiM.5nZwyVsgPr94lNpa"
+    },
+    {
+      "_id": "g9WBnMDC4J33TlWq",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Enraged Cunning",
+      "sort": 200000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>There are few things as dangerously persistent in the natural world as an angry unkindness of ravens. A raven swarm can hound its prey through most barriers. Simple latches, unsecured chimney flues, loosely shuttered windows, and similar obstacles rarely keep an unkindness away. A raven swarm attempts a Thievery check to bypass many of these simple obstructions, typically against DC 20.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!3SndeFKzsfrMMHiM.g9WBnMDC4J33TlWq"
+    },
+    {
+      "_id": "NV4laxM07MRKvfBd",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Swarming Beaks",
+      "sort": 300000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>The ravens' angry pecking deals @Damage[2d8[piercing]] damage to each enemy in the swarm's space (@Check[reflex|dc:20|basic] save). A creature that critically fails its save is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for [[/gmr 1d4 #rounds]]{1d4 rounds} as the ravens focus their attacks on the target's vulnerable face.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!3SndeFKzsfrMMHiM.NV4laxM07MRKvfBd"
+    },
+    {
+      "name": "Negative Healing",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "negative-healing",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4",
+        "lastModifiedBy": null
+      },
+      "_id": "Mxlh71R8VrYFaziM",
+      "_key": "!actors.items!3SndeFKzsfrMMHiM.Mxlh71R8VrYFaziM"
+    },
+    {
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Low-Light Vision",
+      "sort": 100000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": "low-light-vision",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4",
+        "lastModifiedBy": null
+      },
+      "_id": "PZJO6th1n8Oqza3k",
+      "_key": "!actors.items!3SndeFKzsfrMMHiM.PZJO6th1n8Oqza3k"
+    },
+    {
+      "name": "Consume Flesh",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {
+        "core": {},
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong>Requirements</strong> The swarm is adjacent to the corpse of a creature that died within the last hour.</p>\n<p><strong>Effect</strong> The swarm devours a chunk of the corpse and regains [[/r 2d6[healing]]]{2d6 Hit Points}.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "manipulate"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": "ghoul-consume-flesh",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4",
+        "lastModifiedBy": null
+      },
+      "_id": "Qxp0lJzFSggq2vOS",
+      "_key": "!actors.items!3SndeFKzsfrMMHiM.Qxp0lJzFSggq2vOS"
+    }
+  ],
+  "name": "Ghoulish Raven Swarm",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 30,
+        "temp": 0,
+        "max": 30,
+        "details": ""
+      },
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 10,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 40
+          }
+        ],
+        "details": ""
+      },
+      "immunities": [
+        {
+          "type": "bleed"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        },
+        {
+          "exceptions": [],
+          "type": "swarm-mind"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "bludgeoning",
+          "value": 2
+        },
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "piercing",
+          "value": 5
+        },
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "slashing",
+          "value": 5
+        }
+      ],
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "area-damage",
+          "value": 5
+        },
+        {
+          "exceptions": [],
+          "type": "splash-damage",
+          "value": 5
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 3
+      },
+      "blurb": "",
+      "publicNotes": "<p>A flock of ravens is known as an unkindness. Certainly, the name lives up to its meaning when a swarm of ravens decides to work together. In most cases, a raven swarm like the one presented here won't attack larger foes, but when manipulated by supernatural forces or simple desperation born from hunger, an unkindness of ravens can be a surprisingly dangerous threat.</p><hr /><p>Few birds are as cunning and social as the raven.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Monster Core 2",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 0
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 9,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 9,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 10
+      },
+      "thievery": {
+        "base": 10
+      }
+    },
+    "traits": {
+      "value": [
+        "animal",
+        "swarm",
+        "undead"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1770943137399,
+    "modifiedTime": 1770946408423,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Raven Swarm",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "flags": {},
+  "_id": "3SndeFKzsfrMMHiM",
+  "sort": 800000,
+  "_key": "!actors!3SndeFKzsfrMMHiM"
+}

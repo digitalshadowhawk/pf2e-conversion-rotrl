@@ -1,0 +1,280 @@
+{
+  "_id": "dVZExx4gSiUUdPRT",
+  "name": "Cannibal Urgings",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "0FpzSygcs7G688GT",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Plenty of meat on these bones",
+      "sort": 100000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> 2 creatures, who aren't eating, stay in this room for more than a round.</p>\n<p><strong>Effect&nbsp;</strong>When the hunger pangs strike, all creatures in the room must make @Check[type:fortitude|dc:34] saves to resist being affected as though by a 6th lvl @Compendium[pf2e.spells-srd.siU9xRlqWXeKT0mH]{Feast of Ashes} spell and taking a days starvation damage immediately [[/r {5d4}]] and becoming @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued}&nbsp; from the sudden phantom hunger.</p>\n<p>Accompyanying this ravenous sensation is the conviction that only the flesh of the other PCs can sat ethe hunger. Any character who took starvation damage must make a @Check[type:will|dc:34] save to resist becoming</p>\n<ul>\n<li>@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy}</li>\n<li>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled}</li>\n<li>@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}</li>\n</ul>\n<p>as the cannibal urgings overwhelm the PC and drive them to the brink of madness.</p>\n<p>The hunger and conditions persists only until they eat someting.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:58.862-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "necromancy",
+            "occult"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "system": {
+    "source": {
+      "value": "Pathfinder Core Rulebook"
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": "",
+        "tempmax": 0
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 26,
+        "details": "<p>(Expert) to notice sudden twinges of unnatural hunger.</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": false
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 11
+      },
+      "disable": "<ul>\n<li>@Check[type:religion|dc:33|traits:haunt] (trained) to calm the spirits</li>\n<li>@Check[type:survival|dc:26|traits:haunt] (trained) to quickly retrieve and eat something before the hunger pangs escalate</li>\n</ul>\n<p>Anyone actually eating when the haunt triggers is immune.</p>",
+      "description": "<p>As the PC investigate this roo, they begin experiencing subtle twigs of hunger. Without much more warning, these twigs erupt into full blown pangs of painful starvation and unholy urges to feat on their companions. While these hunger pangs pass quickly, the damage to the mind is more persistent.</p>",
+      "reset": "<p>1 day</p>",
+      "routine": ""
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:58.862-06:00",
+        "version": {
+          "schema": 0.815,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "prototypeToken": {
+    "disposition": 0,
+    "height": 1,
+    "name": "Bloodthirsty Urge",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "tokenizer/npc-images/gold_eating_dwarf.Token.webp?1645370702833",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456726693,
+    "modifiedTime": 1677352139287,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.hazards.su4TRBOoso4vjkoK",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "eqwxmSCohkT6xiSl",
+  "sort": 0
+}

@@ -1,0 +1,207 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "disposition": 0,
+    "height": 1,
+    "name": "Blood Hunger",
+    "width": 1,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "name": "Worried Wife",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "_id": "bb3de2FNaiAnRz5v",
+  "system": {
+    "source": {
+      "value": ""
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 12,
+        "details": "<p>(trained)</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": true
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 3
+      },
+      "disable": "<p>@Check[type:diplomacy|dc:22|name:To Convince the Spirit That Everything is Okay|traits:complex,haunt] (trained) To Convince the Spirit That Everything is Okay, @Check[type:religion|dc:18|name: To Quiet the Spirit|traits:complex,haunt] (expert) To Quiet the Spirit, @Check[type:perception|dc:22|name:To Notice and Hear the Haunt|traits:complex,haunt] (trained) To Notice and Hear the Haunt.</p>",
+      "description": "<p>On the floor, the dust is disturbed, almost as if an invisible person was pacing back and forth before the fireplace... With a sudden flash, your mind is filled with a woman's memory, overcome by worry about what her husband might be doing during his late nights spent in the basement. </p>",
+      "reset": "<p>The haunt automatically resets after 1 day until the supernatural fungus in B37 is dealt with, even if the haunt was previously disabled.</p>",
+      "routine": "<p><strong>\"Lorey We're Leaving\" Trigger </strong>Creature enters its pacing path. Casts 4th-level Suggestion on triggering creature ( @Check[type:will|dc:19|name:Suggestion|traits:mental,incapacitating,linguistic,necromancy,occult] save to avoid effect), causing the creature to grab an ally, believing that ally to be their child and drag them out of the room, likely into the path of other hazards.&nbsp;&nbsp;</p>\n<p><strong>Universal:&nbsp;</strong>This haunt affects every creature that triggers it.</p>"
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:10:34.846-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456686372,
+    "modifiedTime": 1677352235441,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pfs-introductions-bestiary.O6KTpMxRnrft3j1g",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "5tmJBPGoHxPAsIPj",
+  "sort": 0
+}

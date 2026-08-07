@@ -1,0 +1,301 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "disposition": 0,
+    "name": "Rumpled Cloth",
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "RotRL%20Assets/Rag_Cloth_Black_B_1x1.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_id": "gCAE6Hb2BMu8uAIh",
+  "name": "Rumpled Cloth",
+  "type": "loot",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "6P0mDS93i3W3dGdG",
+      "name": "Robe of Bones",
+      "type": "equipment",
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/robe-of-the-archmagi.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {},
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This sinister item functions much like a <em>robe of useful items</em> for the serious necromancer. It appears to be an unremarkable robe, but a character who dons it notes that it is adorned with small embroidered figures representing undead creatures. Only the wearer of the robe can see the embroidery, recognize them for the creatures they become, and detach them.&nbsp;</p>\n<p>&nbsp;</p>\n<p>All of the skeletal pathes on this robe have been detached, and the item radiates on faint magic now.&nbsp; Such a robe cannot be repaired or recharged - which may explain why it was discarded.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "perception",
+            "type": "item",
+            "value": 3
+          }
+        ],
+        "slug": "robe-of-eyes",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "conjuration",
+            "invested",
+            "magical",
+            "necromancy"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 6
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Garment",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worngarment"
+        },
+        "subitems": [],
+        "source": {
+          "value": "Rise of the Runelords"
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:10:45.495-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "USyNCCBYkl6altwM": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.equipment-srd.KFfM3Y8SbhdxpbQI",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "attributes": {},
+    "details": {
+      "description": "",
+      "level": {
+        "value": 0
+      }
+    },
+    "lootSheetType": "Loot",
+    "hiddenWhenEmpty": false,
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:10:45.495-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "ownership": {
+    "default": 1,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456676294,
+    "modifiedTime": 1677352246421,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.gCAE6Hb2BMu8uAIh",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "IF4KJ4N450827IVm",
+  "sort": 0
+}

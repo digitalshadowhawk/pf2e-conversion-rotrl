@@ -1,0 +1,101 @@
+{
+  "_id": "5hJxUK6IMxSTwkP3",
+  "name": "Effect: Whispers of Regret (Critical Success)",
+  "type": "effect",
+  "img": "icons/magic/air/fog-gas-smoke-gray.webp",
+  "effects": [],
+  "flags": {
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>You are filled with regret, but also with an increased resolve to lift the curse that vexes the swamp.</p><p>You gain a +1 bonus on all Will saving throws made against haunts in Whitewillow and Myrianna's abilities.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "value": ""
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Whispers of Regret",
+        "selector": [
+          "will"
+        ],
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:11:25.259-06:00",
+        "version": {
+          "schema": 0.708,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "rarity": {
+      "value": "common"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "identified": {
+      "value": true
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "coreVersion": "13.351",
+    "createdTime": 1673457085751,
+    "modifiedTime": 1771032435277,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-items.5hJxUK6IMxSTwkP3",
+    "exportSource": {
+      "worldId": "age-of-ashes",
+      "uuid": null,
+      "coreVersion": "0.7.9",
+      "systemId": "pf2e",
+      "systemVersion": "1.10.23.2638"
+    },
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_key": "!items!5hJxUK6IMxSTwkP3"
+}

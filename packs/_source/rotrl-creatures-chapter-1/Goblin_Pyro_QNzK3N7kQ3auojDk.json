@@ -1,0 +1,1300 @@
+{
+  "_id": "QNzK3N7kQ3auojDk",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "M22baNr3EaRn3JZr",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Arcane Spontaneous Spells",
+      "sort": 100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 6,
+          "dc": 16,
+          "mod": 0
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "prepared": {
+          "value": "spontaneous",
+          "flexible": false
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 3,
+            "max": 3
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        }
+      },
+      "type": "spellcastingEntry",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!QNzK3N7kQ3auojDk.M22baNr3EaRn3JZr"
+    },
+    {
+      "_id": "DetGVSE89umH0luA",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/spells/dragon-breath.webp",
+      "name": "Breathe Fire",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A gout of flame sprays from your mouth. You deal 2d6 fire damage to creatures in the area with a basic Reflex save.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "rules": [],
+        "slug": "breathe-fire",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "fire",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": {
+          "type": "cone",
+          "value": 15
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "M22baNr3EaRn3JZr",
+          "heightenedLevel": 1
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        }
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!QNzK3N7kQ3auojDk.DetGVSE89umH0luA"
+    },
+    {
+      "_id": "pnvP3R3Su3lzlcuO",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.Wu0xFpewMKRK3HG8",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/spells/grease.webp",
+      "name": "Grease",
+      "sort": 300000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You conjure grease, choosing an area or target.</p>\n<ul>\n<li><strong>Area</strong> <strong>[4 contiguous 5-foot squares]</strong> All solid ground in the area is covered with grease. Each creature standing on the greasy surface must succeed at a Reflex save or an Acrobatics check against your spell DC or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Creatures using an action to move onto the greasy surface during the spell's duration must attempt either a Reflex save or an Acrobatics check to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance}. A creature that Steps or Crawls doesn't have to attempt a check or save.</li>\n<li><strong>Target</strong> <strong>[1 object of Bulk 1 or less]</strong> If you Cast the Spell on an unattended object, anyone trying to pick up the object must succeed at an Acrobatics check or Reflex save against your spell DC to do so. If you target an attended object, the creature that has the object must attempt an Acrobatics check or Reflex save. On a failure, the holder or wielder takes a –2 circumstance penalty to all checks that involve using the object; on a critical failure, the holder or wielder releases the item. The object lands in an adjacent square of the GM's choice. If you Cast this Spell on a worn object, the wearer gains a +2 circumstance bonus to Fortitude saves against attempts to grapple them.</li>\n</ul>"
+        },
+        "rules": [],
+        "slug": "grease",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 object of Bulk 1 or less"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 minute",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "reflex"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "M22baNr3EaRn3JZr",
+          "heightenedLevel": 1
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!QNzK3N7kQ3auojDk.pnvP3R3Su3lzlcuO"
+    },
+    {
+      "_id": "rl60B9SQZ9lf7wKH",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+      "name": "Ignition",
+      "sort": 400000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p><hr /><p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p><hr /><p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>"
+        },
+        "rules": [],
+        "slug": "ignition",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "fire",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "cQDyW0QpjJ38MlSi": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "M22baNr3EaRn3JZr"
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "cQDyW0QpjJ38MlSi": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "overlays": {
+          "eOCNn2ohYAvsYZjn": {
+            "_id": "eOCNn2ohYAvsYZjn",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {
+              "defense": null
+            }
+          },
+          "xYyA7CV1GaFTRjBQ": {
+            "_id": "xYyA7CV1GaFTRjBQ",
+            "name": "Ignition (Melee)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "cQDyW0QpjJ38MlSi": {
+                  "formula": "2d6"
+                }
+              },
+              "defense": null,
+              "heightening": {
+                "damage": {
+                  "cQDyW0QpjJ38MlSi": "1d6"
+                }
+              },
+              "range": {
+                "value": "touch"
+              }
+            }
+          }
+        }
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!QNzK3N7kQ3auojDk.rl60B9SQZ9lf7wKH"
+    },
+    {
+      "_id": "uhu8UqT03F4VMNRh",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/spells/light.webp",
+      "name": "Light",
+      "sort": 500000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose. If you create the light in the same space as a willing creature, you can attach the light to the creature, causing it to float near that creature as it moves. You can Sustain the spell to move the light up to 60 feet; you can attach or detach it from a creature as part of this movement.</p>\n<p>You can Dismiss the spell. If you Cast the Spell while you already have four <em>light</em> spells active, you must choose one of the existing spells to end.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Spell Effect: Light}</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+        },
+        "rules": [],
+        "slug": "light",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "light",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "until your next daily preparations",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "M22baNr3EaRn3JZr"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!QNzK3N7kQ3auojDk.uhu8UqT03F4VMNRh"
+    },
+    {
+      "_id": "AczKn79L1zrglwmW",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "icons/magic/nature/root-vine-entangled-hand.webp",
+      "name": "Tangle Vine",
+      "sort": 600000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A vine appears from thin air, flicking from your hand and lashing itself to the target. Attempt a spell attack roll against the target.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.TwtUIEyenrtAbeiX]{Spell Effect: Tangle Vine}</p>\n<hr />\n<p><strong>Critical Success</strong> The target gains the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} condition and takes a –10-foot circumstance penalty to its Speeds for 1 round. It can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} against your spell DC to remove the penalty and the immobilized condition.</p>\n<p><strong>Success</strong> The target takes a –10-foot circumstance penalty to its Speeds for 1 round. It can attempt to Escape against your spell DC to remove the penalty.</p>\n<p><strong>Failure</strong> The target is unaffected.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The effects last for 2 rounds.</p>\n<p><strong>Heightened (4th)</strong> The effects last for 1 minute.</p>"
+        },
+        "rules": [],
+        "slug": "tangle-vine",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "manipulate",
+            "plant",
+            "wood"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "M22baNr3EaRn3JZr"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!QNzK3N7kQ3auojDk.AczKn79L1zrglwmW"
+    },
+    {
+      "_id": "R5pfnHcUBsW1GlLj",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/spells/mage-hand.webp",
+      "name": "Telekinetic Hand",
+      "sort": 700000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You create a floating, magical hand, either invisible or ghostlike, that grasps the target object and levitates it slowly up to 20 feet in any direction. When you Sustain the spell, you can move the object an additional 20 feet. If the object is in the air when the spell ends, the object falls.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (7th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 2 or less.</p>"
+        },
+        "rules": [],
+        "slug": "telekinetic-hand",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 unattended object of light Bulk or less"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "M22baNr3EaRn3JZr"
+        },
+        "counteraction": false,
+        "heightening": {
+          "levels": {
+            "3": {
+              "target": {
+                "value": "1 unattended object with a Bulk of 1 or less"
+              }
+            },
+            "5": {
+              "range": {
+                "value": "60 feet"
+              }
+            },
+            "7": {
+              "target": {
+                "value": "1 unattended object with a Bulk of 2 or less"
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!QNzK3N7kQ3auojDk.R5pfnHcUBsW1GlLj"
+    },
+    {
+      "_id": "QtFwdsixI3MjuE0k",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.8Jdw4yAzWYylGePS",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "img": "icons/sundries/lights/torch-brown.webp",
+      "name": "Torch",
+      "sort": 800000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A torch sheds bright light in a 20-foot radius (and dim light to the next 20 feet) for 1 hour. It can be used as an improvised weapon that deals 1d4 bludgeoning damage plus 1 fire damage.</p>"
+        },
+        "rules": [
+          {
+            "key": "TokenLight",
+            "predicate": [
+              "lit-torch"
+            ],
+            "value": {
+              "alpha": 0.45,
+              "animation": {
+                "intensity": 1,
+                "speed": 2,
+                "type": "flame"
+              },
+              "attenuation": 0.4,
+              "bright": 20,
+              "color": "#ffae3d",
+              "dim": 40,
+              "shadows": 0.2
+            }
+          },
+          {
+            "attackModifier": 7,
+            "category": "simple",
+            "damage": {
+              "base": {
+                "damageType": "bludgeoning",
+                "dice": 1,
+                "die": "d4"
+              }
+            },
+            "key": "Strike",
+            "otherTags": [
+              "improvised"
+            ],
+            "predicate": [
+              {
+                "not": "lit-torch"
+              }
+            ]
+          },
+          {
+            "attackModifier": 7,
+            "category": "simple",
+            "damage": {
+              "base": {
+                "damageType": "bludgeoning",
+                "dice": 1,
+                "die": "d4"
+              }
+            },
+            "img": "icons/sundries/lights/torch-brown-lit.webp",
+            "key": "Strike",
+            "otherTags": [
+              "improvised"
+            ],
+            "predicate": [
+              "lit-torch"
+            ]
+          },
+          {
+            "damageType": "fire",
+            "key": "FlatModifier",
+            "predicate": [
+              "lit-torch"
+            ],
+            "selector": "{item|_id}-damage",
+            "value": 1
+          },
+          {
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.LitTorch",
+            "option": "lit-torch",
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "TokenEffectIcon",
+            "predicate": [
+              "lit-torch"
+            ],
+            "value": "icons/sundries/lights/torch-brown-lit.webp"
+          }
+        ],
+        "slug": "torch",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 1
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!QNzK3N7kQ3auojDk.QtFwdsixI3MjuE0k"
+    },
+    {
+      "_id": "otqsXx9gjh7rnOpU",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Goblin Scuttle",
+      "sort": 900000,
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p><strong>Trigger</strong> A goblin ally ends a move action adjacent to the goblin.</p>\n<hr />\n<p><strong>Effect</strong> The goblin pyro @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Steps}.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!QNzK3N7kQ3auojDk.otqsXx9gjh7rnOpU"
+    },
+    {
+      "_id": "pY7DRATVeNfGLzvD",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Fire Lore",
+      "sort": 1000000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "type": "lore",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!QNzK3N7kQ3auojDk.pY7DRATVeNfGLzvD"
+    }
+  ],
+  "name": "Goblin Pyro",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 15,
+        "temp": 0,
+        "max": 15,
+        "details": ""
+      },
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common",
+          "goblin"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "<p>Some goblins take their people's admiration of fire fully into the realm of deadly obsession. These pyromaniacs can be a great boon to a band of goblin raiders eager to torch their enemies and wreak havoc. More often, however, their presence is a double-edged sword; in the heat of the moment, goblin pyros sometimes lose sight of their tribe's goals and simply set fire to anything that will burn—including their own allies. Goblin squads are also prone to distraction, and more than one goblin raid has failed because its members were too busy watching a massive blaze.</p>\n<hr />\n<p>These small humanoids typically have green or gray skin and large heads with wide ears. While some goblins are civilized and have worked hard to be considered upstanding members of humanoid communities, many are impetuous and vicious creatures who delight in wreaking havoc. These goblins think nothing of slaughtering livestock, stealing, or burning down a building purely for momentary delight. They revel in playing malicious tricks on taller humanoids, whom they call \"longshanks.\"</p>\n<p>Goblins are superstitious, with an intense awe of magic and a fascination with fire; goblins who master magic or fire earn great respect from their kin. Most other humanoids find it difficult to understand goblins' outlook: they hate canines but eagerly share their lairs with so-called \"goblin dogs,\" they fearlessly attack larger creatures but are terrified of horses, and they despise vegetables yet consider pickles a delicacy. To a goblin, of course, these are all perfectly sensible life choices.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Monster Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.947,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": -1
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 4,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 4,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 7
+      },
+      "stealth": {
+        "base": 7
+      }
+    },
+    "traits": {
+      "value": [
+        "goblin",
+        "humanoid"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "sm"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.pathfinder-monster-core.Actor.Ky5eNRvN71O0tY9l",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1761248973947,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Goblin Pyro",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "folder": null,
+  "sort": 1950000,
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "flags": {},
+  "_key": "!actors!QNzK3N7kQ3auojDk"
+}

@@ -1,0 +1,352 @@
+{
+  "_id": "HJ1oO5CyI6XyR8YU",
+  "name": "Spell Effect: False Life",
+  "type": "effect",
+  "img": "systems/pf2e/icons/spells/false-life.webp",
+  "effects": [],
+  "flags": {
+    "pdfoundry-pf2e": {
+      "source": ""
+    },
+    "pick-up-stix": {
+      "pick-up-stix": {
+        "owner": {
+          "actorId": "bz64LGwlU6gv5VWS"
+        },
+        "initialState": {
+          "id": "mMAAjARhBV0hn41K",
+          "count": 1,
+          "itemData": {
+            "_id": "mMAAjARhBV0hn41K",
+            "name": "Treat Wounds Immunity",
+            "permission": {
+              "default": 1,
+              "kz2MTX0UeHY7DZys": 3
+            },
+            "type": "effect",
+            "data": {
+              "description": {
+                "value": "<p>You are immune to Treat Wounds</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "value": []
+              },
+              "rarity": {
+                "value": "common"
+              },
+              "usage": {
+                "value": "held-in-one-hand"
+              },
+              "rules": [
+                {
+                  "key": "PF2E.RuleElement.FlatModifier",
+                  "label": "Treat Wounds Immunity",
+                  "selector": "hp",
+                  "value": 0,
+                  "predicate": {
+                    "all": [
+                      "treat-wounds"
+                    ]
+                  }
+                }
+              ],
+              "level": {
+                "value": 1
+              }
+            },
+            "sort": 100001,
+            "flags": {},
+            "img": "icons/svg/clockwork.svg",
+            "effects": []
+          }
+        },
+        "itemType": "Item",
+        "isLocked": false
+      }
+    },
+    "core": {},
+    "cf": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;color:#191813;font-family:Roboto, system, -apple-system, sans-serif;font-size:13px\">You create a reservoir of vitality from necromantic energy, gaining a number of temporary Hit Points equal to 6 plus your spellcasting ability modifier.</p>\n<hr style=\"box-sizing:border-box;user-select:text;color:#191813;font-family:Roboto, system, -apple-system, sans-serif;font-size:13px\" />\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;color:#191813;font-family:Roboto, system, -apple-system, sans-serif;font-size:13px\"><strong style=\"box-sizing:border-box;user-select:text\">Heightened (+1)</strong> The temporary Hit Points increase by 3.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": {
+          "brackets": [
+            {
+              "end": 2,
+              "value": 10
+            },
+            {
+              "start": 3,
+              "end": 3,
+              "value": 13
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "value": 16
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "value": 19
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "value": 22
+            },
+            {
+              "start": 7,
+              "end": 7,
+              "value": 25
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "value": 28
+            },
+            {
+              "start": 9,
+              "end": 9,
+              "value": 31
+            },
+            {
+              "start": 10,
+              "end": 10,
+              "value": 34
+            }
+          ],
+          "field": "item|system.level.value"
+        }
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:59.832-06:00",
+        "version": {
+          "schema": 0.815,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": 8,
+      "unit": "hours",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "rarity": {
+      "value": "common"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "quantity": {
+      "value": "1"
+    },
+    "hp": {
+      "value": 0
+    },
+    "maxHp": {
+      "value": 0
+    },
+    "hardness": {
+      "value": 0
+    },
+    "brokenThreshold": {
+      "value": 0
+    },
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": "0"
+    },
+    "invested": {
+      "value": false
+    },
+    "equipped": {
+      "value": false
+    },
+    "identified": {
+      "value": true
+    },
+    "stackGroup": {
+      "value": ""
+    },
+    "bulkCapacity": {
+      "value": ""
+    },
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": {
+      "value": ""
+    },
+    "preciousMaterial": {
+      "value": ""
+    },
+    "preciousMaterialGrade": {
+      "value": ""
+    },
+    "collapsed": {
+      "value": false
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    },
+    "property2": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    },
+    "property3": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    },
+    "weaponType": {
+      "value": ""
+    },
+    "group": {
+      "value": ""
+    },
+    "hands": {
+      "value": ""
+    },
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "value": "",
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing"
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": {
+      "value": ""
+    },
+    "reload": {
+      "value": ""
+    },
+    "ability": {
+      "value": "str"
+    },
+    "MAP": {
+      "value": ""
+    },
+    "potencyRune": {
+      "value": ""
+    },
+    "strikingRune": {
+      "value": ""
+    },
+    "propertyRune1": {
+      "value": ""
+    },
+    "propertyRune2": {
+      "value": ""
+    },
+    "propertyRune3": {
+      "value": ""
+    },
+    "propertyRune4": {
+      "value": ""
+    },
+    "size": {
+      "value": "med"
+    },
+    "identification": {
+      "status": "identified"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673457085768,
+    "modifiedTime": 1677352139886,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-items.HJ1oO5CyI6XyR8YU",
+    "exportSource": {
+      "worldId": "test-world",
+      "uuid": null,
+      "coreVersion": "0.7.8",
+      "systemId": "pf2e",
+      "systemVersion": "1.10.17.2355"
+    },
+    "duplicateSource": null
+  },
+  "folder": "TSE3mPgQ70Ut1k1b",
+  "sort": 0
+}

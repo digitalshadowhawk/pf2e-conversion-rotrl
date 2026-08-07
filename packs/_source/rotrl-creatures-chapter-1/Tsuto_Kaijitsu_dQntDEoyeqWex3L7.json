@@ -1,0 +1,1377 @@
+{
+  "name": "Tsuto Kaijitsu",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "BfJ8So8h0RhCTQYx",
+      "name": "Composite Shortbow",
+      "type": "weapon",
+      "img": "systems/pf2e/icons/equipment/weapons/composite-shortbow.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This shortbow is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Its compact size and power make it a favorite of mounted archers. Any time an ability is specifically restricted to a shortbow, it also applies to composite shortbows unless otherwise stated.</p>"
+        },
+        "rules": [],
+        "slug": "composite-shortbow",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "deadly-d10",
+            "propulsive"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "composite-shortbow",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 14
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 1
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-plus-hands"
+        },
+        "category": "martial",
+        "group": "bow",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing",
+          "persistent": null,
+          "value": ""
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 60,
+        "expend": 1,
+        "ammo": {
+          "capacity": null,
+          "baseType": "arrows",
+          "builtIn": false
+        },
+        "reload": {
+          "value": "0"
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.e4NwsnPnpQKbDZ9F",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dQntDEoyeqWex3L7.BfJ8So8h0RhCTQYx"
+    },
+    {
+      "_id": "tdbGCv0B2n5Ex0Rr",
+      "name": "Arrows",
+      "type": "ammo",
+      "img": "systems/pf2e/icons/equipment/weapons/arrows.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {},
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.</p>"
+        },
+        "rules": [],
+        "slug": "arrows",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 20,
+        "baseItem": "arrows",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          },
+          "per": 10
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Ammunition",
+            "img": "systems/pf2e/icons/unidentified_item_icons/ammunition.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "craftableAs": null,
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dQntDEoyeqWex3L7.tdbGCv0B2n5Ex0Rr"
+    },
+    {
+      "_id": "BdEMzzA7h0YsiQdF",
+      "name": "Thieves' Tools",
+      "type": "equipment",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/thieves-tools.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You need thieves' tools to Pick Locks or Disable Devices (of some types) using the Thievery skill.</p>\n<p>If your thieves' tools are broken, you can repair them by replacing the lock picks with @Compendium[pf2e.equipment-srd.Sw7MBLASN3xK4Y44]{Replacement Picks} appropriate to your tools; this doesn't require using the Repair action.</p>"
+        },
+        "rules": [],
+        "slug": "thieves-tools",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.zvLyCVD8g2PdHJAc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dQntDEoyeqWex3L7.BdEMzzA7h0YsiQdF"
+    },
+    {
+      "_id": "nUSn3lwTW7MZybem",
+      "name": "Fist",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "magical",
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "slug": null,
+        "damageRolls": {
+          "rw5y22ve8mnu1glxti8e": {
+            "damage": "2d4+4",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dQntDEoyeqWex3L7.nUSn3lwTW7MZybem"
+    },
+    {
+      "_id": "LpZBjI6YMXi9Cx39",
+      "name": "Composite Shortbow",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "deadly-d10",
+            "propulsive"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "slug": null,
+        "damageRolls": {
+          "nx7ql0nkwipf41o2bqr8": {
+            "damage": "2d4+4",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 11
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": {
+          "increment": null,
+          "max": 60
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dQntDEoyeqWex3L7.LpZBjI6YMXi9Cx39"
+    },
+    {
+      "_id": "h1x0roJ1cDcl8Fm4",
+      "name": "Stunning Flurry",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong>Frequency</strong> once per round; <strong>Effect</strong> Tsuto makes two unarmed strikes. If both hit the same creature, the target must succeed at a @Check[type:Fortitude|dc:19] save or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{stunned 1} (or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{stunned 3} on a critical failure). This is an incapacitation effect.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "flourish",
+            "incapacitation"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dQntDEoyeqWex3L7.h1x0roJ1cDcl8Fm4"
+    },
+    {
+      "_id": "ZBkbhKXRHe7PUU8U",
+      "name": "Sneak Attack",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Tsuto deals an additinal 1d4 of precision damage to @UUID[Actor.LNIa6HLktAjPl2pN.Item.gqBiSJ9jpCdLprN0]{Off-Guard} creatures.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [
+          {
+            "category": "precision",
+            "diceNumber": 1,
+            "dieSize": "d4",
+            "key": "DamageDice",
+            "predicate": [
+              "target:condition:off-guard"
+            ],
+            "selector": "strike-damage"
+          },
+          {
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.TOTMToggle.OffGuard",
+            "option": "target:condition:off-guard",
+            "toggleable": "totm"
+          }
+        ],
+        "slug": "sneak-attack",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dQntDEoyeqWex3L7.ZBkbhKXRHe7PUU8U"
+    },
+    {
+      "_id": "aKQbeuHKCelASb3E",
+      "name": "Surprise Attack",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>On the first round of combat, creatures that haven't acted yet are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to Tsuto.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dQntDEoyeqWex3L7.aKQbeuHKCelASb3E"
+    },
+    {
+      "_id": "tPeWcxm7lunjsKIJ",
+      "name": "Ki Strike",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong>Frequency</strong> twice a day; <strong>Effect</strong> You focus your ki into magical attacks. Make an unarmed Strike or Flurry of Blows (this doesn't change the limit on using one flourish per turn). You gain a +1 status bonus to your attack rolls with the Strikes, and the Strikes deal 1d6 exrra damage. This damage can be of any of the following types of your choice, chosen each time you Strike: force, void, or vitality.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dQntDEoyeqWex3L7.tPeWcxm7lunjsKIJ"
+    },
+    {
+      "img": "icons/equipment/hand/gauntlet-simple-leather-brown-gold.webp",
+      "name": "Handwraps of Mighty Blows",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your hands. These handwraps have weapon runes etched into them to give your unarmed attacks the benefits of those runes, making your unarmed attacks work like magic weapons. For example, <em>+1 striking handwraps of mighty blows</em> would give you a +1 item bonus to attack rolls with your unarmed attacks and increase the damage of your unarmed attacks from one weapon die to two (normally 2d4 instead of 1d4, but if your fists have a different weapon damage die or you have other unarmed attacks, use two of that die size instead).</p>\n<p>You can upgrade, add, and transfer runes to and from the handwraps just as you would for a weapon, and you can attach talismans to the handwraps. Treat the handwraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.</p>"
+        },
+        "rules": [],
+        "slug": "handwraps-of-mighty-blows",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [
+            "handwraps-of-mighty-blows"
+          ],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 35
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": true
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worngloves"
+        },
+        "category": "unarmed",
+        "group": "brawling",
+        "bonus": {
+          "value": 1
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d4",
+          "damageType": "bludgeoning",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "ammo": null,
+        "reload": {
+          "value": null
+        },
+        "grade": null,
+        "runes": {
+          "potency": 1,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        }
+      },
+      "type": "weapon",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.FNDq4NFSN0g2HKWO",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BfmhhMPJAA20BCjB": 3
+      },
+      "flags": {},
+      "_id": "na37o54CrsGrblEl",
+      "_key": "!actors.items!dQntDEoyeqWex3L7.na37o54CrsGrblEl"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/consumables/oils/oil-of-potency.webp",
+      "name": "Oil of Potency",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>When you apply this thick, viscous oil to a weapon or suit of armor, that item immediately becomes magically potent. If the item is a weapon, it temporarily becomes a <em>+1 striking weapon</em>, or, if it's armor, it temporarily becomes <em>+1 resilient armor</em>. This lasts for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.1OLlwExJz7ii2Lu2]{Effect: Oil of Potency}</p>"
+        },
+        "rules": [],
+        "slug": "oil-of-potency",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "magical",
+            "oil"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 7
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "oil",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.j2CHumvbjmlLQX2i",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BfmhhMPJAA20BCjB": 3
+      },
+      "flags": {},
+      "_id": "AKH9eKB4hpC8ighH",
+      "_key": "!actors.items!dQntDEoyeqWex3L7.AKH9eKB4hpC8ighH"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/bravos-brew.webp",
+      "name": "Bravo's Brew (Lesser)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>This flask of foaming beer grants courage. For the next hour after drinking this elixir, you gain a +1 item bonus to Will saves, or +2 when attempting Will saves against fear.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.eh7EqmDBDW30ShCu]{Effect: Bravo's Brew}</p>"
+        },
+        "rules": [],
+        "slug": "bravos-brew-lesser",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mental"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 7
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.zM9VX3QwM81DzDUA",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "BfmhhMPJAA20BCjB": 3
+      },
+      "flags": {},
+      "_id": "qXnqpVF2wq0XBZJN",
+      "_key": "!actors.items!dQntDEoyeqWex3L7.qXnqpVF2wq0XBZJN"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "pf2e": {
+      "lootable": false
+    },
+    "core": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "temp": 0,
+        "max": 45,
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common",
+          "elven",
+          "goblin",
+          "tien"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 4
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "creatureType": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.947,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 11,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 8,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 12
+      },
+      "athletics": {
+        "base": 8
+      },
+      "stealth": {
+        "base": 12
+      },
+      "thievery": {
+        "base": 10
+      }
+    },
+    "traits": {
+      "value": [
+        "elf",
+        "evil",
+        "human",
+        "humanoid",
+        "lawful"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "disposition": -1,
+    "name": "Tsuto Kaijitsu",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.Actor.HMbBUD607Etb7IP5",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1761248973947,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "_id": "dQntDEoyeqWex3L7",
+  "sort": 4600000,
+  "_key": "!actors!dQntDEoyeqWex3L7"
+}

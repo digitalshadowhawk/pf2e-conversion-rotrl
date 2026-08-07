@@ -1,0 +1,375 @@
+{
+  "_id": "KZ5Fvt4Bi8lotZn7",
+  "name": "Floor Saw",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "0fjRyLkdj1a2kfGM",
+      "name": "Falling Scythes",
+      "type": "action",
+      "sort": 100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "Dr8hECuy54SWQ5H0"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<b>Trigger</b> The trip wire is pulled or severed. <b>Effect</b> Both blades swing down, each one attacking all creatures under the ceiling grooves.",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "attack"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!KZ5Fvt4Bi8lotZn7.0fjRyLkdj1a2kfGM"
+    },
+    {
+      "_id": "oaNkRH35bkjdSm6P",
+      "name": "scythe",
+      "type": "melee",
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "Dr8hECuy54SWQ5H0"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "slug": null,
+        "damageRolls": {
+          "q5zxt9cnpunhzmjje6ll": {
+            "damage": "2d12+4",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 17
+        },
+        "attackEffects": {
+          "value": [
+            "no-multiple-attack-penalty"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!KZ5Fvt4Bi8lotZn7.oaNkRH35bkjdSm6P"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 4900000,
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      },
+      "editMode": false
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 12
+      },
+      "reflex": {
+        "value": 8
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 21
+      },
+      "hp": {
+        "value": 44,
+        "max": 44,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 11,
+      "stealth": {
+        "value": 13,
+        "details": "(trained)"
+      },
+      "emitsSound": "encounter",
+      "immunities": [
+        {
+          "type": "critical-hits",
+          "exceptions": []
+        },
+        {
+          "type": "object-immunities",
+          "exceptions": []
+        },
+        {
+          "type": "precision",
+          "exceptions": []
+        }
+      ],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 4
+      },
+      "disable": "<p>@Check[type:Thievery|dc:21] (trained) to disable each blade</p>",
+      "description": "Several rusty saw blades are housed between the cracks\nof the porch’s floorboards and attacks everyone on the porch (A1).",
+      "reset": "The trap resets after 15 minutes.",
+      "routine": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [
+        "mechanical"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "oiPWLVPNH7xQBULr": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "_version": 1
+      },
+      "conditional-visibility": {
+        "blindsight": true,
+        "truesight": true,
+        "devilssight": true,
+        "tremorsense": true,
+        "seeinvisible": true
+      },
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "name": "Scythe Blades",
+    "displayName": 20,
+    "width": 2,
+    "height": 2,
+    "lockRotation": true,
+    "rotation": 180,
+    "actorLink": false,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/jaamod/AnimatedArt/Traps/sawBlade.webm",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "coreVersion": "13.351",
+    "createdTime": 1673456694754,
+    "modifiedTime": 1771041993011,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.9A5PU9hx8nrr6foG",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!KZ5Fvt4Bi8lotZn7"
+}

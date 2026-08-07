@@ -1,0 +1,207 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "disposition": 0,
+    "height": 1,
+    "name": "Blood Hunger",
+    "width": 1,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "name": "Dance of Ruin",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "_id": "Du0x1Cc6harv5s4u",
+  "system": {
+    "source": {
+      "value": ""
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 10,
+        "details": "<p>(trained)</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": true
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 3
+      },
+      "disable": "<p>@Check[type:occultism|dc:20|name:To Quiet Spirit|traits:complex,haunt] (expert) To Quiet Spirit,</p>\n<p>@Check[type:religion|dc:20|name: To Quiet Spirit|traits:complex,haunt] (expert) To Quiet Spirit,</p>\n<p>@Check[type:perception|dc:20|name:To Hear Faint Piano Music|traits:complex,haunt] (trained) To Hear Faint Piano Music.</p>",
+      "description": "<p>As ghostly music emanates from the piano, a ghostly woman in a ballroom gown shimmers in the air and takes your hand, leading you in a dance... </p>",
+      "reset": "<p>The haunt automatically resets after 1 day until the supernatural fungus in B37 is dealt with, even if the haunt was previously disabled.</p>",
+      "routine": "<p style=\"text-align: justify;\"><strong>Dance Reaction.</strong> <strong>Trigger </strong>A Creature touches any of the piano keys - Haunted character must make a&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\"> @Check[type:will|dc:23|name:Suggestion|traits:mental,incapacitating,linguistic,necromancy,occult] save to avoid </span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">or be drawn into the Haunt's routine.</span></p>\n<p style=\"text-align: justify;\"><strong>Wrathful Shriek:<span class=\"pf2-icon\"> R</span>&nbsp; </strong>&nbsp;<strong>Trigger</strong> A creature caught in the haunt&rsquo;s routine is successfully grappled or restrained. All creatures in B7 must make a DC23 basic will save against 4d6 mental damage- (if a feilure the creature&nbsp;becomes @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}1, or @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied} 2 on a critical failure- This stupeﬁed condition reduces by 1 after a full night&rsquo;s rest.</p>\n<p style=\"text-align: justify;\"><strong>Routine.&nbsp;</strong>Routine: For 1d6 rounds, the Haunt and any creature caught by &ldquo;Dance\" continue to dance. The dancing creature must make a DC17 Perform check each round, or have their @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} enfeebled value increase by 1, to a maximum of @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled}4. This enfeebled condition is reduced by 1 after a full night's rest. Any creature whose enfeebled value would increase beyond 4, or any creature who is enfeebled when the routine ends, becomes @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued}.</p>\n<p style=\"text-align: justify;\"><strong>Vengeful Haunt:&nbsp;</strong>This Haunt only affects those haunted by Iesha Foxgmne, Aidan's murdered wife who desires vengeance for her murdmer. If no creatures in a goup are haunted by lesha Foxglove, this haunt may target any creature.</p>\n<p style=\"text-align: justify;\"><strong>Actions:</strong>&nbsp;1</p>"
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:10:34.656-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456686325,
+    "modifiedTime": 1677352235395,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pfs-introductions-bestiary.O6KTpMxRnrft3j1g",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "5tmJBPGoHxPAsIPj",
+  "sort": 0
+}

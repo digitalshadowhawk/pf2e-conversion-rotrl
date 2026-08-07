@@ -1,0 +1,217 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "disposition": 0,
+    "height": 1,
+    "name": "Origins of Lichdom",
+    "width": 1,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      },
+      "autorotate": {
+        "enabled": null
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "light": {}
+      },
+      "core": {}
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "name": "Origins of Lichdom (Alt Version)",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "_id": "IjxaxiKdNpFl1moo",
+  "system": {
+    "source": {
+      "value": ""
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 11,
+        "details": "<ul>\n<li>@Check[type:perception|dc:21|name:To Notice Subtle of Sneering Man in Stained Glass Window|traits:complex,haunt] (trained) To Notice Subtle of Sneering Man in Stained Glass Window</li>\n</ul>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": true
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 5
+      },
+      "disable": "<ul>\n<li>@Check[type:diplomacy|dc:25|name:To Calm the Haunt |traits:complex,haunt] (expert) Twice To Come the Haunt</li>\n<li>@Check[type:occultism|dc:21|name:To Banish Haunt|traits:complex,haunt] (expert) To Banish Haunt</li>\n<li>@Check[type:religion|dc:21|name: To Banish Haunt|traits:complex,haunt] (expert) To Banish Haunt</li>\n</ul>",
+      "description": "<p style=\"text-align:justify\">As you touch the books on the worktable, your hand freezes in place as a flood of information flows through your mind. You experience a series of visions chronicling the various stages Vorel went through in his quest to become a lich, from researching the works of previous liches, to gathering the components for the lich transformation potion, to building his phylactery, finally culminating in a vision of Vorel taking his potion and doubling over in agony as his body began to rot away. As Vorel doubles over, you are filled with blinding shame that a loved one would do this to himself, followed by a burning rage that he was stopped before he finished his ritual...</p>\n<p style=\"text-align:justify\"><strong>Wrathful Haunt:</strong> Linked to Vorel's wife Kasanda, this haunt represents Vorel's rage and hatred of the woman augmented by her betrayal and interruption of lichdom.This haunt effects females or those who have had some form of betrayal in the past. If no targets in a group match this then it may affect anyone.</p>",
+      "reset": "<p>The haunt automatically resets after 1 day until the supernatural fungus in B37 is dealt with, even if the haunt was previously disabled.</p>",
+      "routine": "<p style=\"text-align: left;\"><strong style=\"text-align: start;\">Trigger:</strong><span style=\"text-align: start;\">&nbsp;Haunted creature comes within 5 feet of workbench; Creature must succeed a @Check[type:will|dc:27|name:Suggestion|traits:</span>emotion, enchantment, mental<span style=\"text-align: start;\">]save&nbsp; or be possessed by the haunt and become part of its routine.</span></p>\n<p style=\"text-align: justify;\"><strong style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">He has Become a Lich!: </strong>Creature receives a ﬂood of information revealing that Vorel has become a lich! Creature must then flee to B13 to find their child! If anyone stands in the creature's way the creature will see them as the newly transformed Vorel and must attack them to the best of their ability. This routine ends when the creature is unconscious, the haunt is banished, the creature is freed of possession, or when they reach B13 and see no child is there.&nbsp;</p>"
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:10:34.734-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456686342,
+    "modifiedTime": 1677352235414,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pfs-introductions-bestiary.O6KTpMxRnrft3j1g",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "5tmJBPGoHxPAsIPj",
+  "sort": 0
+}

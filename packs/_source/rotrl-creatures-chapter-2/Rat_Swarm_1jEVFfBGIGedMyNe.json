@@ -1,0 +1,466 @@
+{
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "3wWPzjr3ra62ks2k",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4",
+        "lastModifiedBy": null
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Swarm Mind",
+      "sort": 100000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "swarm-mind",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!1jEVFfBGIGedMyNe.3wWPzjr3ra62ks2k"
+    },
+    {
+      "_id": "DiGgJNOY5Na3eYp8",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Putrid Plague",
+      "sort": 200000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>The @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} and @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} conditions from putrid plague don't improve on their own until the disease is cured.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:14]</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect ([[/gmr 1d4 #hours]]{1d4 hours})</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (1 day)</p>\n<p><strong>Stage 3</strong> Sickened 1 and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} (1 day)</p>\n<p><strong>Stage 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "disease"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!1jEVFfBGIGedMyNe.DiGgJNOY5Na3eYp8"
+    },
+    {
+      "_id": "LTwSnVSVWZeWrLAC",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Swarming Bites",
+      "sort": 300000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>Each enemy in the swarm's space takes @Damage[1d6[piercing]] damage and must attempt a @Check[reflex|dc:17|basic] save. A creature that fails its save is exposed to putrid plague.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!1jEVFfBGIGedMyNe.LTwSnVSVWZeWrLAC"
+    }
+  ],
+  "name": "Rat Swarm",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 24,
+        "temp": 0,
+        "max": 14,
+        "details": ""
+      },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 10
+          }
+        ],
+        "details": ""
+      },
+      "immunities": [
+        {
+          "type": "precision"
+        },
+        {
+          "type": "swarm-mind"
+        }
+      ],
+      "resistances": [
+        {
+          "exceptions": [
+            "bludgeoning"
+          ],
+          "type": "physical",
+          "value": 6
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "area-damage",
+          "value": 3
+        },
+        {
+          "type": "splash-damage",
+          "value": 3
+        }
+      ],
+      "adjustment": "elite"
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "<p>A swarm of rats can cause total chaos within a household or business. Contracting putrid plague is all the easier when dozens of these agitated or hungry vermin gather to bite victims en masse, making rat-hunting a viable career in many parts of the world as desperate townspeople seek relief from the disease's spread.</p>\n<hr />\n<p>Rats are a ubiquitous menace, scurrying through the sewers and on the streets of nearly every settlement in the world. Though a regular rat darting underfoot might startle or even frighten the average passerby, giant rats and rat swarms are far more dangerous.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Monster Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": -2
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 5,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 2,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 4,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 8
+      },
+      "athletics": {
+        "base": 4,
+        "special": [
+          {
+            "base": 6,
+            "label": "to Climb or Swim",
+            "predicate": [
+              {
+                "or": [
+                  "action:climb",
+                  "action:swim"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "stealth": {
+        "base": 6
+      }
+    },
+    "traits": {
+      "value": [
+        "animal",
+        "swarm"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1770944722807,
+    "modifiedTime": 1770946408423,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Rat Swarm",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "flags": {},
+  "_id": "1jEVFfBGIGedMyNe",
+  "sort": 1000000,
+  "_key": "!actors!1jEVFfBGIGedMyNe"
+}

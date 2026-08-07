@@ -1,0 +1,919 @@
+{
+  "_id": "uMnKHHz6cyuGlhDU",
+  "name": "Aurochs",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "HWKLKpUPvbnvqEcp",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Horn",
+      "sort": 100000,
+      "type": "melee",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "reach-10"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [
+          {
+            "diceNumber": 1,
+            "key": "DamageDice",
+            "label": "Rhinoceros Charge",
+            "predicate": [
+              "rhinoceros-charge"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:26.028-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "2d12+6",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 16
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!uMnKHHz6cyuGlhDU.HWKLKpUPvbnvqEcp"
+    },
+    {
+      "_id": "chTQW4y1K5vGGjVn",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Foot",
+      "sort": 200000,
+      "type": "melee",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:26.028-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "elw46544duwqwqoxfqct": {
+            "damage": "2d8+6",
+            "damageType": "bludgeoning"
+          }
+        },
+        "bonus": {
+          "value": 16
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!uMnKHHz6cyuGlhDU.chTQW4y1K5vGGjVn"
+    },
+    {
+      "_id": "HOVV49IZbhN2hIwN",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Scent",
+      "sort": 300000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "scent",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:26.028-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!uMnKHHz6cyuGlhDU.HOVV49IZbhN2hIwN"
+    },
+    {
+      "_id": "ivy8kuAr2Ml8VdAF",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Cold Adaptation",
+      "sort": 400000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>The woolly rhinoceros treats environmental cold effects as if they were one step less extreme.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:26.028-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!uMnKHHz6cyuGlhDU.ivy8kuAr2Ml8VdAF"
+    },
+    {
+      "_id": "HQTX3r7nEv9YINQh",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Ferocity",
+      "sort": 500000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "ferocity",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:26.028-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.N1kstYbHScxgUQtN",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!uMnKHHz6cyuGlhDU.HQTX3r7nEv9YINQh"
+    },
+    {
+      "_id": "vCEb36Sv06OtmLaz",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Rhinoceros Charge",
+      "sort": 600000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>The wooly rhinoceros Strides twice, then makes a horn Strike. As long as the wooly rhinoceros moved at least 20 feet, the Strike's damage increases to [[/r (3d12+6)[piercing]]] damage. A Medium or smaller creature struck by this attack must succeed at a @Check[type:reflex|dc:24] save or be automatically @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shoved} back 5 feet and knocked @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone} by the force of the blow.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "domain": "all",
+            "option": "rhinoceros-charge",
+            "toggleable": true,
+            "value": false
+          }
+        ],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:26.028-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 2
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!uMnKHHz6cyuGlhDU.vCEb36Sv06OtmLaz"
+    },
+    {
+      "_id": "vorcYiRkw5YIs0Qy",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+      "name": "Trample",
+      "sort": 700000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Medium or smaller, foot, @Check[type:reflex|dc:21|basic:true]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "trample",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:26.028-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 3
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.UNah0bxXxkcZjxO3",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!uMnKHHz6cyuGlhDU.vorcYiRkw5YIs0Qy"
+    },
+    {
+      "_id": "ElcwRl4Jmj2OkZWA",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 800000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 16
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:26.028-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!uMnKHHz6cyuGlhDU.ElcwRl4Jmj2OkZWA"
+    },
+    {
+      "_id": "XVc8kZ1rqWctIdcW",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Survival",
+      "sort": 900000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 13
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:26.028-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!uMnKHHz6cyuGlhDU.XVc8kZ1rqWctIdcW"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 100,
+        "temp": 0,
+        "max": 100,
+        "details": ""
+      },
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "allSaves": {
+        "value": "+2 status to all saves vs. cold"
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "perception": {
+        "value": 11
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 6
+      },
+      "blurb": "",
+      "publicNotes": "<p>Even bulkier than their non-woolly cousins, these rhinoceroses have a shaggy pelt of long, thick fur and a huge crescent-shaped horn. Woolly rhinos inhabit areas of arid tundra and cold steppes, spending much of their day grazing for sustenance.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "Pathfinder Bestiary 2",
+        "author": ""
+      },
+      "creatureType": "Animal"
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": -1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 15,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "animal"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "senses": {
+        "value": "scent (imprecise) 30 feet"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      },
+      "attitude": {
+        "value": "hostile"
+      }
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:05:26.028-06:00",
+        "version": {
+          "schema": 0.719,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 2,
+    "name": "Wooly Rhinoceros",
+    "width": 2,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.350",
+    "createdTime": 1673456726737,
+    "modifiedTime": 1673457052015,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary-2.dBUiB3Hyh0hN8Exc",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!uMnKHHz6cyuGlhDU"
+}

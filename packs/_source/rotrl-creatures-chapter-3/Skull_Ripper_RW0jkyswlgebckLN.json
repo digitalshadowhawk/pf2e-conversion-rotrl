@@ -1,0 +1,1306 @@
+{
+  "_id": "RW0jkyswlgebckLN",
+  "name": "Skull Ripper",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "05jFw7ftVgIYcGqy",
+      "name": "Pincer",
+      "type": "melee",
+      "sort": 100000,
+      "flags": {
+        "pf2e_updatednpcsheet": {}
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "reach-10"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "slug": null,
+        "damageRolls": {
+          "0": {
+            "damage": "2d10+11",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 22
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": 1771029861675,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RW0jkyswlgebckLN.05jFw7ftVgIYcGqy"
+    },
+    {
+      "_id": "gZ8ZcLazkzRglgYk",
+      "name": "Stinger",
+      "type": "melee",
+      "sort": 200000,
+      "flags": {
+        "pf2e_updatednpcsheet": {}
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "reach-10"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "slug": null,
+        "damageRolls": {
+          "0": {
+            "damage": "2d6+10",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 22
+        },
+        "attackEffects": {
+          "value": [
+            "skull-ripper-venom"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RW0jkyswlgebckLN.gZ8ZcLazkzRglgYk"
+    },
+    {
+      "_id": "9StYmvcYe8VE5rz5",
+      "name": "Dread Visage",
+      "type": "action",
+      "sort": 300000,
+      "flags": {
+        "pf2e_updatednpcsheet": {
+          "npcActionType": {
+            "value": "defensive"
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>All creatures within 30 feet that can see a skull ripper must make a DC 27 Will save at the start of their turn in order to avoid becoming frightened. If the victim recognizes any of the heads affixed to the skull ripper's body as having once belonged to friends or allies, that victim takes a -2 circumstance penalty on the save.</p>\n<p>A creature that succeeds at the save is immune to the dread visage of that particular skull ripper for 24 hours or until a new skull is added to its stinger if sooner.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature is frightened 1.<br /><strong>Failure</strong> The creature is frightened 2.<br /><strong>Critical Failure</strong> The creature is frightened 4.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "emotion",
+            "fear",
+            "mental",
+            "visual"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RW0jkyswlgebckLN.9StYmvcYe8VE5rz5"
+    },
+    {
+      "_id": "xK6KZTnXXpARNlBY",
+      "name": "Behead",
+      "type": "action",
+      "sort": 600000,
+      "flags": {
+        "pf2e_updatednpcsheet": {
+          "npcActionType": {
+            "value": "offensive"
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>A grabbed creature that is reduced to zero hit points or dying must make a @Check[type:fortitude|dc:27] save or have its head removed. At dying 4 head removal is automatic. This is also the fate of any creature left behind after combat. After combat these skulls will be impaled on the stinger of the skull ripper, held in place by barbed serrations.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": 1771029411329,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RW0jkyswlgebckLN.xK6KZTnXXpARNlBY"
+    },
+    {
+      "_id": "Cqm9IuOq9AtuNZuZ",
+      "name": "Skull Ripper Venom",
+      "type": "action",
+      "sort": 700000,
+      "flags": {
+        "pf2e_updatednpcsheet": {
+          "npcActionType": {
+            "value": "offensive"
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:27] <br /><strong>Maximum Duration</strong> 6 rounds; <br /><strong>Stage 1</strong>: @Damage[1d10[poison]]{1d10 poison} damage and @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round); <br /><strong>Stage 2</strong>: @Damage[2d10[poison]]{2d10 poison} damage and @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round); <br /><strong>Stage 3</strong>: @Damage[2d10[poison]]{2d10 poison} damage and @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2} (1 round)</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": 1771029762777,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RW0jkyswlgebckLN.Cqm9IuOq9AtuNZuZ"
+    },
+    {
+      "_id": "rRQE3Z5hFKlQyNM4",
+      "name": "Enfeebled",
+      "type": "condition",
+      "sort": 1200000,
+      "flags": {
+        "pf2e": {
+          "condition": true
+        },
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/conditions/enfeebled.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>You're physically weakened. Enfeebled always includes a value. When you are enfeebled, you take a status penalty equal to the condition value to Strength-based rolls and DCs, including Strength-based melee attack rolls, Strength-based damage rolls, and Athletics checks.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "rules": [],
+        "slug": "enfeebled",
+        "references": {
+          "children": [],
+          "overrides": [],
+          "overriddenBy": [],
+          "parent": null
+        },
+        "group": "abilities",
+        "value": {
+          "isValued": true,
+          "value": 2
+        },
+        "overrides": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "fromSpell": false,
+        "persistent": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RW0jkyswlgebckLN.rRQE3Z5hFKlQyNM4"
+    },
+    {
+      "_id": "Cc3p9Hu2LEflyDr3",
+      "name": "Clumsy",
+      "type": "condition",
+      "sort": 1300000,
+      "flags": {
+        "pf2e": {
+          "condition": true
+        },
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/conditions/clumsy.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "rules": [],
+        "slug": "clumsy",
+        "references": {
+          "children": [],
+          "overrides": [],
+          "overriddenBy": [],
+          "parent": null
+        },
+        "group": "abilities",
+        "value": {
+          "isValued": true,
+          "value": 1
+        },
+        "overrides": [],
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "fromSpell": false,
+        "persistent": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RW0jkyswlgebckLN.Cc3p9Hu2LEflyDr3"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Reactive Strike (stinger only)",
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "reactive-strike",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771029167514,
+        "modifiedTime": 1771029175038,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "ubipQPH2ig8a0hNr",
+      "_key": "!actors.items!RW0jkyswlgebckLN.ubipQPH2ig8a0hNr"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Constrict",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>@Damage[(1d10+11)[bludgeoning]], @Check[fortitude|dc:27|basic]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p><hr /><p>In addition, any creature succeessfully constricted is subject to Skull Ripper's @UUID[Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-3.Actor.RW0jkyswlgebckLN.Item.xK6KZTnXXpARNlBY]{Behead} ability</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "constrict",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": 1771029191480,
+        "modifiedTime": 1771029323967,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "ih1ZdFAXPWyaQeKa",
+      "_key": "!actors.items!RW0jkyswlgebckLN.ih1ZdFAXPWyaQeKa"
+    }
+  ],
+  "effects": [
+    {
+      "_id": "QpCIV5QTsLUafpjK",
+      "flags": {
+        "core": {
+          "statusId": "combat-utility-belt.defeated",
+          "overlay": true
+        },
+        "combat-utility-belt": {
+          "conditionId": "defeated",
+          "overlay": true
+        }
+      },
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "transfer": false,
+      "origin": null,
+      "tint": "#ffffff",
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "Defeated",
+      "img": "links/Assets/!%20Resources%20!/Token%20States/health/splat3.png",
+      "type": "base",
+      "system": {},
+      "description": "",
+      "statuses": [],
+      "sort": 0,
+      "_key": "!actors.effects!RW0jkyswlgebckLN.QpCIV5QTsLUafpjK"
+    }
+  ],
+  "folder": null,
+  "sort": 5100000,
+  "flags": {
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": "This chittering, scorpion-shaped monstrosity appears to be made of a hideous mix of chitinous limbs and human skulls."
+      }
+    },
+    "pf2e": {
+      "editNPC": {
+        "value": false
+      },
+      "lootable": false
+    },
+    "core": {
+      "sheetClass": "pf2e.UpdatedNPCActorPF2ESheet"
+    },
+    "condition-automation": {
+      "sight": null
+    },
+    "cf": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 0,
+        "temp": 0,
+        "max": 175,
+        "details": "",
+        "min": 0,
+        "tempmax": 0
+      },
+      "ac": {
+        "value": 29,
+        "details": "",
+        "dex": 0,
+        "check": 0,
+        "min": 0,
+        "item": 0
+      },
+      "allSaves": {
+        "value": "+1 status bonus to all saves vs magic"
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [
+          {
+            "type": "Climb",
+            "value": 30
+          }
+        ],
+        "details": "",
+        "special": ""
+      },
+      "sp": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "details": ""
+      },
+      "flatbonushp": 0,
+      "levelbonushp": 0,
+      "flatbonussp": 0,
+      "levelbonussp": 0,
+      "resolve": {
+        "value": 0
+      },
+      "init": {
+        "bonus": 0,
+        "value": 0
+      },
+      "ancestryhp": 0,
+      "classhp": 0,
+      "classDC": {
+        "rank": 0,
+        "ability": "str",
+        "item": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "death": {
+        "failure": 0,
+        "success": 0
+      },
+      "immunities": [
+        {
+          "type": "bleed"
+        },
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "doomed"
+        },
+        {
+          "type": "drained"
+        },
+        {
+          "type": "fatigued"
+        },
+        {
+          "type": "healing"
+        },
+        {
+          "type": "nonlethal-attacks"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "sickened"
+        },
+        {
+          "type": "unconscious"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "physical",
+          "value": 10,
+          "exceptions": [
+            "adamantine"
+          ],
+          "doubleVs": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "thassilonian"
+        ],
+        "details": "cannot speak"
+      },
+      "level": {
+        "value": 10,
+        "min": 1
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "creatureType": "",
+      "recallKnowledgeText": "",
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "class": {
+        "value": ""
+      },
+      "ancestry": {
+        "value": ""
+      },
+      "heritage": {
+        "value": ""
+      },
+      "deity": {
+        "value": "",
+        "image": "systems/pf2e/assets/sheet/deity.webp"
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "flavourText": "",
+      "sidebarText": "",
+      "nethysUrl": "",
+      "flavorText": null
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.813,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": "+7",
+        "value": 10,
+        "min": 3
+      },
+      "dex": {
+        "mod": 1,
+        "value": 10,
+        "min": 3
+      },
+      "con": {
+        "mod": 3,
+        "value": 10,
+        "min": 3
+      },
+      "int": {
+        "mod": -3,
+        "value": 10,
+        "min": 3
+      },
+      "wis": {
+        "mod": 0,
+        "value": 10,
+        "min": 3
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10,
+        "min": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 19,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "type": "tremorsense",
+          "acuity": "imprecise",
+          "range": 90
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 22,
+        "saveDetail": "",
+        "ability": "con",
+        "rank": 0,
+        "item": 0,
+        "breakdown": ""
+      },
+      "reflex": {
+        "value": 19,
+        "saveDetail": "",
+        "ability": "dex",
+        "rank": 0,
+        "item": 0,
+        "breakdown": ""
+      },
+      "will": {
+        "value": 16,
+        "saveDetail": "",
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "breakdown": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "cra": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "dip": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "nat": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "occ": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "rel": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "soc": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "thi": {
+        "value": 0,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "athletics": {
+        "base": 22
+      },
+      "stealth": {
+        "base": 19
+      }
+    },
+    "traits": {
+      "value": [
+        "chaotic",
+        "construct",
+        "undead"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    },
+    "martial": {
+      "unarmored": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "light": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "medium": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "heavy": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "simple": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "martial": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "advanced": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "unarmed": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      }
+    },
+    "spells": {
+      "spell0": {
+        "max": 0
+      },
+      "spell1": {
+        "max": 0
+      },
+      "spell2": {
+        "max": 0
+      },
+      "spell3": {
+        "max": 0
+      },
+      "spell4": {
+        "max": 0
+      },
+      "spell5": {
+        "max": 0
+      },
+      "spell6": {
+        "max": 0
+      },
+      "spell7": {
+        "max": 0
+      },
+      "spell8": {
+        "max": 0
+      },
+      "spell9": {
+        "max": 0
+      },
+      "spell10": {
+        "max": 0
+      },
+      "spell11": {
+        "max": 0
+      }
+    },
+    "currency": {
+      "pp": {
+        "value": 0
+      },
+      "gp": {
+        "value": 0
+      },
+      "sp": {
+        "value": 0
+      },
+      "cp": {
+        "value": 0
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "oiPWLVPNH7xQBULr": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "_version": 1
+      },
+      "conditional-visibility": {
+        "blindsight": false,
+        "truesight": false,
+        "devilssight": false,
+        "tremorsense": false,
+        "seeinvisible": false
+      },
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "name": "Skull Ripper",
+    "displayName": 20,
+    "width": 2,
+    "height": 2,
+    "lockRotation": true,
+    "rotation": 0,
+    "actorLink": true,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 300,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "coreVersion": "13.351",
+    "createdTime": 1673456694771,
+    "modifiedTime": 1771041993011,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.xqcFEaIBWZuzfg5J",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!RW0jkyswlgebckLN"
+}

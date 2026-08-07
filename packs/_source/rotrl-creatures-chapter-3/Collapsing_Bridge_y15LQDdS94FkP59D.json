@@ -1,0 +1,247 @@
+{
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "DE7tTstJaGz9oAi4",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Dangerous Fall",
+      "sort": 100000,
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "description": {
+          "value": "<p><strong>Trigger</strong> A creature steps on the unstable ground.</p>\n<hr />\n<p><strong>Effect</strong> Rocks tumble and slip beneath its feet. The triggering creature must attempt a @Check[reflex|dc:21|traits:damaging-effect] save as they tumble against the rocks, which deal @Damage[(2d10+13)[bludgeoning]] damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature takes no damage.</p>\n<p><strong>Success</strong> The creature takes half damage and falls prone in its space.</p>\n<p><strong>Failure</strong> The creature takes full damage, falls prone in its space, and tumbles down to the bottom of the slope.</p>\n<p><strong>Critical Failure</strong> As failure, but double damage.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "modifiedTime": 1771021489798
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!y15LQDdS94FkP59D.DE7tTstJaGz9oAi4"
+    }
+  ],
+  "name": "Collapsing Bridge",
+  "system": {
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "emitsSound": "encounter",
+      "hardness": 0,
+      "hp": {
+        "details": "",
+        "max": 0,
+        "temp": 0,
+        "value": 0
+      },
+      "stealth": {
+        "details": "<p>(trained)</p>",
+        "value": 13
+      },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "description": "<p>The footing on this treacherous bridge appears to be stable at first glance, but the planks that make it up are old and prone to breaking.</p>",
+      "disable": "<p>@Check[survival|dc:20|name:Navigate Safe Path] (trained) to navigate a safe path</p>",
+      "isComplex": false,
+      "level": {
+        "value": 3
+      },
+      "publication": {
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder Gamemastery Guide",
+        "authors": ""
+      },
+      "reset": "",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": 0
+      },
+      "reflex": {
+        "value": 0
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "environmental"
+      ]
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "type": "hazard",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1771021396101,
+    "modifiedTime": 1771041993011,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "effects": [],
+  "prototypeToken": {
+    "name": "Treacherous Scree",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "flags": {
+    "pf2e": {
+      "editMode": false
+    }
+  },
+  "_id": "y15LQDdS94FkP59D",
+  "sort": 2200000,
+  "_key": "!actors!y15LQDdS94FkP59D"
+}

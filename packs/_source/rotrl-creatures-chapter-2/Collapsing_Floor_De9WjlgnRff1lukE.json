@@ -1,0 +1,206 @@
+{
+  "name": "Collapsing Floor",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 1800000,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "_id": "De9WjlgnRff1lukE",
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "hp": {
+        "value": 10,
+        "max": 10,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 4,
+        "details": "<ul>\n<li><span style=\"text-align: justify;\">@Check[type:perception|dc:21|name:To See Rotten Boards |traits:complex,hazard](trained) To See Rotten Boards</span></li>\n</ul>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 2
+      },
+      "disable": "<ul>\n<li style=\"text-align: left;\">@Check[type:crafting|dc:16|name:To Reinforce the Wood|traits:complex,hazard](trained) To Reinforce the Wood&nbsp;</li>\n</ul>",
+      "description": "<p>The floor of the room looks rotten and unstable; rotting boards are ready to give way.</p>",
+      "reset": "<p>As the damage to the floor spreads, the areas adjacent to the new pit become new areas of this hazard.</p>",
+      "routine": "<p><strong>Trigger:&nbsp;</strong>Two small or one medium creature or heavier enters the room.</p>\n<p>&nbsp;</p>\n<p><strong>Effect</strong> The triggering creature falls in and takes [[/r 4d6[bludgeoning]]] damage from falling.</p>\n<p>That creature can attempt to&nbsp; @Compendium[pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Grab an Edge} <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">@Check[type:reflex|dc:22|name:Grap an Edge|traits:basic] </span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">to avoid falling. </span></p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [
+        "mechanical",
+        "trap"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "disposition": 0,
+    "height": 1,
+    "name": "Collapsing Floor",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "coreVersion": "13.351",
+    "createdTime": 1673456686325,
+    "modifiedTime": 1770946408423,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e.pfs-season-1-bestiary.dagMCzX17LqZfuqW",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!De9WjlgnRff1lukE"
+}

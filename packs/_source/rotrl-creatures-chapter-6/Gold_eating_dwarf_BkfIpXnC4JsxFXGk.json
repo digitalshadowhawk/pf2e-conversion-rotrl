@@ -1,0 +1,285 @@
+{
+  "_id": "BkfIpXnC4JsxFXGk",
+  "name": "Gold eating dwarf",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "0FpzSygcs7G688GT",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Let them eat gold",
+      "sort": 100000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong> A creature enters the room.</p>\n<p><strong>Effect&nbsp;</strong>Silas's words function as an 8th level @Compendium[pf2e.spells-srd.qwlh6aDgi86U3Q7H]{Suggestion} spell; anyone who hears him mus succeed at a&nbsp;&nbsp;@Check[type:will|dc:36] save to resist the compulsion to scoop up and eat a handful of the arsenic tainted dirt on the rooms floor. The haunt enhances the already deadly effects of the @Compendium[pf2e.equipment-srd.OIirLySQDLZgT15S]{Arsenic} in this case - anyone who eats the stuff must make a @Check[type:fortitude|dc:32] save against the effects of arsenic poisoning. Silas watches anyone eats, and as the victim feels the poison flowing through his system, the haunted character sees Silas suddenly shrink in on himself, grow emaciated, and then fly apart in a red explosion of bite-sized morsels od flesh and bone. An instant later, he is gone, but only for a minute, after which he appears again.<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;</span></p>\n<p><strong>Reset</strong> 1 minute</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "enchantment",
+            "incapacitation",
+            "linguistic",
+            "mental"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:25.550-06:00",
+            "version": {
+              "schema": 0.719,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!BkfIpXnC4JsxFXGk.0FpzSygcs7G688GT"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "system": {
+    "source": {
+      "value": "Pathfinder Core Rulebook"
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": "",
+        "tempmax": 0
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 33,
+        "details": "<p>(Master) to notice the near invisible and shadowy image of Silas crouching in the corner.</p>\n<p>&nbsp;</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": false
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 15
+      },
+      "disable": "<ul>\n<li>@Check[type:performance|dc:40|traits:complex,haunt] (trained) to appease Silas that you have food samples</li>\n<li>@Check[type:religion|dc:40|traits:complex,haunt] (master) to temporarily banisch Silas</li>\n</ul>\n<p>&nbsp;</p>",
+      "description": "<p>Silas words implore you to eat the gold dust on the floor to satisfy your hunger.</p>",
+      "reset": "",
+      "routine": ""
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:05:25.550-06:00",
+        "version": {
+          "schema": 0.719,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "disposition": 0,
+    "height": 1,
+    "name": "Bloodthirsty Urge",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "tokenizer/npc-images/gold_eating_dwarf.Token.webp?1645370702833",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.350",
+    "createdTime": 1673456726621,
+    "modifiedTime": 1673457051929,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.hazards.su4TRBOoso4vjkoK",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!BkfIpXnC4JsxFXGk"
+}

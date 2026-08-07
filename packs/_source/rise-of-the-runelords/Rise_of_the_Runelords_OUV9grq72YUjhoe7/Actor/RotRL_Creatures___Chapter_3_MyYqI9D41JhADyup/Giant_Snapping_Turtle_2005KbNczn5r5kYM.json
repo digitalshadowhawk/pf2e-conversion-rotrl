@@ -1,0 +1,1874 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "name": "Giant Snapping Turtle",
+    "width": 4,
+    "height": 4,
+    "lockRotation": true,
+    "rotation": 0,
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_id": "2005KbNczn5r5kYM",
+  "name": "Giant Snapping Turtle",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "lPV8I6T6I09MjTy3",
+      "name": "Jaws",
+      "type": "melee",
+      "sort": 100000,
+      "flags": {
+        "pf2e_updatednpcsheet": {},
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "lPV8I6T6I09MjTy3",
+                "name": "Jaws",
+                "type": "melee",
+                "data": {
+                  "description": {
+                    "value": "",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": {
+                    "value": ""
+                  },
+                  "traits": {
+                    "value": []
+                  },
+                  "rarity": {
+                    "value": "common"
+                  },
+                  "usage": {
+                    "value": "held-in-one-hand"
+                  },
+                  "rules": [],
+                  "quantity": {
+                    "value": 1
+                  },
+                  "hp": {
+                    "value": 0
+                  },
+                  "maxHp": {
+                    "value": 0
+                  },
+                  "hardness": {
+                    "value": 0
+                  },
+                  "brokenThreshold": {
+                    "value": 0
+                  },
+                  "weight": {
+                    "value": 0
+                  },
+                  "equippedBulk": {
+                    "value": ""
+                  },
+                  "price": {
+                    "value": 0
+                  },
+                  "invested": {
+                    "value": false
+                  },
+                  "equipped": {
+                    "value": false
+                  },
+                  "identified": {
+                    "value": false
+                  },
+                  "stackGroup": {
+                    "value": ""
+                  },
+                  "bulkCapacity": {
+                    "value": ""
+                  },
+                  "negateBulk": {
+                    "value": "0"
+                  },
+                  "containerId": {
+                    "value": ""
+                  },
+                  "preciousMaterial": {
+                    "value": ""
+                  },
+                  "preciousMaterialGrade": {
+                    "value": ""
+                  },
+                  "collapsed": {
+                    "value": false
+                  },
+                  "property1": {
+                    "value": "",
+                    "dice": 0,
+                    "die": "",
+                    "damageType": "",
+                    "critDice": 0,
+                    "critDie": "",
+                    "critDamage": "",
+                    "critDamageType": ""
+                  },
+                  "property2": {
+                    "value": "",
+                    "dice": 0,
+                    "die": "",
+                    "damageType": "",
+                    "critDice": 0,
+                    "critDie": "",
+                    "critDamage": "",
+                    "critDamageType": ""
+                  },
+                  "property3": {
+                    "value": "",
+                    "dice": 0,
+                    "die": "",
+                    "damageType": "",
+                    "critDice": 0,
+                    "critDie": "",
+                    "critDamage": "",
+                    "critDamageType": ""
+                  },
+                  "attack": {
+                    "value": ""
+                  },
+                  "damageRolls": [
+                    {
+                      "damage": "2d12+10",
+                      "damageType": "piercing"
+                    }
+                  ],
+                  "bonus": {
+                    "value": 22,
+                    "total": 22
+                  },
+                  "attackEffects": {
+                    "value": [
+                      "Improved Grab"
+                    ]
+                  },
+                  "damage": {
+                    "damageType": "piercing",
+                    "die": "2d12+10"
+                  }
+                },
+                "sort": 100000,
+                "flags": {
+                  "pf2e_updatednpcsheet": {}
+                },
+                "img": "icons/svg/mystery-man.svg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.145-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "om3hwc8ls0jst4fyw8x3": {
+            "damage": "2d12+10",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 22,
+          "total": 22
+        },
+        "attackEffects": {
+          "value": [
+            "improved-grab"
+          ]
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": null,
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": 0
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": 0
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "invested": {
+          "value": false
+        },
+        "identified": {
+          "value": false
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "property2": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "property3": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "damage": {
+          "damageType": "piercing",
+          "die": "2d12+10"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "FcafMwq1Bll5o21K",
+      "name": "Deep Breath",
+      "type": "action",
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "FcafMwq1Bll5o21K",
+                "name": "Deep Breath",
+                "type": "action",
+                "data": {
+                  "description": {
+                    "value": "The giant snapping turtle can hold its breath for 2 hours.",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": {
+                    "value": ""
+                  },
+                  "traits": {
+                    "value": []
+                  },
+                  "rarity": {
+                    "value": "common"
+                  },
+                  "usage": {
+                    "value": "held-in-one-hand"
+                  },
+                  "rules": [],
+                  "actionType": {
+                    "value": "passive"
+                  },
+                  "actionCategory": {
+                    "value": "interaction"
+                  },
+                  "weapon": {
+                    "value": ""
+                  },
+                  "actions": {
+                    "value": ""
+                  },
+                  "requirements": {
+                    "value": ""
+                  },
+                  "trigger": {
+                    "value": ""
+                  },
+                  "skill_requirements": {
+                    "skill": "",
+                    "rank": ""
+                  }
+                },
+                "sort": 200000,
+                "flags": {},
+                "img": "icons/svg/mystery-man.svg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "The giant snapping turtle can hold its breath for 2 hours.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.145-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "eE4KRcdYFo35NqFR",
+      "name": "Capsize",
+      "type": "action",
+      "sort": 300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "eE4KRcdYFo35NqFR",
+                "name": "Capsize",
+                "type": "action",
+                "data": {
+                  "description": {
+                    "value": "The turtle tries to capsize an adjacent aquatic vessel of its size or smaller. The turtle must succeed at a DC 35 Athletics check (reduced by 5 for each size smaller the vessel is than the turtle) or the pilot's Sailing Lore DC, whichever is higher.",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": {
+                    "value": ""
+                  },
+                  "traits": {
+                    "value": [
+                      "attack",
+                      "move"
+                    ]
+                  },
+                  "rarity": {
+                    "value": "common"
+                  },
+                  "usage": {
+                    "value": "held-in-one-hand"
+                  },
+                  "rules": [],
+                  "actionType": {
+                    "value": "action"
+                  },
+                  "actionCategory": {
+                    "value": "offensive"
+                  },
+                  "weapon": {
+                    "value": ""
+                  },
+                  "actions": {
+                    "value": 1
+                  },
+                  "requirements": {
+                    "value": ""
+                  },
+                  "trigger": {
+                    "value": ""
+                  },
+                  "skill_requirements": {
+                    "skill": "",
+                    "rank": ""
+                  }
+                },
+                "sort": 300000,
+                "flags": {},
+                "img": "icons/svg/mystery-man.svg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "The turtle tries to capsize an adjacent aquatic vessel of its size or smaller. The turtle must succeed at a DC 35 Athletics check (reduced by 5 for each size smaller the vessel is than the turtle) or the pilot's Sailing Lore DC, whichever is higher.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.146-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "attack",
+            "move"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "YRXnBeKMp7iUfdDz",
+      "name": "Shell Defense",
+      "type": "action",
+      "sort": 400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "YRXnBeKMp7iUfdDz",
+                "name": "Shell Defense",
+                "type": "action",
+                "data": {
+                  "description": {
+                    "value": "The giant snapping turtle retracts its limbs and head into its shell and ends its turn. This increases its AC to 30, but it can't act except to reemerge, which it can do as a single action.",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": {
+                    "value": ""
+                  },
+                  "traits": {
+                    "value": []
+                  },
+                  "rarity": {
+                    "value": "common"
+                  },
+                  "usage": {
+                    "value": "held-in-one-hand"
+                  },
+                  "rules": [],
+                  "actionType": {
+                    "value": "action"
+                  },
+                  "actionCategory": {
+                    "value": "offensive"
+                  },
+                  "weapon": {
+                    "value": ""
+                  },
+                  "actions": {
+                    "value": 1
+                  },
+                  "requirements": {
+                    "value": ""
+                  },
+                  "trigger": {
+                    "value": ""
+                  },
+                  "skill_requirements": {
+                    "skill": "",
+                    "rank": ""
+                  }
+                },
+                "sort": 400000,
+                "flags": {},
+                "img": "icons/svg/mystery-man.svg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "The giant snapping turtle retracts its limbs and head into its shell and ends its turn. This increases its AC to 30, but it can't act except to reemerge, which it can do as a single action.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.146-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Vaye6p89ssdhOMKb",
+      "name": "Swallow Whole",
+      "type": "action",
+      "sort": 500000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "Vaye6p89ssdhOMKb",
+                "name": "Swallow Whole",
+                "type": "action",
+                "data": {
+                  "description": {
+                    "value": "Large, 2d12+7 bludgeoning, Rupture 30<br>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.<br><br> A swallowed creature is @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}, is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The engulfing creature is flat-footed against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the engulfed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.<br><br> If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of [[/r 3 # actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage]] actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": {
+                    "value": ""
+                  },
+                  "traits": {
+                    "value": []
+                  },
+                  "rarity": {
+                    "value": "common"
+                  },
+                  "usage": {
+                    "value": "held-in-one-hand"
+                  },
+                  "rules": [],
+                  "actionType": {
+                    "value": "action"
+                  },
+                  "actionCategory": {
+                    "value": "offensive"
+                  },
+                  "weapon": {
+                    "value": ""
+                  },
+                  "actions": {
+                    "value": 1
+                  },
+                  "requirements": {
+                    "value": ""
+                  },
+                  "trigger": {
+                    "value": ""
+                  },
+                  "skill_requirements": {
+                    "skill": "",
+                    "rank": ""
+                  }
+                },
+                "sort": 500000,
+                "flags": {},
+                "img": "icons/svg/mystery-man.svg",
+                "effects": []
+              }
+            }
+          }
+        },
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "Large, 2d12+7 bludgeoning, Rupture 30<br>The monster attempts to swallow a creature of the listed size or smaller that it has grabbed in its jaws or mouth. If a swallowed creature is of the maximum size listed, the monster can't use Swallow Whole again. If the creature is smaller than the maximum, the monster can usually swallow more creatures; the GM determines the maximum. The monster attempts an Athletics check opposed by the grabbed creature's Reflex DC. If it succeeds, it swallows the creature. The monster's mouth or jaws no longer grab a creature it has swallowed, so the monster is free to use them to Strike or Grab once again. The monster can't attack creatures it has swallowed.<br><br> A swallowed creature is @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}, is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} 1, and has to hold its breath or start suffocating. The swallowed creature takes the listed amount of damage when first swallowed and at the end of each of its turns while it's swallowed. If the victim Escapes this ability's grabbed condition, it exits through the monster's mouth. This frees any other creature grabbed in the monster's mouth or jaws. A swallowed creature can attack the monster that has swallowed it, but only with unarmed attacks or with weapons of light Bulk or less. The engulfing creature is flat-footed against the attack. If the monster takes piercing or slashing damage equaling or exceeding the listed Rupture value from a single attack or spell, the engulfed creature cuts itself free. A creature that gets free by either Escaping or cutting itself free can immediately breathe and exits the swallowing monster's space.<br><br> If the monster dies, a swallowed creature can be freed by creatures adjacent to the corpse if they spend a combined total of [[/r 3 # actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage]] actions cutting the monster open with a weapon or unarmed attack that deals piercing or slashing damage.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": "swallow-whole",
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.146-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.uJSseLa57HZYSMUu",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "KCJMT4ZlwNiPLN8Y",
+      "name": "Improved Grab",
+      "type": "action",
+      "sort": 600000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "KCJMT4ZlwNiPLN8Y",
+                "name": "Improved Grab",
+                "type": "action",
+                "data": {
+                  "description": {
+                    "value": "The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has grabbed. <br><b>Effect</b> The monster automatically Grabs the target until the end of the monster's next turn. The creature is grabbed by whichever body part the monster attacked with, and that body part can't be used to Strike creatures until the grab is ended.<br><br> Using Grab extends the duration of the monster's Grab until the end of its next turn for all creatures grabbed by it. A grabbed creature can use the @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} action to get out of the grab, and the Grab ends for a grabbed creatures if the monster moves away from it.",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": {
+                    "value": ""
+                  },
+                  "traits": {
+                    "value": []
+                  },
+                  "rarity": {
+                    "value": "common"
+                  },
+                  "usage": {
+                    "value": "held-in-one-hand"
+                  },
+                  "rules": [],
+                  "actionType": {
+                    "value": "free"
+                  },
+                  "actionCategory": {
+                    "value": "offensive"
+                  },
+                  "weapon": {
+                    "value": ""
+                  },
+                  "actions": {
+                    "value": ""
+                  },
+                  "requirements": {
+                    "value": ""
+                  },
+                  "trigger": {
+                    "value": ""
+                  },
+                  "skill_requirements": {
+                    "skill": "",
+                    "rank": ""
+                  }
+                },
+                "sort": 600000,
+                "flags": {},
+                "img": "icons/svg/mystery-man.svg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "The monster can use Grab as a free action triggered by a hit with its initial attack. A monster with Improved Grab still needs to spend an action to extend the duration for creatures it already has grabbed. <br><b>Effect</b> The monster automatically Grabs the target until the end of the monster's next turn. The creature is grabbed by whichever body part the monster attacked with, and that body part can't be used to Strike creatures until the grab is ended.<br><br> Using Grab extends the duration of the monster's Grab until the end of its next turn for all creatures grabbed by it. A grabbed creature can use the @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} action to get out of the grab, and the Grab ends for a grabbed creatures if the monster moves away from it.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.146-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "7maFJIfKXX59jznM",
+      "name": "Athletics",
+      "type": "lore",
+      "sort": 700000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "_id": "7maFJIfKXX59jznM",
+                "name": "Athletics",
+                "type": "lore",
+                "data": {
+                  "description": {
+                    "value": "",
+                    "chat": "",
+                    "unidentified": ""
+                  },
+                  "source": {
+                    "value": ""
+                  },
+                  "traits": {
+                    "value": []
+                  },
+                  "rarity": {
+                    "value": "common"
+                  },
+                  "usage": {
+                    "value": "held-in-one-hand"
+                  },
+                  "rules": [],
+                  "featType": "",
+                  "mod": {
+                    "value": 20
+                  },
+                  "proficient": {
+                    "value": 0
+                  },
+                  "item": {
+                    "value": 0
+                  }
+                },
+                "sort": 700000,
+                "flags": {},
+                "img": "icons/svg/mystery-man.svg",
+                "effects": []
+              }
+            }
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 20
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.146-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "core": {},
+    "pf2e": {
+      "editNPC": {
+        "value": false
+      },
+      "lootable": false
+    },
+    "cf": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 170,
+        "temp": 0,
+        "max": 170,
+        "details": "",
+        "min": 0,
+        "tempmax": 0
+      },
+      "ac": {
+        "value": 28,
+        "details": "",
+        "dex": 0,
+        "check": 0,
+        "min": 0,
+        "item": 0,
+        "name": "ac",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 18,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": 0,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 18,
+        "base": 28,
+        "breakdown": "Base Armor Class 10, Base Modifier +18, Dexterity +0"
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "Swim",
+            "value": 40
+          }
+        ],
+        "details": "",
+        "special": ""
+      },
+      "initiative": {
+        "ability": "perception",
+        "circumstance": 0,
+        "status": 0
+      },
+      "perception": {
+        "value": 17,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +13, Wisdom +4",
+        "name": "perception",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 13,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityWis",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 17,
+        "base": 17
+      },
+      "sp": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "details": ""
+      },
+      "flatbonushp": 0,
+      "levelbonushp": 0,
+      "flatbonussp": 0,
+      "levelbonussp": 0,
+      "bonusLimitBulk": 0,
+      "bonusEncumbranceBulk": 0,
+      "resolve": {
+        "value": 0
+      },
+      "init": {
+        "bonus": 0,
+        "value": 0
+      },
+      "ancestryhp": 0,
+      "classhp": 0,
+      "classDC": {
+        "rank": 0,
+        "ability": "str",
+        "item": 0,
+        "value": 0,
+        "breakdown": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 9,
+        "min": 1
+      },
+      "blurb": "",
+      "publicNotes": "If the regular-sized snapping turtle is foul-tempered, then the giant snapping turtle seems to be willfully violent toward anything that dares intrude upon its domain. Measuring over 20 feet long and weighing thousands of pounds, this creature is capable of swallowing a humanoid whole. Swamp-dwelling societies, particularly boggards and lizardfolk, have often tried to domesticate giant snapping turtles to serve as powerful guardians, but in most cases the casualties pile up quickly. Those unfortunate enough to be swallowed whole by a giant snapping turtle find that even the creature's stomach is somewhat armored, making it difficult to cut through.<br /><br />",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "Bestiary 2 pg. 269",
+        "author": ""
+      },
+      "creatureType": "Animal",
+      "recallKnowledgeText": "Recall Knowledge - Animal : DC 26",
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "class": {
+        "value": ""
+      },
+      "ancestry": {
+        "value": "Turtle"
+      },
+      "heritage": {
+        "value": ""
+      },
+      "deity": {
+        "value": "",
+        "image": "systems/pf2e/assets/sheet/deity.webp"
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "flavourText": "",
+      "sidebarText": "",
+      "nethysUrl": "https://2e.aonprd.com/Monsters.aspx?ID=837"
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 7,
+        "value": 24,
+        "min": 3
+      },
+      "dex": {
+        "mod": 0,
+        "value": 10,
+        "min": 3
+      },
+      "con": {
+        "mod": 4,
+        "value": 18,
+        "min": 3
+      },
+      "int": {
+        "mod": -4,
+        "value": 2,
+        "min": 3
+      },
+      "wis": {
+        "mod": 4,
+        "value": 18,
+        "min": 3
+      },
+      "cha": {
+        "mod": -2,
+        "value": 6,
+        "min": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 19,
+        "saveDetail": "",
+        "ability": "con",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +15, Constitution +4",
+        "name": "fortitude",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 15,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityCon",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 19,
+        "base": 19
+      },
+      "reflex": {
+        "value": 15,
+        "saveDetail": "",
+        "ability": "dex",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +15, Dexterity +0",
+        "name": "reflex",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 15,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": 0,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 15,
+        "base": 15
+      },
+      "will": {
+        "value": 19,
+        "saveDetail": "",
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +15, Wisdom +4",
+        "name": "will",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 15,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityWis",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 19,
+        "base": 19
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "ath": {
+        "value": 20,
+        "ability": "str",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +13, Strength +7",
+        "name": "Athletics",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 13,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityStr",
+            "modifier": 7,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 20,
+        "base": 20,
+        "expanded": "athletics",
+        "label": "Athletics",
+        "visible": true
+      },
+      "cra": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "dip": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "nat": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "occ": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "rel": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "soc": {
+        "value": 0,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      },
+      "thi": {
+        "value": 0,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "animal"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "grg"
+      },
+      "senses": {
+        "value": "low-light vision, scent (imprecise) 30 feet"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:11:58.145-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "martial": {
+      "unarmored": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "light": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "medium": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "heavy": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "simple": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "martial": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "advanced": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "unarmed": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      }
+    },
+    "spells": {
+      "spell0": {
+        "max": 0
+      },
+      "spell1": {
+        "max": 0
+      },
+      "spell2": {
+        "max": 0
+      },
+      "spell3": {
+        "max": 0
+      },
+      "spell4": {
+        "max": 0
+      },
+      "spell5": {
+        "max": 0
+      },
+      "spell6": {
+        "max": 0
+      },
+      "spell7": {
+        "max": 0
+      },
+      "spell8": {
+        "max": 0
+      },
+      "spell9": {
+        "max": 0
+      },
+      "spell10": {
+        "max": 0
+      },
+      "spell11": {
+        "max": 0
+      }
+    },
+    "currency": {
+      "pp": {
+        "value": 0
+      },
+      "gp": {
+        "value": 0
+      },
+      "sp": {
+        "value": 0
+      },
+      "cp": {
+        "value": 0
+      }
+    },
+    "customModifiers": {},
+    "damageDice": {}
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456694669,
+    "modifiedTime": 1677352320366,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary-2.fVvRASaKa6SkQkYG",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "MyYqI9D41JhADyup",
+  "sort": 0
+}

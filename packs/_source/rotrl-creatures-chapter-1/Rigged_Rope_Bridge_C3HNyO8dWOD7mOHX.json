@@ -1,0 +1,215 @@
+{
+  "name": "Rigged Rope Bridge",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "core": {}
+  },
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 1
+      },
+      "reflex": {
+        "value": 1
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 16,
+        "max": 16,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 4,
+      "stealth": {
+        "value": 0,
+        "details": "<p>DC 18</p>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [
+        {
+          "type": "critical-hits",
+          "exceptions": []
+        },
+        {
+          "type": "object-immunities",
+          "exceptions": []
+        },
+        {
+          "type": "precision",
+          "exceptions": []
+        }
+      ],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 0
+      },
+      "disable": "<p>DC 14 Crafting (trained) DC 12 Thievery to reinforce the bridge.</p>",
+      "description": "<p>The goblins have rigged it so if more than three Medium creatures (with a Small creature counting as a third of a Medium Creature and a Large creature as three Medium ones) attempt to cross, the western supports tear free, dropping the planks down to hang vertically from th eastern rope and dumping anyone on the bridge into the waters below.</p>",
+      "reset": "",
+      "routine": "<p>Bridge Collapse&nbsp; Trigger More than 3 Medium creatures are standing on the rope bridge at the same time' Effect The bridge collapses. Each creature on the bridge when it does so falls 80 feet to the water below. Those who fall into the water below take 5d6 damage.<br /><br />The DC to Grab an Edge is 15.&nbsp; The DC to choose to deliberately die into the water below is DC 15 Acrobatics.&nbsp; To successfully dive into the water below and take no damage, is a DC 15 Athletics (Swim) check. Failure indicates normal falling into water damage of 5d6.&nbsp;</p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.947,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "disposition": 0,
+    "name": "Rigged Rope Bridge",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.Actor.I7GvI1ZwUh7DVDV2",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1761248973947,
+    "modifiedTime": 1770949031275,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "_id": "C3HNyO8dWOD7mOHX",
+  "sort": 3200000,
+  "_key": "!actors!C3HNyO8dWOD7mOHX"
+}

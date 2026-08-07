@@ -1,0 +1,1535 @@
+{
+  "_id": "A8gJpPWajxHshzjJ",
+  "name": "Sobloch",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "NFnbEaaMOHmME3CN",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Divine Innate Spells",
+      "sort": 100000,
+      "type": "spellcastingEntry",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 9,
+          "dc": 17,
+          "mod": 0
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "innate",
+          "flexible": false
+        },
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        },
+        "displayLevels": {}
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.NFnbEaaMOHmME3CN"
+    },
+    {
+      "_id": "8e3vdJRcFBLL1E8q",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/spells/invisibility.webp",
+      "name": "Invisibility (At Will) (Self Only)",
+      "sort": 300000,
+      "type": "spell",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Cloaked in illusion, the target becomes @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}. This makes it @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+        },
+        "rules": [],
+        "slug": "invisibility",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "traditions": [],
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "self"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "10 minutes",
+          "sustained": false
+        },
+        "damage": {
+          "value": {}
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "NFnbEaaMOHmME3CN",
+          "heightenedLevel": 2
+        },
+        "counteraction": false,
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "spellType": {
+          "value": "utility"
+        },
+        "category": {
+          "value": "spell"
+        },
+        "traditions": {
+          "value": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "school": {
+          "value": "illusion"
+        },
+        "components": {
+          "focus": false,
+          "material": true,
+          "somatic": true,
+          "verbal": false
+        },
+        "materials": {
+          "value": ""
+        },
+        "save": {
+          "value": "",
+          "basic": ""
+        },
+        "sustained": {
+          "value": false
+        },
+        "ability": {
+          "value": ""
+        },
+        "hasCounteractCheck": {
+          "value": false
+        },
+        "prepared": {
+          "value": ""
+        },
+        "primarycheck": {
+          "value": ""
+        },
+        "secondarycasters": {
+          "value": ""
+        },
+        "secondarycheck": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.8e3vdJRcFBLL1E8q"
+    },
+    {
+      "_id": "2arq3zK9f6JQ5ZcN",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "sort": 800000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.2arq3zK9f6JQ5ZcN"
+    },
+    {
+      "_id": "mAzjVKaBRjpMwszN",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Telepathy (Touch)",
+      "sort": 900000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "aura",
+            "divination",
+            "magical"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "telepathy",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.kdhbPaBMK1d1fpbA",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.mAzjVKaBRjpMwszN"
+    },
+    {
+      "_id": "E6yHKgr49GpD3BXa",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Abyssal Knowledge",
+      "sort": 1000000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>When a quasit offers @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} for an Arcana or Religion check, it gets the critical success result on any success and gets the critical failure result on any failure.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.E6yHKgr49GpD3BXa"
+    },
+    {
+      "_id": "9KaWgpJiexo6SDru",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "At-Will Spells",
+      "sort": 1100000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "at-will-spells",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.2YRDYVnC1eljaXKK",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.9KaWgpJiexo6SDru"
+    },
+    {
+      "_id": "GdWAi69mvxSgSJOn",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Virtue Aversion",
+      "sort": 1200000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>The quasit's link to a mortal soul gave it birth, but it presents a vulnerability. Once per round, a creature can present an object related to something virtuous or good in the life of the quasit's creator (such as a beloved daughter's doll) as an Interact action to automatically deal the quasit [[/r 2d6[mental]]] damage.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.GdWAi69mvxSgSJOn"
+    },
+    {
+      "_id": "9boiwlXx7yggBu6F",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Abyssal Healing",
+      "sort": 1300000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p data-visibility=\"gm\"><strong>Frequency</strong> once per round</p>\n<p><strong>Effect</strong> The quasit restores [[/r 1d6[healing]]]{1d6 HP} to itself.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "concentrate",
+            "divine",
+            "healing",
+            "necromancy"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.9boiwlXx7yggBu6F"
+    },
+    {
+      "_id": "o7HPbnFCe1XPngQQ",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Change Shape",
+      "sort": 1400000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<ul>\n<li><strong>Bat</strong>\n<ul>\n<li><strong>Senses</strong> Echolocation 40 feet</li>\n<li><strong>Speed</strong> 15 feet, fly 30 feet</li>\n<li><strong>Melee</strong> fangs [[/r 1d20+7 #Fangs]]{+7}/[[/r 1d20+3 #Fangs]]{+3}/[[/r 1d20-1 #Fangs]]{-1} (agile), <strong>Damage</strong> [[/r (1d4-1)[bludgeoning]]] damage</li>\n</ul>\n</li>\n<li><strong>Centipede</strong>\n<ul>\n<li><strong>Speed</strong> 10 feet, climb 10 feet</li>\n<li><strong>Melee</strong> mandibles [[/r 1d20+7 #Mandibles]]{+7}/[[/r 1d20+2 #Mandibles]]{+2}/[[/r 1d20-3 #Mandibles]]{-3} (poison), <strong>Damage</strong> [[/r {1[percing],1d4[poison]}]]{1 bludgeoning damage + 1d4 poison damage}</li>\n</ul>\n</li>\n<li><strong>Toad</strong>\n<ul>\n<li><strong>Senses</strong> @Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent} (Imprecise) 30 feet</li>\n<li><strong>Speed</strong> 5 feet</li>\n<li><strong>Melee</strong> jaws [[/r 1d20+7 #Jaws]]{+7}/[[/r 1d20+2 #Jaws]]{+3}/[[/r 1d20-3 #Jaws]]{-1}, <strong>Damage</strong> [[/r 1[bludgeoning]]]{1 bludgeoning damage}</li>\n</ul>\n</li>\n<li><strong>Wolf</strong>\n<ul>\n<li><strong>Size</strong> Medium</li>\n<li><strong>Senses</strong> @Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Scent} (Imprecise) 30 feet</li>\n<li><strong>Speed</strong> 40 feet, climb 10 feet</li>\n<li><strong>Melee</strong> jaws [[/r 1d20+7 #Jaws]]{+7}/[[/r 1d20+2 #Jaws]]{+3}/[[/r 1d20-3 #Jaws]]{-1}, <strong>Damage</strong> [[/r (1d10-1)[bludgeoning]]] damage plus @Compendium[pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]{Knockdown}</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [
+            "concentrate",
+            "divine",
+            "polymorph",
+            "transmutation"
+          ],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "change-shape",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.eQM5hQ1W3d1uen97",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.o7HPbnFCe1XPngQQ"
+    },
+    {
+      "_id": "lxNScLMLEw8NbtpU",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Knockdown (Wolf Form)",
+      "sort": 1600000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": "knockdown",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.lxNScLMLEw8NbtpU"
+    },
+    {
+      "_id": "O74TWCoEoEXXnH8M",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Acrobatics",
+      "sort": 1700000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 27
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.O74TWCoEoEXXnH8M"
+    },
+    {
+      "_id": "DUB4KrBx4yW5D4rl",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 2200000,
+      "type": "lore",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 27
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.DUB4KrBx4yW5D4rl"
+    },
+    {
+      "_id": "3NnOrOyZxQDnZvI7",
+      "name": "Empathic link to Jordimandus within 1 mile",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": null,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.3NnOrOyZxQDnZvI7"
+    },
+    {
+      "_id": "j8AGZMKX8g4udZqG",
+      "name": "Flier",
+      "type": "effect",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>It gains a fly Speed of 25 feet.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [
+          {
+            "key": "BaseSpeed",
+            "selector": "fly",
+            "value": 25
+          }
+        ],
+        "slug": "flier",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "level": {
+          "value": 1
+        },
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "sustained": false,
+          "expiry": "turn-start"
+        },
+        "start": {
+          "value": 12,
+          "initiative": null
+        },
+        "target": null,
+        "tokenIcon": {
+          "show": false
+        },
+        "badge": null,
+        "context": null
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.familiar-abilities.ZHSzNt3NxkXbj1mI",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.j8AGZMKX8g4udZqG"
+    },
+    {
+      "_id": "OZVPcMM3378yriUM",
+      "name": "Flier",
+      "type": "effect",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "value": "<p>It gains a fly Speed of 25 feet.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common",
+          "custom": ""
+        },
+        "rules": [
+          {
+            "key": "BaseSpeed",
+            "selector": "fly",
+            "value": 25
+          }
+        ],
+        "slug": "flier",
+        "schema": {
+          "version": 0.813,
+          "lastMigration": {
+            "datetime": "2023-01-11T11:05:14.935-06:00",
+            "version": {
+              "schema": 0.73,
+              "foundry": "10.291",
+              "system": "4.6.5"
+            }
+          }
+        },
+        "level": {
+          "value": 1
+        },
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "sustained": false,
+          "expiry": "turn-start"
+        },
+        "start": {
+          "value": 12,
+          "initiative": null
+        },
+        "target": null,
+        "tokenIcon": {
+          "show": false
+        },
+        "badge": null,
+        "context": null
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.familiar-abilities.ZHSzNt3NxkXbj1mI",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!A8gJpPWajxHshzjJ.OZVPcMM3378yriUM"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 75,
+        "temp": 0,
+        "max": 75,
+        "details": ""
+      },
+      "ac": {
+        "value": 36,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 15,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 40
+          }
+        ],
+        "details": ""
+      },
+      "initiative": {
+        "ability": "perception"
+      },
+      "perception": {
+        "value": 23
+      },
+      "weaknesses": [
+        {
+          "type": "cold-iron",
+          "value": 3
+        },
+        {
+          "type": "good",
+          "value": 3
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "<p>Unlike other demons, quasits are formed when a mortal spellcaster sheds a portion of their own sinful soul to create a familiar or companion. When these quasits outlive their creators, they become free willed and seek methods of returning to the Abyss, a task that requires pledging servitude to more powerful demons, so many quasits instead opt to remain on the Material Plane to promote evil and hope for chance and luck to someday provide them with a method of reaching the Abyss on their own.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "CE"
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Fiend"
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": -1
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 29,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 23,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 27,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "demon",
+        "fiend"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "tiny"
+      },
+      "senses": {
+        "value": "darkvision"
+      },
+      "languages": {
+        "value": [
+          "abyssal",
+          "common",
+          "thassilonian"
+        ],
+        "selected": [],
+        "custom": "Telepathy (touch)"
+      }
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:05:14.935-06:00",
+        "version": {
+          "schema": 0.73,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3
+  },
+  "prototypeToken": {
+    "disposition": -1,
+    "height": 0.5,
+    "name": "Quasit",
+    "width": 0.5,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.350",
+    "createdTime": 1673456715899,
+    "modifiedTime": 1673457034063,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.9jF564DF6ylEovna",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!A8gJpPWajxHshzjJ"
+}

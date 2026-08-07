@@ -58,6 +58,41 @@ TODO:
  
 * * *
 
+## Development
+
+Compendium packs are stored two ways:
+
+- `packs/_source/<pack-name>/**/*.json` - plaintext JSON, one file per document, organized into folders that mirror each compendium's actual Foundry folder structure.
+- `packs/<pack-name>/` - the compiled LevelDB pack that Foundry actually loads. These will not be saved, but are generated from the JSON files - don't edit directly.
+
+The `rise-of-the-runelords` pack is an Adventure-type compendium, so it's additionally "exploded" on extraction: every embedded Actor/Item/Scene/JournalEntry gets its own file instead of being buried inside one giant Adventure blob, which keeps diffs reviewable. Recompiling automatically reassembles the Adventure document from those files - no extra steps needed beyond the usual `npm run pack`.
+
+Conversion between the two is handled by [`@foundryvtt/foundryvtt-cli`](https://github.com/foundryvtt/foundryvtt-cli) via `scripts/packs.mjs`, which reads the pack list straight from `module.json`.
+
+**Setup**
+
+```
+npm install
+```
+
+**Pull changes made in Foundry back into JSON**
+
+If you edited an actor, item, scene, etc. from inside Foundry (which writes to the compiled LevelDB pack), extract those changes back to plaintext JSON so they can be committed:
+
+```
+npm run unpack
+```
+
+**Edit compendium content**
+
+Edit the JSON files under `packs/_source/`, then compile them into the LevelDB packs Foundry reads:
+
+```
+npm run pack
+```
+
+* * *
+
 ## License
 
 All content is licensed under Paizo's [CUP](https://paizo.com/licenses/communityuse) to be able to use parts of their product identity such as proper names; game mechanics are licensed under the [OGL](https://github.com/digitalshadowhawk/pf2e-conversion-rotrl/blob/master/OpenGameLicense.md) and [ORC](https://github.com/digitalshadowhawk/pf2e-conversion-rotrl/blob/master/ORC.md) (because you can't use pure OGL content in the 2e system anymore and there's an exception for the Foundry system)
