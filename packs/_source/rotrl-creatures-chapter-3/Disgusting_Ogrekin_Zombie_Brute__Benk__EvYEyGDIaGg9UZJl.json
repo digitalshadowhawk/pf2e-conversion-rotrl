@@ -1,6 +1,6 @@
 {
-  "_id": "ty7g4d5UPUfUu9Eo",
-  "name": "Rotting Ogrekin Zombie Brute",
+  "_id": "EvYEyGDIaGg9UZJl",
+  "name": "Disgusting Ogrekin Zombie Brute (Benk)",
   "type": "npc",
   "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
   "items": [
@@ -13,7 +13,7 @@
         "pf2e_updatednpcsheet": {},
         "pick-up-stix": {
           "pick-up-stix": {
-            "owner": "xAwg5pTYTdnwGIp4"
+            "owner": "5lxRDSxLxgUwXnUk"
           }
         }
       },
@@ -33,7 +33,7 @@
         "rules": [],
         "slug": null,
         "damageRolls": {
-          "2jim2zvvrsyr5a1ftk8a": {
+          "2ipivfzbb2pdtof7qpok": {
             "damage": "1d12+5",
             "damageType": "bludgeoning",
             "category": null
@@ -44,7 +44,7 @@
         },
         "attackEffects": {
           "value": [
-            "improved-push-5-feet"
+            "improved-push"
           ]
         },
         "publication": {
@@ -69,17 +69,17 @@
         "default": 0
       },
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1786219173890,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       },
-      "_key": "!actors.items!ty7g4d5UPUfUu9Eo.wdsdNrRHG7tMUw5P"
+      "_key": "!actors.items!EvYEyGDIaGg9UZJl.wdsdNrRHG7tMUw5P"
     },
     {
       "_id": "TtcFIJZjrZ4Vaaml",
@@ -89,7 +89,7 @@
       "flags": {
         "pick-up-stix": {
           "pick-up-stix": {
-            "owner": "xAwg5pTYTdnwGIp4"
+            "owner": "5lxRDSxLxgUwXnUk"
           }
         }
       },
@@ -144,149 +144,125 @@
         "duplicateSource": null,
         "exportSource": null
       },
-      "_key": "!actors.items!ty7g4d5UPUfUu9Eo.TtcFIJZjrZ4Vaaml"
+      "_key": "!actors.items!EvYEyGDIaGg9UZJl.TtcFIJZjrZ4Vaaml"
     },
     {
-      "_id": "fr4XoB7nNYcZOIqN",
-      "name": "Push",
-      "type": "action",
-      "sort": 300000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": "xAwg5pTYTdnwGIp4"
-          }
-        },
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "effects": [],
-      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Improved Push",
       "system": {
-        "description": {
-          "value": "<b>Requirements</b> The monster's last action was a success with a Strike that lists Push in its damage entry. <b>Effect</b> The monster automatically knocks the target away from the monster. Unless otherwise noted in the ability description, the creature is pushed 5 feet. If the attack was a critical hit, this distance is doubled.",
-          "gm": ""
-        },
-        "traits": {
-          "value": [],
-          "otherTags": []
-        },
-        "rules": [],
-        "slug": "push",
         "actionType": {
           "value": "free"
         },
         "actions": {
           "value": null
         },
-        "deathNote": false,
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "category": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!ty7g4d5UPUfUu9Eo.fr4XoB7nNYcZOIqN"
-    },
-    {
-      "_id": "lJk1K8vXIKnCaCRe",
-      "name": "Rotting Aura (10ft)",
-      "type": "action",
-      "sort": 500000,
-      "flags": {
-        "pdfoundry-pf2e": {
-          "source": ""
-        },
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": "xAwg5pTYTdnwGIp4"
-          }
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "effects": [],
-      "folder": null,
-      "system": {
+        "category": "offensive",
         "description": {
-          "value": "<p>The zombie emits an aura of rot and disease that causes wounds to fester and turn sour. Any living creature that starts its turn within 10 feet of the zombie and is not at full Hit Points takes [[/r 1d6-4 ]] damage as its wounds fester. This damage increases by 1d6-4 for every 6 levels the zombie has. Creatures that take a critical hit from the zombie also take this damage immediately.</p>",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedPush]</p>",
           "gm": ""
         },
-        "traits": {
-          "value": [
-            "aura",
-            "disease"
-          ],
-          "otherTags": []
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
         },
         "rules": [],
-        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "improved-push",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.6l7e7CHQLESlI57U",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786218927512,
+        "modifiedTime": 1786218927512,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "pUytWlSALXugm6g6",
+      "_key": "!actors.items!EvYEyGDIaGg9UZJl.pUytWlSALXugm6g6"
+    },
+    {
+      "folder": "Or0gl1uupwBBfqVM",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Disgusting Pustules",
+      "system": {
         "actionType": {
           "value": "passive"
         },
         "actions": {
           "value": null
         },
-        "deathNote": false,
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
+        "category": "defensive",
+        "description": {
+          "value": "<p>The zombie is covered in pustules that rupture when it takes any piercing damage or any critical hit.</p><p>Adjacent creatures are hit with vile fluid, causing them to become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} unless they succeed at a @Check[fortitude|dc:16|name:Disgusting Pustules] save.</p>",
+          "gm": ""
         },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "disease"
+          ],
+          "otherTags": []
+        },
+        "slug": "zombie-disgusting-pustules",
         "_migration": {
           "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
+          "previous": null
         },
-        "category": null
+        "deathNote": false
       },
-      "ownership": {
-        "default": 0
-      },
+      "type": "action",
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.v6he7HLxYGzaMnvL",
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786218945627,
+        "modifiedTime": 1786219111486,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
       },
-      "_key": "!actors.items!ty7g4d5UPUfUu9Eo.lJk1K8vXIKnCaCRe"
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "eBqHgPUPaLm7xznF",
+      "_key": "!actors.items!EvYEyGDIaGg9UZJl.eBqHgPUPaLm7xznF"
     }
   ],
   "effects": [],
   "folder": null,
-  "sort": 6600000,
+  "sort": 4200000,
   "flags": {
     "pf2e_updatednpcsheet": {
       "npcNotes": {
@@ -406,6 +382,18 @@
         },
         {
           "type": "unconscious"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "slashing",
+          "value": 10,
+          "exceptions": []
+        },
+        {
+          "type": "vitality",
+          "value": 10,
+          "exceptions": []
         }
       ]
     },
@@ -924,7 +912,7 @@
         "autoscale": true
       }
     },
-    "name": "Rotting  Zombie Brute",
+    "name": "Disgusting Zombie Brute",
     "displayName": 20,
     "width": 1,
     "height": 1,
@@ -1018,14 +1006,14 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
+    "systemVersion": "7.12.2",
     "coreVersion": "13.351",
-    "createdTime": 1673456694847,
-    "modifiedTime": 1771041993011,
+    "createdTime": 1673456694713,
+    "modifiedTime": 1786226019589,
     "lastModifiedBy": "FmfifLIOr4CQQOc0",
-    "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.XHEA8ULjGpX1Pjb4",
+    "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.W4H8FtnerMUgOQef",
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!actors!ty7g4d5UPUfUu9Eo"
+  "_key": "!actors!EvYEyGDIaGg9UZJl"
 }

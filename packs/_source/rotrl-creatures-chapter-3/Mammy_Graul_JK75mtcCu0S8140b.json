@@ -114,7 +114,7 @@
               },
               {
                 "id": "0XrRGWIjFgoTVI4a",
-                "expended": true
+                "expended": false
               }
             ],
             "value": 0,
@@ -208,10 +208,10 @@
       },
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": 1771013270932,
+        "modifiedTime": 1786153405645,
         "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": null,
         "duplicateSource": null,
@@ -409,10 +409,10 @@
       },
       "_stats": {
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": 1771013140390,
+        "modifiedTime": 1786153411851,
         "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": null,
         "duplicateSource": null,
@@ -888,8 +888,22 @@
           "value": [],
           "otherTags": []
         },
-        "rules": [],
-        "slug": null,
+        "rules": [
+          {
+            "key": "DamageDice",
+            "override": {
+              "dieSize": "d10"
+            },
+            "predicate": [
+              "item:slug:harm"
+            ],
+            "selector": [
+              "spell-damage",
+              "spell-healing"
+            ]
+          }
+        ],
+        "slug": "harming-hands",
         "actionType": {
           "value": "passive"
         },
@@ -917,12 +931,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1786153347854,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null

@@ -1,6 +1,6 @@
 {
   "_id": "vMXr07wEZtYMciv2",
-  "name": "Hidden Pit",
+  "name": "Pit Trap",
   "type": "hazard",
   "img": "systems/pf2e/icons/default-icons/hazard.svg",
   "items": [
@@ -71,7 +71,7 @@
     },
     {
       "_id": "RcKLon3cOJXSvOmx",
-      "name": "Spikes lined with spider venom",
+      "name": "Spear Launcher",
       "type": "melee",
       "sort": 200000,
       "flags": {
@@ -86,7 +86,7 @@
       "folder": null,
       "system": {
         "description": {
-          "value": "<p>If the spikes hit, the creature is affected with spider venom: @Compendium[pf2e.equipment-srd.5RGNjhDxZ0yMhTds]{Hunting Spider Venom}</p>",
+          "value": "<p>Spikes lined with spider venom make a Strike against a creature that comes into contact with the spikes.</p><p>If the spikes hit, the creature is affected with spider venom: @Compendium[pf2e.equipment-srd.5RGNjhDxZ0yMhTds]{Hunting Spider Venom}</p>",
           "gm": ""
         },
         "traits": {
@@ -131,81 +131,17 @@
         "default": 0
       },
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1786150298941,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
       },
       "_key": "!actors.items!vMXr07wEZtYMciv2.RcKLon3cOJXSvOmx"
-    },
-    {
-      "_id": "evxt0SZqLc7T8uYm",
-      "name": "Grab an Edge",
-      "type": "action",
-      "sort": 300000,
-      "flags": {
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "effects": [],
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p><strong>Trigger</strong> You fall from or past an edge or handhold<br /><strong>Requirements</strong> Your hands are not tied behind your back or otherwise <a class=\"entity-link\" draggable=\"true\" data-pack=\"pf2e.conditionitems\" data-id=\"VcDeM8A5oI6VqhbM\"> Restrained</a></p>\n<hr />\n<p>When you fall off or past an edge or other handhold, you can try to grab it, potentially stopping your fall. You must succeed at a Reflex save, usually at the Climb DC. If you grab the edge or handhold, you can then <a class=\"entity-link\" draggable=\"true\" data-pack=\"pf2e.actionspf2e\" data-id=\"pprgrYQ1QnIDGZiy\"> Climb</a> up using Athletics.</p>\n<hr />\n<p><strong>Critical Success</strong> You grab the edge or handhold, whether or not you have a hand free, typically by using a suitable held item to catch yourself (catching a battle axe on a ledge, for example). You still take damage from the distance fallen so far, but you treat the fall as though it were 30 feet shorter.</p>\n<p><strong>Success</strong> If you have at least one hand free, you grab the edge or handhold, stopping your fall. You still take damage from the distance fallen so far, but you treat the fall as though it were 20 feet shorter. If you have no hands free, you continue to fall as if you had failed the check.</p>\n<p><strong>Critical Failure</strong> You continue to fall, and if you've fallen 20 feet or more before you use this reaction, you take 10 bludgeoning damage from the impact for every 20 feet fallen.</p>",
-          "gm": ""
-        },
-        "traits": {
-          "value": [
-            "general",
-            "manipulate"
-          ],
-          "otherTags": []
-        },
-        "rules": [],
-        "slug": "grab-an-edge",
-        "actionType": {
-          "value": "reaction"
-        },
-        "actions": {
-          "value": null
-        },
-        "deathNote": false,
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "category": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!vMXr07wEZtYMciv2.evxt0SZqLc7T8uYm"
     }
   ],
   "effects": [],
@@ -235,7 +171,7 @@
         "value": 1
       },
       "will": {
-        "value": null
+        "value": 0
       }
     },
     "attributes": {
@@ -261,6 +197,10 @@
         },
         {
           "type": "object-immunities",
+          "exceptions": []
+        },
+        {
+          "type": "precision",
           "exceptions": []
         }
       ],
@@ -418,10 +358,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
+    "systemVersion": "7.12.2",
     "coreVersion": "13.351",
     "createdTime": 1673456694848,
-    "modifiedTime": 1771041993011,
+    "modifiedTime": 1786153366321,
     "lastModifiedBy": "FmfifLIOr4CQQOc0",
     "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.neGyFHfovIqdsuYl",
     "duplicateSource": null,

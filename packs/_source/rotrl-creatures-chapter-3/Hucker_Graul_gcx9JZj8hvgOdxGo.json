@@ -5,77 +5,6 @@
   "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
   "items": [
     {
-      "_id": "3xDmYsW2ohHNPgkO",
-      "name": "Speech impediment",
-      "type": "action",
-      "sort": 1100000,
-      "flags": {
-        "pf2e_updatednpcsheet": {
-          "npcActionType": {
-            "value": "defensive"
-          }
-        },
-        "pdfoundry-pf2e": {
-          "source": ""
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "effects": [],
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>Speech impediment ; <br /><strong>Trigger</strong>: A creature mocks Hucker's speech.<br /><strong>Effect</strong>: Hucker takes [[/r 10 # mental damage]] mental damage and becomes enraged for 1 minute, as the barbarian feat.</p>\n<p>@Compendium[pf2e.actionspf2e.Ah5g9pDwWF9b9VW9]{Rage}</p>",
-          "gm": ""
-        },
-        "traits": {
-          "value": [
-            "auditory",
-            "emotion"
-          ],
-          "otherTags": []
-        },
-        "rules": [],
-        "slug": null,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "deathNote": false,
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "category": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!gcx9JZj8hvgOdxGo.3xDmYsW2ohHNPgkO"
-    },
-    {
       "_id": "ACo1L2kgvmbarRQ6",
       "name": "Gold Pieces",
       "type": "treasure",
@@ -1111,6 +1040,90 @@
       "flags": {},
       "_id": "CcZEwrH8s1N6E99P",
       "_key": "!actors.items!gcx9JZj8hvgOdxGo.CcZEwrH8s1N6E99P"
+    },
+    {
+      "name": "Ogrekin Deformities",
+      "type": "action",
+      "sort": 1100000,
+      "flags": {
+        "pf2e_updatednpcsheet": {
+          "npcActionType": {
+            "value": "defensive"
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Hucker has a speech impediment.</p><hr /><p><strong>Trigger</strong>: A creature mocks Hucker's speech.<br /><strong>Effect</strong>: Hucker takes @Damage[1d10[mental]]{mental damage} and becomes enraged for 1 minute, as the barbarian feat.</p><p>@Compendium[pf2e.actionspf2e.Ah5g9pDwWF9b9VW9]{Rage}</p><p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Effect: Rage}</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "auditory",
+            "emotion"
+          ],
+          "otherTags": []
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Rage",
+            "value": 2,
+            "selector": [
+              "strike-damage"
+            ],
+            "predicate": [
+              "self:effect:rage"
+            ]
+          }
+        ],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": "Actor.ORAf0CukM3iXgW7C.Item.3xDmYsW2ohHNPgkO",
+        "duplicateSource": "Actor.ORAf0CukM3iXgW7C.Item.3xDmYsW2ohHNPgkO",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786223593136,
+        "modifiedTime": 1786223637414,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "y9Sw7rWI8V7fR7KS",
+      "_key": "!actors.items!gcx9JZj8hvgOdxGo.y9Sw7rWI8V7fR7KS"
     }
   ],
   "effects": [],

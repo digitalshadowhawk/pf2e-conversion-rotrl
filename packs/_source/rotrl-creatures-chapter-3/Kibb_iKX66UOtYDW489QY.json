@@ -292,7 +292,24 @@
           "value": [],
           "otherTags": []
         },
-        "rules": [],
+        "rules": [
+          {
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.TOTMToggle.OffGuard",
+            "option": "target:condition:off-guard",
+            "toggleable": "totm"
+          },
+          {
+            "category": "precision",
+            "diceNumber": "1",
+            "dieSize": "d4",
+            "key": "DamageDice",
+            "predicate": [
+              "target:condition:off-guard"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
         "slug": null,
         "actionType": {
           "value": "passive"
@@ -321,12 +338,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1786149032028,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -509,7 +526,7 @@
         "value": 8,
         "min": 1
       },
-      "blurb": "",
+      "blurb": "firepelt cougar",
       "publicNotes": "",
       "privateNotes": "",
       "publication": {
@@ -1010,10 +1027,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
+    "systemVersion": "7.12.2",
     "coreVersion": "13.351",
     "createdTime": 1673456694801,
-    "modifiedTime": 1771041993011,
+    "modifiedTime": 1786148738257,
     "lastModifiedBy": "FmfifLIOr4CQQOc0",
     "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.lFo6TKGWguMJrOfE",
     "duplicateSource": null,

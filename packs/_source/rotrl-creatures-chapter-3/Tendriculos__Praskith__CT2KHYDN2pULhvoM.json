@@ -2,23 +2,22 @@
   "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
   "items": [
     {
-      "_id": "16mvgME2H3Zp8aMW",
+      "_id": "3AK8xWwQNAfn8GZR",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "name": "Jaws",
+      "name": "Mouth",
       "sort": 100000,
       "system": {
         "attackEffects": {
           "value": [
-            "grab",
-            "knockdown"
+            "grab"
           ]
         },
         "bonus": {
-          "value": 12
+          "value": 18
         },
         "damageRolls": {
-          "miy48diaqk8l4exqz8oq": {
-            "damage": "1d10+5",
+          "ppkivvdbo8sixu0wcv8k": {
+            "damage": "2d10+11",
             "damageType": "piercing",
             "category": null
           }
@@ -28,9 +27,9 @@
           "gm": ""
         },
         "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "Pathfinder Monster Core",
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
           "authors": ""
         },
         "range": null,
@@ -38,8 +37,7 @@
         "slug": null,
         "traits": {
           "value": [
-            "reach-10",
-            "unarmed"
+            "reach-10"
           ],
           "otherTags": [],
           "config": {}
@@ -49,7 +47,8 @@
           "previous": null
         },
         "action": "strike",
-        "area": null
+        "area": null,
+        "subjectToMAP": true
       },
       "type": "melee",
       "_stats": {
@@ -58,7 +57,7 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
       "effects": [],
@@ -67,22 +66,81 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!jL3I2F2EgIwlUJYi.16mvgME2H3Zp8aMW"
+      "_key": "!actors.items!CT2KHYDN2pULhvoM.3AK8xWwQNAfn8GZR"
     },
     {
-      "_id": "xswRs14UWcUn7b5S",
+      "_id": "UhnqMxX22JlPHncP",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Vine",
+      "sort": 200000,
+      "system": {
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        },
+        "bonus": {
+          "value": 18
+        },
+        "damageRolls": {
+          "yknnayvl6p8qqwfuyxpj": {
+            "damage": "2d6+11",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "reach-15"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "subjectToMAP": true
+      },
+      "type": "melee",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!CT2KHYDN2pULhvoM.UhnqMxX22JlPHncP"
+    },
+    {
+      "_id": "zRW011HGT2XcRP6W",
       "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "name": "Buck",
-      "sort": 200000,
+      "name": "Reactive Strike (Vine Only)",
+      "sort": 300000,
       "system": {
         "actionType": {
           "value": "reaction"
@@ -92,7 +150,7 @@
         },
         "category": "defensive",
         "description": {
-          "value": "<p>@Check[reflex|dc:20]</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>",
           "gm": ""
         },
         "publication": {
@@ -102,7 +160,7 @@
           "authors": ""
         },
         "rules": [],
-        "slug": "buck",
+        "slug": "reactive-strike",
         "traits": {
           "value": [],
           "otherTags": []
@@ -113,19 +171,28 @@
         }
       },
       "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
       "effects": [],
       "folder": null,
       "ownership": {
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!jL3I2F2EgIwlUJYi.xswRs14UWcUn7b5S"
+      "_key": "!actors.items!CT2KHYDN2pULhvoM.zRW011HGT2XcRP6W"
     },
     {
-      "_id": "zFNrz9di2EnI53hz",
+      "_id": "XHjjW9wEW3pVVm5K",
       "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Pack Attack",
-      "sort": 300000,
+      "name": "Praskith Venom",
+      "sort": 400000,
       "system": {
         "actionType": {
           "value": "passive"
@@ -135,32 +202,71 @@
         },
         "category": "offensive",
         "description": {
-          "value": "<p>The dire wolf's Strikes deal 1d6 extra damage to creatures within reach of at least two of the wolf's allies.</p>",
+          "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:21]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} (1 round)</p>\n<p><strong>Stage 2</strong> clumsy 2 and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} (1 round)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} (1 round)</p>",
           "gm": ""
         },
         "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "Pathfinder Monster Core",
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
           "authors": ""
         },
-        "rules": [
-          {
-            "domain": "damage",
-            "key": "RollOption",
-            "option": "pack-attack",
-            "toggleable": true
-          },
-          {
-            "diceNumber": 1,
-            "dieSize": "d6",
-            "key": "DamageDice",
-            "predicate": [
-              "pack-attack"
-            ],
-            "selector": "strike-damage"
-          }
-        ],
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "incapacitation",
+            "poison"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!CT2KHYDN2pULhvoM.XHjjW9wEW3pVVm5K"
+    },
+    {
+      "_id": "Gbcpa6lIhj2KUyH4",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Rampant Growth",
+      "sort": 500000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p><strong>Requirements</strong> A creature the praskith has Swallowed Whole has taken damage since the end of the praskith's last turn, and the praskith hasn't used any other actions this turn</p><hr /><p><strong>Effect</strong> The praskith regains 3d8 Hit Points and recovers from the @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} and slowed conditions. It reduces any enfeebled value it has by 2.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
         "slug": null,
         "traits": {
           "value": [],
@@ -178,7 +284,7 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
       "effects": [],
@@ -187,13 +293,13 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!jL3I2F2EgIwlUJYi.zFNrz9di2EnI53hz"
+      "_key": "!actors.items!CT2KHYDN2pULhvoM.Gbcpa6lIhj2KUyH4"
     },
     {
-      "_id": "M0BuH1pWhtWsVIYm",
+      "_id": "1zSROTRkSluSvmzR",
       "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Worry",
-      "sort": 400000,
+      "name": "Swallow Whole",
+      "sort": 600000,
       "system": {
         "actionType": {
           "value": "action"
@@ -203,17 +309,17 @@
         },
         "category": "offensive",
         "description": {
-          "value": "<p><strong>Requirements</strong> The dire wolf has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} in its jaws</p>\n<hr />\n<p><strong>Effect</strong> The dire wolf fiercely shakes the creature with its teeth, dealing @Damage[(1d10+2)[piercing]] damage with a @Check[fortitude|dc:20|basic] save.</p>",
+          "value": "<p>Large, @Damage[(2d10+7)[acid]] damage plus praskith venom, Rupture 14</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>",
           "gm": ""
         },
         "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "Pathfinder Monster Core",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary",
           "authors": ""
         },
         "rules": [],
-        "slug": null,
+        "slug": "swallow-whole",
         "traits": {
           "value": [
             "attack"
@@ -232,7 +338,7 @@
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
       "effects": [],
@@ -241,22 +347,13 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!jL3I2F2EgIwlUJYi.M0BuH1pWhtWsVIYm"
+      "_key": "!actors.items!CT2KHYDN2pULhvoM.1zSROTRkSluSvmzR"
     },
     {
-      "_id": "aidpPDwvXoVTKC6j",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "pf2e",
-        "systemVersion": "7.10.1",
-        "lastModifiedBy": null
-      },
+      "_id": "HDyQbtYQNxLarefS",
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "name": "Grab",
-      "sort": 500000,
+      "sort": 700000,
       "system": {
         "actionType": {
           "value": "action"
@@ -270,9 +367,9 @@
           "gm": ""
         },
         "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "Pathfinder Monster Core",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary",
           "authors": ""
         },
         "rules": [],
@@ -287,105 +384,85 @@
         }
       },
       "type": "action",
-      "effects": [],
-      "folder": null,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!jL3I2F2EgIwlUJYi.aidpPDwvXoVTKC6j"
-    },
-    {
-      "_id": "m2lc6stQx0fMmqPO",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
+        "systemVersion": "7.12.2",
         "lastModifiedBy": null
       },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Knockdown",
-      "sort": 600000,
-      "system": {
-        "actionType": {
-          "value": "action"
-        },
-        "actions": {
-          "value": 1
-        },
-        "category": "offensive",
-        "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>",
-          "gm": ""
-        },
-        "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "Pathfinder Monster Core",
-          "authors": ""
-        },
-        "rules": [],
-        "slug": "knockdown",
-        "traits": {
-          "value": [],
-          "otherTags": []
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": null
-        }
-      },
-      "type": "action",
       "effects": [],
       "folder": null,
       "ownership": {
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!jL3I2F2EgIwlUJYi.m2lc6stQx0fMmqPO"
+      "_key": "!actors.items!CT2KHYDN2pULhvoM.HDyQbtYQNxLarefS"
     }
   ],
-  "name": "Donkey Rat",
+  "name": "Tendriculos (Praskith)",
   "system": {
     "attributes": {
       "hp": {
-        "value": 50,
+        "value": 120,
         "temp": 0,
-        "max": 50,
+        "max": 120,
         "details": ""
       },
       "ac": {
-        "value": 18,
+        "value": 25,
         "details": ""
       },
       "allSaves": {
         "value": ""
       },
       "speed": {
-        "value": 35,
+        "value": 20,
         "otherSpeeds": [],
         "details": ""
-      }
+      },
+      "immunities": [
+        {
+          "type": "acid"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "piercing",
+          "value": 5
+        },
+        {
+          "type": "slashing",
+          "value": 5
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "value": 5
+        }
+      ]
     },
     "initiative": {
       "statistic": "perception"
     },
     "details": {
       "languages": {
-        "value": [],
-        "details": ""
+        "value": [
+          "fey"
+        ],
+        "details": "Can't speak any language"
       },
       "level": {
-        "value": 3
+        "value": 7
       },
-      "blurb": "variant dire wolf",
-      "publicNotes": "<p>Much larger and more foul-tempered than their common cousins, dire wolves haunt primeval lands that accommodate their massive size and proportionately large hunting grounds and appetites. Orcs are fond of using dire wolves as mounts, finding their vicious tempers perfect for hunting and warfare. Dire wolves are far more likely to prey on humanoids than ordinary wolves, considering them nothing but another kind of smaller, nutritious animal.</p>\n<hr />\n<p>Wolves roam forests, hills, and other wild lands, where they hunt in packs to beleaguer and surround their prey before going in for the kill. Like most predatory animals, wolves prefer to attack the weakest or most vulnerable prey they can find.</p>",
+      "blurb": "",
+      "publicNotes": "<p>These strange amalgams of plant and fungus with animal tendencies form where the natural world is corrupted by foul magic or frayed planar boundaries. Praskiths are instinctive ambush predators who seek out lightly traveled forest paths and lie in wait in the undergrowth. A praskith swallows prey as quickly as possible and lets its paralytic digestive juices finish the meal, swiftly restoring itself with the nourishment provided by the trapped creature. When collected, neutralized, and refined, the digestive fluids of a praskith form a lacquer that retains some of the creature's acid resistance.</p>\n<p>A praskith comes into being with a rudimentary understanding of the Fey language, but in some cases it might manifest knowing a different tongue, such as Aklo, Draconic, or even Necril. Regardless, praskiths have little patience for chattering with potential meals, though some determined fey and primal spellcasters have been known to form alliances or even closer bonds with praskiths. Befriending a praskith requires great patience and plentiful food—and gifts of food must be alive when handed over.</p>\n<p>When finished feeding, a praskith slips into a quiescent state for a full day, one of the few times it's safe to approach. Upon rousing, it seeks the deep forest to regurgitate the less digestible portions of its meal. These remains can contain valuables that survived digestion and indicate that a praskith's hunting grounds lie nearby.</p>\n<p>Praskiths dwell in deep woods and jungles. Well-fed praskiths develop fruiting bodies that cast forth millions of spores. Spores that happen to alight on carrion grow into new praskiths.</p>",
       "privateNotes": "",
       "publication": {
-        "title": "Pathfinder Monster Core",
+        "title": "Pathfinder Monster Core 2",
         "authors": "",
         "license": "ORC",
         "remaster": true
@@ -398,74 +475,73 @@
     },
     "abilities": {
       "str": {
-        "mod": 5
+        "mod": 7
       },
       "dex": {
-        "mod": 3
+        "mod": 2
       },
       "con": {
-        "mod": 4
+        "mod": 5
       },
       "int": {
-        "mod": -4
+        "mod": -2
       },
       "wis": {
         "mod": 3
       },
       "cha": {
-        "mod": -2
+        "mod": 0
       }
     },
     "perception": {
       "details": "",
-      "mod": 10,
+      "mod": 15,
       "senses": [
         {
           "type": "low-light-vision"
-        },
-        {
-          "acuity": "imprecise",
-          "range": 30,
-          "type": "scent"
         }
       ],
       "vision": true
     },
     "saves": {
       "fortitude": {
-        "value": 11,
+        "value": 17,
         "saveDetail": ""
       },
       "reflex": {
-        "value": 8,
+        "value": 12,
         "saveDetail": ""
       },
       "will": {
-        "value": 8,
+        "value": 13,
         "saveDetail": ""
       }
     },
     "skills": {
-      "acrobatics": {
-        "base": 8
-      },
       "athletics": {
-        "base": 10
+        "base": 15
       },
       "stealth": {
-        "base": 8
-      },
-      "survival": {
-        "base": 10
+        "base": 14,
+        "special": [
+          {
+            "base": 16,
+            "label": "in undergrowth",
+            "predicate": [
+              "terrain:undergrowth"
+            ]
+          }
+        ]
       }
     },
     "traits": {
       "value": [
-        "animal"
+        "fungus",
+        "plant"
       ],
       "rarity": "common",
       "size": {
-        "value": "lg"
+        "value": "huge"
       }
     }
   },
@@ -477,17 +553,17 @@
     "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.12.2",
-    "createdTime": 1771013481196,
-    "modifiedTime": 1786223015565,
+    "createdTime": 1786223692481,
+    "modifiedTime": 1786223740084,
     "lastModifiedBy": "FmfifLIOr4CQQOc0"
   },
   "effects": [],
   "prototypeToken": {
-    "name": "Dire Wolf",
+    "name": "Praskith",
     "displayName": 0,
     "actorLink": false,
-    "width": 2,
-    "height": 2,
+    "width": 3,
+    "height": 3,
     "texture": {
       "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
       "anchorX": 0.5,
@@ -587,7 +663,7 @@
     "FmfifLIOr4CQQOc0": 3
   },
   "flags": {},
-  "_id": "jL3I2F2EgIwlUJYi",
-  "sort": 3300000,
-  "_key": "!actors!jL3I2F2EgIwlUJYi"
+  "_id": "CT2KHYDN2pULhvoM",
+  "sort": 0,
+  "_key": "!actors!CT2KHYDN2pULhvoM"
 }

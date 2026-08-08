@@ -5,147 +5,186 @@
   "img": "systems/pf2e/icons/default-icons/hazard.svg",
   "items": [
     {
-      "_id": "0fjRyLkdj1a2kfGM",
-      "name": "Falling Scythes",
-      "type": "action",
-      "sort": 100000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": "jcFAvevOkkMOfTUo"
-          }
-        }
-      },
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "effects": [],
-      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "No MAP",
+      "sort": 0,
       "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
         "description": {
-          "value": "<b>Trigger</b> The trip wire is pulled or severed. <b>Effect</b> Both blades swing down, each one attacking all creatures under the ceiling grooves.",
+          "value": "<p>The Scythe Strikes do not apply a MAP.</p>",
           "gm": ""
         },
-        "traits": {
-          "value": [
-            "attack"
-          ],
-          "otherTags": []
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
         },
         "rules": [],
+        "slug": "no-map",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Actor.GItAcNN9v5Pew2VV.Item.eLyrxG4My2vDsmHg",
+        "duplicateSource": "Actor.GItAcNN9v5Pew2VV.Item.eLyrxG4My2vDsmHg",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786150586012,
+        "modifiedTime": 1786150586012,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "HmF5nQjsDbYZ6hwH",
+      "_key": "!actors.items!qdzoD2CLFHphDVGl.HmF5nQjsDbYZ6hwH"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Scythe",
+      "sort": 200000,
+      "system": {
+        "attackEffects": {
+          "value": [
+            "no-map"
+          ]
+        },
+        "bonus": {
+          "value": 17
+        },
+        "damageRolls": {
+          "guj26mkvvr90w00st8m3": {
+            "damage": "2d12+4",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
         "slug": null,
+        "traits": {
+          "value": [
+            "deadly-d12"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "subjectToMAP": true
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": "Actor.GItAcNN9v5Pew2VV.Item.oaNkRH35bkjdSm6P",
+        "duplicateSource": "Actor.GItAcNN9v5Pew2VV.Item.oaNkRH35bkjdSm6P",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786150636953,
+        "modifiedTime": 1786150636953,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "fTwYMfO4M3c5vpfo",
+      "_key": "!actors.items!qdzoD2CLFHphDVGl.fTwYMfO4M3c5vpfo"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Falling Scythes",
+      "sort": 100000,
+      "system": {
         "actionType": {
           "value": "reaction"
         },
         "actions": {
           "value": null
         },
-        "deathNote": false,
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "category": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!qdzoD2CLFHphDVGl.0fjRyLkdj1a2kfGM"
-    },
-    {
-      "_id": "oaNkRH35bkjdSm6P",
-      "name": "scythe",
-      "type": "melee",
-      "sort": 200000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": "jcFAvevOkkMOfTUo"
-          }
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "effects": [],
-      "folder": null,
-      "system": {
+        "category": null,
         "description": {
-          "value": "",
+          "value": "<p><strong>Trigger</strong> The trip wire is pulled or severed.</p>\n<hr />\n<p><strong>Effect</strong> Both blades swing down, each one Striking all creatures under the ceiling grooves.</p>",
           "gm": ""
         },
-        "traits": {
-          "value": [],
-          "otherTags": [],
-          "config": {}
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
         },
         "rules": [],
         "slug": null,
-        "damageRolls": {
-          "ej4en7fn0iko10svvels": {
-            "damage": "2d12+4",
-            "damageType": "slashing",
-            "category": null
-          }
-        },
-        "bonus": {
-          "value": 17
-        },
-        "attackEffects": {
+        "traits": {
           "value": [
-            "no-multiple-attack-penalty"
-          ]
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
+            "attack"
+          ],
+          "otherTags": []
         },
         "_migration": {
           "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "action": "strike",
-        "area": null,
-        "range": null
+          "previous": null
+        }
       },
-      "ownership": {
-        "default": 0
-      },
+      "type": "action",
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
+        "compendiumSource": "Actor.GItAcNN9v5Pew2VV.Item.0fjRyLkdj1a2kfGM",
+        "duplicateSource": "Actor.GItAcNN9v5Pew2VV.Item.0fjRyLkdj1a2kfGM",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786150651010,
+        "modifiedTime": 1786150651010,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
       },
-      "_key": "!actors.items!qdzoD2CLFHphDVGl.oaNkRH35bkjdSm6P"
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "DLODzX213i7xUUrK",
+      "_key": "!actors.items!qdzoD2CLFHphDVGl.DLODzX213i7xUUrK"
     }
   ],
   "effects": [],
@@ -155,7 +194,8 @@
     "pf2e": {
       "editHazard": {
         "value": false
-      }
+      },
+      "editMode": false
     },
     "pf2e_updatednpcsheet": {
       "npcNotes": {
@@ -174,7 +214,7 @@
         "value": 8
       },
       "will": {
-        "value": null
+        "value": 0
       }
     },
     "attributes": {
@@ -201,6 +241,10 @@
         {
           "type": "object-immunities",
           "exceptions": []
+        },
+        {
+          "type": "precision",
+          "exceptions": []
         }
       ],
       "weaknesses": [],
@@ -211,14 +255,14 @@
       "level": {
         "value": 1
       },
-      "disable": "Thievery DC 21 (trained) to disable each blade",
+      "disable": "<p>@Check[type:thievery|dc:21] (trained) to disable each blade</p>",
       "description": "Scythes attached to coils of tightly bound rope can be set to cut into anyone stepping through any of the three doors into this room. Hidden switches on the doors themselves allows the ogrekin to disable these traps before they come into the room, but if they hear combat outside, they make sure all three scythe traps are ready to go.",
       "reset": "The trap resets after 15 minutes.",
       "routine": "",
       "publication": {
-        "title": "",
+        "title": "Pathfinder GM Core",
         "authors": "",
-        "license": "OGL",
+        "license": "ORC",
         "remaster": false
       }
     },
@@ -357,10 +401,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
+    "systemVersion": "7.12.2",
     "coreVersion": "13.351",
     "createdTime": 1673456694837,
-    "modifiedTime": 1771041993011,
+    "modifiedTime": 1786150677436,
     "lastModifiedBy": "FmfifLIOr4CQQOc0",
     "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.KFmtrhuTvy2D0nLN",
     "duplicateSource": null,

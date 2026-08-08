@@ -15,6 +15,9 @@
           "pick-up-stix": {
             "owner": "4UtIpLYbDKYrp1fi"
           }
+        },
+        "pf2e": {
+          "linkedWeapon": "ALxWcC3kbE9mX7sv"
         }
       },
       "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
@@ -38,7 +41,7 @@
         "slug": null,
         "damageRolls": {
           "0": {
-            "damage": "2d10+12",
+            "damage": "2d6+10",
             "damageType": "bludgeoning",
             "category": null
           }
@@ -71,12 +74,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1786227370368,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -106,7 +109,9 @@
         },
         "traits": {
           "value": [
-            "agile"
+            "agile",
+            "reach-10",
+            "unarmed"
           ],
           "otherTags": [],
           "config": {}
@@ -115,13 +120,13 @@
         "slug": null,
         "damageRolls": {
           "0": {
-            "damage": "2d8+11",
+            "damage": "1d6+10",
             "damageType": "bludgeoning",
             "category": null
           }
         },
         "bonus": {
-          "value": 18
+          "value": 16
         },
         "attackEffects": {
           "value": []
@@ -148,12 +153,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1786227282197,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -299,9 +304,9 @@
           "type": "String"
         },
         "equipped": {
-          "carryType": "worn",
+          "carryType": "held",
           "invested": null,
-          "handsHeld": 0
+          "handsHeld": 1
         },
         "containerId": null,
         "size": "lg",
@@ -390,160 +395,17 @@
         "default": 0
       },
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1786227347188,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.t5FbyZtRL4qV0V7k",
         "duplicateSource": null,
         "exportSource": null
       },
       "_key": "!actors.items!kxkuaV7Yqt1Sg3NX.ALxWcC3kbE9mX7sv"
-    },
-    {
-      "_id": "4tKaCVSJUjgMqPT6",
-      "name": "flail (2)",
-      "type": "equipment",
-      "sort": 100000,
-      "flags": {
-        "pick-up-stix": {
-          "pick-up-stix": {
-            "owner": "4UtIpLYbDKYrp1fi"
-          }
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "effects": [],
-      "folder": null,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "(2)",
-          "chat": "",
-          "unidentified": "",
-          "label": "Description",
-          "type": "String"
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": 0.955,
-          "lastMigration": null,
-          "previous": {
-            "schema": 0.813,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [],
-          "rarity": "common"
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 0
-        },
-        "quantity": 1,
-        "baseItem": null,
-        "bulk": {
-          "value": 0
-        },
-        "hp": {
-          "value": 0,
-          "max": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {}
-        },
-        "equipped": {
-          "carryType": "worn",
-          "invested": null,
-          "handsHeld": 0
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "",
-            "img": "",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "usage": {
-          "value": "held-in-one-hand"
-        },
-        "subitems": [],
-        "identified": {
-          "value": false
-        },
-        "rarity": {
-          "value": "common"
-        },
-        "property1": {
-          "value": "",
-          "dice": 0,
-          "die": "",
-          "damageType": "",
-          "critDice": 0,
-          "critDie": "",
-          "critDamage": "",
-          "critDamageType": ""
-        },
-        "property2": {
-          "value": "",
-          "dice": 0,
-          "die": "",
-          "damageType": "",
-          "critDice": 0,
-          "critDie": "",
-          "critDamage": "",
-          "critDamageType": ""
-        },
-        "property3": {
-          "value": "",
-          "dice": 0,
-          "die": "",
-          "damageType": "",
-          "critDice": 0,
-          "critDie": "",
-          "critDamage": "",
-          "critDamageType": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!kxkuaV7Yqt1Sg3NX.4tKaCVSJUjgMqPT6"
     },
     {
       "img": "systems/pf2e/icons/actions/Reaction.webp",
@@ -1358,10 +1220,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
+    "systemVersion": "7.12.2",
     "coreVersion": "13.351",
     "createdTime": 1673456694809,
-    "modifiedTime": 1771041993011,
+    "modifiedTime": 1786227315484,
     "lastModifiedBy": "FmfifLIOr4CQQOc0",
     "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.pqHiivLzkSjqFXYk",
     "duplicateSource": null,

@@ -79,223 +79,6 @@
       "_key": "!actors.items!TMuuOD5LadPcfdwI.BeVn8Y0Xar5gY2yz"
     },
     {
-      "_id": "xJEoDjJxkPRmomDM",
-      "name": "Slowed",
-      "type": "condition",
-      "sort": 700000,
-      "flags": {
-        "pf2e": {
-          "condition": true
-        },
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/conditions/slowed.webp",
-      "effects": [],
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>You have fewer actions. Slowed always includes a value. When you regain your actions at the start of your turn, reduce the number of actions you regain by your slowed value. Because slowed has its effect at the start of your turn, you don't immediately lose actions if you become slowed during your turn.</p>",
-          "gm": ""
-        },
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "rules": [],
-        "slug": "slowed",
-        "references": {
-          "children": [],
-          "overrides": [],
-          "overriddenBy": [],
-          "parent": null
-        },
-        "group": null,
-        "value": {
-          "isValued": true,
-          "value": 1
-        },
-        "overrides": [],
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "fromSpell": false,
-        "persistent": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!TMuuOD5LadPcfdwI.xJEoDjJxkPRmomDM"
-    },
-    {
-      "_id": "Ark8ujKYFfaSeC00",
-      "name": "Prone",
-      "type": "condition",
-      "sort": 800000,
-      "flags": {
-        "pf2e": {
-          "condition": true
-        },
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/conditions/prone.webp",
-      "effects": [],
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>You're lying on the ground. You are <a class=\"entity-link\" draggable=\"true\" data-pack=\"pf2e.conditionitems\" data-id=\"AJh5ex99aV6VTggg\"> Off-Guard</a> and take a -2 circumstance penalty to attack rolls. The only move actions you can use while you're prone are <a class=\"entity-link\" draggable=\"true\" data-pack=\"pf2e.actionspf2e\" data-id=\"Tj055UcNm6UEgtCg\"> Crawl</a> and <a class=\"entity-link\" draggable=\"true\" data-pack=\"pf2e.actionspf2e\" data-id=\"OdIUybJ3ddfL7wzj\"> Stand</a>. Standing up ends the prone condition. You can <a class=\"entity-link\" draggable=\"true\" data-pack=\"pf2e.actionspf2e\" data-id=\"ust1jJSCZQUhBZIz\"> Take Cover</a> while prone to hunker down and gain cover against ranged attacks, even if you don't have an object to get behind, gaining a +4 circumstance bonus to AC against ranged attacks (but you remain off-guard).<br /><br />If you would be knocked prone while you're <a class=\"entity-link\" draggable=\"true\" data-pack=\"pf2e.actionspf2e\" data-id=\"pprgrYQ1QnIDGZiy\"> Climbing</a> or <a class=\"entity-link\" draggable=\"true\" data-pack=\"pf2e.actionspf2e\" data-id=\"cS9nfDRGD83bNU1p\"> Flying</a>, you fall (see pages 463-464 for the rules on falling). You can't be knocked prone when <a class=\"entity-link\" draggable=\"true\" data-pack=\"pf2e.actionspf2e\" data-id=\"c8TGiZ48ygoSPofx\"> Swimming</a>.</p>",
-          "gm": ""
-        },
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "rules": [],
-        "slug": "prone",
-        "references": {
-          "children": [
-            {
-              "id": "UVe6VC0QdkAsZNYG",
-              "type": "condition"
-            }
-          ],
-          "overrides": [],
-          "overriddenBy": [],
-          "parent": null
-        },
-        "group": null,
-        "value": {
-          "isValued": false,
-          "value": 1
-        },
-        "overrides": [],
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "fromSpell": false,
-        "persistent": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!TMuuOD5LadPcfdwI.Ark8ujKYFfaSeC00"
-    },
-    {
-      "_id": "UVe6VC0QdkAsZNYG",
-      "name": "Off-Guard",
-      "type": "condition",
-      "sort": 900000,
-      "flags": {
-        "pf2e": {
-          "condition": true
-        },
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/conditions/off-guard.webp",
-      "effects": [],
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>You're distracted or otherwise unable to focus your full attention on defense. You take a -2 circumstance penalty to AC. Some effects give you the off-guard condition only to certain creatures or against certain attacks. Others-especially conditions-can make you universally off-guard against everything. If a rule doesn't specify that the condition applies only to certain circumstances, it applies to all of them; for example, many effects simply say \"The target is off-guard.\"</p>",
-          "gm": ""
-        },
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "rules": [],
-        "slug": "off-guard",
-        "references": {
-          "children": [],
-          "overrides": [],
-          "overriddenBy": [],
-          "parent": {
-            "id": "Ark8ujKYFfaSeC00"
-          }
-        },
-        "group": null,
-        "value": {
-          "isValued": false,
-          "value": 1
-        },
-        "overrides": [],
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.10.1"
-          }
-        },
-        "fromSpell": false,
-        "persistent": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!TMuuOD5LadPcfdwI.UVe6VC0QdkAsZNYG"
-    },
-    {
       "img": "systems/pf2e/icons/actions/Reaction.webp",
       "name": "Reactive Strike",
       "system": {
@@ -478,6 +261,66 @@
       "flags": {},
       "_id": "v10NMeI7QvNK4UDh",
       "_key": "!actors.items!TMuuOD5LadPcfdwI.v10NMeI7QvNK4UDh"
+    },
+    {
+      "type": "action",
+      "name": "Ogrekin Deformities",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>Lucky gains a +2 bonus to his Reflex saves thanks to his double-jointed limbs.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "t8yo4miq3M6S1L6d",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786152178547,
+        "modifiedTime": 1786152399710,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "_key": "!actors.items!TMuuOD5LadPcfdwI.t8yo4miq3M6S1L6d"
     }
   ],
   "effects": [
@@ -611,7 +454,7 @@
         "details": ""
       },
       "level": {
-        "value": 1,
+        "value": 6,
         "min": 1
       },
       "blurb": "",
@@ -1097,10 +940,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "7.10.1",
+    "systemVersion": "7.12.2",
     "coreVersion": "13.351",
     "createdTime": 1673456694775,
-    "modifiedTime": 1771041993011,
+    "modifiedTime": 1786152274818,
     "lastModifiedBy": "FmfifLIOr4CQQOc0",
     "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.Sbsr3jkGqhcgtz5m",
     "duplicateSource": null,

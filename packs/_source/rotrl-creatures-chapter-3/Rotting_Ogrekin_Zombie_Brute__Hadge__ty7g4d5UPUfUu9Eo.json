@@ -1,17 +1,19 @@
 {
-  "name": "Jeppo Graul",
+  "_id": "ty7g4d5UPUfUu9Eo",
+  "name": "Rotting Ogrekin Zombie Brute (Hadge)",
   "type": "npc",
   "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
   "items": [
     {
-      "_id": "BeVn8Y0Xar5gY2yz",
+      "_id": "wdsdNrRHG7tMUw5P",
       "name": "Fist",
       "type": "melee",
-      "sort": 600000,
+      "sort": 100000,
       "flags": {
+        "pf2e_updatednpcsheet": {},
         "pick-up-stix": {
           "pick-up-stix": {
-            "owner": "EyNjEN8gela6beSS"
+            "owner": "xAwg5pTYTdnwGIp4"
           }
         }
       },
@@ -31,17 +33,19 @@
         "rules": [],
         "slug": null,
         "damageRolls": {
-          "sycmznuaf189pt66o3ef9a": {
-            "damage": "2d6+8",
+          "2jim2zvvrsyr5a1ftk8a": {
+            "damage": "1d12+5",
             "damageType": "bludgeoning",
             "category": null
           }
         },
         "bonus": {
-          "value": 15
+          "value": 11
         },
         "attackEffects": {
-          "value": []
+          "value": [
+            "improved-push"
+          ]
         },
         "publication": {
           "title": "",
@@ -61,33 +65,170 @@
         "area": null,
         "range": null
       },
+      "ownership": {
+        "default": 0
+      },
       "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": 1786219201093,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "pf2e",
-        "systemVersion": "7.10.1",
-        "lastModifiedBy": null
+        "exportSource": null
+      },
+      "_key": "!actors.items!ty7g4d5UPUfUu9Eo.wdsdNrRHG7tMUw5P"
+    },
+    {
+      "_id": "TtcFIJZjrZ4Vaaml",
+      "name": "Slow",
+      "type": "action",
+      "sort": 200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": "xAwg5pTYTdnwGIp4"
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "A zombie is permanently slowed 1 and can't use reactions.",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!2UOETZwCppWJLSnW.BeVn8Y0Xar5gY2yz"
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!ty7g4d5UPUfUu9Eo.TtcFIJZjrZ4Vaaml"
     },
     {
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "name": "Reactive Strike",
+      "folder": "Or0gl1uupwBBfqVM",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Rotting Aura",
       "system": {
         "actionType": {
-          "value": "reaction"
+          "value": "passive"
         },
         "actions": {
           "value": null
         },
         "category": "defensive",
         "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>",
+          "value": "<p>10 feet. The zombie emits an aura of rot and disease that causes wounds to fester.</p>\n<p>Any living creature that starts its turn within 10 feet of the zombie and is not at full Hit Points takes @Damage[1d6[void]] damage. This damage increases by 1d6 for every 6 levels the zombie has.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "Aura",
+            "radius": 10,
+            "slug": "rotting-aura",
+            "traits": [
+              "disease",
+              "void"
+            ]
+          }
+        ],
+        "traits": {
+          "value": [
+            "aura",
+            "disease",
+            "void"
+          ],
+          "otherTags": []
+        },
+        "slug": "zombie-rotting-aura",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.CxiEpXt7Gw3tSIOh",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786218736702,
+        "modifiedTime": 1786218823937,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "flags": {},
+      "_id": "RZQYCBW0vTWAray9",
+      "_key": "!actors.items!ty7g4d5UPUfUu9Eo.RZQYCBW0vTWAray9"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Improved Push",
+      "system": {
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedPush]</p>",
           "gm": ""
         },
         "publication": {
@@ -101,7 +242,7 @@
           "value": [],
           "otherTags": []
         },
-        "slug": "reactive-strike",
+        "slug": "improved-push",
         "_migration": {
           "version": 0.955,
           "previous": null
@@ -109,191 +250,42 @@
       },
       "type": "action",
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.6l7e7CHQLESlI57U",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.10.1",
-        "lastModifiedBy": null
+        "systemVersion": "7.12.2",
+        "createdTime": 1786218885430,
+        "modifiedTime": 1786218885430,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
       },
       "effects": [],
       "folder": null,
       "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
       "flags": {},
-      "_id": "2EJ2lQjMbTSkxQW0",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!2UOETZwCppWJLSnW.2EJ2lQjMbTSkxQW0"
-    },
-    {
-      "type": "action",
-      "name": "Ogrekin Deformities",
-      "system": {
-        "actionType": {
-          "value": "passive"
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [
-          {
-            "key": "FlatModifier",
-            "label": "Ogrekin Deformities",
-            "value": 2,
-            "selector": [
-              "perception"
-            ]
-          },
-          {
-            "key": "GrantItem",
-            "uuid": "Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh",
-            "allowDuplicate": false,
-            "flag": "dazzled"
-          }
-        ],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "_migration": {
-          "version": 0.955,
-          "previous": {
-            "schema": null,
-            "foundry": "13.351",
-            "system": "7.12.2"
-          }
-        },
-        "actions": {
-          "value": null
-        },
-        "category": null,
-        "deathNote": false
-      },
-      "effects": [],
-      "img": "systems/pf2e/icons/default-icons/action.svg",
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "FmfifLIOr4CQQOc0": 3
-      },
-      "flags": {
-        "pf2e": {
-          "itemGrants": {
-            "dazzled": {
-              "id": "v6oKylPx1zqhRL03",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-3.Actor.2UOETZwCppWJLSnW.Item.ptAv3VTX5RvANFT6",
-        "duplicateSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-3.Actor.2UOETZwCppWJLSnW.Item.ptAv3VTX5RvANFT6",
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "pf2e",
-        "systemVersion": "7.12.2",
-        "createdTime": 1786224148077,
-        "modifiedTime": 1786224148077,
-        "lastModifiedBy": "FmfifLIOr4CQQOc0"
-      },
-      "_id": "qFO5oW9hYBt88Npx",
-      "_key": "!actors.items!2UOETZwCppWJLSnW.qFO5oW9hYBt88Npx"
-    },
-    {
-      "img": "systems/pf2e/icons/conditions/dazzled.webp",
-      "name": "Dazzled",
-      "system": {
-        "description": {
-          "value": "<p>Your eyes are overstimulated or your vision is swimming. If vision is your only precise sense, all creatures and objects are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from you.</p>",
-          "gm": ""
-        },
-        "group": "senses",
-        "overrides": [],
-        "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "Pathfinder Player Core",
-          "authors": ""
-        },
-        "references": {
-          "children": [],
-          "overriddenBy": [],
-          "overrides": [],
-          "parent": null
-        },
-        "rules": [],
-        "traits": {
-          "value": [],
-          "otherTags": []
-        },
-        "value": {
-          "isValued": false,
-          "value": null
-        },
-        "slug": "dazzled",
-        "_migration": {
-          "version": 0.955,
-          "previous": null
-        },
-        "fromSpell": false,
-        "persistent": null
-      },
-      "type": "condition",
-      "_stats": {
-        "compendiumSource": "Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "pf2e",
-        "systemVersion": "7.12.2",
-        "createdTime": 1786224148077,
-        "modifiedTime": 1786224148077,
-        "lastModifiedBy": "FmfifLIOr4CQQOc0"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "FmfifLIOr4CQQOc0": 3
-      },
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "qFO5oW9hYBt88Npx",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_id": "v6oKylPx1zqhRL03",
-      "_key": "!actors.items!2UOETZwCppWJLSnW.v6oKylPx1zqhRL03"
+      "_id": "GtPgZZdjOidm6W8s",
+      "_key": "!actors.items!ty7g4d5UPUfUu9Eo.GtPgZZdjOidm6W8s"
     }
   ],
   "effects": [],
   "folder": null,
+  "sort": 6600000,
   "flags": {
-    "pf2e": {
-      "editNPC": {
-        "value": true
-      },
-      "lootable": false
-    },
     "pf2e_updatednpcsheet": {
       "npcNotes": {
-        "value": "The eldest of the three, a hulking brute with a vestigial arm growing from his left elbow and a no-necked, dented head"
+        "value": ""
       }
+    },
+    "pf2e": {
+      "editNPC": {
+        "value": false
+      },
+      "lootable": false
     },
     "cf": {},
     "core": {}
@@ -301,21 +293,50 @@
   "system": {
     "attributes": {
       "hp": {
-        "value": 115,
+        "value": 70,
         "temp": 0,
-        "max": 115,
+        "max": 70,
         "details": "",
         "min": 0,
         "tempmax": 0
       },
       "ac": {
-        "value": 23,
+        "value": 15,
         "details": "",
         "dex": 0,
         "check": 0,
         "min": 0,
         "item": 0,
-        "base": 23
+        "name": "ac",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 8,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": -3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 7,
+        "base": 15,
+        "breakdown": "Base Armor Class 10, Base Modifier +8, Dexterity -3, Elite +2"
       },
       "allSaves": {
         "value": ""
@@ -351,33 +372,66 @@
         "item": 0,
         "value": 0,
         "breakdown": ""
-      }
+      },
+      "immunities": [
+        {
+          "type": "bleed"
+        },
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "mental"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "unconscious"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "slashing",
+          "value": 10,
+          "exceptions": []
+        },
+        {
+          "type": "vitality",
+          "value": 10,
+          "exceptions": []
+        }
+      ]
     },
     "initiative": {
       "statistic": "perception"
     },
     "details": {
       "languages": {
-        "value": [
-          "common"
-        ],
+        "value": [],
         "details": ""
       },
       "level": {
-        "value": 6,
+        "value": 2,
         "min": 1
       },
       "blurb": "",
-      "publicNotes": "",
+      "publicNotes": "Necromantic augmentations have granted this zombie increased size and power.<br /><br />",
       "privateNotes": "",
       "publication": {
-        "title": "",
+        "title": "Bestiary pg. 341",
         "authors": "",
         "license": "OGL",
         "remaster": false
       },
-      "creatureType": "",
-      "recallKnowledgeText": "",
+      "creatureType": "Undead",
+      "recallKnowledgeText": "Recall Knowledge : DC 16",
       "biography": {
         "value": "",
         "public": ""
@@ -386,7 +440,7 @@
         "value": ""
       },
       "ancestry": {
-        "value": ""
+        "value": "Zombie"
       },
       "heritage": {
         "value": ""
@@ -400,7 +454,7 @@
       },
       "flavourText": "",
       "sidebarText": "",
-      "nethysUrl": ""
+      "nethysUrl": "https://2e.aonprd.com/Monsters.aspx?ID=425"
     },
     "resources": {},
     "_migration": {
@@ -414,38 +468,38 @@
     "abilities": {
       "str": {
         "mod": 5,
-        "value": 10,
+        "value": 20,
         "min": 3
       },
       "dex": {
-        "mod": 4,
-        "value": 10,
+        "mod": -3,
+        "value": 4,
         "min": 3
       },
       "con": {
         "mod": 4,
-        "value": 10,
+        "value": 18,
         "min": 3
       },
       "int": {
-        "mod": 2,
-        "value": 10,
+        "mod": -5,
+        "value": 0,
         "min": 3
       },
       "wis": {
-        "mod": 2,
+        "mod": 0,
         "value": 10,
         "min": 3
       },
       "cha": {
-        "mod": 2,
-        "value": 10,
+        "mod": -2,
+        "value": 6,
         "min": 3
       }
     },
     "perception": {
       "details": "",
-      "mod": 11,
+      "mod": 4,
       "senses": [
         {
           "type": "darkvision"
@@ -455,31 +509,115 @@
     },
     "saves": {
       "fortitude": {
-        "value": 17,
+        "value": 10,
         "saveDetail": "",
         "ability": "con",
         "rank": 0,
         "item": 0,
-        "breakdown": "",
-        "base": 17
+        "breakdown": "Base Modifier +6, Constitution +4, Elite +2",
+        "name": "fortitude",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 6,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityCon",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 12,
+        "base": 10
       },
       "reflex": {
-        "value": 14,
+        "value": 3,
         "saveDetail": "",
         "ability": "dex",
         "rank": 0,
         "item": 0,
-        "breakdown": "",
-        "base": 14
+        "breakdown": "Base Modifier +6, Dexterity -3, Elite +2",
+        "name": "reflex",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 6,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityDex",
+            "modifier": -3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "base": 3
       },
       "will": {
-        "value": 11,
+        "value": 6,
         "saveDetail": "",
         "ability": "wis",
         "rank": 0,
         "item": 0,
-        "breakdown": "",
-        "base": 10
+        "breakdown": "Base Modifier +6, Wisdom +0, Elite +2",
+        "name": "will",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 6,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityWis",
+            "modifier": 0,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 8,
+        "base": 6
       }
     },
     "skills": {
@@ -501,13 +639,45 @@
         "breakdown": ""
       },
       "ath": {
-        "value": 0,
+        "value": 11,
         "ability": "str",
         "armor": 1,
         "rank": 0,
         "item": 0,
         "mod": 0,
-        "breakdown": ""
+        "breakdown": "Base Modifier +4, Strength +5, Elite +2",
+        "name": "Athletics",
+        "_modifiers": [
+          {
+            "name": "PF2E.BaseModifier",
+            "modifier": 4,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "PF2E.AbilityStr",
+            "modifier": 5,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 11,
+        "base": 9,
+        "expanded": "athletics",
+        "label": "Athletics",
+        "visible": true
       },
       "cra": {
         "value": 0,
@@ -615,26 +785,17 @@
         "mod": 0,
         "breakdown": ""
       },
-      "acrobatics": {
-        "base": 13,
-        "special": []
-      },
-      "intimidation": {
-        "base": 13,
-        "special": []
-      },
-      "stealth": {
-        "base": 13,
-        "special": []
-      },
       "athletics": {
-        "base": 15
+        "base": 9
       }
     },
     "traits": {
       "value": [
-        "giant",
-        "humanoid"
+        "evil",
+        "mindless",
+        "undead",
+        "unholy",
+        "zombie"
       ],
       "rarity": "common",
       "size": {
@@ -734,7 +895,15 @@
       "cp": {
         "value": 0
       }
-    }
+    },
+    "customModifiers": {
+      "all": []
+    },
+    "damageDice": {}
+  },
+  "ownership": {
+    "default": 0,
+    "oiPWLVPNH7xQBULr": 3
   },
   "prototypeToken": {
     "flags": {
@@ -755,7 +924,7 @@
         "autoscale": true
       }
     },
-    "name": "Hograth",
+    "name": "Rotting  Zombie Brute",
     "displayName": 20,
     "width": 1,
     "height": 1,
@@ -813,7 +982,7 @@
     "sight": {
       "angle": 360,
       "enabled": true,
-      "range": 500,
+      "range": 300,
       "brightness": 1,
       "visionMode": "basic",
       "color": null,
@@ -848,21 +1017,15 @@
     "prependAdjective": false
   },
   "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.12.2",
-    "createdTime": 1771014839864,
-    "modifiedTime": 1786224243640,
-    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+    "coreVersion": "13.351",
+    "createdTime": 1673456694847,
+    "modifiedTime": 1786226050126,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.XHEA8ULjGpX1Pjb4",
+    "duplicateSource": null,
+    "exportSource": null
   },
-  "ownership": {
-    "default": 0,
-    "FmfifLIOr4CQQOc0": 3
-  },
-  "_id": "2UOETZwCppWJLSnW",
-  "sort": 3400000,
-  "_key": "!actors!2UOETZwCppWJLSnW"
+  "_key": "!actors!ty7g4d5UPUfUu9Eo"
 }
