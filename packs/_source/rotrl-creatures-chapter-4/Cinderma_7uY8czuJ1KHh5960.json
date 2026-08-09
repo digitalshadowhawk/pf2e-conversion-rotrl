@@ -28,16 +28,20 @@
         "rules": [],
         "slug": "longspear",
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.813,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [
             "reach"
           ],
-          "rarity": "common",
-          "custom": ""
+          "rarity": "common"
         },
         "publication": {
           "title": "",
@@ -51,12 +55,11 @@
         "quantity": 1,
         "baseItem": "longspear",
         "bulk": {
-          "value": 0.1
+          "value": 2
         },
         "hp": {
           "value": 0,
-          "max": 0,
-          "brokenThreshold": 0
+          "max": 0
         },
         "hardness": 0,
         "price": {
@@ -70,7 +73,7 @@
           "handsHeld": 0
         },
         "containerId": null,
-        "size": "lg",
+        "size": "huge",
         "material": {
           "type": null,
           "grade": null
@@ -108,8 +111,9 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
-          "value": ""
+          "value": null
         },
         "grade": null,
         "runes": {
@@ -117,63 +121,10 @@
           "striking": 0,
           "property": []
         },
-        "specific": {
-          "value": false
-        },
+        "specific": null,
         "subitems": [],
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "weight": {
-          "value": "2"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "stackGroup": null,
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
         "bonusDamage": {
           "value": 0
-        },
-        "MAP": {
-          "value": ""
-        },
-        "potencyRune": {
-          "value": 0
-        },
-        "strikingRune": {
-          "value": ""
-        },
-        "propertyRune1": {
-          "value": null
-        },
-        "propertyRune2": {
-          "value": null
-        },
-        "propertyRune3": {
-          "value": null
-        },
-        "propertyRune4": {
-          "value": null
         },
         "property1": {
           "value": "",
@@ -194,13 +145,13 @@
         "default": 0
       },
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.equipment-srd.aXuJh4i8HqSu6NYV",
+        "modifiedTime": 1786235493317,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.aXuJh4i8HqSu6NYV",
         "duplicateSource": null,
         "exportSource": null
       },
@@ -218,43 +169,23 @@
       "system": {
         "description": {
           "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "value": ""
+          "gm": ""
         },
         "traits": {
           "value": [
             "magical",
             "reach-20"
           ],
-          "rarity": "common",
-          "custom": ""
+          "otherTags": [],
+          "config": {}
         },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
         "damageRolls": {
           "0": {
             "damage": "2d8+15",
-            "damageType": "piercing"
+            "damageType": "piercing",
+            "category": null
           }
         },
         "bonus": {
@@ -262,7 +193,25 @@
         },
         "attackEffects": {
           "value": []
-        }
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null,
+        "subjectToMAP": true
       },
       "ownership": {
         "default": 0
@@ -292,43 +241,23 @@
       "system": {
         "description": {
           "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "value": ""
+          "gm": ""
         },
         "traits": {
           "value": [
             "agile",
             "reach-15"
           ],
-          "rarity": "common",
-          "custom": ""
+          "otherTags": [],
+          "config": {}
         },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "weaponType": {
-          "value": "melee"
-        },
-        "attack": {
-          "value": ""
-        },
         "damageRolls": {
           "0": {
             "damage": "3d6+15",
-            "damageType": "bludgeoning"
+            "damageType": "bludgeoning",
+            "category": null
           }
         },
         "bonus": {
@@ -336,7 +265,25 @@
         },
         "attackEffects": {
           "value": []
-        }
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null,
+        "subjectToMAP": true
       },
       "ownership": {
         "default": 0
@@ -366,43 +313,22 @@
       "system": {
         "description": {
           "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "value": ""
+          "gm": ""
         },
         "traits": {
           "value": [
-            "brutal",
-            "range-increment-120"
+            "brutal"
           ],
-          "rarity": "common",
-          "custom": ""
+          "otherTags": [],
+          "config": {}
         },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "weaponType": {
-          "value": "ranged"
-        },
-        "attack": {
-          "value": ""
-        },
         "damageRolls": {
           "0": {
             "damage": "2d10+15",
-            "damageType": "bludgeoning"
+            "damageType": "bludgeoning",
+            "category": null
           }
         },
         "bonus": {
@@ -410,7 +336,28 @@
         },
         "attackEffects": {
           "value": []
-        }
+        },
+        "range": {
+          "increment": 120,
+          "max": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "subjectToMAP": true
       },
       "ownership": {
         "default": 0
@@ -427,696 +374,6 @@
         "exportSource": null
       },
       "_key": "!actors.items!7uY8czuJ1KHh5960.dyis1hyzjJyWz9Sg"
-    },
-    {
-      "_id": "MLvT2QA997KCHesX",
-      "effects": [],
-      "flags": {
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/default-icons/action.svg",
-      "name": "Low-Light Vision",
-      "sort": 600000,
-      "type": "action",
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>The monster can see in dim light as though it were bright light, so it ignores the @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} condition due to dim light.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": "low-light-vision",
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "interaction"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.fFu2sZz4KB01fVRc",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.MLvT2QA997KCHesX"
-    },
-    {
-      "_id": "dNIO5C35HeSGtxDD",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "name": "See Invisibility",
-      "sort": 700000,
-      "type": "action",
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>A taiga giant can see invisible creatures and objects as translucent shapes, and they are @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} to the taiga giant.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "interaction"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.dNIO5C35HeSGtxDD"
-    },
-    {
-      "_id": "x1avaIq02Cr7LmNs",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "name": "+2 Status Bonus on Saves vs Enchantment and Illusion Effects",
-      "sort": 800000,
-      "type": "action",
-      "folder": null,
-      "system": {
-        "description": {
-          "value": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [
-          {
-            "key": "FlatModifier",
-            "predicate": [
-              {
-                "or": [
-                  "enchantment",
-                  "illusion"
-                ]
-              }
-            ],
-            "selector": "saving-throw",
-            "type": "status",
-            "value": 2
-          }
-        ],
-        "slug": null,
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "defensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.x1avaIq02Cr7LmNs"
-    },
-    {
-      "_id": "XrJk8sW9W9FE8rtL",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "name": "Guardian Spirit",
-      "sort": 900000,
-      "type": "action",
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p><strong>Trigger</strong> The taiga giant has Ancestral Guardian active and would take energy or mental damage</p>\n<p><strong>Effect</strong> The taiga giant's ancestral spirits intervene and protect the giant from taking up to 20 energy damage or 30 mental damage. The giant takes any remaining damage; if it does, the spirits depart and the giant is no longer protected by the ancestors.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "actionType": {
-          "value": "reaction"
-        },
-        "actionCategory": {
-          "value": "defensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.XrJk8sW9W9FE8rtL"
-    },
-    {
-      "_id": "mOfIGDW3g48Ft7w8",
-      "effects": [],
-      "flags": {
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "name": "Catch Rock",
-      "sort": 1000000,
-      "type": "action",
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p><strong>Requirements</strong> The monster must have a free hand but can Release anything it's holding as part of this reaction.</p>\n<p><strong>Trigger</strong> The monster is targeted with a thrown rock Strike or a rock would fall on the monster.</p>\n<p><strong>Effect</strong> The monster gains a +4 circumstance bonus to its AC against the triggering attack or to any defense against the falling rock. If the attack misses or the monster successfully defends against the falling rock, the monster catches the rock, takes no damage, and is now holding the rock</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": "catch-rock",
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "actionType": {
-          "value": "reaction"
-        },
-        "actionCategory": {
-          "value": "defensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.uG0Z8PsyZtsYuvGR",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.mOfIGDW3g48Ft7w8"
-    },
-    {
-      "_id": "TW4FUgjb7YgD89jt",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Ancestral Guardian",
-      "sort": 1100000,
-      "type": "action",
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p><strong>Requirements</strong> The taiga giant must be protected by the ancestors</p>\n<p><strong>Effect</strong> The taiga giant calls upon their ancestors' spirits to rise up and protect them, causing a cloak of spectral faces to shimmer and swirl around them. The taiga giant's AC increases to 34 until the start of its next turn.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "concentrate"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [
-          {
-            "key": "RollOption",
-            "domain": "ac",
-            "option": "ancestral-guardian",
-            "toggleable": true,
-            "value": false
-          },
-          {
-            "key": "FlatModifier",
-            "predicate": [
-              "ancestral-guardian"
-            ],
-            "selector": "ac",
-            "value": 2
-          }
-        ],
-        "slug": null,
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "actionCategory": {
-          "value": "offensive"
-        },
-        "actions": {
-          "value": 1
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.TW4FUgjb7YgD89jt"
-    },
-    {
-      "_id": "Ir6SQ9XsXTFTSPKi",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
-      "name": "Protected by the Ancestors",
-      "sort": 1200000,
-      "type": "action",
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>A taiga giant's prayers to their ancestors grant them spiritual protection. If a taiga giant loses this protection (such as by taking too much damage when using Guardian Spirit, or if the ancestors are counteracted by @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}), it loses its immunity to the @Compendium[pf2e.conditionitems.9qGBRpbX9NEwtAAr]{Controlled} condition and its status bonus to saving throws against enchantment and illusion effects. A taiga giant can once again be Protected by the Ancestors by performing a 10-minute prayer as an activity that has the concentrate trait.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [
-            "divine",
-            "concentrate"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": null,
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "actionType": {
-          "value": "passive"
-        },
-        "actionCategory": {
-          "value": "offensive"
-        },
-        "actions": {
-          "value": null
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.Ir6SQ9XsXTFTSPKi"
-    },
-    {
-      "_id": "2wZs6OKCKOsMAU1a",
-      "effects": [],
-      "flags": {
-        "core": {}
-      },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "name": "Throw Rock",
-      "sort": 1300000,
-      "type": "action",
-      "folder": null,
-      "system": {
-        "description": {
-          "value": "<p>The monster picks up a rock within reach or retrieves a stowed rock and throws it, making a ranged Strike.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": {
-          "value": ""
-        },
-        "traits": {
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "rules": [],
-        "slug": "throw-rock",
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "actionCategory": {
-          "value": "offensive"
-        },
-        "actions": {
-          "value": 1
-        },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.a0tx6exmB9v9CUsj",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.2wZs6OKCKOsMAU1a"
-    },
-    {
-      "_id": "n7zJDrDOxeJIHdrP",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Athletics",
-      "sort": 1400000,
-      "type": "lore",
-      "folder": null,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 22
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "item": {
-          "value": 0
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.n7zJDrDOxeJIHdrP"
     },
     {
       "_id": "q0drSu1C5WWWuGEa",
@@ -1137,14 +394,18 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.813,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [],
-          "rarity": "common",
-          "custom": ""
+          "rarity": "common"
         },
         "publication": {
           "title": "",
@@ -1157,20 +418,6 @@
         },
         "proficient": {
           "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
         },
         "item": {
           "value": 0
@@ -1191,244 +438,6 @@
         "exportSource": null
       },
       "_key": "!actors.items!7uY8czuJ1KHh5960.q0drSu1C5WWWuGEa"
-    },
-    {
-      "_id": "daKHkCUu80JICPt6",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Religion",
-      "sort": 1600000,
-      "type": "lore",
-      "folder": null,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 20
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "item": {
-          "value": 0
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.daKHkCUu80JICPt6"
-    },
-    {
-      "_id": "kHGiew7m0qu0wSCx",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Stealth",
-      "sort": 1700000,
-      "type": "lore",
-      "folder": null,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "rules": [
-          {
-            "key": "FlatModifier",
-            "label": "In Undergrowth",
-            "predicate": [
-              "terrain:undergrowth"
-            ],
-            "selector": "stealth",
-            "value": 12
-          }
-        ],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 10
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "item": {
-          "value": 0
-        },
-        "variants": {
-          "0": {
-            "label": "+22 in undergrowth",
-            "options": "terrain:undergrowth"
-          }
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.kHGiew7m0qu0wSCx"
-    },
-    {
-      "_id": "H1rkg8AYuErmF9b5",
-      "effects": [],
-      "flags": {},
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "name": "Survival",
-      "sort": 1800000,
-      "type": "lore",
-      "folder": null,
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 25
-        },
-        "proficient": {
-          "value": 0
-        },
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "item": {
-          "value": 0
-        }
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.H1rkg8AYuErmF9b5"
     },
     {
       "_id": "FErte2CrkqmCGFlj",
@@ -1452,14 +461,18 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": null,
-          "lastMigration": null
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.813,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [],
-          "rarity": "common",
-          "custom": ""
+          "rarity": "common"
         },
         "publication": {
           "title": "",
@@ -1473,23 +486,23 @@
         "quantity": 1,
         "baseItem": null,
         "bulk": {
-          "value": 0.1
+          "value": 5
         },
         "hp": {
           "value": 0,
-          "max": 0,
-          "brokenThreshold": 0
+          "max": 0
         },
         "hardness": 0,
         "price": {
-          "value": {}
+          "value": {},
+          "per": 1
         },
         "equipped": {
           "carryType": "worn",
           "handsHeld": 0
         },
         "containerId": "null",
-        "size": "med",
+        "size": "huge",
         "material": {
           "type": null,
           "grade": null
@@ -1507,7 +520,7 @@
           },
           "misidentified": {}
         },
-        "category": "other",
+        "category": "potion",
         "uses": {
           "value": 1,
           "max": 1,
@@ -1517,65 +530,19 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
-        "spell": null,
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "weight": {
-          "value": "5"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": null
-        },
-        "preciousMaterialGrade": {
-          "value": null
-        },
-        "consumableType": {
-          "value": "potion"
-        },
-        "charges": {
-          "value": 0,
-          "max": 0,
-          "_deprecated": true
-        },
-        "consume": {
-          "value": "",
-          "_deprecated": true
-        },
-        "autoDestroy": {
-          "value": true,
-          "_deprecated": true
-        }
+        "spell": null
       },
       "ownership": {
         "default": 0,
         "oiPWLVPNH7xQBULr": 3
       },
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1786235500074,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": "Item.aChYrIPM6YnsykwK",
         "duplicateSource": null,
         "exportSource": null
@@ -1583,589 +550,447 @@
       "_key": "!actors.items!7uY8czuJ1KHh5960.FErte2CrkqmCGFlj"
     },
     {
-      "_id": "89yHX6yR1sufm2GJ",
-      "name": "Blue Dragon's Breath Potion (Adult)",
-      "type": "consumable",
-      "img": "systems/pf2e/icons/equipment/consumables/potions/blue-dragons-breath-potion.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {
-        "core": {}
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.uG0Z8PsyZtsYuvGR",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786235420846,
+        "modifiedTime": 1786235420846,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
       },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Catch Rock",
+      "sort": 800000,
       "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
         "description": {
-          "gm": "",
-          "value": "<p>This liquid contains blood from a blue dragon. For 1 hour after you imbibe the concoction, you can unleash a blue dragon's breath weapon. The potency of the breath depends on the potion's type, based on the age of the dragon whose blood was used to make the potion.</p>\n<p>Exhaling dragon breath uses a single action. You create a 30-foot line of electricity which deals [[/r 6d6]] electricity damage. All creatures in the area must attempt a <span data-pf2-check=\"reflex\" data-pf2-dc=\"29\" data-pf2-traits=\"evocation,magical,potion\" data-pf2-label=\"Adult Blue Dragon's Breath Potion DC\" data-pf2-show-dc=\"gm\">basic Reflex</span> save.</p>\n<p>After you use the breath weapon, you can't do so again for [[/r 1d4]] rounds.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "rules": [],
-        "slug": "blue-dragons-breath-potion-adult",
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "consumable",
-            "evocation",
-            "magical",
-            "potion"
-          ],
-          "rarity": "common",
-          "custom": ""
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.CatchRock]</p>",
+          "gm": ""
         },
         "publication": {
-          "title": "",
-          "authors": "",
           "license": "OGL",
-          "remaster": false
+          "remaster": false,
+          "title": "Pathfinder Bestiary",
+          "authors": ""
         },
-        "level": {
-          "value": 12
-        },
-        "quantity": 1,
-        "baseItem": null,
-        "bulk": {
-          "value": 0.1
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "brokenThreshold": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 400
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "handsHeld": 0
-        },
-        "containerId": "null",
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "unidentified",
-          "unidentified": {
-            "name": "Unusual Liquid",
-            "img": "systems/pf2e/icons/unidentified_item_icons/potions.webp",
-            "data": {
-              "description": {
-                "value": "The nature of this liquid is unclear."
-              }
-            }
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "catch-rock",
+            "toggleable": true
           },
-          "misidentified": {}
-        },
-        "category": "other",
-        "uses": {
-          "value": 1,
-          "max": 1,
-          "autoDestroy": true
-        },
-        "damage": null,
-        "usage": {
-          "value": "held-in-one-hand"
-        },
-        "stackGroup": null,
-        "spell": null,
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "catch-rock"
+            ],
+            "selector": [
+              "ac",
+              "saving-throw"
+            ],
+            "type": "circumstance",
+            "value": 4
           }
-        },
-        "weight": {
-          "value": "L"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": ""
-        },
-        "preciousMaterialGrade": {
-          "value": ""
-        },
-        "consumableType": {
-          "value": "potion"
-        },
-        "charges": {
-          "value": "1",
-          "max": "1",
-          "_deprecated": true
-        },
-        "consume": {
-          "value": "6d6",
-          "_deprecated": true
-        },
-        "autoDestroy": {
-          "value": true,
-          "_deprecated": true
-        }
-      },
-      "ownership": {
-        "default": 0,
-        "oiPWLVPNH7xQBULr": 3
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.equipment-srd.zQnidYCmLCBPfdii",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.89yHX6yR1sufm2GJ"
-    },
-    {
-      "_id": "3vuBiKIY9U3AUpGP",
-      "name": "Potion of Electricity Retaliation (Greater)",
-      "type": "consumable",
-      "img": "systems/pf2e/icons/equipment/consumables/potions/potion-of-electricity-retalliation.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {
-        "core": {}
-      },
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Interact</p>\n<p>For 1 minute after drinking a potion of electricity retaliation, you glow with a faint aura of electrical energy, and a creature that touches you (such as by making an unarmed attack or using a spell with a range of touch against you) or is adjacent to you and hits you with a melee weapon strike takes electricity damage.</p>\n<p>The aura deals 3d6 electrical damage.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "rules": [],
-        "slug": "potion-of-electricity-retaliation-greater",
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
+        ],
+        "slug": "catch-rock",
         "traits": {
-          "otherTags": [],
-          "value": [
-            "consumable",
-            "evocation",
-            "magical",
-            "potion"
-          ],
-          "rarity": "common",
-          "custom": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 12
-        },
-        "quantity": 1,
-        "baseItem": null,
-        "bulk": {
-          "value": 0.1
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "brokenThreshold": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 400
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "handsHeld": 0
-        },
-        "containerId": "null",
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "unidentified",
-          "unidentified": {
-            "name": "Unusual Liquid",
-            "img": "systems/pf2e/icons/unidentified_item_icons/potions.webp",
-            "data": {
-              "description": {
-                "value": "The nature of this liquid is unclear."
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "category": "other",
-        "uses": {
-          "value": 1,
-          "max": 1,
-          "autoDestroy": true
-        },
-        "damage": null,
-        "usage": {
-          "value": "held-in-one-hand"
-        },
-        "stackGroup": null,
-        "spell": null,
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "weight": {
-          "value": "L"
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": ""
-        },
-        "preciousMaterialGrade": {
-          "value": ""
-        },
-        "consumableType": {
-          "value": "potion"
-        },
-        "charges": {
-          "value": "1",
-          "max": "1",
-          "_deprecated": true
-        },
-        "consume": {
-          "value": "",
-          "_deprecated": true
-        },
-        "autoDestroy": {
-          "value": true,
-          "_deprecated": true
-        }
-      },
-      "ownership": {
-        "default": 0,
-        "oiPWLVPNH7xQBULr": 3
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.equipment-srd.QsYfjRMBz48H6UAp",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.3vuBiKIY9U3AUpGP"
-    },
-    {
-      "_id": "W5LGixru2j9b1H8k",
-      "name": "Gold Pieces",
-      "type": "treasure",
-      "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {
-        "core": {},
-        "pdfoundry-pf2e": {
-          "source": ""
-        }
-      },
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "rules": [],
-        "slug": "gold-pieces",
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": [],
           "value": [],
-          "rarity": "common",
-          "custom": ""
+          "otherTags": []
         },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 0
-        },
-        "quantity": 1,
-        "baseItem": null,
-        "bulk": {
-          "value": 0.1
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "brokenThreshold": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "gp": 63
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "inSlot": false
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "Unusual Treasure",
-            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "stackGroup": "coins",
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "weight": {
-          "value": 0
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": ""
-        },
-        "preciousMaterialGrade": {
-          "value": ""
-        },
-        "usage": {
-          "value": ""
+        "_migration": {
+          "version": 0.955,
+          "previous": null
         }
       },
-      "ownership": {
-        "default": 0,
-        "oiPWLVPNH7xQBULr": 3
-      },
-      "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.equipment-srd.B6B7tBWJSqOBz5zz",
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.W5LGixru2j9b1H8k"
-    },
-    {
-      "_id": "TgpVluStQ08iQrbO",
-      "name": "Platinum Pieces",
-      "type": "treasure",
-      "img": "systems/pf2e/icons/equipment/treasure/currency/platinum-pieces.webp",
+      "type": "action",
       "effects": [],
       "folder": null,
-      "sort": 0,
-      "flags": {
-        "core": {},
-        "pdfoundry-pf2e": {
-          "source": ""
-        }
-      },
-      "system": {
-        "description": {
-          "gm": "",
-          "value": "",
-          "chat": "",
-          "unidentified": ""
-        },
-        "rules": [],
-        "slug": "platinum-pieces",
-        "_migration": {
-          "version": null,
-          "lastMigration": null
-        },
-        "traits": {
-          "otherTags": [],
-          "value": [],
-          "rarity": "common",
-          "custom": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "level": {
-          "value": 0
-        },
-        "quantity": 4,
-        "baseItem": null,
-        "bulk": {
-          "value": 0.1
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "brokenThreshold": 0
-        },
-        "hardness": 0,
-        "price": {
-          "value": {
-            "pp": 1
-          }
-        },
-        "equipped": {
-          "carryType": "worn",
-          "inSlot": false
-        },
-        "containerId": null,
-        "size": "med",
-        "material": {
-          "type": null,
-          "grade": null
-        },
-        "identification": {
-          "status": "identified",
-          "unidentified": {
-            "name": "Unusual Treasure",
-            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
-            "data": {
-              "description": {
-                "value": ""
-              }
-            }
-          },
-          "misidentified": {}
-        },
-        "stackGroup": "coins",
-        "source": {
-          "value": ""
-        },
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.420-06:00",
-            "version": {
-              "schema": 0.649,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
-        "weight": {
-          "value": 0
-        },
-        "equippedBulk": {
-          "value": ""
-        },
-        "negateBulk": {
-          "value": "0"
-        },
-        "preciousMaterial": {
-          "value": ""
-        },
-        "preciousMaterialGrade": {
-          "value": ""
-        },
-        "usage": {
-          "value": ""
-        }
-      },
+      "flags": {},
       "ownership": {
         "default": 0,
-        "oiPWLVPNH7xQBULr": 3
+        "FmfifLIOr4CQQOc0": 3
       },
+      "_id": "HolgCIhtEBL0H9F9",
+      "_key": "!actors.items!7uY8czuJ1KHh5960.HolgCIhtEBL0H9F9"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Guardian Spirit",
+      "sort": 900000,
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p><strong>Trigger</strong> The taiga giant has Ancestral Guardian active and would take energy or mental damage</p>\n<hr />\n<p><strong>Effect</strong> The taiga giant's ancestral spirits intervene and protect the giant from taking up to 20 energy damage or 30 mental damage. The giant takes any remaining damage; if it does, the spirits depart and the giant is no longer protected by the ancestors.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "compendiumSource": "Compendium.pf2e.equipment-srd.JuNPeK5Qm1w6wpb4",
-        "duplicateSource": null,
-        "exportSource": null
+        "compendiumSource": "Actor.FG8tMQPErfKw7973.Item.XrJk8sW9W9FE8rtL",
+        "duplicateSource": "Actor.FG8tMQPErfKw7973.Item.XrJk8sW9W9FE8rtL",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786235422647,
+        "modifiedTime": 1786235422647,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
       },
-      "_key": "!actors.items!7uY8czuJ1KHh5960.TgpVluStQ08iQrbO"
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "6RZVEBiFvK1ZGDIe",
+      "_key": "!actors.items!7uY8czuJ1KHh5960.6RZVEBiFvK1ZGDIe"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Ancestral Guardian",
+      "sort": 1000000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p><strong>Requirements</strong> The taiga giant must be protected by the ancestors</p>\n<hr />\n<p><strong>Effect</strong> The taiga giant calls upon their ancestors' spirits to rise up and protect them, causing a cloak of spectral faces to shimmer and swirl around them. The taiga giant's AC increases to 34 until the start of its next turn.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "domain": "ac",
+            "key": "RollOption",
+            "option": "ancestral-guardian",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "ancestral-guardian"
+            ],
+            "selector": "ac",
+            "value": 2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "value": [
+            "concentrate"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Actor.FG8tMQPErfKw7973.Item.TW4FUgjb7YgD89jt",
+        "duplicateSource": "Actor.FG8tMQPErfKw7973.Item.TW4FUgjb7YgD89jt",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786235424082,
+        "modifiedTime": 1786235424082,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "CA14WBzvfznoNQIa",
+      "_key": "!actors.items!7uY8czuJ1KHh5960.CA14WBzvfznoNQIa"
+    },
+    {
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.a0tx6exmB9v9CUsj",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786235425537,
+        "modifiedTime": 1786235425537,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Throw Rock",
+      "sort": 1200000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ThrowRock]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "throw-rock",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "tmhwM6mb7O78JF49",
+      "_key": "!actors.items!7uY8czuJ1KHh5960.tmhwM6mb7O78JF49"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "See Invisibility",
+      "sort": 600000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p>A taiga giant can see invisible creatures and objects as translucent shapes, and they are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to the taiga giant.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Actor.FG8tMQPErfKw7973.Item.dNIO5C35HeSGtxDD",
+        "duplicateSource": "Actor.FG8tMQPErfKw7973.Item.dNIO5C35HeSGtxDD",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786235427770,
+        "modifiedTime": 1786235427770,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "bPHVRIuMP0InLggY",
+      "_key": "!actors.items!7uY8czuJ1KHh5960.bPHVRIuMP0InLggY"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "+2 Status Bonus on Saves vs. Enchantment and Illusion Effects",
+      "sort": 700000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "enchantment",
+                  "illusion"
+                ]
+              }
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Actor.FG8tMQPErfKw7973.Item.x1avaIq02Cr7LmNs",
+        "duplicateSource": "Actor.FG8tMQPErfKw7973.Item.x1avaIq02Cr7LmNs",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786235429037,
+        "modifiedTime": 1786235429037,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "akmn88nIWDME5IX4",
+      "_key": "!actors.items!7uY8czuJ1KHh5960.akmn88nIWDME5IX4"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Protected by the Ancestors",
+      "sort": 1100000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>A taiga giant's prayers to their ancestors grant them spiritual protection. If a taiga giant loses this protection (such as by taking too much damage when using Guardian Spirit, or if the ancestors are counteracted by @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}), it loses its immunity to the @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled} condition and its status bonus to saving throws against enchantment and illusion effects. A taiga giant can once again be Protected by the Ancestors by performing a 10-minute prayer as an activity that has the concentrate trait.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "concentrate",
+            "divine"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Actor.FG8tMQPErfKw7973.Item.Ir6SQ9XsXTFTSPKi",
+        "duplicateSource": "Actor.FG8tMQPErfKw7973.Item.Ir6SQ9XsXTFTSPKi",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786235430435,
+        "modifiedTime": 1786235430435,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "OEBl7VKE7UHzl4OK",
+      "_key": "!actors.items!7uY8czuJ1KHh5960.OEBl7VKE7UHzl4OK"
     }
   ],
   "effects": [],
   "folder": null,
-  "sort": 0,
+  "sort": 1900000,
   "flags": {
     "core": {},
     "pf2e": {
@@ -2199,21 +1024,7 @@
         "otherSpeeds": [],
         "details": ""
       },
-      "initiative": {
-        "ability": "perception",
-        "circumstance": 0,
-        "status": 0
-      },
-      "perception": {
-        "value": 23,
-        "ability": "wis",
-        "breakdown": "",
-        "item": 0,
-        "rank": 0
-      },
       "ancestryhp": 0,
-      "bonusEncumbranceBulk": 0,
-      "bonusLimitBulk": 0,
       "classDC": {
         "ability": "str",
         "breakdown": "",
@@ -2250,7 +1061,10 @@
     },
     "details": {
       "languages": {
-        "value": [],
+        "value": [
+          "common",
+          "jotun"
+        ],
         "details": ""
       },
       "level": {
@@ -2261,17 +1075,10 @@
       "publicNotes": "Taiga giants prefer a nomadic lifestyle, both to keep from depleting any one area's resources while satiating their massive appetites and to satisfy a constant wanderlust. They are deeply spiritual and frequently commune with their ancestors' spirits for guidance and knowledge. Taiga giants are happiest when they are left alone to live out their traditional lives, and their impressive size and strength are enough to persuade all but the most dangerous foes to do so.<br /><br /> Taiga giants subsist on migratory herds of aurochs, mammoths, and elk. They occasionally raid humanoid villages, but such cases are opportunistic rather than malicious, with a focus on stealing away livestock for food rather than people. Nevertheless, the arrival of a group of taiga giants is a potentially devastating event to any town or village, so many communities attempt to placate the giants by creating a yearly offering at those times when they know the giants are scheduled to come close.<br /><br /> Most taiga giants venerate their ancestors and seek to honor their works in everything they do. This deep connection makes them ferociously proud of those legacies, and little can compel taiga giants to go to war more swiftly than insulting their ancestors. Merely mentioning the false rumors that ancient taiga giant spellcasters were responsible for the creation of the first rune giants is a surefire way to earn a taiga giant's unending wrath.<br /><br /> A taiga giant stands 20 feet tall and weighs 10,000 pounds.<br /><br /><br />",
       "privateNotes": "",
       "publication": {
-        "title": "",
+        "title": "Pathfinder Bestiary 2",
         "authors": "",
         "license": "OGL",
         "remaster": false
-      },
-      "alignment": {
-        "value": "CN"
-      },
-      "source": {
-        "value": "Pathfinder Bestiary 2",
-        "author": ""
       },
       "creatureType": "Giant, Humanoid",
       "recallKnowledgeText": "Recall Knowledge - Humanoid : DC 30",
@@ -2299,8 +1106,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": null,
-      "previous": null
+      "version": 0.955,
+      "previous": {
+        "schema": 0.813,
+        "foundry": "13.351",
+        "system": "7.12.2"
+      }
     },
     "abilities": {
       "str": {
@@ -2336,8 +1147,15 @@
     },
     "perception": {
       "details": "",
-      "mod": 0,
-      "senses": [],
+      "mod": 23,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "type": "see-invisibility"
+        }
+      ],
       "vision": true
     },
     "saves": {
@@ -2366,40 +1184,38 @@
         "rank": 0
       }
     },
-    "skills": {},
+    "skills": {
+      "athletics": {
+        "base": 22
+      },
+      "religion": {
+        "base": 20
+      },
+      "stealth": {
+        "base": 10,
+        "special": [
+          {
+            "label": "in undergrowth",
+            "base": 22,
+            "predicate": [
+              "terrain:undergrowth"
+            ]
+          }
+        ]
+      },
+      "survival": {
+        "base": 25
+      }
+    },
     "traits": {
       "value": [
+        "chaotic",
         "giant",
         "humanoid"
       ],
       "rarity": "common",
       "size": {
         "value": "huge"
-      },
-      "senses": {
-        "value": "low-light vision, see invisibility"
-      },
-      "languages": {
-        "value": [
-          "common",
-          "jotun"
-        ],
-        "selected": [],
-        "custom": ""
-      },
-      "attitude": {
-        "value": "hostile"
-      }
-    },
-    "schema": {
-      "version": 0.813,
-      "lastMigration": {
-        "datetime": "2023-01-11T11:05:07.420-06:00",
-        "version": {
-          "schema": 0.649,
-          "foundry": "10.291",
-          "system": "4.6.5"
-        }
       }
     },
     "customModifiers": {}
@@ -2509,11 +1325,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "4.6.5",
-    "coreVersion": "13.350",
+    "systemVersion": "7.12.2",
+    "coreVersion": "13.351",
     "createdTime": 1673456708547,
-    "modifiedTime": 1673457025064,
-    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "modifiedTime": 1786257276768,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
     "compendiumSource": "Compendium.pf2e.pathfinder-bestiary-2.W1OXnXGF22uybovO",
     "duplicateSource": null,
     "exportSource": null

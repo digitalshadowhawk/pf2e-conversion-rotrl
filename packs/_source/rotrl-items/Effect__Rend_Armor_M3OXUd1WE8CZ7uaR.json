@@ -1,0 +1,167 @@
+{
+  "name": "Effect: Rend Armor",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Failure",
+            "value": "failure"
+          },
+          {
+            "label": "Critical Failure",
+            "value": "critical-failure"
+          }
+        ],
+        "rollOption": "rend-armor"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": -1,
+        "type": "status",
+        "predicate": [
+          "armor:category:light",
+          "rend-armor:failure"
+        ],
+        "label": "Effect: Rend Armor (Light, Failure)",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": -2,
+        "predicate": [
+          "armor:category:light",
+          "rend-armor:critical-failure"
+        ],
+        "selector": [
+          "ac"
+        ],
+        "type": "status",
+        "label": "Effect: Rend Armor (Light, Critical Failure)",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": -2,
+        "predicate": [
+          "armor:category:medium",
+          "rend-armor:failure"
+        ],
+        "selector": [
+          "ac"
+        ],
+        "type": "status",
+        "label": "Effect: Rend Armor (Medium, Failure)",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": -4,
+        "predicate": [
+          "armor:category:medium",
+          "rend-armor:critical-failure"
+        ],
+        "selector": [
+          "ac"
+        ],
+        "type": "status",
+        "label": "Effect: Rend Armor (Medium, Critical Failure)",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": -3,
+        "predicate": [
+          "armor:category:heavy",
+          "rend-armor:failure"
+        ],
+        "selector": [
+          "ac"
+        ],
+        "type": "status",
+        "label": "Effect: Rend Armor (Heavy, Failure)",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": -6,
+        "predicate": [
+          "armor:category:heavy",
+          "rend-armor:critical-failure"
+        ],
+        "selector": [
+          "ac"
+        ],
+        "type": "status",
+        "label": "Effect: Rend Armor (Heavy, Critical Failure)",
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "M3OXUd1WE8CZ7uaR",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "createdTime": 1786292575233,
+    "modifiedTime": 1786294507273,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "_key": "!items!M3OXUd1WE8CZ7uaR"
+}

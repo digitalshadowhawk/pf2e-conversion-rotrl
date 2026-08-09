@@ -19,63 +19,51 @@
       },
       "system": {
         "description": {
-          "value": "<p><strong>Trigger&nbsp;</strong>Living creature enters the room;&nbsp;<strong>Effect&nbsp;</strong>The creature automatically becomes Tiny in size as though affected by the @Compendium[pf2e.spells-srd.PjhUmyKnq6K5uDby]{Shrink} spell<em data-visibility=\"gm\">for 5 minutes</em>. Additionally they must make a <span data-pf2-check=\"fortitude\" data-pf2-dc=\"32\" data-pf2-traits=\"Polymorph, Transmutation\" data-pf2-label=\"Reduction\" data-pf2-show-dc=\"gm\">Fortitude</span> save.</p>\n<hr />\n<section class=\"statblock\">\n<p data-visibility=\"gm\"><strong>Critical success</strong>: no additional effect <br /><strong>Success</strong>: the creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}<br /><strong>Failure</strong>: the creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2}<br /><strong>Critical failure:</strong> The creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} as long as it is sickened.</p>\n</section>"
-        },
-        "source": {
-          "value": ""
+          "value": "<p><strong>Trigger</strong> Living creature enters the room</p><p><strong>Effect </strong>The creature automatically becomes Tiny in size as though affected by the @Compendium[pf2e.spells-srd.PjhUmyKnq6K5uDby]{Shrink} spell for 5 minutes. Additionally they must make a @Check[type:fortitude|dc:32|traits:polymorph] save.</p><hr /><p><strong>Critical Success</strong> No additional effect <br /><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}<br /><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2}<br /><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} as long as it is sickened.</p>",
+          "gm": ""
         },
         "traits": {
           "value": [
-            "polymorph",
-            "transmutation"
+            "polymorph"
           ],
-          "rarity": "common",
-          "custom": ""
+          "otherTags": []
         },
         "rules": [],
         "slug": null,
-        "schema": {
-          "version": 0.813,
-          "lastMigration": {
-            "datetime": "2023-01-11T11:05:07.748-06:00",
-            "version": {
-              "schema": 0.708,
-              "foundry": "10.291",
-              "system": "4.6.5"
-            }
-          }
-        },
         "actionType": {
           "value": "free"
-        },
-        "actionCategory": {
-          "value": ""
         },
         "actions": {
           "value": null
         },
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
         "deathNote": false,
-        "weapon": {
-          "value": ""
-        }
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "category": null
       },
       "ownership": {
         "default": 0,
         "oiPWLVPNH7xQBULr": 3
       },
       "_stats": {
-        "systemId": null,
-        "systemVersion": null,
-        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
+        "modifiedTime": 1786257705649,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -85,12 +73,13 @@
   ],
   "effects": [],
   "folder": null,
-  "sort": 0,
+  "sort": 3100000,
   "flags": {
     "pf2e": {
       "editHazard": {
         "value": false
-      }
+      },
+      "editMode": false
     },
     "pf2e_updatednpcsheet": {
       "npcNotes": {
@@ -101,25 +90,15 @@
     "core": {}
   },
   "system": {
-    "source": {
-      "value": ""
-    },
-    "creatureType": "",
     "saves": {
       "fortitude": {
-        "value": null,
-        "saveDetail": "",
-        "rank": 0
+        "value": null
       },
       "reflex": {
-        "value": null,
-        "saveDetail": "",
-        "rank": 0
+        "value": null
       },
       "will": {
-        "value": null,
-        "saveDetail": "",
-        "rank": 0
+        "value": null
       }
     },
     "attributes": {
@@ -138,42 +117,44 @@
         "details": "<p>(Expert)</p>"
       },
       "emitsSound": "encounter",
-      "hasHealth": true
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
     },
     "details": {
-      "isComplex": true,
+      "isComplex": false,
       "level": {
         "value": 12
       },
-      "disable": "<p>DC 38 Thievery (Master) to drain the power harmlessly, Dispel Magic (6th level, Counteract DC 36)</p>",
-      "description": "<p><strong>Damaged Floor<br /></strong>The subtle damage to this floor is exaggerated for smaller creatures. Tiny creatures treat the floor as difficult terrain. This applies even if the magical hazard has been disabled.</p>\n<hr />\n<p>Add this effect to non-tiny tokens. @Compendium[pf2e-dragruler.movement-effects.hgsG0yQI60mmy57Q]{Ignore Rubble}</p>",
+      "disable": "<p>@Check[type:thievery|dc:38] (Master) to drain the power harmlessly, Dispel Magic (6th level, Counteract DC 36)</p>",
+      "description": "<p><strong>Damaged Floor<br /></strong>The subtle damage to this floor is exaggerated for smaller creatures. Tiny creatures treat the floor as difficult terrain. This applies even if the magical hazard has been disabled.</p>",
       "reset": "",
-      "routine": ""
+      "routine": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
     },
-    "statusEffects": [],
     "traits": {
       "value": [
         "magical",
-        "transmutation",
-        "custom"
+        "polymorph"
       ],
       "rarity": "common",
       "size": {
         "value": "med"
       }
     },
-    "schema": {
-      "version": 0.813,
-      "lastMigration": {
-        "datetime": "2023-01-11T11:05:07.748-06:00",
-        "version": {
-          "schema": 0.708,
-          "foundry": "10.291",
-          "system": "4.6.5"
-        }
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.12.2"
       }
-    },
-    "recallKnowledgeText": ""
+    }
   },
   "ownership": {
     "default": 0,
@@ -291,11 +272,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "4.6.5",
-    "coreVersion": "13.350",
+    "systemVersion": "7.12.2",
+    "coreVersion": "13.351",
     "createdTime": 1673456708626,
-    "modifiedTime": 1673457025190,
-    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "modifiedTime": 1786257807943,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
     "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-4.gYKgmLejnp9mFPEG",
     "duplicateSource": null,
     "exportSource": null
