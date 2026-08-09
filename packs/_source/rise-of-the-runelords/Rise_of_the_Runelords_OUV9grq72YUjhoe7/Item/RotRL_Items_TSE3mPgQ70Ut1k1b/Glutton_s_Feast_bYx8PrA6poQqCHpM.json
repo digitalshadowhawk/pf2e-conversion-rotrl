@@ -1,0 +1,304 @@
+{
+  "_id": "bYx8PrA6poQqCHpM",
+  "name": "Glutton's Feast",
+  "type": "effect",
+  "img": "icons/commodities/biological/organ-heart-red.webp",
+  "effects": [],
+  "flags": {
+    "pdfoundry-pf2e": {
+      "source": ""
+    },
+    "pick-up-stix": {
+      "pick-up-stix": {
+        "owner": {
+          "actorId": "bz64LGwlU6gv5VWS"
+        },
+        "initialState": {
+          "id": "mMAAjARhBV0hn41K",
+          "count": 1,
+          "itemData": {
+            "_id": "mMAAjARhBV0hn41K",
+            "name": "Treat Wounds Immunity",
+            "permission": {
+              "default": 1,
+              "kz2MTX0UeHY7DZys": 3
+            },
+            "type": "effect",
+            "data": {
+              "description": {
+                "value": "<p>You are immune to Treat Wounds</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "value": []
+              },
+              "rarity": {
+                "value": "common"
+              },
+              "usage": {
+                "value": "held-in-one-hand"
+              },
+              "rules": [
+                {
+                  "key": "PF2E.RuleElement.FlatModifier",
+                  "label": "Treat Wounds Immunity",
+                  "selector": "hp",
+                  "value": 0,
+                  "predicate": {
+                    "all": [
+                      "treat-wounds"
+                    ]
+                  }
+                }
+              ],
+              "level": {
+                "value": 1
+              }
+            },
+            "sort": 100001,
+            "flags": {},
+            "img": "icons/svg/clockwork.svg",
+            "effects": []
+          }
+        },
+        "itemType": "Item",
+        "isLocked": false
+      }
+    },
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p> If the ogre damages a living creature with their jaws Strike, they gain [[/gmroll 2d4#Temporary Hit Points ]] temporary Hit Points for 1 minute.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "2d4"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:59.839-06:00",
+        "version": {
+          "schema": 0.815,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "sustained": false,
+      "expiry": "turn-end"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "rarity": {
+      "value": "common"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "quantity": {
+      "value": "1"
+    },
+    "hp": {
+      "value": 0
+    },
+    "maxHp": {
+      "value": 0
+    },
+    "hardness": {
+      "value": 0
+    },
+    "brokenThreshold": {
+      "value": 0
+    },
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": "0"
+    },
+    "invested": {
+      "value": false
+    },
+    "equipped": {
+      "value": false
+    },
+    "identified": {
+      "value": true
+    },
+    "stackGroup": {
+      "value": ""
+    },
+    "bulkCapacity": {
+      "value": ""
+    },
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": {
+      "value": ""
+    },
+    "preciousMaterial": {
+      "value": ""
+    },
+    "preciousMaterialGrade": {
+      "value": ""
+    },
+    "collapsed": {
+      "value": false
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    },
+    "property2": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    },
+    "property3": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    },
+    "weaponType": {
+      "value": ""
+    },
+    "group": {
+      "value": ""
+    },
+    "hands": {
+      "value": ""
+    },
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "value": "",
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing"
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": {
+      "value": ""
+    },
+    "reload": {
+      "value": ""
+    },
+    "ability": {
+      "value": "str"
+    },
+    "MAP": {
+      "value": ""
+    },
+    "potencyRune": {
+      "value": ""
+    },
+    "strikingRune": {
+      "value": ""
+    },
+    "propertyRune1": {
+      "value": ""
+    },
+    "propertyRune2": {
+      "value": ""
+    },
+    "propertyRune3": {
+      "value": ""
+    },
+    "propertyRune4": {
+      "value": ""
+    },
+    "size": {
+      "value": "med"
+    },
+    "identification": {
+      "status": "identified"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673457085788,
+    "modifiedTime": 1677352139888,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-items.bYx8PrA6poQqCHpM",
+    "exportSource": {
+      "worldId": "test-world",
+      "uuid": null,
+      "coreVersion": "0.7.8",
+      "systemId": "pf2e",
+      "systemVersion": "1.10.17.2355"
+    },
+    "duplicateSource": null
+  },
+  "folder": "TSE3mPgQ70Ut1k1b",
+  "sort": 0
+}

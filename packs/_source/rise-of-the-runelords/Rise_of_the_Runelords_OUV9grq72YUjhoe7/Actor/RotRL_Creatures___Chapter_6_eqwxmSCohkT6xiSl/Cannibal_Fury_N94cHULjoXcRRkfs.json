@@ -1,0 +1,281 @@
+{
+  "_id": "N94cHULjoXcRRkfs",
+  "name": "Cannibal Fury",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "0FpzSygcs7G688GT",
+      "effects": [],
+      "flags": {},
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Dying for a bite",
+      "sort": 100000,
+      "type": "action",
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p data-visibility=\"gm\"><strong>Trigger</strong>&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">timed</span></p>\n<p><strong>Effect&nbsp;</strong>This persistent haunt adheres to the following round-by round schedule. Note that until the haunt begins to act in force on the fifth round, it cannot be dismissed or damaged. These first four rounds are, in effect, an extended warning of what's about to occur.</p>\n<p>See Routine.</p>"
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:08:58.863-06:00",
+            "version": {
+              "schema": 0.815,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "necromancy",
+            "occult"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": ""
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "system": {
+    "source": {
+      "value": "Pathfinder Core Rulebook"
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": "",
+        "tempmax": 0
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 35,
+        "details": "<p>(Expert) to hear the sound of faint repetitive knocking somewhere in the cabin.</p>\n<p>&nbsp;</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": false
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 15
+      },
+      "disable": "<ul>\n<li>@Check[type:religion|dc:43|traits:haunt] (master)&nbsp; <span class=\"fontstyle0\">to calm the spirits from round 5 onwards</span> </li>\n</ul>",
+      "description": "<p>This haunt starts innocently enough, with strange sounds from elsewhere in the cabin indicating that the PCs aren't the only ones here. These sounds rapidly grow in power, until it seems as if an entire army of invisible, shrieking lunatics is on the loose. This persistent haunt plays out over 11 rounds, following a scripted series of actions. Allow the PCs to take their own actions as they wish each round; the haunt's actions always occur on initiative count 10.</p>",
+      "reset": "<p>1 minute</p>",
+      "routine": "<ul>\n<li><strong>Round 1-3</strong>: Allow the PCs to each make a @Check[type:perception|dc:35] check. Anyone who succeeds hears a faint knocking coming from the lower portion of the cabin, probably the outer door at area B3, as if some lost traveler were seeking shelter from the storm. PCs in the lower rooms of the cabin or the stair shaft need only succeed at a @Check[type:perception|dc:25]&nbsp;check to hear this knocking. The knocking continues for 3 rounds, during which time PCs might head down to see whom it might be. Attempts to see the ground outside the cabin are fruitless due to the whirling snow flurries, unless the PCs are within 5 feet, and then they still see nothing present that could have caused the knocking.</li>\n<li><strong>Round 4</strong>: The strange knocking grows silent for 1 round.</li>\n<li><strong>Round 5</strong>: A loud crack followed by a mighty hammering sound suddenly fills the cabin as its walls begin to shake and groan, almost as if the structure were giving up its purchase on the cliff edge and sliding off. On each turn that a PC remains in the haunt's area, he must make a @Check[type:acrobatics|dc:36] check; failure indicates he cannot move for that round, while failure by 5 or more indicates he falls @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}. A character in area B6 at this time falls off the stairs if he falls @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</li>\n<li><strong>Round 6</strong>: The hammering continues, but now the faint images of starving dwarven ghosts can be glimpsed out of the corner of the eye. Each character suddenly experiences painful hunger pangs and must succeed at a @Check[type:fortitude|dc:36] save to resist taking [[/r 4d6[nonlethal]]]{4d6 nonlethal Damage} and become @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} from the horrific hunger.</li>\n<li><strong>Round 7</strong>: Voices can now be heard, in most cases wordless cries of pain, but now and then snatches of sentences like <em><strong>&ldquo;eating us...\"</strong></em> or <em><strong>\"don't let him...\"</strong></em> or <em><strong>\"so hungry....\"</strong></em> The hammering continues, but now the starving ghosts seem to notice the PCs for the first time. Each PC must make a @Check[type:will|dc:36] save - failure indicates that the haunt possesses him as the ghosts themselves seem to flow into the PC's body. Possession causes @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 minute, and has additional implications in rounds 8-10.</li>\n<li><strong>Round 8-10</strong>: For the last 3 rounds of this complex haunt, the shaking and hammering continues. Characters possessed by the haunt do not need to make Acrobatics checks to move and take whatever actions they can to render non-possessed characters unconscious or helpless, using whatever tools they have at their disposal. If a possessed character is adjacent to a helpless, non-possessed character and is not threatened by any other non-possessed character, he attempts a full round of attacks against the helpless character with the best weapon option he has. If a possessed character is adjacent to a dead character, he feeds on the body and takes no other actions unless he is attacked by someone else.</li>\n<li><strong>Round 11</strong>: With a sudden lurch, the haunting stops. Possessed characters immediately regain control of their faculties. Any character who successfully fed on an ally must make a @Check[type:will|dc:36] save upon realizing what he's done - failure results in an additional level of Stupefied from the supernaturally fueled revelation and the condition now lasts 1 day. The cabin itself shows no signs of damage from the violence aside from anything the PCs themselves have done to it. A few rounds later, Silas Vekker finally manifests before the PCs as detailed in Event 2, below.</li>\n</ul>"
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:58.863-06:00",
+        "version": {
+          "schema": 0.815,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "prototypeToken": {
+    "disposition": 0,
+    "height": 1,
+    "name": "Bloodthirsty Urge",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "tokenizer/npc-images/gold_eating_dwarf.Token.webp?1645370702833",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456726658,
+    "modifiedTime": 1677352139288,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.hazards.su4TRBOoso4vjkoK",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "eqwxmSCohkT6xiSl",
+  "sort": 0
+}

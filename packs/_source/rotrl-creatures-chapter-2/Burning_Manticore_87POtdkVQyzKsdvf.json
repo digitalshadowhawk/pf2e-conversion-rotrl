@@ -1,0 +1,275 @@
+{
+  "name": "Burning Manticore",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "FQuhfZoXLK0MZg2g",
+      "name": "Stinger",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "slug": null,
+        "damageRolls": {
+          "hsh5lvo23xst7g8gm5vr": {
+            "damage": "1d8+5",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 14
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.953,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null
+      },
+      "ownership": {
+        "default": 0,
+        "0kbENmzMft491rsv": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!87POtdkVQyzKsdvf.FQuhfZoXLK0MZg2g"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 1500000,
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "core": {}
+  },
+  "_id": "87POtdkVQyzKsdvf",
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 12,
+        "details": "<ul>\n<li><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">@Check[type:perception|dc:22|name:uo smell burnt Fur|traits:complex,haunt,hazard] (trained)</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;</span>to smell burnt fur</li>\n</ul>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 3
+      },
+      "disable": "<ul><li><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14)\">@Check[type:intimidation|dc:22|name:Twice to cow the Manticore|traits:complex,haunt,hazard] (expert) </span>Twice to Cow the Manticore</li><li><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14)\">@Check[type:occultism|dc:20|name:Once to quiet the Spirit|traits:complex,haunt,hazard] (expert) </span>Once to Quiet the Spirit</li><li><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14)\">@Check[type:religion|dc:20|name:Once to quiet the Spirit|traits:complex,haunt,hazard] (expert) Once to Quiet the Spirit</span></li></ul>",
+      "description": "<p><strong>Burning Haunt</strong>: This Haunt only targets creatures haunted by Cyralie Foxglove, who tried to burn the manor  to stop her husband from being driven mad. If no creatures in a group are haunted by Cyralie Foxglove the haunt may target any creature.</p>",
+      "reset": "<p>This Haunt automatically resets after one day until the supernatural Fungus in B37 is dealt with, even if the haunt was previously disabled.</p>",
+      "routine": "<p>Valid Creature that has entered B2 previously enters B2 again; The haunt rolls its stealth against targets perception DC. On a success the burning manticore makes a burning tail strike. After the attack or after a failure the Burning Manticore rolls initiative.&nbsp;&nbsp;</p>\n<p><strong>Routine</strong> The haunt moves toward its target at a speed of 40 feet. If it has any actions left after its movement it makes a strike its stinger against its target.</p>\n<p>If the target is struck successfully, it must make a&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">@Check[type:reflex|dc:25|name:Lured to Ashes Fire|traits:damaging-effect,fire,necromancy,occult]&nbsp;</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">save or take&nbsp;</span>[[/r 1d8[persistent,fire]]] damage.</p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "disposition": 0,
+    "name": "Burning Manticore",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "coreVersion": "13.351",
+    "createdTime": 1673456686307,
+    "modifiedTime": 1770946408423,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Actor.3YM9qilJywy2SWc5",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!87POtdkVQyzKsdvf"
+}

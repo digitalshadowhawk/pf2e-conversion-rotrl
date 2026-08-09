@@ -1,0 +1,101 @@
+{
+  "_id": "5hJxUK6IMxSTwkP3",
+  "name": "Effect: Whispers of Regret",
+  "type": "effect",
+  "img": "links/RotRL/Tokens/3.%20The%20Hook%20Mountain%20Massacre/Trapped%20Dryad%20cropped%20%5BPortrait%5D.webp",
+  "effects": [],
+  "flags": {
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"color:#191813;font-family:Gelasio, sans-serif;font-size:14.7px;text-align:justify\"><span style=\"font-size:14.7px\">Your are filled with regret, but also with an increased resolve to lift the curse that vexes the swamp.</span></span></p>\n<p><span style=\"color:#191813;font-family:Gelasio, sans-serif;font-size:14.7px;text-align:justify\">You gain a +2 bonus on all Will saving throws made against encounters in Whitewillow.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Whispers of Regret",
+        "predicate": [
+          "Whitewillow"
+        ],
+        "selector": "will",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:59.840-06:00",
+        "version": {
+          "schema": 0.815,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "rarity": {
+      "value": "common"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "identified": {
+      "value": true
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673457085751,
+    "modifiedTime": 1677352139888,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-items.5hJxUK6IMxSTwkP3",
+    "exportSource": {
+      "worldId": "age-of-ashes",
+      "uuid": null,
+      "coreVersion": "0.7.9",
+      "systemId": "pf2e",
+      "systemVersion": "1.10.23.2638"
+    },
+    "duplicateSource": null
+  },
+  "folder": "TSE3mPgQ70Ut1k1b",
+  "sort": 0
+}

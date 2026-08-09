@@ -1,0 +1,93 @@
+{
+  "name": "Effect: Fury Rage",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac"
+        ],
+        "value": -1
+      },
+      {
+        "key": "TempHP",
+        "value": 17
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "melee-strike-damage",
+          "unarmed-damage"
+        ],
+        "value": 6
+      },
+      {
+        "key": "Resistance",
+        "type": "physical",
+        "value": 8
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "fGz1CIba2XIKxops",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "createdTime": 1786252654949,
+    "modifiedTime": 1786253290441,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "_key": "!items!fGz1CIba2XIKxops"
+}

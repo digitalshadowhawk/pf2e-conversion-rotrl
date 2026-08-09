@@ -1,0 +1,222 @@
+{
+  "_id": "NAbaOITbWvjFWuoD",
+  "name": "Aklo Doors",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "system": {
+    "source": {
+      "value": "Pathfinder Core Rulebook"
+    },
+    "creatureType": "",
+    "saves": {
+      "fortitude": {
+        "value": 1,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 1,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 12,
+        "max": 12,
+        "temp": 0,
+        "details": "",
+        "tempmax": 0
+      },
+      "hardness": 3,
+      "stealth": {
+        "value": 30,
+        "details": "<p>(master)</p>"
+      },
+      "emitsSound": "encounter",
+      "hasHealth": true,
+      "immunities": [
+        {
+          "type": "critical-hits"
+        },
+        {
+          "type": "object-immunities"
+        },
+        {
+          "type": "precision"
+        }
+      ]
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 13
+      },
+      "disable": "<p><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">@Check[type:thievery|dc:40] (Master)</span></p>\n<p>Or @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic} (8th level; counteract DC 35) to counteract the trap before it triggers or to counteract the effect after the trap is triggered&nbsp;</p>",
+      "description": "<p>The labyrinthine script draws you into an extradimensional nightmare maze of eldritch origin and traps you there.</p>",
+      "reset": "",
+      "routine": "<p><strong>Trigger</strong> - Touching the door or reading the runes attempts to trap intruders in an extradimensional nightmare maze.</p>\n<p><strong>Effect</strong> - All valid creatures within 30 feet are trapped in a @Compendium[pf2e.spells-srd.Oj1PJBMQD9vuwCv7]{Maze} spell (DC 36), but once any one trapped creature escapes the maze, all currently entrapped victims escape at once, reappearing on the north side of the now-once-again closed Aklo doors. Each round they are trapped each victim is subject to a 4th level @Compendium[pf2e.spells-srd.tlcrVRqW1MSKJ5IC]{Phantasmal Killer} spell (DC 36)&nbsp;</p>\n<p>&nbsp;</p>"
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "magical",
+        "trap"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:05:25.721-06:00",
+        "version": {
+          "schema": 0.719,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "customModifiers": {}
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "disposition": 0,
+    "height": 1,
+    "name": "Hidden Pit",
+    "width": 1,
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.350",
+    "createdTime": 1673456726659,
+    "modifiedTime": 1673457051953,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e.hazards.BHq5wpQU8hQEke8D",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!NAbaOITbWvjFWuoD"
+}

@@ -1,0 +1,205 @@
+{
+  "name": "The Stricken Family",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 1300000,
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "core": {}
+  },
+  "_id": "5LQh9B47NWDj9VF0",
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 10,
+        "max": 10,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 12,
+        "details": "<ul>\n<li>@Check[type:perception|dc:22|name:To Notice Dropping Temperature |traits:complex,haunt] (trained)To Notice Dropping Temperature</li>\n</ul>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 5
+      },
+      "disable": "<ul>\n<li>@Check[type:occultism|dc:19|name: To Banish Haunt|traits:complex,haunt] (expert) To Banish Spirit</li>\n<li>@Check[type:religion|dc:19|name: To Banish Haunt|traits:complex,haunt] (expert) To Banish Spirit</li>\n</ul>",
+      "description": "<p style=\"text-align:justify\">If all of the portraits have their cobwebs cleared away, the temperature in the room drops dramatically. Breath frosts in the air and fingers of rime slither across the walls. The figures depicted in the portraits suddenly shift from paintings of living people to those of dead folk. Kasanda and Lorey slump into misshapen, tumor-ridden corpses. Traver grows pale as a long cut opens in his throat and blood washes down over his chest. Cyralie blackens and chars, and her arms, legs, and back twist as if broken in dozens of places. Aldern’s f lesh darkens with rot, his hair falls out, and he deforms into a ghoul-like monster. Both Sendeli’s and Zeeva’s portraits frost over but otherwise remain unchanged. Vorel’s entire portrait, frame and all, erupts into a sudden explosion of fungus and tumorous growth.</p>",
+      "reset": "<p>This Haunt automatially resets after one day until the supernatural Fungus in B37 is dealt with, even if the haunt was previously disabled.</p>",
+      "routine": "<p><strong>Vorel's Phage:</strong> <span class=\"pf2-icon\">R</span>&nbsp;<strong>Trigger</strong> All pictures are cleared of cobwebs. Room explodes into rot aid fungd decay. All creatures in the room are exposed to Vorel's Phage.&nbsp;</p>\n<p><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">Vorel's Phage: </span>@Check[type:fortitude|dc:25|name:Vorel's Phage|traits:mental,incapacitating,necromancy,occult]negates</p>\n<p><strong>Stage 1:</strong> Carrier with no illness (<span style=\"text-align: start;\">[[/r {1d4}]] hours)</span></p>\n<p><strong>Stage 2:</strong> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1 day)</p>\n<p><strong>Stage 3:</strong> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} and&nbsp;@Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} (1 day)</p>\n<p><strong>Stage 4:</strong> @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}&nbsp;(1 day)</p>\n<p><strong>Stage 5</strong>: Dead</p>\n<p>The sickened and unconscious condition from Vorels Plague dont improve on their own until the disease is cured.&nbsp;</p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [
+        "virulent"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "disposition": 0,
+    "name": "The Stricken Family",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "coreVersion": "13.351",
+    "createdTime": 1673456686303,
+    "modifiedTime": 1770946408423,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Actor.QscqOfymMhN51bZP",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!5LQh9B47NWDj9VF0"
+}

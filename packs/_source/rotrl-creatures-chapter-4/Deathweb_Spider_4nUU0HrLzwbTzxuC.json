@@ -1,0 +1,633 @@
+{
+  "_id": "4nUU0HrLzwbTzxuC",
+  "name": "Deathweb Spider",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "zEPJpcXRyrWInUhV",
+      "name": "Fangs",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "reach-10"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "slug": null,
+        "damageRolls": {
+          "von0thxson7g2b52flp7": {
+            "damage": "2d12+12",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 24
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "range": null,
+        "subjectToMAP": true
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": 1786238200711,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4nUU0HrLzwbTzxuC.zEPJpcXRyrWInUhV"
+    },
+    {
+      "_id": "moQgyHbnpPjsUoDQ",
+      "name": "Web",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": [],
+          "config": {}
+        },
+        "rules": [],
+        "slug": null,
+        "damageRolls": {},
+        "bonus": {
+          "value": 22
+        },
+        "attackEffects": {
+          "value": [
+            "web-tether"
+          ]
+        },
+        "range": {
+          "increment": 60,
+          "max": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "action": "strike",
+        "area": null,
+        "subjectToMAP": true
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4nUU0HrLzwbTzxuC.moQgyHbnpPjsUoDQ"
+    },
+    {
+      "_id": "XDJqRc88LNHpEfCw",
+      "name": "Web Tether",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>A creature hit by the deathweb's web Strike is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} and tethered to the spider, preventing it from moving farther away from the spider. The spider can have one creature tethered at a time. The DC to @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} or @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Force Open} the web is 30. The tether can be severed with a Strike (AC 20, Hardness 5, HP 20), but this doesn’t free the restrained creature.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": 1786238039008,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4nUU0HrLzwbTzxuC.XDJqRc88LNHpEfCw"
+    },
+    {
+      "_id": "ZkxNpcRv2vg43jpJ",
+      "name": "Deathweb Spider Infestation Venom",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:30]</p><p><strong>Maximum Duration</strong> 6 rounds</p><p><strong>Stage 1</strong> @Damage[2d6[poison]] damage and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p><p><strong>Stage 2</strong> @Damage[2d6[poison]] damage and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p><p><strong>Stage 3</strong> @Damage[2d6[poison]] damage and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 hour</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "poison"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": 1786237777948,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4nUU0HrLzwbTzxuC.ZkxNpcRv2vg43jpJ"
+    },
+    {
+      "_id": "nzRwoq0ReUWv099i",
+      "name": "Infestation",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>An infestation of poisonous spiders, which nest within this creature's exoskeleton, constantly surrounds a deathweb creating a @Template[type:emanation|distance:5]{5 foot} infestation aura. Each enemy that ends its turn in the deathweb's infestation aura takes @Damage[2d6[piercing]] damage with a @Check[type:reflex|dc:30|basic] save.</p><p>A creature that fails its save is exposed to deathweb spider infestation venom.</p><p>Any area effect attack that deals 20 or more points of damage to a deathweb destroys its infesting spiders, removing its aura for 2 rounds, after which a new batch of spiders swarms out of the undead's body to replenish the infestation.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": 1786238417880,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4nUU0HrLzwbTzxuC.nzRwoq0ReUWv099i"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 1700000,
+  "flags": {
+    "pf2e_updatednpcsheet": {},
+    "pf2e": {
+      "lootable": false
+    },
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 220,
+        "temp": 0,
+        "max": 220,
+        "details": "negative healing"
+      },
+      "ac": {
+        "value": 30,
+        "details": "",
+        "dex": 0,
+        "check": 0,
+        "base": 30
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "label": "Climb",
+            "value": 25
+          }
+        ],
+        "details": ""
+      },
+      "immunities": [
+        {
+          "type": "bleed"
+        },
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "mental"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "unconscious"
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 11
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "creatureType": "",
+      "recallKnowledgeText": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.813,
+        "foundry": "13.351",
+        "system": "7.12.2"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 8,
+        "value": 10
+      },
+      "dex": {
+        "mod": 5,
+        "value": 10
+      },
+      "con": {
+        "mod": 7,
+        "value": 10
+      },
+      "int": {
+        "mod": -5,
+        "value": 10
+      },
+      "wis": {
+        "mod": 3,
+        "value": 10
+      },
+      "cha": {
+        "mod": -5,
+        "value": 10
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 22,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 24,
+        "saveDetail": "",
+        "ability": "con"
+      },
+      "reflex": {
+        "value": 21,
+        "saveDetail": "",
+        "ability": "dex"
+      },
+      "will": {
+        "value": 17,
+        "saveDetail": "",
+        "ability": "wis"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 18
+      },
+      "athletics": {
+        "base": 23
+      },
+      "stealth": {
+        "base": 22
+      }
+    },
+    "traits": {
+      "value": [
+        "undead"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    },
+    "martial": {
+      "simple": {
+        "value": 0
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "oiPWLVPNH7xQBULr": 3
+  },
+  "prototypeToken": {
+    "width": 2,
+    "height": 2,
+    "name": "Deathweb Spider",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "alpha": 0.25,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "coreVersion": "13.351",
+    "createdTime": 1673456708542,
+    "modifiedTime": 1786257276768,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-4.4nUU0HrLzwbTzxuC",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!4nUU0HrLzwbTzxuC"
+}

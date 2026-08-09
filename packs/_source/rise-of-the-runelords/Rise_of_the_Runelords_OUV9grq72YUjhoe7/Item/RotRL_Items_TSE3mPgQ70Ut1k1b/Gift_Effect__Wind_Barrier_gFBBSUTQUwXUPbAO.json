@@ -1,0 +1,131 @@
+{
+  "_id": "gFBBSUTQUwXUPbAO",
+  "name": "Gift Effect: Wind Barrier",
+  "type": "effect",
+  "img": "systems/pf2e/icons/spells/gust-of-wind.webp",
+  "effects": [],
+  "flags": {
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>An invisible barrier of air deflects ranged  attacks,  granting  you  a  +2  circumstance  bonus  to  AC against ranged attacks until the beginning of your next turn.  At  13th  level,  this  increases  to  a  +3  circumstance  bonus to AC against ranged attacks.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "wind-barrier"
+        ],
+        "label": "Wind Barrier - Ranged",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": {
+          "brackets": [
+            {
+              "end": 12,
+              "value": 2
+            },
+            {
+              "start": 13,
+              "value": 3
+            }
+          ],
+          "field": "item|system.level.value"
+        }
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Wind Barrier",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": {
+          "brackets": [
+            {
+              "start": 5,
+              "value": 1
+            }
+          ],
+          "field": "item|system.level.value"
+        }
+      },
+      {
+        "key": "TokenEffectIcon"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:59.840-06:00",
+        "version": {
+          "schema": 0.815,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "rarity": {
+      "value": "common"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "identified": {
+      "value": true
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673457085789,
+    "modifiedTime": 1677352139888,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-items.gFBBSUTQUwXUPbAO",
+    "exportSource": {
+      "worldId": "age-of-ashes",
+      "uuid": null,
+      "coreVersion": "0.7.9",
+      "systemId": "pf2e",
+      "systemVersion": "1.10.23.2638"
+    },
+    "duplicateSource": null
+  },
+  "folder": "TSE3mPgQ70Ut1k1b",
+  "sort": 0
+}

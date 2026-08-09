@@ -1,0 +1,86 @@
+{
+  "name": "Aura: Desecration Aura",
+  "type": "effect",
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 60,
+        "slug": "aura-effect-inspire-courage",
+        "level": "ceil(@actor.level/2)",
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-conversion-rotrl.rotrl-items.Item.giWDZO4oxaUaZXlq"
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.351",
+        "system": "7.12.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "createdTime": 1786260275574,
+    "modifiedTime": 1786260275574,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "_id": "5UpCbcwr6NIBOe1X",
+  "sort": 0,
+  "_key": "!items!5UpCbcwr6NIBOe1X"
+}

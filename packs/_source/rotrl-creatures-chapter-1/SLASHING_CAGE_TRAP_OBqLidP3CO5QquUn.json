@@ -1,0 +1,278 @@
+{
+  "name": "Slashing Cage Trap",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "JvJwGEBokL5S3p4M",
+      "name": "Glaive Flurry",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong>Trigger</strong> A creature is trapped within the portcullises at the beginning of the Slashing Cage Trap's turn.<strong> Effect</strong> Each statue swings it's glaive into the area, slicing the captured creature. The creature makes a DC 21 Reﬂex save.</p>\n<p><strong>Critical Success</strong> Same as success, but the creature can take a Step action to free themselves of the trapped area;</p>\n<p><strong>Success </strong>The creature avoids the glaives, taking no damage;</p>\n<p><strong>Failure</strong> the creature takes 2d8+6 slashing damage;</p>\n<p><strong>Critical Failure</strong> The creature takes 4d8+12 slashing damage.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "category": null
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!OBqLidP3CO5QquUn.JvJwGEBokL5S3p4M"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      },
+      "editMode": false
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "core": {}
+  },
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 14
+      },
+      "reflex": {
+        "value": 8
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 21
+      },
+      "hp": {
+        "value": 46,
+        "max": 46,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 11,
+      "stealth": {
+        "value": 13,
+        "details": "<p>(trained)</p>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [
+        {
+          "type": "critical-hits",
+          "exceptions": []
+        },
+        {
+          "type": "object-immunities",
+          "exceptions": []
+        },
+        {
+          "type": "precision",
+          "exceptions": []
+        }
+      ],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 4
+      },
+      "disable": "<p>@Check[type:crafting|dc:17] (expert) or @Check[type:thievery|dc:19] (trained) to pry open the portcullises. A lever that raises and lowers the portcullises and switches the trap on and off can be found in area E4.</p>",
+      "description": "<p>Two hidden iron portcullises are recessed into the ceiling around the polished section of ﬂoor, as indicated on the map- When a creature steps between them, a pressure plate causes them to both drop with a clang; 1 round later, the two statues began slashing at the space between them, cutting the trapped intruder to ribbons.</p>",
+      "reset": "<p>Two rounds after the trap activates, a10-foot—deep pit opens in the square, dumping what remains of the victim into the area below before the whole thing resets itself. A still living victim can attempt a @Check[type|reflex|dc:17] save to avoid falling into the pit by either clinging to the portcullises or the statue alcoves, but when the pit closes automatically 1 round later, the victim's weight on the lid could start the cycle all over again.</p>",
+      "routine": "<p>Each round, the Slashing Cage Trap makes a Glaive Flurry attack against the creature trapped between the portcullises-</p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.947,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "disposition": 0,
+    "name": "Slashing Cage Trap",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-1.Actor.4bqJBLenfoV7QTbe",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "createdTime": 1761248973947,
+    "modifiedTime": 1786129612899,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "ownership": {
+    "default": 0,
+    "BfmhhMPJAA20BCjB": 3
+  },
+  "_id": "OBqLidP3CO5QquUn",
+  "sort": 3300000,
+  "_key": "!actors!OBqLidP3CO5QquUn"
+}

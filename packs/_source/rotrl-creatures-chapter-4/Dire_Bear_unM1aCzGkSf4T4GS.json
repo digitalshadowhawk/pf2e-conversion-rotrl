@@ -1,0 +1,901 @@
+{
+  "_id": "unM1aCzGkSf4T4GS",
+  "name": "Dire Bear",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "sort": 200000,
+      "system": {
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "e7j0rvk3w7jflypb5zim": {
+            "damage": "2d8+6",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "subjectToMAP": true
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": "Actor.2vBhaXOYqq8ZD1fB.Item.woTn67ogkZRQUfvH",
+        "duplicateSource": "Actor.2vBhaXOYqq8ZD1fB.Item.woTn67ogkZRQUfvH",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786231158804,
+        "modifiedTime": 1786231158804,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "PzcVQg21P53C2f63",
+      "_key": "!actors.items!unM1aCzGkSf4T4GS.PzcVQg21P53C2f63"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 100000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "hw6yftqskmjbge9ioxta": {
+            "damage": "2d10+6",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "unarmed"
+          ],
+          "otherTags": [],
+          "config": {}
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "action": "strike",
+        "area": null,
+        "subjectToMAP": true
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": "Actor.2vBhaXOYqq8ZD1fB.Item.PLLmu0Mc4VizpZYv",
+        "duplicateSource": "Actor.2vBhaXOYqq8ZD1fB.Item.PLLmu0Mc4VizpZYv",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786231160120,
+        "modifiedTime": 1786231160120,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "SQDOmXvsvGVEZRYX",
+      "_key": "!actors.items!unM1aCzGkSf4T4GS.SQDOmXvsvGVEZRYX"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Rush",
+      "sort": 400000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>The cave bear Strides and makes a Strike at the end of that movement. During the Stride, it gains a +10-foot circumstance bonus to its Speed.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "rush",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "rush"
+            ],
+            "selector": "land-speed",
+            "type": "circumstance",
+            "value": 10
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Actor.2vBhaXOYqq8ZD1fB.Item.X9lnoAMRNp4d62Iu",
+        "duplicateSource": "Actor.2vBhaXOYqq8ZD1fB.Item.X9lnoAMRNp4d62Iu",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786231161671,
+        "modifiedTime": 1786231161671,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "EGpveCRmwpyURI5b",
+      "_key": "!actors.items!unM1aCzGkSf4T4GS.EGpveCRmwpyURI5b"
+    },
+    {
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786231163216,
+        "modifiedTime": 1786231163216,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "sort": 500000,
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "grab",
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "Oa3SSJKszcl8ER7K",
+      "_key": "!actors.items!unM1aCzGkSf4T4GS.Oa3SSJKszcl8ER7K"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Mauler",
+      "sort": 300000,
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>The bear gains a +4 circumstance bonus to damage rolls against creatures it has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "domain": "damage",
+            "key": "RollOption",
+            "option": "mauler",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "mauler"
+            ],
+            "selector": "strike-damage",
+            "type": "circumstance",
+            "value": 4
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Actor.2vBhaXOYqq8ZD1fB.Item.deLQWsbCp3jKrpIv",
+        "duplicateSource": "Actor.2vBhaXOYqq8ZD1fB.Item.deLQWsbCp3jKrpIv",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1786231165116,
+        "modifiedTime": 1786239682841,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "ownership": {
+        "default": 0,
+        "FmfifLIOr4CQQOc0": 3
+      },
+      "_id": "adEmJv8EdBxZE2Qs",
+      "_key": "!actors.items!unM1aCzGkSf4T4GS.adEmJv8EdBxZE2Qs"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 3700000,
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    },
+    "cf": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 155,
+        "temp": 0,
+        "max": 135,
+        "details": "",
+        "min": 0
+      },
+      "ac": {
+        "value": 27,
+        "details": "",
+        "dex": 0,
+        "check": 0,
+        "item": 0,
+        "min": 0,
+        "base": 27
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ancestryhp": 0,
+      "classDC": {
+        "ability": "str",
+        "breakdown": "",
+        "item": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "classhp": 0,
+      "flatbonushp": 0,
+      "flatbonussp": 0,
+      "init": {
+        "bonus": 0,
+        "value": 0
+      },
+      "levelbonushp": 0,
+      "levelbonussp": 0,
+      "resolve": {
+        "value": 0
+      },
+      "sp": {
+        "details": "",
+        "max": 0,
+        "min": 0,
+        "value": 0
+      },
+      "adjustment": "elite"
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 6,
+        "min": 1
+      },
+      "blurb": "",
+      "publicNotes": "Larger, stronger, and far more aggressive than its smaller cousins, the cave bear is a behemoth that avoids civilized lands, preferring to dwell in remote places. As its name might suggest, the cave bear makes its den in natural caves, and like the grizzly bear, a cave bear is fiercely territorial. Unlike a grizzly bear, however, a cave bear is short tempered and will make sure its foe is dead before moving on, usually feasting on its prey's soft flesh once it has been incapacitated. Cave bears are often regarded as powerful guardian spirits by remote-dwelling people, while they are utilized as beasts of war by orcs or even giants-stone giants in particular have an affinity for keeping trained cave bears as pets or guardians for their homes.<br /><br />",
+      "privateNotes": "",
+      "publication": {
+        "title": "Bestiary pg. 40",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "creatureType": "Animal",
+      "recallKnowledgeText": "Recall Knowledge : DC 22",
+      "ancestry": {
+        "value": "Bear"
+      },
+      "biography": {
+        "public": "",
+        "value": ""
+      },
+      "class": {
+        "value": ""
+      },
+      "deity": {
+        "image": "systems/pf2e/assets/sheet/deity.webp",
+        "value": ""
+      },
+      "flavourText": "",
+      "heritage": {
+        "value": ""
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "sidebarText": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.813,
+        "foundry": "13.351",
+        "system": "7.12.2"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 6,
+        "value": 22,
+        "min": 3
+      },
+      "dex": {
+        "mod": 1,
+        "value": 14,
+        "min": 3
+      },
+      "con": {
+        "mod": 6,
+        "value": 22,
+        "min": 3
+      },
+      "int": {
+        "mod": -4,
+        "value": 2,
+        "min": 3
+      },
+      "wis": {
+        "mod": 1,
+        "value": 14,
+        "min": 3
+      },
+      "cha": {
+        "mod": -1,
+        "value": 10,
+        "min": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 13,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "type": "scent",
+          "acuity": "imprecise",
+          "range": 30
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 18,
+        "saveDetail": "",
+        "ability": "con",
+        "breakdown": "",
+        "item": 0,
+        "rank": 0,
+        "base": 18
+      },
+      "reflex": {
+        "value": 13,
+        "saveDetail": "",
+        "ability": "dex",
+        "breakdown": "",
+        "item": 0,
+        "rank": 0,
+        "base": 13
+      },
+      "will": {
+        "value": 15,
+        "saveDetail": "",
+        "ability": "wis",
+        "breakdown": "",
+        "item": 0,
+        "rank": 0,
+        "base": 15
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "armor": 1,
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "arc": {
+        "ability": "int",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "ath": {
+        "ability": "str",
+        "armor": 1,
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "cra": {
+        "ability": "int",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "dec": {
+        "ability": "cha",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "dip": {
+        "ability": "cha",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "itm": {
+        "ability": "cha",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "med": {
+        "ability": "wis",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "nat": {
+        "ability": "wis",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "occ": {
+        "ability": "int",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "prf": {
+        "ability": "cha",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "rel": {
+        "ability": "wis",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "soc": {
+        "ability": "int",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "ste": {
+        "ability": "dex",
+        "armor": 1,
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "sur": {
+        "ability": "wis",
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "thi": {
+        "ability": "dex",
+        "armor": 1,
+        "breakdown": "",
+        "item": 0,
+        "mod": 0,
+        "rank": 0,
+        "value": 0
+      },
+      "athletics": {
+        "base": 16,
+        "special": []
+      },
+      "survival": {
+        "base": 11,
+        "special": []
+      }
+    },
+    "traits": {
+      "value": [
+        "animal"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    },
+    "currency": {
+      "cp": {
+        "value": 0
+      },
+      "gp": {
+        "value": 0
+      },
+      "pp": {
+        "value": 0
+      },
+      "sp": {
+        "value": 0
+      }
+    },
+    "martial": {
+      "advanced": {
+        "breakdown": "",
+        "rank": 0,
+        "value": 0
+      },
+      "heavy": {
+        "breakdown": "",
+        "rank": 0,
+        "value": 0
+      },
+      "light": {
+        "breakdown": "",
+        "rank": 0,
+        "value": 0
+      },
+      "martial": {
+        "breakdown": "",
+        "rank": 0,
+        "value": 0
+      },
+      "medium": {
+        "breakdown": "",
+        "rank": 0,
+        "value": 0
+      },
+      "simple": {
+        "breakdown": "",
+        "rank": 0,
+        "value": 0
+      },
+      "unarmed": {
+        "breakdown": "",
+        "rank": 0,
+        "value": 0
+      },
+      "unarmored": {
+        "breakdown": "",
+        "rank": 0,
+        "value": 0
+      }
+    },
+    "spells": {
+      "spell0": {
+        "max": 0
+      },
+      "spell1": {
+        "max": 0
+      },
+      "spell10": {
+        "max": 0
+      },
+      "spell11": {
+        "max": 0
+      },
+      "spell2": {
+        "max": 0
+      },
+      "spell3": {
+        "max": 0
+      },
+      "spell4": {
+        "max": 0
+      },
+      "spell5": {
+        "max": 0
+      },
+      "spell6": {
+        "max": 0
+      },
+      "spell7": {
+        "max": 0
+      },
+      "spell8": {
+        "max": 0
+      },
+      "spell9": {
+        "max": 0
+      }
+    },
+    "statusEffects": []
+  },
+  "ownership": {
+    "default": 0,
+    "oiPWLVPNH7xQBULr": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 2,
+    "lockRotation": true,
+    "name": "Dire Bear",
+    "randomImg": false,
+    "rotation": 0,
+    "width": 2,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "intensity": 5,
+        "speed": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "coreVersion": "13.351",
+    "createdTime": 1673456708671,
+    "modifiedTime": 1786257276768,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.b8NQkby4QV4uOqFT",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!unM1aCzGkSf4T4GS"
+}

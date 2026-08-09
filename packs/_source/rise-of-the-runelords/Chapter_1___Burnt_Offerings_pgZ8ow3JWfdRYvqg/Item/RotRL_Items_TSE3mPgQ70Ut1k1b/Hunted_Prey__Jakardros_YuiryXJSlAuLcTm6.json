@@ -1,0 +1,299 @@
+{
+  "_id": "YuiryXJSlAuLcTm6",
+  "name": "Hunted Prey: Jakardros",
+  "type": "effect",
+  "img": "tokens/Jakardros.Avatar.png",
+  "effects": [],
+  "flags": {
+    "pick-up-stix": {
+      "pick-up-stix": {
+        "owner": {
+          "actorId": "bz64LGwlU6gv5VWS"
+        },
+        "initialState": {
+          "id": "mMAAjARhBV0hn41K",
+          "count": 1,
+          "itemData": {
+            "_id": "mMAAjARhBV0hn41K",
+            "name": "Treat Wounds Immunity",
+            "permission": {
+              "default": 1,
+              "kz2MTX0UeHY7DZys": 3
+            },
+            "type": "effect",
+            "data": {
+              "description": {
+                "value": "<p>You are immune to Treat Wounds</p>",
+                "chat": "",
+                "unidentified": ""
+              },
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "value": []
+              },
+              "rarity": {
+                "value": "common"
+              },
+              "usage": {
+                "value": "held-in-one-hand"
+              },
+              "rules": [
+                {
+                  "key": "PF2E.RuleElement.FlatModifier",
+                  "label": "Treat Wounds Immunity",
+                  "selector": "hp",
+                  "value": 0,
+                  "predicate": {
+                    "all": [
+                      "treat-wounds"
+                    ]
+                  }
+                }
+              ],
+              "level": {
+                "value": 1
+              }
+            },
+            "sort": 100001,
+            "flags": {},
+            "img": "icons/svg/clockwork.svg",
+            "effects": []
+          }
+        },
+        "itemType": "Item",
+        "isLocked": false
+      }
+    },
+    "pdfoundry-pf2e": {
+      "source": ""
+    },
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;color:#191813;font-family:Roboto, system, -apple-system, sans-serif;font-size:13px\">You designate a single creature as your prey and focus your attacks against that creature. You must be able to see or hear the prey, or you must be tracking the prey during exploration.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;color:#191813;font-family:Roboto, system, -apple-system, sans-serif;font-size:13px\">You gain a +2 circumstance bonus to Perception checks when you Seek your prey and a +2 circumstance bonus to Survival checks when you <a class=\"entity-link\" style=\"box-sizing:border-box;user-select:text;cursor:url('ui/cursors/pointer.webp'), pointer\" draggable=\"true\" data-pack=\"pf2e.actionspf2e\" data-id=\"EA5vuSgJfiHH7plD\"> Track</a> your prey. You also ignore the penalty for making ranged attacks within your second range increment against the prey you're hunting.</p>\n<p style=\"box-sizing:border-box;user-select:text;margin-top:0.25em;margin-bottom:0.25em;color:#191813;font-family:Roboto, system, -apple-system, sans-serif;font-size:13px\">You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "value": ""
+    },
+    "rules": [],
+    "slug": null,
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:08:59.838-06:00",
+        "version": {
+          "schema": 0.815,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "rarity": {
+      "value": "common"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "quantity": {
+      "value": "1"
+    },
+    "hp": {
+      "value": 0
+    },
+    "maxHp": {
+      "value": 0
+    },
+    "hardness": {
+      "value": 0
+    },
+    "brokenThreshold": {
+      "value": 0
+    },
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "price": {
+      "value": "0"
+    },
+    "invested": {
+      "value": false
+    },
+    "equipped": {
+      "value": false
+    },
+    "identified": {
+      "value": true
+    },
+    "stackGroup": {
+      "value": ""
+    },
+    "bulkCapacity": {
+      "value": ""
+    },
+    "negateBulk": {
+      "value": "0"
+    },
+    "containerId": {
+      "value": ""
+    },
+    "preciousMaterial": {
+      "value": ""
+    },
+    "preciousMaterialGrade": {
+      "value": ""
+    },
+    "collapsed": {
+      "value": false
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    },
+    "property2": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    },
+    "property3": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    },
+    "weaponType": {
+      "value": ""
+    },
+    "group": {
+      "value": ""
+    },
+    "hands": {
+      "value": ""
+    },
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "value": "",
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing"
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": {
+      "value": ""
+    },
+    "reload": {
+      "value": ""
+    },
+    "ability": {
+      "value": "str"
+    },
+    "MAP": {
+      "value": ""
+    },
+    "potencyRune": {
+      "value": ""
+    },
+    "strikingRune": {
+      "value": ""
+    },
+    "propertyRune1": {
+      "value": ""
+    },
+    "propertyRune2": {
+      "value": ""
+    },
+    "propertyRune3": {
+      "value": ""
+    },
+    "propertyRune4": {
+      "value": ""
+    },
+    "size": {
+      "value": "med"
+    },
+    "identification": {
+      "status": "identified"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673457085784,
+    "modifiedTime": 1677352139888,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-items.YuiryXJSlAuLcTm6",
+    "exportSource": {
+      "worldId": "age-of-ashes",
+      "uuid": null,
+      "coreVersion": "0.7.9",
+      "systemId": "pf2e",
+      "systemVersion": "1.10.23.2638"
+    },
+    "duplicateSource": null
+  },
+  "folder": "TSE3mPgQ70Ut1k1b",
+  "sort": 0
+}

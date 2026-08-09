@@ -1,0 +1,335 @@
+{
+  "_id": "Vq1JaWcwg24XBymd",
+  "name": "Flayed Giant",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "BikuHT6vspLgcBC2",
+      "name": "Crush",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>A flayed Stone Giant crushes all creatures (except Conna) within 20 feet of the altar, dealing @Damage[(3d10+14)[bludgeoning]] damage.</p><p>@Check[type:fortitude|dc:32|basic]</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": 1786251805992,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!Vq1JaWcwg24XBymd.BikuHT6vspLgcBC2"
+    },
+    {
+      "_id": "6gaw4CXJUxikwuj2",
+      "name": "Gruesome sight",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p><strong>Trigger </strong>Any creature not peacefully accompanied by Conna the Wise enters the room<br /><strong>Effect </strong>After [[/gmroll 1d4]] rounds, the paintings on the wall animate, showing a gruesome sight. The targets have to make a @Check[type:will|dc:34] save, after which the Flayed Giant rolls initiative.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.<br /><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round.<br /><strong>Failure </strong>The target is @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}for 2 rounds.<br /><strong>Critical Failure</strong> The target is @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed} for 4 rounds and @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} for 8 hours.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "rules": [],
+        "slug": null,
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "category": null
+      },
+      "ownership": {
+        "default": 0,
+        "oiPWLVPNH7xQBULr": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "coreVersion": "13.351",
+        "createdTime": null,
+        "modifiedTime": 1786252064217,
+        "lastModifiedBy": "FmfifLIOr4CQQOc0",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!Vq1JaWcwg24XBymd.6gaw4CXJUxikwuj2"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 2700000,
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      },
+      "editMode": false
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 10,
+        "max": 10,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 22,
+        "details": "<p>(expert)</p>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 12
+      },
+      "disable": "<p>@Check[type:religion|dc:37] or @Check[type:occultism|dc:37] (master) to prevent the giant from leaving the painting, @Check[type:diplomacy|dc:38] or @Check[type:deception|dc:38] (master, three times) to promise the giant vengeance.</p>",
+      "description": "<p> See Haunt description</p>",
+      "reset": "<p>1 day while Mokmurian lives</p><p><strong>Restless </strong>This haunt can not be permanently deactivated until Mokmurian is slain, at which points it is immediately deactivated.</p>",
+      "routine": "<p>On its turn, the haunt uses its Crush ability once.</p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "13.351",
+        "system": "7.12.2"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "oiPWLVPNH7xQBULr": 3
+  },
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "displayName": 20,
+    "displayBars": 20,
+    "name": "Flayed Giant",
+    "height": 1,
+    "width": 1,
+    "disposition": 0,
+    "actorLink": false,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "bar2": {
+      "attribute": null
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "light": {
+      "alpha": 0.25,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/feat.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "coreVersion": "13.351",
+    "createdTime": 1673456708598,
+    "modifiedTime": 1786257276768,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-creatures-chapter-4.Vq1JaWcwg24XBymd",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!Vq1JaWcwg24XBymd"
+}

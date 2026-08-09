@@ -1,0 +1,3838 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "_version": 1
+      },
+      "conditional-visibility": {
+        "blindsight": false,
+        "truesight": false,
+        "devilssight": false,
+        "tremorsense": false,
+        "seeinvisible": false
+      },
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "name": "Rukus Graul",
+    "width": 1,
+    "height": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "actorLink": true,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "alpha": 1,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "attenuation": 0.5,
+      "negative": false,
+      "priority": 0
+    },
+    "texture": {
+      "src": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 500,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_id": "Db5NQ8dE1iV5DLzf",
+  "name": "Rukus Graul",
+  "type": "npc",
+  "img": "modules/pf2e-conversion-rotrl/images/sihedron-rune.webp",
+  "items": [
+    {
+      "_id": "LfZrWW5g4Kr446mW",
+      "name": "Battle Cry",
+      "type": "action",
+      "sort": 400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Battle Cry",
+                "type": "action",
+                "data": {
+                  "actionType": {
+                    "value": "free"
+                  },
+                  "description": {
+                    "value": "<b>Trigger</b>: Roll Initiative <br>\n<b>Effect</b>: Yell a mighty battle cry and Demoralize an observed foe as a  Items +1 Striking Corrosive Spear, Dragon Breath potion (young red)"
+                  },
+                  "traits": {
+                    "value": []
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong>: Roll Initiative <br /><strong>Effect</strong>: Yell a mighty battle cry and @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} an observed foe as a free action</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actionCategory": {
+          "value": "interaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "xhBradiOB96coGvM",
+      "name": "Lunge",
+      "type": "action",
+      "sort": 600000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Lunge",
+                "type": "action",
+                "data": {
+                  "actionType": {
+                    "value": "passive"
+                  },
+                  "description": {
+                    "value": "Make a melee Strike at 10ft range."
+                  },
+                  "traits": {
+                    "value": []
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "Make a melee Strike at 10ft range.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "Y3j47HF6F2B87m3Y",
+      "name": "Sudden Charge",
+      "type": "action",
+      "sort": 700000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Sudden Charge",
+                "type": "action",
+                "data": {
+                  "actionType": {
+                    "value": "passive"
+                  },
+                  "description": {
+                    "value": "Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy.<br>\nIntimidating Strike  (Emotion, Fear, Mental)  Make a melee Strike. If you hit and deal damage, the target is frightened 1, or frightened 2 on a critical hit."
+                  },
+                  "traits": {
+                    "value": [
+                      "Flourish",
+                      "Open"
+                    ]
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "flourish",
+            "open"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 2
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "1yEC3gZSPNWleE9G",
+      "name": "Shatter Defenses",
+      "type": "action",
+      "sort": 1250000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Shatter Defenses",
+                "type": "action",
+                "data": {
+                  "actionType": {
+                    "value": "passive"
+                  },
+                  "description": {
+                    "value": "Make a melee Strike against a frightened creature. If you hit and deal damage, the target becomes flat-footed until its frightened condition ends. If the target was already flat-footed to you when you damaged it with this Strike, it can’t reduce its frightened value below 1 until the start of your next turn."
+                  },
+                  "traits": {
+                    "value": [
+                      "Press"
+                    ]
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "Make a melee Strike against a frightened creature. If you hit and deal damage, the target becomes flat-footed until its frightened condition ends. If the target was already flat-footed to you when you damaged it with this Strike, it can’t reduce its frightened value below 1 until the start of your next turn.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "press"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 1
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        },
+        "containerId": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "sBcNKRXfc3nJMbTp",
+      "name": "Corrosive",
+      "type": "action",
+      "sort": 900000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Corrosive",
+                "type": "action",
+                "data": {
+                  "actionType": {
+                    "value": "passive"
+                  },
+                  "description": {
+                    "value": "Acid sizzles across the surface of the weapon. When you hit with the weapon, add [[/r 1d6 # acid damage to the damage]] acid damage to the damage dealt. In addition, on a critical hit, the target’s armor (if any) takes [[/r 3d6 # acid damage]] acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead."
+                  },
+                  "traits": {
+                    "value": [
+                      "acid",
+                      "conjuration",
+                      "magical"
+                    ]
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "Acid sizzles across the surface of the weapon. When you hit with the weapon, add [[/r 1d6 # acid damage to the damage]] acid damage to the damage dealt. In addition, on a critical hit, the target’s armor (if any) takes [[/r 3d6 # acid damage]] acid damage (before applying Hardness); if the target has a shield raised, the shield takes this damage instead.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "acid",
+            "conjuration",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "WHJC2RwxcudicrPg",
+      "name": "Ogrekin Deformities",
+      "type": "action",
+      "sort": 1000000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Ogrekin Deformities",
+                "type": "action",
+                "data": {
+                  "actionType": {
+                    "value": "passive"
+                  },
+                  "description": {
+                    "value": "A mean and nasty bully, with a face to match, Rukus revels in initimidating his enemies to let their guard down and letting his dogs rip them apart. His weak arm means that his blows arent as accurate as would otherwise be the case, but what he lacks in technique he makes up for in attitude."
+                  },
+                  "traits": {
+                    "value": []
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "A mean and nasty bully, with a face to match, Rukus revels in initimidating his enemies to let their guard down and letting his dogs rip them apart. His weak arm means that his blows arent as accurate as would otherwise be the case, but what he lacks in technique he makes up for in attitude.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "zXwiNuxchgwH3VP1",
+      "name": "Acrobatics",
+      "type": "lore",
+      "sort": 1100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Acrobatics",
+                "type": "lore",
+                "data": {
+                  "mod": {
+                    "value": 18
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 18
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "L8GH2IyUoDTxroZE",
+      "name": "Athletics",
+      "type": "lore",
+      "sort": 1200000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Athletics",
+                "type": "lore",
+                "data": {
+                  "mod": {
+                    "value": 20
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 20
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "q63wfid3bdDPzNxS",
+      "name": "Intimidation",
+      "type": "lore",
+      "sort": 1300000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Intimidation",
+                "type": "lore",
+                "data": {
+                  "mod": {
+                    "value": 20
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 20
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "NQu9t44nAIdKEw5Q",
+      "name": "Stealth",
+      "type": "lore",
+      "sort": 1400000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "name": "Stealth",
+                "type": "lore",
+                "data": {
+                  "mod": {
+                    "value": 16
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 16
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "item": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "wtARfjVv3F837vLU",
+      "name": "Attack of Opportunity",
+      "type": "action",
+      "sort": 1500000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "id": "hFtNbo1LKYCoDy2O",
+              "count": 1,
+              "itemData": {
+                "_id": "hFtNbo1LKYCoDy2O",
+                "name": "Attack of Opportunity",
+                "permission": {
+                  "default": 0
+                },
+                "type": "action",
+                "data": {
+                  "actionCategory": {
+                    "value": "offensive"
+                  },
+                  "actionType": {
+                    "value": "reaction"
+                  },
+                  "actions": {
+                    "value": ""
+                  },
+                  "description": {
+                    "chat": "",
+                    "unidentified": "",
+                    "value": "<p><strong>Trigger </strong>A creature within the monster&rsquo;s reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it&rsquo;s using.</p>\n<p><strong>Effect </strong>The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn&rsquo;t count toward the monster&rsquo;s multiple attack penalty, and its multiple attack penalty doesn&rsquo;t apply to this Strike.</p>"
+                  },
+                  "rarity": {
+                    "value": "common"
+                  },
+                  "requirements": {
+                    "value": ""
+                  },
+                  "skill_requirement": {
+                    "skill": {
+                      "rank": "",
+                      "skill": ""
+                    }
+                  },
+                  "skill_requirements": {
+                    "rank": "",
+                    "skill": ""
+                  },
+                  "source": {
+                    "value": ""
+                  },
+                  "traits": {
+                    "value": []
+                  },
+                  "trigger": {
+                    "value": ""
+                  },
+                  "usage": {
+                    "value": "held-in-one-hand"
+                  },
+                  "weapon": {
+                    "value": ""
+                  }
+                },
+                "flags": {},
+                "img": "systems/pf2e/icons/actions/Reaction.png"
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        },
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>A creature within the monster&rsquo;s reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it&rsquo;s using.</p>\n<p><strong>Effect </strong>The monster attempts a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a manipulate action, the monster disrupts that action. This Strike doesn&rsquo;t count toward the monster&rsquo;s multiple attack penalty, and its multiple attack penalty doesn&rsquo;t apply to this Strike.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": "attack-of-opportunity",
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actionCategory": {
+          "value": "defensive"
+        },
+        "actions": {
+          "value": null
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "rank": "",
+            "skill": ""
+          }
+        },
+        "containerId": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "p2VQhkgbDnhvFJzx",
+      "name": "Sudden Charge",
+      "type": "feat",
+      "sort": 1600000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "id": "qQt3CMrhLkUV1wCv",
+              "count": 1,
+              "itemData": {
+                "_id": "qQt3CMrhLkUV1wCv",
+                "name": "Sudden Charge",
+                "permission": {
+                  "default": 0
+                },
+                "type": "feat",
+                "data": {
+                  "actionCategory": {
+                    "value": ""
+                  },
+                  "actionType": {
+                    "label": "Action Type",
+                    "type": "String",
+                    "value": "action"
+                  },
+                  "actions": {
+                    "label": "Number of Actions",
+                    "type": "String",
+                    "value": "2"
+                  },
+                  "description": {
+                    "chat": "",
+                    "label": "Description",
+                    "type": "String",
+                    "unidentified": "",
+                    "value": "<p>With a quick sprint, you dash up to your foe and swing. Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy. You can use Sudden Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.</p>"
+                  },
+                  "featType": {
+                    "label": "Feat Type",
+                    "type": "String",
+                    "value": "class"
+                  },
+                  "level": {
+                    "label": "Feat Level",
+                    "type": "String",
+                    "value": "1"
+                  },
+                  "prerequisites": {
+                    "label": "Prerequisites",
+                    "type": "String",
+                    "value": ""
+                  },
+                  "rarity": {
+                    "value": "common"
+                  },
+                  "rules": [],
+                  "source": {
+                    "label": "Source",
+                    "type": "String",
+                    "value": ""
+                  },
+                  "traits": {
+                    "custom": "",
+                    "label": "Traits",
+                    "rarity": {
+                      "value": "common"
+                    },
+                    "type": "String",
+                    "value": [
+                      "barbarian",
+                      "fighter",
+                      "flourish",
+                      "open"
+                    ]
+                  },
+                  "usage": {
+                    "value": "held-in-one-hand"
+                  }
+                },
+                "flags": {},
+                "img": "systems/pf2e/icons/features/feats/feats.jpg"
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/features/feats/feats.webp",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>With a quick sprint, you dash up to your foe and swing. Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy. You can use Sudden Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.</p>",
+          "chat": "",
+          "unidentified": "",
+          "label": "Description",
+          "type": "String"
+        },
+        "source": {
+          "value": "",
+          "label": "Source",
+          "type": "String"
+        },
+        "rules": [],
+        "slug": "sudden-charge",
+        "schema": {
+          "version": 0.642,
+          "lastMigration": {
+            "datetime": "2021-07-16T19:43:07.658-05:00",
+            "version": {
+              "schema": null,
+              "foundry": "0.8.8",
+              "system": "2.9.1.6656"
+            }
+          }
+        },
+        "level": {
+          "value": 1,
+          "label": "Feat Level",
+          "type": "String"
+        },
+        "traits": {
+          "value": [
+            "barbarian",
+            "fighter",
+            "flourish",
+            "open"
+          ],
+          "rarity": {
+            "value": "common"
+          },
+          "custom": "",
+          "label": "Traits",
+          "type": "String"
+        },
+        "featType": {
+          "value": "class",
+          "label": "Feat Type",
+          "type": "String"
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "action",
+          "label": "Action Type",
+          "type": "String"
+        },
+        "actions": {
+          "value": "2",
+          "label": "Number of Actions",
+          "type": "String"
+        },
+        "prerequisites": {
+          "value": [],
+          "label": "Prerequisites",
+          "type": "String"
+        },
+        "location": "",
+        "actionCategory": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "containerId": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.feats-srd.qQt3CMrhLkUV1wCv",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "U05UAKUPprNaWP6J",
+      "name": "Intimidating Strike",
+      "type": "action",
+      "sort": 1600000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "count": 1,
+              "itemData": {
+                "type": "action",
+                "actionType": "action",
+                "name": "New Action",
+                "data": {
+                  "actionType": {
+                    "value": "action"
+                  }
+                },
+                "flags": {}
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Make a melee Strike. If you hit and deal damage, the target is frightened 1, or frightened 2 on a critical hit.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "emotion",
+            "fear",
+            "mental"
+          ],
+          "rarity": "common"
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actionCategory": {
+          "value": "offensive"
+        },
+        "actions": {
+          "value": 2
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "deathNote": false,
+        "weapon": {
+          "value": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "skill_requirements": {
+          "skill": "",
+          "rank": ""
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "skill_requirement": {
+          "skill": {
+            "skill": "",
+            "rank": ""
+          }
+        },
+        "containerId": {
+          "value": ""
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "xKdy90dyIzZPVzMw",
+      "name": "Corrosive Spear",
+      "type": "melee",
+      "sort": 100000,
+      "flags": {},
+      "img": "systems/pf2e/icons/default-icons/mystery-man.svg",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "acid",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "4lhjt5uphz9ygy5ju576m": {
+            "damage": "2d8",
+            "damageType": "piercing"
+          },
+          "9e7sfbb9q3t0ykqfirv6": {
+            "damage": "1d6",
+            "damageType": "acid"
+          }
+        },
+        "bonus": {
+          "value": 17,
+          "total": 17
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "quantity": {
+          "value": 1
+        },
+        "baseItem": null,
+        "hp": {
+          "value": 0
+        },
+        "maxHp": {
+          "value": 0
+        },
+        "hardness": {
+          "value": 0
+        },
+        "brokenThreshold": {
+          "value": 0
+        },
+        "weight": {
+          "value": 0
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "price": {
+          "value": 0
+        },
+        "equipped": {
+          "value": false
+        },
+        "stackGroup": {
+          "value": ""
+        },
+        "bulkCapacity": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "containerId": {
+          "value": ""
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "collapsed": {
+          "value": false
+        },
+        "size": {
+          "value": "med"
+        },
+        "invested": {
+          "value": false
+        },
+        "identified": {
+          "value": true
+        },
+        "rarity": {
+          "value": "common"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    },
+    {
+      "_id": "UQEBzkmCpAxzsMgq",
+      "name": "+1 Striking Corrosive Spear",
+      "type": "weapon",
+      "sort": 100000,
+      "flags": {
+        "pick-up-stix": {
+          "pick-up-stix": {
+            "owner": {
+              "actorId": "QkjVpNHAaxxCsxHj"
+            },
+            "initialState": {
+              "id": "tOhoGvmCMw4JpWcS",
+              "count": 1,
+              "itemData": {
+                "_id": "tOhoGvmCMw4JpWcS",
+                "name": "Spear",
+                "permission": {
+                  "default": 0
+                },
+                "type": "weapon",
+                "data": {
+                  "MAP": {
+                    "value": ""
+                  },
+                  "ability": {
+                    "label": "Offensive Ability",
+                    "type": "String",
+                    "value": "str"
+                  },
+                  "bonus": {
+                    "label": "Item Bonus",
+                    "type": "String",
+                    "value": 0
+                  },
+                  "bonusDamage": {
+                    "value": 0
+                  },
+                  "brokenThreshold": {
+                    "value": 0
+                  },
+                  "bulkCapacity": {
+                    "value": ""
+                  },
+                  "collapsed": {
+                    "value": false
+                  },
+                  "containerId": {
+                    "value": ""
+                  },
+                  "damage": {
+                    "damageType": "piercing",
+                    "dice": 1,
+                    "die": "d6",
+                    "label": "damage",
+                    "type": "String",
+                    "value": ""
+                  },
+                  "description": {
+                    "chat": "",
+                    "label": "Description",
+                    "type": "String",
+                    "unidentified": "",
+                    "value": "<p>A long metal shaft ending with a metal spike, a spear can be used one‑handed as a melee weapon and can be thrown.</p>"
+                  },
+                  "equipped": {
+                    "value": false
+                  },
+                  "equippedBulk": {
+                    "value": ""
+                  },
+                  "group": {
+                    "label": "Weapon Group",
+                    "type": "String",
+                    "value": "spear"
+                  },
+                  "hands": {
+                    "label": "Hands",
+                    "type": "String",
+                    "value": ""
+                  },
+                  "hardness": {
+                    "value": 0
+                  },
+                  "hp": {
+                    "value": 0
+                  },
+                  "identified": {
+                    "value": false
+                  },
+                  "invested": {
+                    "value": false
+                  },
+                  "level": {
+                    "label": "Item Level",
+                    "type": "Number",
+                    "value": 0
+                  },
+                  "maxHp": {
+                    "value": 0
+                  },
+                  "negateBulk": {
+                    "value": "0"
+                  },
+                  "potencyRune": {
+                    "value": ""
+                  },
+                  "preciousMaterial": {
+                    "value": ""
+                  },
+                  "preciousMaterialGrade": {
+                    "value": ""
+                  },
+                  "price": {
+                    "label": "Price",
+                    "type": "String",
+                    "value": "1 sp"
+                  },
+                  "property1": {
+                    "critDamage": "",
+                    "critDamageType": "",
+                    "critDice": null,
+                    "critDie": "",
+                    "criticalConditionType": "",
+                    "criticalConditionValue": null,
+                    "damageType": "",
+                    "dice": null,
+                    "die": "",
+                    "label": "Primary Property",
+                    "strikeConditionType": "",
+                    "strikeConditionValue": null,
+                    "type": "String",
+                    "value": ""
+                  },
+                  "property2": {
+                    "critDamage": "",
+                    "critDamageType": "",
+                    "critDice": 0,
+                    "critDie": "",
+                    "damageType": "",
+                    "dice": 0,
+                    "die": "",
+                    "label": "Secondary Property",
+                    "type": "String",
+                    "value": ""
+                  },
+                  "property3": {
+                    "critDamage": "",
+                    "critDamageType": "",
+                    "critDice": 0,
+                    "critDie": "",
+                    "damageType": "",
+                    "dice": 0,
+                    "die": "",
+                    "label": "Tertiary Property",
+                    "type": "String",
+                    "value": ""
+                  },
+                  "propertyRune1": {
+                    "value": ""
+                  },
+                  "propertyRune2": {
+                    "value": ""
+                  },
+                  "propertyRune3": {
+                    "value": ""
+                  },
+                  "propertyRune4": {
+                    "value": ""
+                  },
+                  "quantity": {
+                    "label": "Quantity",
+                    "type": "Number",
+                    "value": 1
+                  },
+                  "range": {
+                    "label": "Weapon Range",
+                    "type": "String",
+                    "value": "20"
+                  },
+                  "rarity": {
+                    "value": "common"
+                  },
+                  "reload": {
+                    "label": "Reload",
+                    "type": "String",
+                    "value": ""
+                  },
+                  "rules": [],
+                  "source": {
+                    "label": "Source",
+                    "type": "String",
+                    "value": ""
+                  },
+                  "splashDamage": {
+                    "value": 0
+                  },
+                  "stackGroup": {
+                    "value": ""
+                  },
+                  "strikingRune": {
+                    "value": ""
+                  },
+                  "traits": {
+                    "custom": "",
+                    "label": "Weapon Traits",
+                    "rarity": {
+                      "value": "common"
+                    },
+                    "type": "String",
+                    "value": [
+                      "thrown-20"
+                    ]
+                  },
+                  "usage": {
+                    "value": "held-in-one-hand"
+                  },
+                  "weaponType": {
+                    "label": "Weapon Category",
+                    "type": "String",
+                    "value": "simple"
+                  },
+                  "weight": {
+                    "label": "Bulk",
+                    "type": "Number",
+                    "value": "1"
+                  }
+                },
+                "flags": {},
+                "img": "systems/pf2e/icons/equipment/weapons/spear.png",
+                "effects": []
+              }
+            },
+            "itemType": "Item",
+            "isLocked": false
+          }
+        },
+        "pdfoundry-pf2e": {
+          "source": ""
+        },
+        "forien-unidentified-items": {},
+        "core": {}
+      },
+      "img": "links/Icons/rpg-icons/fantasyweaponicons/FantasyWeaponIcons_png/spear/stave_08_b.PNG",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A long metal shaft ending with a metal spike, a spear can be used one‑handed as a melee weapon and can be thrown.</p>",
+          "chat": "",
+          "unidentified": "",
+          "label": "Description",
+          "type": "String"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "thrown-20"
+          ],
+          "rarity": "common",
+          "label": "Weapon Traits",
+          "type": "String"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0,
+          "label": "Item Level",
+          "type": "Number"
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          },
+          "label": "Price",
+          "type": "String"
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "spear",
+        "bonus": {
+          "value": 0,
+          "label": "Item Bonus",
+          "type": "String"
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing",
+          "persistent": null,
+          "value": "",
+          "label": "damage",
+          "type": "String"
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "reload": {
+          "value": "-",
+          "label": "Reload",
+          "type": "String"
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": {
+          "value": false
+        },
+        "subitems": [],
+        "source": {
+          "value": "",
+          "label": "Source",
+          "type": "String"
+        },
+        "schema": {
+          "version": 0.827,
+          "lastMigration": {
+            "datetime": "2023-02-25T13:11:58.650-06:00",
+            "version": {
+              "schema": 0.813,
+              "foundry": "10.291",
+              "system": "4.8.1"
+            }
+          }
+        },
+        "weight": {
+          "value": "1",
+          "label": "Bulk",
+          "type": "Number"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "strikingRune": {
+          "value": "striking"
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "property1": {
+          "value": "Corrosive",
+          "dice": 1,
+          "die": "d6",
+          "damageType": "acid",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "label": "Primary Property",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "type": "String"
+        },
+        "identified": {
+          "value": true
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "property2": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "label": "Secondary Property",
+          "type": "String"
+        },
+        "property3": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "label": "Tertiary Property",
+          "type": "String"
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.350",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Item.gcLy2AAGusLexyUu",
+        "duplicateSource": null,
+        "exportSource": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": "A mean and nasty bully, with a face to match, Rukus revels in initimidating his enemies to let their guard down and letting his dogs rip them apart. His weak arm means that his blows arent as accurate as would otherwise be the case, but what he lacks in technique he makes up for in attitude."
+      }
+    },
+    "pf2e": {
+      "editNPC": {
+        "value": false
+      },
+      "movement": {
+        "env": {
+          "ignore": {
+            "urban": false
+          }
+        }
+      },
+      "set-property": {},
+      "actions": {
+        "numActions": 3,
+        "remainingActions": 3
+      },
+      "lootable": false
+    },
+    "core": {
+      "sheetClass": ""
+    },
+    "cf": {}
+  },
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 190,
+        "temp": 0,
+        "max": 190,
+        "details": "",
+        "min": 0,
+        "tempmax": 0
+      },
+      "ac": {
+        "value": 27,
+        "details": "",
+        "dex": 0,
+        "check": 0,
+        "min": 0,
+        "item": 0,
+        "name": "ac",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 13,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Dexterity",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 19,
+        "base": 27,
+        "breakdown": "Base Armor Class 10, Base Modifier +13, Dexterity +4, Elite +2"
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": "",
+        "special": "",
+        "name": "Land Speed",
+        "_modifiers": [],
+        "totalModifier": 0,
+        "total": 25,
+        "type": "land",
+        "breakdown": "Base Land Speed 25"
+      },
+      "initiative": {
+        "ability": "perception",
+        "circumstance": 0,
+        "status": 0
+      },
+      "perception": {
+        "value": 18,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +15, Wisdom +3, Elite +2",
+        "name": "perception",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 15,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Wisdom",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 20,
+        "base": 18
+      },
+      "sp": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "details": ""
+      },
+      "flatbonushp": 0,
+      "levelbonushp": 0,
+      "flatbonussp": 0,
+      "levelbonussp": 0,
+      "bonusLimitBulk": 0,
+      "bonusEncumbranceBulk": 0,
+      "resolve": {
+        "value": 0
+      },
+      "init": {
+        "bonus": 0,
+        "value": 0
+      },
+      "ancestryhp": 0,
+      "classhp": 0,
+      "classDC": {
+        "rank": 0,
+        "ability": "str",
+        "item": 0,
+        "value": 0,
+        "breakdown": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 9,
+        "min": 1
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "CE"
+      },
+      "source": {
+        "value": "",
+        "author": ""
+      },
+      "creatureType": "",
+      "recallKnowledgeText": "",
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "class": {
+        "value": ""
+      },
+      "ancestry": {
+        "value": ""
+      },
+      "heritage": {
+        "value": ""
+      },
+      "deity": {
+        "value": "",
+        "image": "systems/pf2e/assets/sheet/deity.webp"
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "flavourText": "",
+      "sidebarText": "",
+      "nethysUrl": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 6,
+        "value": 22,
+        "min": 3
+      },
+      "dex": {
+        "mod": 4,
+        "value": 18,
+        "min": 3
+      },
+      "con": {
+        "mod": 4,
+        "value": 18,
+        "min": 3
+      },
+      "int": {
+        "mod": 3,
+        "value": 16,
+        "min": 3
+      },
+      "wis": {
+        "mod": 3,
+        "value": 16,
+        "min": 3
+      },
+      "cha": {
+        "mod": 3,
+        "value": 16,
+        "min": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 21,
+        "saveDetail": "",
+        "ability": "con",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +17, Constitution +4, Elite +2",
+        "name": "fortitude",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 17,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Constitution",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 23,
+        "base": 21
+      },
+      "reflex": {
+        "value": 18,
+        "saveDetail": "",
+        "ability": "dex",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +14, Dexterity +4, Elite +2",
+        "name": "reflex",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 14,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Dexterity",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 20,
+        "base": 18
+      },
+      "will": {
+        "value": 15,
+        "saveDetail": "",
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "breakdown": "Base Modifier +12, Wisdom +3, Elite +2",
+        "name": "will",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 12,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Wisdom",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 17,
+        "base": 15
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 20,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 1,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +14, Dexterity +4, Elite +2",
+        "name": "Acrobatics",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 14,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Dexterity",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 20,
+        "expanded": "acrobatics",
+        "label": "Acrobatics",
+        "visible": true,
+        "lore": false,
+        "itemID": "zXwiNuxchgwH3VP1",
+        "base": 18
+      },
+      "arc": {
+        "value": 5,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Intelligence +3, Elite +2",
+        "name": "Arcana",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Intelligence",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "arcana",
+        "label": "Arcana",
+        "visible": false,
+        "lore": false
+      },
+      "ath": {
+        "value": 22,
+        "ability": "str",
+        "armor": 1,
+        "rank": 1,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +14, Strength +6, Elite +2",
+        "name": "Athletics",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 14,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Strength",
+            "modifier": 6,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 22,
+        "expanded": "athletics",
+        "label": "Athletics",
+        "visible": true,
+        "lore": false,
+        "itemID": "L8GH2IyUoDTxroZE",
+        "base": 20
+      },
+      "cra": {
+        "value": 5,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Intelligence +3, Elite +2",
+        "name": "Crafting",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Intelligence",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "crafting",
+        "label": "Crafting",
+        "visible": false,
+        "lore": false
+      },
+      "dec": {
+        "value": 5,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Charisma +3, Elite +2",
+        "name": "Deception",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Charisma",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "deception",
+        "label": "Deception",
+        "visible": false,
+        "lore": false
+      },
+      "dip": {
+        "value": 5,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Charisma +3, Elite +2",
+        "name": "Diplomacy",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Charisma",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "diplomacy",
+        "label": "Diplomacy",
+        "visible": false,
+        "lore": false
+      },
+      "itm": {
+        "value": 22,
+        "ability": "cha",
+        "rank": 1,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +17, Charisma +3, Elite +2",
+        "name": "Intimidation",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 17,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Charisma",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 22,
+        "expanded": "intimidation",
+        "label": "Intimidation",
+        "visible": true,
+        "lore": false,
+        "itemID": "q63wfid3bdDPzNxS",
+        "base": 20
+      },
+      "med": {
+        "value": 5,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Wisdom +3, Elite +2",
+        "name": "Medicine",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Wisdom",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "medicine",
+        "label": "Medicine",
+        "visible": false,
+        "lore": false
+      },
+      "nat": {
+        "value": 5,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Wisdom +3, Elite +2",
+        "name": "Nature",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Wisdom",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "nature",
+        "label": "Nature",
+        "visible": false,
+        "lore": false
+      },
+      "occ": {
+        "value": 5,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Intelligence +3, Elite +2",
+        "name": "Occultism",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Intelligence",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "occultism",
+        "label": "Occultism",
+        "visible": false,
+        "lore": false
+      },
+      "prf": {
+        "value": 5,
+        "ability": "cha",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Charisma +3, Elite +2",
+        "name": "Performance",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Charisma",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "performance",
+        "label": "Performance",
+        "visible": false,
+        "lore": false
+      },
+      "rel": {
+        "value": 5,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Wisdom +3, Elite +2",
+        "name": "Religion",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Wisdom",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "religion",
+        "label": "Religion",
+        "visible": false,
+        "lore": false
+      },
+      "soc": {
+        "value": 5,
+        "ability": "int",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Intelligence +3, Elite +2",
+        "name": "Society",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Intelligence",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "society",
+        "label": "Society",
+        "visible": false,
+        "lore": false
+      },
+      "ste": {
+        "value": 18,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 1,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +12, Dexterity +4, Elite +2",
+        "name": "Stealth",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 12,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Dexterity",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 18,
+        "expanded": "stealth",
+        "label": "Stealth",
+        "visible": true,
+        "lore": false,
+        "itemID": "NQu9t44nAIdKEw5Q",
+        "base": 16
+      },
+      "sur": {
+        "value": 5,
+        "ability": "wis",
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Wisdom +3, Elite +2",
+        "name": "Survival",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Wisdom",
+            "modifier": 3,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 5,
+        "expanded": "survival",
+        "label": "Survival",
+        "visible": false,
+        "lore": false
+      },
+      "thi": {
+        "value": 6,
+        "ability": "dex",
+        "armor": 1,
+        "rank": 0,
+        "item": 0,
+        "mod": 0,
+        "breakdown": "Base Modifier +0, Dexterity +4, Elite +2",
+        "name": "Thievery",
+        "_modifiers": [
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "PF2E.BaseModifier",
+            "modifier": 0,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Dexterity",
+            "modifier": 4,
+            "type": "ability",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          },
+          {
+            "automation": {
+              "key": null,
+              "enabled": false
+            },
+            "name": "Elite",
+            "modifier": 2,
+            "type": "untyped",
+            "enabled": true,
+            "ignored": false,
+            "custom": false
+          }
+        ],
+        "totalModifier": 6,
+        "expanded": "thievery",
+        "label": "Thievery",
+        "visible": false,
+        "lore": false
+      }
+    },
+    "traits": {
+      "value": [
+        "giant",
+        "humanoid"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": "darkvision"
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "selected": [],
+        "custom": ""
+      },
+      "attitude": {
+        "value": "hostile"
+      }
+    },
+    "schema": {
+      "version": 0.827,
+      "lastMigration": {
+        "datetime": "2023-02-25T13:11:58.650-06:00",
+        "version": {
+          "schema": 0.813,
+          "foundry": "10.291",
+          "system": "4.8.1"
+        }
+      }
+    },
+    "martial": {
+      "unarmored": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "light": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "medium": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "heavy": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "simple": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "martial": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "advanced": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      },
+      "unarmed": {
+        "rank": 0,
+        "value": 0,
+        "breakdown": ""
+      }
+    },
+    "spells": {
+      "spell0": {
+        "max": 0
+      },
+      "spell1": {
+        "max": 0
+      },
+      "spell2": {
+        "max": 0
+      },
+      "spell3": {
+        "max": 0
+      },
+      "spell4": {
+        "max": 0
+      },
+      "spell5": {
+        "max": 0
+      },
+      "spell6": {
+        "max": 0
+      },
+      "spell7": {
+        "max": 0
+      },
+      "spell8": {
+        "max": 0
+      },
+      "spell9": {
+        "max": 0
+      },
+      "spell10": {
+        "max": 0
+      },
+      "spell11": {
+        "max": 0
+      }
+    },
+    "currency": {
+      "pp": {
+        "value": 0
+      },
+      "gp": {
+        "value": 0
+      },
+      "sp": {
+        "value": 0
+      },
+      "cp": {
+        "value": 0
+      }
+    },
+    "customModifiers": {
+      "all": []
+    },
+    "damageDice": {},
+    "items": {
+      "0": {
+        "data": {
+          "slots": {
+            "slot1": {
+              "value": 3
+            }
+          }
+        }
+      },
+      "rQ9YUEv51T1g7yfm": {
+        "data": {
+          "spelldc": {
+            "dc": 15,
+            "value": 5
+          },
+          "slots": {
+            "slot0": {
+              "max": 0
+            },
+            "slot1": {
+              "max": 1
+            },
+            "slot2": {
+              "max": 0
+            },
+            "slot3": {
+              "max": 0
+            },
+            "slot4": {
+              "max": 0
+            },
+            "slot5": {
+              "max": 0
+            }
+          }
+        }
+      },
+      "QlZ05wDM9B54A6cr": {
+        "data": {
+          "spelldc": {
+            "dc": 15,
+            "value": 10
+          },
+          "slots": {
+            "slot1": {
+              "max": 3
+            }
+          }
+        }
+      }
+    },
+    "toggles": {
+      "actions": [
+        {
+          "label": "PF2E.TargetFlatFootedLabel",
+          "inputName": "flags.pf2e.rollOptions.all.target:flatFooted",
+          "checked": false
+        }
+      ]
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.8.1",
+    "coreVersion": "13.350",
+    "createdTime": 1673456694711,
+    "modifiedTime": 1677352320407,
+    "lastModifiedBy": "ZFGymRexiCVeiXzz",
+    "compendiumSource": "Compendium.Nerps-For-RotRL.rotrl-creatures.YsIzh8v6Hhap4tjm",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "MyYqI9D41JhADyup",
+  "sort": 0
+}

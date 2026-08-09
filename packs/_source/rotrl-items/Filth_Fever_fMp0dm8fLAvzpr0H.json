@@ -1,0 +1,186 @@
+{
+  "name": "Filth Fever",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:14]</p><p><strong>Stage 1</strong> carrier with no ill effect (1d4 hours)</p><p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (1 day)</p><p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} (1 day)</p><p><strong>Stage 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} (1 day)</p><p><strong>Stage 5</strong> dead</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18",
+        "inMemoryOnly": true,
+        "predicate": [
+          {
+            "or": [
+              "parent:badge:value:2",
+              "parent:badge:value:3"
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "parent:badge:value:3"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3",
+        "inMemoryOnly": true,
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "parent:badge:value:4"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf",
+        "inMemoryOnly": true,
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "title": "Stage 1",
+            "text": "carrier with no ill effect (1d4 hours)"
+          }
+        ],
+        "predicate": [
+          "parent:badge:value:1"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "title": "Stage 2",
+            "text": "@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (1 day)"
+          }
+        ],
+        "predicate": [
+          "parent:badge:value:2"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "title": "Stage 3",
+            "text": "@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} (1 day)"
+          }
+        ],
+        "predicate": [
+          "parent:badge:value:3"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "title": "Stage 4",
+            "text": "@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} (1 day)"
+          }
+        ],
+        "predicate": [
+          "parent:badge:value:4"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|id}",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "title": "Stage 5",
+            "text": "dead"
+          }
+        ],
+        "predicate": [
+          "parent:badge:value:5"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": {
+      "type": "counter",
+      "value": 1,
+      "labels": null,
+      "loop": false,
+      "min": null,
+      "max": 5
+    },
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "systems/pf2e/icons/default-icons/affliction.svg",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "FmfifLIOr4CQQOc0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": 1771021202879,
+    "modifiedTime": 1771021202879,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0"
+  },
+  "_id": "fMp0dm8fLAvzpr0H",
+  "sort": 0,
+  "_key": "!items!fMp0dm8fLAvzpr0H"
+}

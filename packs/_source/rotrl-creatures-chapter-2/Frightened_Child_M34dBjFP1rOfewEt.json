@@ -1,0 +1,206 @@
+{
+  "name": "Frightened Child",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 2600000,
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      },
+      "editMode": true
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    },
+    "core": {}
+  },
+  "_id": "M34dBjFP1rOfewEt",
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 0,
+      "stealth": {
+        "value": 12,
+        "details": "<ul>\n<li><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">@Check[type:perception|dc:20|name:To her a child sobbing|traits:complex,haunt,hazard] (trained)</span><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">&nbsp;</span>to To her a child sobbing.</li>\n</ul>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 3
+      },
+      "disable": "<ul><li><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14)\">@Check[type:diplomacy|dc:20|name:To comfort the Child|traits:complex,haunt,hazard] (trained) </span>To comfort the Child</li><li><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14)\">@Check[type:religion|dc:18|name:To soothe the Spirit|traits:complex,haunt,hazard] (expert) To soothe the Spirit</span></li><li><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14)\">@Check[type:occultism|dc:19|name:To soothe the Spirit|traits:complex,haunt,hazard] (expert) To soothe the Spirit</span></li></ul>",
+      "description": "<p><strong>Obsessed Haunt</strong>: This Haunt affects the target of Aldern Foxgloves obsession which attracts Vorel Foxgloves obsession with eternal life. <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">If no creatures in a group are haunted by Alderns obsession this haunt may target any creature.</span></p>",
+      "reset": "<p>This Haunt automatially resets after one day until the supernatural Fungus in B37 is dealt with, even if the haunt was previously disabled.</p>",
+      "routine": "<p><strong>\"They are coming for me\" Trigger </strong>Haunted creature gets near bed.&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">The haunted character suddenly becomes convinced that his parents are trying to kill each other, and that whichever of them survives will be coming to kill him next; he has a vision of his mother, wielding a torch, and his father, festering with tumors and wielding a long knife, both struggling to kill each other.&nbsp;</span></p>\n<p>Creature must make a @Check[type:will|dc:23|traits:mental,incapacitating,linguistic,necromancy,occult] save to avoid effect) save.</p>\n<hr style=\"border-top: 1px solid var(--color-border-light-primary); border-bottom: 1px solid var(--color-border-light-highlight);\" />\n<ul>\n<li><strong>Critical Success</strong> The target is unaffected.</li>\n<li><strong>Success</strong> Creature is @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}.</li>\n<li><strong>Failure</strong> Creature is @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2}.</li>\n<li><strong>Critical Failure</strong> Creature is @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 3}.</li>\n</ul>\n<p><span style=\"text-align: justify;\">This stupeﬁed condition reduces by 1 after a full night&rsquo;s rest.</span></p>",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "traits": {
+      "value": [
+        "haunt"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.953,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "0kbENmzMft491rsv": 3,
+    "SR8YYg9of6s0vHD8": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "disposition": 0,
+    "name": "Frightened Child",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false,
+        "type": null
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "attenuation": 0.5,
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "randomImg": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": false,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "coreVersion": "13.351",
+    "createdTime": 1673456686355,
+    "modifiedTime": 1771011903755,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Actor.3YM9qilJywy2SWc5",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!M34dBjFP1rOfewEt"
+}

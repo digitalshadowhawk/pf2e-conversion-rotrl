@@ -1,0 +1,132 @@
+{
+  "_id": "gFBBSUTQUwXUPbAO",
+  "name": "Gift Effect: Wind Barrier",
+  "type": "effect",
+  "img": "systems/pf2e/icons/spells/gust-of-wind.webp",
+  "effects": [],
+  "flags": {
+    "cf": {},
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "value": "<p>An invisible barrier of air deflects ranged  attacks,  granting  you  a  +2  circumstance  bonus  to  AC against ranged attacks until the beginning of your next turn.  At  13th  level,  this  increases  to  a  +3  circumstance  bonus to AC against ranged attacks.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "value": ""
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "custom": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "wind-barrier"
+        ],
+        "label": "Wind Barrier - Ranged",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": {
+          "brackets": [
+            {
+              "end": 12,
+              "value": 2
+            },
+            {
+              "start": 13,
+              "value": 3
+            }
+          ],
+          "field": "item|system.level.value"
+        }
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Wind Barrier",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": {
+          "brackets": [
+            {
+              "start": 5,
+              "value": 1
+            }
+          ],
+          "field": "item|system.level.value"
+        }
+      },
+      {
+        "key": "TokenEffectIcon"
+      }
+    ],
+    "slug": null,
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:11:25.504-06:00",
+        "version": {
+          "schema": 0.708,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "sustained": false,
+      "expiry": "turn-start"
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "target": null,
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "rarity": {
+      "value": "common"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "identified": {
+      "value": true
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "4.6.5",
+    "coreVersion": "13.351",
+    "createdTime": 1673457085789,
+    "modifiedTime": 1770944360279,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e-conversion-rotrl.rotrl-items.gFBBSUTQUwXUPbAO",
+    "exportSource": {
+      "worldId": "age-of-ashes",
+      "uuid": null,
+      "coreVersion": "0.7.9",
+      "systemId": "pf2e",
+      "systemVersion": "1.10.23.2638"
+    },
+    "duplicateSource": null
+  },
+  "folder": null,
+  "sort": 3300000,
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_key": "!items!gFBBSUTQUwXUPbAO"
+}

@@ -1,0 +1,147 @@
+{
+  "_id": "psAz0YqzwV4XSYKk",
+  "name": "Runechill",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pdfoundry-pf2e": {
+      "source": ""
+    },
+    "cf": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Usage </strong>etched onto a weapon without a rune with the vitality trait.</p><p>Runechill weapons are cold to the touch and flicker with a cold blue light. Runechill weapons deal an additional 1d6 void damage to living creatures. Undead creatures do not receive healing from this negative damage, but must instead make a fortitude save equal to the wielder's class DC or become @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} for 1 round. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} for 1 round unless it suceeds at a will save.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "damageType": "negative",
+        "label": "Runechill"
+      }
+    ],
+    "slug": "corrosive",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "acid",
+        "conjuration",
+        "magical"
+      ],
+      "rarity": "common",
+      "custom": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 11
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "brokenThreshold": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1400
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "etched-onto-a-weapon"
+    },
+    "subitems": [],
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.813,
+      "lastMigration": {
+        "datetime": "2023-01-11T11:11:25.558-06:00",
+        "version": {
+          "schema": 0.708,
+          "foundry": "10.291",
+          "system": "4.6.5"
+        }
+      }
+    },
+    "weight": {
+      "value": "-"
+    },
+    "equippedBulk": {
+      "value": ""
+    },
+    "stackGroup": null,
+    "negateBulk": {
+      "value": "0"
+    },
+    "preciousMaterial": {
+      "value": ""
+    },
+    "preciousMaterialGrade": {
+      "value": ""
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "coreVersion": "13.351",
+    "createdTime": 1673457085801,
+    "modifiedTime": 1786260598975,
+    "lastModifiedBy": "FmfifLIOr4CQQOc0",
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Wm0X7Pfd1bfocPSv",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 4000000,
+  "ownership": {
+    "default": 0,
+    "ZFGymRexiCVeiXzz": 3
+  },
+  "_key": "!items!psAz0YqzwV4XSYKk"
+}
